@@ -29,10 +29,9 @@
     code {
       @include wrap;
       @include box-sizing(border-box);
-      float: left;
       width: 100%;
-      display: block;
-      margin: $baseline 0;
+      display: inline-block;
+      margin: 0 0 $baseline 0;
       padding: $baseline;
       border: $border-thin solid $grey-light;
       background-color: $grey-lighter;

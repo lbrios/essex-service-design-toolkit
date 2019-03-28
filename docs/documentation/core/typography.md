@@ -7,7 +7,24 @@
 
 # Typography
 
-Essex.gov.uk uses [Open Sans from Google Fonts](https://fonts.google.com/specimen/Open+Sans?selection.family=Open+Sans:300,400,600,700)
+Essex.gov.uk uses [Open Sans from Google Fonts](https://fonts.google.com/specimen/Open+Sans?selection.family=Open+Sans:300,400,600,700), a humanist sans serif. 
+
+> Open Sans was designed with an upright stress, open forms and a neutral, yet friendly appearance. It was optimized for print, web, and mobile interfaces, and has excellent legibility characteristics in its letterforms.
+
+We use a combination of [Modular Scale](https://www.modularscale.com/?1&em&1.125) and [Gridlover](https://www.gridlover.net) to ensure our Typography looks great.
+
+We have our Modularscale setup as follows:
+
+		$modularscale: (
+		  base: 1em,
+		  ratio: 1.125
+		);
+
+We use a simple baseline variable to ensure spacing is consistant across type, elements and components. This ensure design and development is much easier with less math headache.
+
+		$baseline: 1.625rem;
+
+
 
 # A 46px page heading.
 
