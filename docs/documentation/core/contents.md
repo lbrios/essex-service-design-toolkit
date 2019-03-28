@@ -24,8 +24,9 @@
 
 <h3>Design</h3>
 <ul>
-  <li><a href="/docs/core/styles-guide">Styles guide</a></li>
   <li><a href="/docs/core/typography">Typography</a></li>
+  <li><a href="/docs/core/colour">Colour</a></li>
+  <li><a href="/docs/core/grid-system">Grid System</a></li>
 </ul>
 
 <h3>Elements</h3>
