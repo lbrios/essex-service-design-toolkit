@@ -7,7 +7,7 @@
 
 
 <h2 id="layout">Grid system</h2>
-<p>Our main grid uses the divisions below with a gutter of 120px. This gutter is very wide.</p>
+<p>Our main grid uses the divisions below with a gutter of 60px.</p>
 <div class="grid-row">
   <div class="column-full">
     <div class="demo-box">
