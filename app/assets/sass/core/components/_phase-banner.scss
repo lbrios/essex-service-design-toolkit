@@ -3,15 +3,15 @@
   background-color: $white;
   .phase-banner {
     @extend %site-width-container;
+    @extend %contain-floats;
     @media print {
       display: none;
     }
     padding-top: $baseline*0.25;
     padding-bottom: $baseline*0.25;
-    @include media(mobile) {
-      // padding-bottom: 0;
-    }
     .phase-content {
+      @extend %grid-row;
+      @include grid-column(1);
       @include small;
       margin-top: 0;
       margin-bottom: 0;

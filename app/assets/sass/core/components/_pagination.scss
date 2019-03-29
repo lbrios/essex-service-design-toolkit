@@ -4,11 +4,11 @@
   }
   @extend %grid-row;
   @include media(mobile) {
-    margin-left: -$gutter*0.5;
-    margin-right: -$gutter*0.5;
+    margin-left: -$gutter;
+    margin-right: -$gutter;
   }
-  margin-left: -$gutter*0.25;
-  margin-right: -$gutter*0.25;
+  margin-left: -$gutter*0.5;
+  margin-right: -$gutter*0.5;
   ul {
     margin-left: 0;
     padding: 0;
@@ -45,7 +45,7 @@
       display: block;
       text-decoration: none;
       @include media(mobile) {
-        padding: $baseline*0.5 $gutter*0.5;
+        padding: $baseline*0.5 $gutter;
       }
       &:hover {
         color: $link;
@@ -68,7 +68,7 @@
           margin-bottom: 0;
         }
         .fas {
-          margin-right: $gutter*0.25;
+          margin-right: $gutter*0.5;
           &:before {
             display: inline-block;
             width: $icon-width;
@@ -76,7 +76,7 @@
         }
         & + span {
           @include small;
-          margin-left: $gutter*0.5; 
+          margin-left: $gutter; 
           display: block;
           text-decoration: underline;
         }

@@ -14,7 +14,7 @@
       }
       position: relative;
       float: right;
-      width: $gutter*4;
+      width: $gutter*8;
       margin-top: $baseline*0.5;
       margin-bottom: $baseline*0.5;
       @include media(mobile) {
