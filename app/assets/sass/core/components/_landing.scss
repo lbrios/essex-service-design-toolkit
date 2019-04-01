@@ -1,0 +1,30 @@
+.landing {
+  @extend %contain-floats;
+  @extend %grid-row;
+  .landing-preview {
+  	float: left;
+  	margin-bottom: $baseline;
+  	width: 100%;
+	  .landing-img {
+	    @include grid-column(3 / 12);
+	    img {
+	    	float: left;
+	    	width: 100%;
+	    }
+	  }
+	  .landing-text {
+	  	@include grid-column(9 / 12);
+	  	.meta {
+	  		margin-top: 0;
+	  	}
+	  	h3 {
+	  		@include h3;
+	  		margin-top: 0;
+	  	}
+	  	p:last-child {
+	  		padding-bottom: $baseline;
+	  		border-bottom: $border-thin solid $border-thin-colour;
+	  	}
+	  }
+	}
+}

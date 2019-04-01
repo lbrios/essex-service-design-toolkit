@@ -54,9 +54,6 @@
         margin-bottom: $baseline*0.25;
       }
     }
-    p {
-      margin-bottom: 0;
-    }
     img {
       margin-top: 0;
       width: 100%;
@@ -92,6 +89,9 @@
   &.news {
     .preview {
       border: none;
+      @include media(mobile) {
+        margin-bottom: $baseline*0.5;
+      }
     }
     @include media(desktop) {
       margin-left: -$gutter*0.5 !important;
