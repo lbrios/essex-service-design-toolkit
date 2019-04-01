@@ -20,6 +20,7 @@
   }
   .search-container {
     @extend %site-width-container;
+    @extend %contain-floats;
     @include media(mobile) {
       padding-top: $baseline;
       padding-bottom: $baseline;
@@ -33,13 +34,12 @@
       padding-bottom: $baseline*3;
     }
     .greeting, .search-input {
+      @extend %grid-row;
       @include border-radius($border-radius);
       position: relative;;
-      @include media(mobile) {
-        margin: 0;
-      }
     }
     .greeting {
+      @include grid-column(1);
       @include media(mobile) {
         margin-top: 0;
       }
@@ -59,7 +59,7 @@
       }
     }
     .form {
-      width: 60%;
+      @include grid-column(1 / 2);
       @include media(mobile) {
         width: 100%;
       }

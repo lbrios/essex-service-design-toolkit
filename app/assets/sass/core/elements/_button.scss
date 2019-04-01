@@ -1,6 +1,24 @@
 // Buttons
 // ==========================================================================
 
+@mixin btn {
+  @include box-sizing(border-box);
+  font-size: ms(1);
+  line-height: $form-height - $ms-base*0.5;
+  padding: 0;
+  color: $white;
+  background-color: $brand;
+  font-weight: 600;
+  border: $border-thick $brand solid;
+  height: $form-height;
+  width: 100%;
+  &:hover {
+    color: $brand;
+    background-color: $white;
+    border-color: $white;
+  }
+}
+
 @mixin button {
   @media print {
     display: none;
@@ -66,7 +84,7 @@
   // (and fill the space made when the button moves)
   &:before {
     content: "";
-    height: 110%;
+    height: 100%;
     width: 100%;
     display: block;
     background: transparent;

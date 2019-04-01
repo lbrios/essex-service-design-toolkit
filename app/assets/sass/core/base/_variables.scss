@@ -3,9 +3,9 @@ $stack: 'Open Sans', sans-serif;
 $stack-logo: 'Roboto', sans-serif;
 
 // grid measreuments
-$gutter: 60px;
-$site-width: $gutter*17;
-$outer-grid-margin: $gutter*0.5;
+$gutter: 30px;
+$site-width: 1020px;
+$outer-grid-margin: $gutter;
 
 $full-width: 100%;
 $one-quarter: $full-width / 4;
@@ -40,7 +40,7 @@ $bold: 700;
 
 // icon
 $icon: 1rem;
-$icon-width: $gutter*0.25;
+$icon-width: $gutter*0.5;
 
 // button
 $button-height: $baseline*2;

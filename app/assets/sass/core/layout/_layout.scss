@@ -1,12 +1,12 @@
 %site-width-container {
   @include media(mobile) {
-    padding-left: $outer-grid-margin;
-    padding-right: $outer-grid-margin;
+    padding-left: $outer-grid-margin*1.5;
+    padding-right: $outer-grid-margin*1.5;
     // background: blue;
   }
   @include media(tablet) {
-    padding-left: $outer-grid-margin*2;
-    padding-right: $outer-grid-margin*2;
+    padding-left: $outer-grid-margin*1.5;
+    padding-right: $outer-grid-margin*1.5;
     // background: red;
   }
   @include media(desktop) {
@@ -32,17 +32,16 @@
 %grid-row {
   @extend %contain-floats;
   @include media(mobile) {
-    margin-left: (-$gutter*0.5);
-    margin-right: (-$gutter*0.5);
+    margin-left: (-$gutter);
+    margin-right: (-$gutter);
   }
   @include media(tablet) {
-    margin-left: (-$gutter*0.5);
-    margin-right: (-$gutter*0.5);
+    margin-left: (-$gutter);
+    margin-right: (-$gutter);
   }
   @include media(desktop) {
-    $gutter-half: 60px;
-    margin-left: (-$gutter-half);
-    margin-right: (-$gutter-half);
+    margin-left: (-$gutter);
+    margin-right: (-$gutter);
   }
 }
 
@@ -73,6 +72,12 @@ main#content {
   .container {
     @extend %site-width-container;
     outline: none;
+    .breadcrumbs {
+      @extend %grid-row;
+      ol {
+        @include grid-column(9 / 12);
+      }
+    }
     .main {
       @extend %grid-row;
       .content, .intro, .function {

@@ -28,8 +28,8 @@
     @include grid-column(1 / 2);
     position: relative;
     background: $white;
-    margin: $gutter*0.5;
-    padding: $gutter*0.5 !important;
+    margin: $gutter;
+    padding: $gutter !important;
     @include media(mobile) {
       padding: 0 !important;
       margin: 0;
@@ -40,7 +40,7 @@
         h2 {
           font-size: ms(6);
           line-height: $baseline*1.5;
-          padding: $baseline $gutter*0.25;
+          padding: $baseline $gutter;
           background: $highlight-box;
           margin-bottom: $baseline*0.5;
           a {

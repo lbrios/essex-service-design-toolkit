@@ -2,9 +2,13 @@
   @media print {
     display: none;
   }
+  h3, p {
+    @include grid-column(1);
+    @extend %grid-row;
+  }
   .form {
+    @extend %grid-row;
     .group {
-      @extend %grid-row;
       margin-bottom: 0;
       label {
         $color: $body-text-colour;
@@ -33,7 +37,7 @@
           text-indent: -5000px;
           background: transparent;
           position: absolute;
-          left: $gutter;
+          // left: $gutter;
           top: 0;
           height: $form-height;
           width: calc(100% - #{$gutter*2});
@@ -57,20 +61,7 @@
       .signup-button {
         @include grid-column(4 / 12);
         input.button.subscribe {
-          @include box-sizing(border-box);
-          font-size: ms(1);
-          line-height: $baseline;
-          padding: 0;
-          color: $white;
-          background-color: $brand;
-          font-weight: 600;
-          border: $border-thick $brand solid;
-          height: $form-height;
-          width: 100%;
-          &:hover {
-            background-color: $brand-hover-darken;
-            border-color: $brand-hover-darken;
-          }
+          @include btn;
         }
       }
     }
@@ -81,6 +72,7 @@
   background-color: $brand;
   .signup {
     @extend %site-width-container;
+    @extend %contain-floats;
     padding-top: $baseline;
     padding-bottom: $baseline;
     @include media(mobile) {
@@ -108,30 +100,6 @@
               text-indent: 0;
               background: #fff;
               outline-offset: 0;
-            }
-            @include media(mobile) {
-              left: $gutter*0.5;
-              width: calc(100% - #{$gutter});
-              &:focus {
-                left: $gutter*0.5;
-                width: calc(100% - #{$gutter});
-              }
-            }
-            @include media(tablet) {
-              left: $gutter*0.5;
-              width: calc(100% - #{$gutter});
-              &:focus {
-                left: $gutter*0.5;
-                width: calc(100% - #{$gutter});
-              }
-            }
-            @include media(desktop) {
-              left: $gutter;
-              width: calc(100% - #{$gutter*2});
-              &:focus {
-                left: $gutter;
-                width: calc(100% - #{$gutter*2});
-              }
             }
           }
         }
