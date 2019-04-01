@@ -1,0 +1,22 @@
+.news.landing {
+  @extend %contain-floats;
+  @extend %grid-row;
+  .preview-news {
+  	float: left;
+  	margin-bottom: $baseline;
+	  .preview-img {
+	    @include grid-column(3 / 12);
+	    img {
+	    	float: left;
+	    	width: 100%;
+	    }
+	  }
+	  .preview-text {
+	  	@include grid-column(7 / 12);
+	  	h3 {
+	  		@include h3;
+	  		margin-top: 0;
+	  	}
+	  }
+	}
+}

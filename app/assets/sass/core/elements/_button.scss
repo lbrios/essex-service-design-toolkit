@@ -4,7 +4,7 @@
 @mixin btn {
   @include box-sizing(border-box);
   font-size: ms(1);
-  line-height: $baseline;
+  line-height: $form-height - $ms-base*0.5;
   padding: 0;
   color: $white;
   background-color: $brand;
@@ -84,7 +84,7 @@
   // (and fill the space made when the button moves)
   &:before {
     content: "";
-    height: 110%;
+    height: 100%;
     width: 100%;
     display: block;
     background: transparent;
