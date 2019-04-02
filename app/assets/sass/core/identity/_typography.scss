@@ -98,8 +98,9 @@ h2, .h2, .content-heading {
   @include h2;
 }
 
-.content-heading ~ .content-heading {
-  @include content-break-lg;
+.content-heading ~ .content-heading,
+.page-heading ~ .content-heading {
+  @include content-break-large;
   padding-top: $baseline;
 }
 

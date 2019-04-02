@@ -15,6 +15,7 @@
   <li><a href="/examples/form">Form</a></li>
   <li><a href="/examples/information">Information</a></li>
   <li><a href="/examples/cludo">Cludo Search</a></li>
+  <li><a href="/examples/topic-b">Alternative Topic page</a></li>
 </ul>
 
 <h3>Apps</h3>

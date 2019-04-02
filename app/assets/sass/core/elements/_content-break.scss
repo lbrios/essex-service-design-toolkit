@@ -1,25 +1,25 @@
 // Conent break
 
-@mixin content-break-lg {
+@mixin content-break-large {
   border-top: $border-thicker solid $black;
   margin-top: $baseline*3;
   margin-bottom: $baseline*2;
 }
 
-.content-break-lg {
-	@include content-break-lg;
+.content-break-large {
+	@include content-break-large;
 }
 
-@mixin content-break-sm {
+@mixin content-break-small {
   border-bottom: $border-thin solid $black;
   margin-top: $baseline*1.5;
   margin-bottom: $baseline;
 }
 
-.content-break-sm {
-	@include content-break-sm;
+.content-break-small {
+	@include content-break-small;
 }
 
 .content + .content {
-  @include content-break-lg;
+  @include content-break-large;
 }

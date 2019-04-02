@@ -7,13 +7,13 @@
 
 # Content break
 
-<div class="content-break-lg"></div>
+<div class="content-break-large"></div>
 
-    <div class="content-break-lg"></div>
+    <div class="content-break-large"></div>
 
-<div class="content-break-sm"></div>
+<div class="content-break-small"></div>
 
-    <div class="content-break-sm"></div>
+    <div class="content-break-small"></div>
 
 ## Using content breaks
 
