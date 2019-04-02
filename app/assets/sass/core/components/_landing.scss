@@ -1,10 +1,33 @@
 .landing {
   @extend %contain-floats;
   @extend %grid-row;
+  @include media(mobile) {
+    margin-left: -$gutter !important;
+    margin-right: -$gutter !important;
+    .landing-preview {
+      padding-left: $gutter*0.5 !important;
+      padding-right: $gutter*0.5 !important;
+    }
+  }
+  @include media(tablet) {
+    margin-left: -$gutter*0.5 !important;
+    margin-right: -$gutter*0.5 !important;
+    .landing-preview {
+      padding-left: 0 !important;
+      padding-right: 0 !important;   
+    }
+  }
+  @include media(desktop) {
+    margin-left: -$gutter !important;
+    margin-right: -$gutter !important;
+    .landing-preview {
+      padding-left: 0 !important;
+      padding-right: 0 !important;
+    }
+  }
   .landing-preview {
   	float: left;
   	margin-bottom: $baseline;
-  	width: 100%;
 	  .landing-img {
 	    @include grid-column(3 / 12);
 	    img {
@@ -24,6 +47,10 @@
 	  	p:last-child {
 	  		padding-bottom: $baseline;
 	  		border-bottom: $border-thin solid $border-thin-colour;
+	  		@include media(mobile) {
+	  			border-bottom: none;
+	  			padding-bottom: 0;
+	  		}
 	  	}
 	  }
 	}
