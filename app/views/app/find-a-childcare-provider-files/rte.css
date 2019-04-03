@@ -1,0 +1,66 @@
+﻿/*
+ *  This stylesheet defines the styles that are available when using the Rich Text/Html Editor 
+ */ 
+ 
+P.ecc-rteElement-P
+{
+  -ms-name:"Paragraph";
+}
+
+
+H2.ecc-rteElement-H2
+{
+  -ms-name:"Heading 2";
+  font-size: 1.3em; 
+  margin-bottom: 0.4em;
+  font-weight: normal;
+}
+
+
+H3.ecc-rteElement-H3
+{
+  -ms-name:"Heading 3";
+  font-size: 1.143em; 
+  margin-bottom: 0.75em;
+}
+
+
+H4.ecc-rteElement-H4
+{
+  -ms-name:"Heading 4";
+  font-size: 1em; 
+  margin-bottom: 0.75em;
+}
+
+
+H5.ecc-rteElement-H5
+{
+  -ms-name:"Heading 5";
+  font-size: 1em; 
+  margin-bottom: 0.75em;
+}
+
+
+H6.ecc-rteElement-H6
+{
+  -ms-name:"Heading 6";
+ font-size: 1em; 
+}
+
+
+BLOCKQUOTE.ecc-rteElement-BLOCKQUOTE
+{
+  -ms-name:"Block Quote";
+}
+
+
+.ecc-rteStyle-Normal-1
+{
+  -ms-name:"My Normal";
+  font-family: Impact, Arial, sans-serif;  
+  font-size: 8pt;  
+  color: #676767;
+  background-color: #fff;
+}
+
+

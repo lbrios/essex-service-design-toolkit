@@ -1,0 +1,241 @@
+{% extends "essex_main_template_search_header.html" %}
+
+{% block content %}
+
+<main id="content">
+  <div class="container">
+    <div class="breadcrumbs">
+      <ol>
+        <li><a href="/docs/core/contents">Contents</a></li>
+        <li>Freedom of Information</li>
+      </ol>
+    </div>
+    <div class="main" id="freedom-of-information">
+      <section class="intro">               
+        <h1>Family Information Service: Find a childcare provider</h1>
+
+        <!-- Styles Start -->
+        <!-- <link rel="stylesheet" type="text/css" href="./Family Information Service_ Find a childcare provider_files/mapping-style.css">
+        <link rel="stylesheet" type="text/css" href="./Family Information Service_ Find a childcare provider_files/Find-a-provider.aspx" id="highContrast">
+        <link rel="stylesheet" type="text/css" href="./Family Information Service_ Find a childcare provider_files/map.css">
+        <link rel="stylesheet" type="text/css" href="./Family Information Service_ Find a childcare provider_files/jquery.dataTables_themeroller.css">
+        <link rel="stylesheet" type="text/css" href="./Family Information Service_ Find a childcare provider_files/jquery-ui.css">
+        <link rel="stylesheet" type="text/css" href="./Family Information Service_ Find a childcare provider_files/dataTables.css"> -->
+        <!-- Styles Finish -->
+
+        <!-- Scripts -->
+        <!--[if IE]> <script src="/_layouts/ecc/csp/MappingWebPart/scripts/html5shiv.js"></script> 	<![endif]-->
+
+        <!-- jQuery -->
+        <script type="text/javascript" src="find-a-childcare-provider-files/jquery.min.js"></script>
+
+        <!-- jQuery UI -->
+        <script type="text/javascript" src="find-a-childcare-provider-files/jquery-ui.min.js"></script>
+
+        <!-- DataTables -->
+        <script type="text/javascript" charset="utf8" src="find-a-childcare-provider-files/jquery.dataTables.min.js"></script>
+        <script type="text/javascript" src="find-a-childcare-provider-files/datatables.fourbuttonpagination.plugin.js"></script>
+
+        <!-- Google Maps API -->
+        <script src="find-a-childcare-provider-files/js" type="text/javascript"></script>
+
+        <script type="text/javascript" src="find-a-childcare-provider-files/EmailDialog.js"></script>
+        <script type="text/javascript" src="find-a-childcare-provider-files/SearchPanel.js"></script>
+        <script type="text/javascript" src="find-a-childcare-provider-files/CategoryPanel.js"></script>
+        <script type="text/javascript" src="find-a-childcare-provider-files/customScript.js"></script>
+        <script type="text/javascript" src="find-a-childcare-provider-files/main(1).js"></script>
+
+        <script type="text/javascript">
+            // surpress 
+            jQuery(document).ready(function ($) {
+        	    // handle enter button on searchValue-Location and searchValue-ProviderName inputs
+             $("#searchValue-Location, #searchValue-ProviderName").keypress(function (e) {
+               if ((e.which && e.which == 13) || (e.keyCode && e.keyCode == 13)) {
+                 $('#map-searchButton').click();
+                 return false;
+               } 
+               else {
+                return true;
+              }
+            });
+
+        	    // handle enter button on searchValue-OfstedReference inputs
+              $("#searchValue-OfstedReference").keypress(function (e) {
+                if ((e.which && e.which == 13) || (e.keyCode && e.keyCode == 13)) {
+                 $('map-searchButton-OfstedRef').click();
+                 return false;
+               } 
+               else {
+                 return true;
+               }
+             });
+            });
+          </script>
+        </section>
+
+        <section class="content">
+
+          <div id="lower">
+            <!-- Main Tabs -->
+            <div id="testPanel" style="display:none;">
+              <input id="btnTestPanel" type="button" value="Panels Test">
+            </div>
+            <div id="mainTabs" style="overflow: auto;" class="ui-tabs ui-widget ui-widget-content ui-corner-all">
+              <div id="map-container" class="ui-tabs-panel ui-widget-content ui-corner-bottom">
+                <div class="tabPanelBar">
+                </div>
+                <div id="map-rhcol">
+                  <div id="map-rhcontent">
+                    <!-- old Short list -->
+<!--                     <div id="map-mappanel">
+                    </div>
+                    <div id="map-controls">
+                    </div> -->
+
+<div id="map-SearchFields" class="ui-accordion ui-widget ui-helper-reset ui-accordion-icons" role="tablist">
+                                <h3 class="ui-accordion-header ui-helper-reset ui-state-default ui-state-active ui-corner-top" role="tab" aria-expanded="true" aria-selected="true" tabindex="0"><span class="ui-icon ui-icon-triangle-1-s"></span>
+                                  <a href="find-a-childcare-provider-files/Find-a-provider.aspx" tabindex="-1">Find by Address or Provider</a>
+                                </h3>
+                                <div id="map-search-by-address" class="ui-accordion-content ui-helper-reset ui-widget-content ui-corner-bottom ui-accordion-content-active" role="tabpanel" style="height: 495.6px;">
+                                  <fieldset>
+                                    <legend class="searchCaption">Town or Postcode </legend>
+                                    <div>
+                                        <!--
+                                    <label for="searchValue-Location" class="searchCaption" >
+                                        Town or Postcode</label><br />
+                                      -->
+                                      <input class="fld_std focus" id="searchValue-Location" type="text" searchkey="Location" searchtype="keyValue" value="">
+                                    </div>
+                                    <div>
+                                      <label for="searchValue-Radius" class="searchCaption">
+                                      Search Radius</label><br>
+                                      <select id="searchValue-Radius" searchkey="Radius" searchtype="keyValue" disabledsearchvalue="-1">
+                                        <option value="-1">This area only</option>
+                                        <option value="1">within 1 mile</option>
+                                        <option value="3">within 3 miles</option>
+                                        <option value="5">within 5 miles</option>
+                                        <option value="10">within 10 miles</option>
+                                        <option value="20">within 20 miles</option>
+                                      </select>
+                                    </div>
+                                  </fieldset>
+                                  <div>
+                                    <label for="searchValue-ProviderName" class="searchCaption">
+                                    Provider Name</label><br>
+                                    <input class="fld_std" id="searchValue-ProviderName" type="text" searchkey="ProviderName" searchtype="keyValue">
+                                  </div>
+                                  <div>
+                                    <label class="searchCaption">
+                                    Provider type</label>
+                                    <div id="map-catpanel">
+                                      <div style="margin-left: 20px; margin-top: 10px; margin-bottom: 10px;">
+                                        <input id="chk-selectAllCategories" type="checkbox" checked="checked"><label id="lbl-selectAllCategories">Deselect All</label>
+                                      </div>
+                                      <div id="map-catlist"><table id="cat-table" cellpadding="5"><tbody><tr><td style="vertical-align:middle"><img src="find-a-childcare-provider-files/ccr-asc(1).png" width="16" height="16" title="After school clubs provide care and activities to fit around school hours. They are registered and inspected by Ofsted for children up to eight years old, but may also cater for older children."></td><td><input id="map-cat-cbxccr-asc" type="checkbox" name="category" value="ccr-asc" checked="checked"></td><td></td><td><span for="map-cat-cbxccr-asc">After School Clubs</span></td><td coltype="count"><span id="resultCount-ccr-asc" catid="ccr-asc">(1)</span></td></tr><tr><td style="vertical-align:middle"><img src="find-a-childcare-provider-files/ccr-btg.png" width="16" height="16" title="Baby and toddler groups are for parents/ carers and young children to enjoy activities together, and with other families. Most run once a week for a few hours and may be based in church halls, community centres or children’s centres. They usually operate during term time."></td><td><input id="map-cat-cbxccr-btg" type="checkbox" name="category" value="ccr-btg" checked="checked"></td><td></td><td><span for="map-cat-cbxccr-btg">Baby &amp; Toddler Groups</span></td><td coltype="count"><span id="resultCount-ccr-btg" catid="ccr-btg">(0)</span></td></tr><tr><td style="vertical-align:middle"><img src="find-a-childcare-provider-files/ccr-brk.png" width="16" height="16" title="Breakfast clubs provide care and activities to fit around school hours. They are registered and inspected by Ofsted for children up to eight years old, but may also cater for older children."></td><td><input id="map-cat-cbxccr-brk" type="checkbox" name="category" value="ccr-brk" checked="checked"></td><td></td><td><span for="map-cat-cbxccr-brk">Breakfast Clubs</span></td><td coltype="count"><span id="resultCount-ccr-brk" catid="ccr-brk">(0)</span></td></tr><tr><td style="vertical-align:middle"><img src="find-a-childcare-provider-files/ccr-chm(1).png" width="16" height="16" title="Childminders provide care for children, usually in the childminder&#39;s own home. They often offer flexible hours while providing a range of learning opportunities in and out of the home. They are registered by Ofsted."></td><td><input id="map-cat-cbxccr-chm" type="checkbox" name="category" value="ccr-chm" checked="checked"></td><td></td><td><span for="map-cat-cbxccr-chm">Childminders</span></td><td coltype="count"><span id="resultCount-ccr-chm" catid="ccr-chm">(1)</span></td></tr><tr><td style="vertical-align:middle"><img src="find-a-childcare-provider-files/ccr-cre.png" width="16" height="16" title="Creches provide occasional care for children under eight years old. Some are in permanent premises and care for children while parents are engaged in particular activities, such as shopping or sport. Others are provided on a temporary basis, perhaps running alongside a one-off event."></td><td><input id="map-cat-cbxccr-cre" type="checkbox" name="category" value="ccr-cre" checked="checked"></td><td></td><td><span for="map-cat-cbxccr-cre">Crèches</span></td><td coltype="count"><span id="resultCount-ccr-cre" catid="ccr-cre">(0)</span></td></tr><tr><td style="vertical-align:middle"><img src="find-a-childcare-provider-files/ccr-dyn(1).png" width="16" height="16" title="Day nurseries provide full or part-time care and early education for babies and children up to the age of five. Some may also offer a provision for older children before/after school and in the holiday period. They are usually open from approximately 8am to 6pm and generally operate all year, including school holidays. They are registered by Ofsted."></td><td><input id="map-cat-cbxccr-dyn" type="checkbox" name="category" value="ccr-dyn" checked="checked"></td><td></td><td><span for="map-cat-cbxccr-dyn">Day Nurseries</span></td><td coltype="count"><span id="resultCount-ccr-dyn" catid="ccr-dyn">(1)</span></td></tr><tr><td style="vertical-align:middle"><img src="find-a-childcare-provider-files/ccr-chc.png" width="16" height="16" title="Family hubs are located in each district in Essex, and each Family Hub also has local service delivery sites. They offer a wide range of services and access to professionals to support families.
+                                      The support available includes:
+                                      Health visiting: antenatal, transition to parenthood, new baby review, maternal mental health, wellbeing / development of children under 1 year
+                                      Support for children aged 5-19: dental care, review of immunisations, help to support physical, emotional or developmental problems, providing information on specific health issues, measuring height and weight
+                                      Support and signposting to services for young people with special educational needs and disabilities (SEND) up to the age of 25
+                                      Providing access to family support and services to help children and families achieve the best start in life
+                                      Access to Information, Advice and Guidance on a range of family support services, local groups and services for children and families
+                                      Full details are available at http://essexfamilywellbeing.co.uk/"></td><td><input id="map-cat-cbxccr-chc" type="checkbox" name="category" value="ccr-chc" checked="checked"></td><td></td><td><span for="map-cat-cbxccr-chc">Family Hubs</span></td><td coltype="count"><span id="resultCount-ccr-chc" catid="ccr-chc">(0)</span></td></tr><tr><td style="vertical-align:middle"><img src="find-a-childcare-provider-files/ccr-hol(1).png" width="16" height="16" title="Holiday clubs provide care and activities to fit around school holidays. They are registered and inspected by Ofsted for children up to eight years old, but may also cater for older children."></td><td><input id="map-cat-cbxccr-hol" type="checkbox" name="category" value="ccr-hol" checked="checked"></td><td></td><td><span for="map-cat-cbxccr-hol">Holiday Clubs</span></td><td coltype="count"><span id="resultCount-ccr-hol" catid="ccr-hol">(1)</span></td></tr><tr><td style="vertical-align:middle"><img src="find-a-childcare-provider-files/ccr-mns.png" width="16" height="16" title="A maintained nursery school is funded by the local authority and generally provides education for children aged from three to five, although some do take children from two years old. They are registered and inspected by Ofsted."></td><td><input id="map-cat-cbxccr-mns" type="checkbox" name="category" value="ccr-mns" checked="checked"></td><td></td><td><span for="map-cat-cbxccr-mns">Maintained Nursery Schools</span></td><td coltype="count"><span id="resultCount-ccr-mns" catid="ccr-mns">(0)</span></td></tr><tr><td style="vertical-align:middle"><img src="find-a-childcare-provider-files/ccr-nis.png" width="16" height="16" title="A nursery unit of an independent school generally provides education for children aged from three to five, although some do take children from two years old.  They are registered and inspected by Ofsted."></td><td><input id="map-cat-cbxccr-nis" type="checkbox" name="category" value="ccr-nis" checked="checked"></td><td></td><td><span for="map-cat-cbxccr-nis">Nursery Unit Of Independent Schools</span></td><td coltype="count"><span id="resultCount-ccr-nis" catid="ccr-nis">(0)</span></td></tr><tr><td style="vertical-align:middle"><img src="find-a-childcare-provider-files/ccr-pre.png" width="16" height="16" title="Pre-schools provide play and early education for children under five years old. This is sessional care usually provided during term time for children aged between two and five years old. They are registered by Ofsted."></td><td><input id="map-cat-cbxccr-pre" type="checkbox" name="category" value="ccr-pre" checked="checked"></td><td></td><td><span for="map-cat-cbxccr-pre">Pre-schools</span></td><td coltype="count"><span id="resultCount-ccr-pre" catid="ccr-pre">(0)</span></td></tr><tr><td style="vertical-align:middle"><img src="find-a-childcare-provider-files/ccr-psn.png" width="16" height="16" title="A nursery unit of a primary school generally provides education for children aged from three to five, although some do take children from two years old.  They are registered and inspected by Ofsted."></td><td><input id="map-cat-cbxccr-psn" type="checkbox" name="category" value="ccr-psn" checked="checked"></td><td></td><td><span for="map-cat-cbxccr-psn">Primary School Nurseries</span></td><td coltype="count"><span id="resultCount-ccr-psn" catid="ccr-psn">(0)</span></td></tr></tbody></table>
+                                      </div>
+                                    </div>
+                                  </div>
+                                  <input type="button" id="map-searchButton" value="Show results" class="button" style="float: right;">
+                                </div>
+                              </div>
+                                <!-- Old Radius Panel -->
+                              <div id="map-catpanel2" style="display: none">
+                                <h3>
+                                  <a href="find-a-childcare-provider-files/Find-a-provider.aspx">Provider type</a>
+                                </h3>
+                                <div id="map-catlist2">
+                                  <img id="map-catspinner2" src="find-a-childcare-provider-files/Kpiprogressbar.gif" alt="Loading">
+                                </div>
+                              </div>
+                              <div class="searchSeparator">
+                                <label>
+                                OR</label>
+                              </div>
+                              <div id="map-SearchByOfstedRef" class="ui-accordion ui-widget ui-helper-reset ui-accordion-icons" role="tablist">
+                                <h3 class="ui-accordion-header ui-helper-reset ui-state-default ui-corner-all" role="tab" aria-expanded="false" aria-selected="false" tabindex="0"><span class="ui-icon ui-icon-triangle-1-e"></span>
+                                  <a href="find-a-childcare-provider-files/Find-a-provider.aspx" tabindex="-1">Find by Ofsted Reference</a>
+                                </h3>
+                                <div class="ui-accordion-content ui-helper-reset ui-widget-content ui-corner-bottom" role="tabpanel" style="height: 72.6px; display: none;">
+                                  <label for="searchValue-OfstedReference" class="searchCaption">
+                                    Ofsted Reference</label>
+                                  <br>
+                                  <input class="fld_std" id="searchValue-OfstedReference" type="text" searchkey="OfstedReference" searchtype="keyValue">
+                                  <input type="button" id="map-searchButton-OfstedRef" value="Find" class="button" style="float: right;">
+                                </div>
+                              </div>
+                            </div>
+
+
+                    <div id="map-resultspanel">
+                      <div class="dataTables_wrapper" id="resultsTable_wrapper"><div id="resultsTableHeader"><div class="dataTables_filter" id="resultsTable_filter"><label>Search: <input type="text"></label></div></div>
+<!-- moved filters here -->
+
+
+
+
+                      <table id="resultsTable" cellpadding="0" cellspacing="0" border="0" style="width:100%" class="pretty">
+                        <thead><tr><th class="sorting_disabled center-align" rowspan="1" colspan="1">More Info</th><th class="sorting" rowspan="1" colspan="1"></th><th class="sorting" rowspan="1" colspan="1">Name</th><th class="right-align sorting_asc" rowspan="1" colspan="1">Distance (miles)</th><th class="center-align sorting" rowspan="1" colspan="1">Funded Places for 2 yr olds</th><th class="center-align sorting" rowspan="1" colspan="1">Funded Places for 3-4 yr olds</th><th class="sorting_disabled center-align" rowspan="1" colspan="1">Add to Shortlist</th></tr></thead><tbody><tr class="odd"><td class="center-align"><span coltype="moreInfo" class="lessInfo" title="Click to close details"></span></td><td class=""><img style="height:16px;width:16px;" src="find-a-childcare-provider-files/ccr-asc.png" catid="ccr-asc"></td><td>Neil O'Sullivan Sports</td><td class="right-align sorting_1">0.1</td><td class="center-align">No</td><td class="center-align">No</td><td class="center-align"><input coltype="shortlist" type="checkbox" value="4112"></td></tr><tr><td class="details" colspan="7"><div id="details-4112" class="map-locationdetail" style=""><dl><dt>Provider Type</dt><dd>After School Club</dd><dt>Ofsted Reference</dt><dd>EY553043</dd><dt>Building Number / Building Name</dt><dd></dd><dt>Secondary</dt><dd></dd><dt>Street</dt><dd></dd><dt>Locality</dt><dd></dd><dt>Town</dt><dd></dd><dt>Postcode</dt><dd>CB10 1NS</dd><dt>Telephone</dt><dd></dd><dt>Email</dt><dd>neilosullivansports@gmail.com</dd><dt>Website</dt><dd></dd><dt>Child Care Periods</dt><dd></dd><dt>Daily Session Times</dt><dd></dd><dt>Additional Information</dt><dd></dd><dt>School Pickups</dt><dd></dd><dt>Can offer 2 Yrs Funded Places</dt><dd>No</dd><dt>Can offer 3 &amp; 4 Yrs Funded Places</dt><dd>No</dd><dt>Date Last Updated</dt><dd>15-January-2019</dd></dl><div id="details-actions" style="float:right;padding-bottom:10px;padding-right:10px"></div></div></td></tr><tr class="even"><td class="center-align"><span coltype="moreInfo" class="lessInfo" title="Click to close details"></span></td><td class=""><img style="height:16px;width:16px;" src="find-a-childcare-provider-files/ccr-hol.png" catid="ccr-hol"></td><td>Stagecoach Saffron Walden
+                        </td><td class="right-align sorting_1">0.1</td><td class="center-align">No</td><td class="center-align">No</td><td class="center-align"><input coltype="shortlist" type="checkbox" value="4187"></td></tr><tr><td class="details" colspan="7"><div id="details-4187" class="map-locationdetail" style=""><dl><dt>Provider Type</dt><dd>Holiday Club</dd><dt>Ofsted Reference</dt><dd>EY558983</dd><dt>Building Number / Building Name</dt><dd></dd><dt>Secondary</dt><dd></dd><dt>Street</dt><dd></dd><dt>Locality</dt><dd></dd><dt>Town</dt><dd></dd><dt>Postcode</dt><dd>CB10 1NS</dd><dt>Telephone</dt><dd>01799 588246
+                          <br></dd><dt>Email</dt><dd>saffronwalden@stagecoach.co.uk</dd><dt>Website</dt><dd></dd><dt>Child Care Periods</dt><dd></dd><dt>Daily Session Times</dt><dd></dd><dt>Additional Information</dt><dd></dd><dt>School Pickups</dt><dd></dd><dt>Can offer 2 Yrs Funded Places</dt><dd>No</dd><dt>Can offer 3 &amp; 4 Yrs Funded Places</dt><dd>No</dd><dt>Date Last Updated</dt><dd>20-September-2018</dd></dl><div id="details-actions" style="float:right;padding-bottom:10px;padding-right:10px"></div></div></td></tr><tr class="odd"><td class="center-align"><span coltype="moreInfo" class="lessInfo" title="Click to close details"></span></td><td class=""><img style="height:16px;width:16px;" src="find-a-childcare-provider-files/ccr-dyn.png" catid="ccr-dyn"></td><td>Pips Nursery</td><td class="right-align sorting_1">2.6</td><td class="center-align">Yes</td><td class="center-align">Yes</td><td class="center-align"><input coltype="shortlist" type="checkbox" value="1018"></td></tr><tr><td class="details" colspan="7"><div id="details-1018" class="map-locationdetail" style=""><dl><dt>Provider Type</dt><dd>Day Nursery</dd><dt>Ofsted Reference</dt><dd>EY442176</dd><dt>Building Number / Building Name</dt><dd> </dd><dt>Secondary</dt><dd></dd><dt>Street</dt><dd></dd><dt>Locality</dt><dd></dd><dt>Town</dt><dd>SAFFRON WALDEN</dd><dt>Postcode</dt><dd>CB11 4XJ</dd><dt>Telephone</dt><dd>07866 469471</dd><dt>Email</dt><dd>pippasnursery@btconnect.com</dd><dt>Website</dt><dd></dd><dt>Child Care Periods</dt><dd></dd><dt>Daily Session Times</dt><dd></dd><dt>Additional Information</dt><dd>Our setting is called PIPS Nursery, ages range from three months to three years. The setting is based in my home so that the children benefit from a home from home environment. I am a Norland nurse and believe in traditional values. I employ up to nine members of staff who work part time (so there are always four members of staff plus myself each day). &nbsp;I believe children of this age group need plenty of one to one attention throughout the day so we are able to give them this during their time here. The children enjoy plenty of fresh air and exercise here in Strethall which is on a farm four miles from Saffron Walden. Every child is an individual with their own special strengths and weaknesses. &nbsp;Here at PIPS they enjoy developing their own strengths and are given every opportunity to flourish and to reach their potential. &nbsp;As early years practitioners we can help build on the areas where they are less confident and secure. &nbsp;We cannot make the world free of discrimination and a safe place to be - but we can do our very best to insure that our early years setting is a small model of what we would like the world to be, where children are safe, valued and included.</dd><dt>School Pickups</dt><dd></dd><dt>Can offer 2 Yrs Funded Places</dt><dd>Yes</dd><dt>Can offer 3 &amp; 4 Yrs Funded Places</dt><dd>Yes</dd><dt>Date Last Updated</dt><dd>28-January-2019</dd></dl><div id="details-actions" style="float:right;padding-bottom:10px;padding-right:10px"></div></div></td></tr><tr class="even"><td class="center-align"><span coltype="moreInfo" class="lessInfo" title="Click to close details"></span></td><td class=""><img style="height:16px;width:16px;" src="find-a-childcare-provider-files/ccr-chm.png" catid="ccr-chm"></td><td>Doherty Phillippa Margaret</td><td class="right-align sorting_1">2.6</td><td class="center-align">No</td><td class="center-align">No</td><td class="center-align"><input coltype="shortlist" type="checkbox" value="3686"></td></tr><tr><td class="details" colspan="7"><div id="details-3686" class="map-locationdetail" style=""><dl><dt>Provider Type</dt><dd>Childminder</dd><dt>Ofsted Reference</dt><dd>149484</dd><dt>Building Number / Building Name</dt><dd></dd><dt>Secondary</dt><dd></dd><dt>Street</dt><dd></dd><dt>Locality</dt><dd></dd><dt>Town</dt><dd></dd><dt>Postcode</dt><dd>CB11 4XJ</dd><dt>Telephone</dt><dd></dd><dt>Email</dt><dd>pippasnursery@btconnect.com</dd><dt>Website</dt><dd></dd><dt>Child Care Periods</dt><dd></dd><dt>Daily Session Times</dt><dd></dd><dt>Additional Information</dt><dd></dd><dt>School Pickups</dt><dd></dd><dt>Can offer 2 Yrs Funded Places</dt><dd>No</dd><dt>Can offer 3 &amp; 4 Yrs Funded Places</dt><dd>No</dd><dt>Date Last Updated</dt><dd>21-February-2019</dd></dl><div id="details-actions" style="float:right;padding-bottom:10px;padding-right:10px"></div></div></td></tr></tbody></table><div class="bottom"><div class="dataTables_info" id="resultsTable_info">Showing records 1 to 4 of 4</div><div id="resultsTable_length" class="dataTables_length"><label>Show <select size="1" name="resultsTable_length"><option value="10">10</option><option value="20" selected="selected">20</option><option value="50">50</option><option value="100">100</option><option value="-1">All</option></select> entries</label></div><div class="dataTables_paginate paging_four_button"><span class="paginate_disabled_previous">First</span><span class="paginate_disabled_previous">Previous</span><span class="paginate_disabled_next">Next</span><span class="paginate_disabled_next">Last</span></div></div><div class="clear"></div></div>
+                        </div>
+                        <div id="map-directionspanel">
+                        </div>
+                        <div class="disclaimerbox">
+                          <div class="disclaimertext">
+                            <h3>
+                            Disclaimer</h3>
+                          </div>
+                          <p class="disclaimertext">
+                            This search is for general information purposes only. All childcare locations shown
+                            on the map are purely indicative and may not represent the exact location. Please
+                            contact the childcare provider to confirm their actual location. Childcare providers
+                            may have asked for their address and/or contact details to be omitted for reasons
+                            of privacy.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div id="map-lhcol">
+                      <div id="map-controlpanel">
+                        <div id="map-searchpanel">
+                          <h3>
+                            <a href="find-a-childcare-provider-files/Find-a-provider.aspx"></a>
+                          </h3>
+                          <div>
+                                    <!--
+                                    <label for="map-address">
+                                        Enter place or postcode:</label>
+                                    <input type="text" id="map-address" class="fld_std" />
+                                  -->
+                                  <select id="map-search-type" class="fld_std" style="display: none;"></select>
+                                  <div id="map-SearchFieldsOld">
+                                  </div>
+                                </div>
+                              </div>
+                              
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+  </div>
+</main>
+
+
+    {% endblock %}
