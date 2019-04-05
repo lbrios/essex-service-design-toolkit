@@ -41,7 +41,7 @@
       h3 {
         margin-top: 0;
       }
-      min-height: initial;
+      min-height: 0;
     }
     .sub-section-heading {
       @include h4;
