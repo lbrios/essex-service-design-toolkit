@@ -8,7 +8,6 @@ input {
   border-width: $border-normal;
   border-style: solid;
   border-color: $grey-dark;
-  margin-bottom: $baseline;
 }
 .day, .month, .year {
   @include box-sizing(border-box);

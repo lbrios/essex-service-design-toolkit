@@ -1,0 +1,18 @@
+.form {
+	.group.type-checkbox {
+		.provider {
+			display: inline-block;
+			margin-right: $gutter;
+			margin-bottom: $baseline*0.5;
+		}
+		input[type="checkbox"] {
+			height: 1em;
+			display: inline-block;
+			margin: 0;
+			width: auto;
+		}
+		span {
+			height: 1em;
+		}
+	}
+}

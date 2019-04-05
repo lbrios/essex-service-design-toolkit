@@ -7,7 +7,7 @@
     <div class="breadcrumbs">
       <ol>
         <li><a href="/docs/core/contents">Contents</a></li>
-        <li>Freedom of Information</li>
+        <li>Family Information Service: Find a childcare provider</li>
       </ol>
     </div>
     <div class="main" id="freedom-of-information">
@@ -24,7 +24,7 @@
         <!-- Styles Finish -->
 
         <!-- Scripts -->
-        <!--[if IE]> <script src="/_layouts/ecc/csp/MappingWebPart/scripts/html5shiv.js"></script> 	<![endif]-->
+        <!--[if IE]> <script src="/_layouts/ecc/csp/MappingWebPart/scripts/html5shiv.js"></script>  <![endif]-->
 
         <!-- jQuery -->
         <script type="text/javascript" src="find-a-childcare-provider-files/jquery.min.js"></script>
@@ -48,7 +48,7 @@
         <script type="text/javascript">
           // surpress 
           jQuery(document).ready(function ($) {
-      	    // handle enter button on searchValue-Location and searchValue-ProviderName inputs
+            // handle enter button on searchValue-Location and searchValue-ProviderName inputs
            $("#searchValue-Location, #searchValue-ProviderName").keypress(function (e) {
              if ((e.which && e.which == 13) || (e.keyCode && e.keyCode == 13)) {
                $('#map-searchButton').click();
@@ -59,7 +59,7 @@
             }
           });
 
-      	    // handle enter button on searchValue-OfstedReference inputs
+            // handle enter button on searchValue-OfstedReference inputs
             $("#searchValue-OfstedReference").keypress(function (e) {
               if ((e.which && e.which == 13) || (e.keyCode && e.keyCode == 13)) {
                $('map-searchButton-OfstedRef').click();
@@ -74,23 +74,15 @@
       </section>
 
       <section class="content">
-        <div id="map-SearchFields" class="ui-accordion ui-widget ui-helper-reset ui-accordion-icons" role="tablist">
-          <h3 class="ui-accordion-header ui-helper-reset ui-state-default ui-state-active ui-corner-top" role="tab" aria-expanded="true" aria-selected="true" tabindex="0"><span class="ui-icon ui-icon-triangle-1-s"></span>
-            <a href="find-a-childcare-provider-files/Find-a-provider.aspx" tabindex="-1">Find by Address or Provider</a>
-          </h3>
-          <div id="map-search-by-address" class="ui-accordion-content ui-helper-reset ui-widget-content ui-corner-bottom ui-accordion-content-active" role="tabpanel">
-            <fieldset>
-              <legend class="searchCaption">Town or Postcode </legend>
-              <div>
-                  <!--
-              <label for="searchValue-Location" class="searchCaption" >
-                  Town or Postcode</label><br />
-                -->
+        <div id="map-SearchFields">
+          <h2 class="content-heading">Find by Address or Provider</h2>
+          <form class="form">
+            <div id="map-search-by-address" class="group" role="">
+              <fieldset>
+                <legend class="searchCaption">Town or Postcode </legend>
                 <input class="fld_std focus" id="searchValue-Location" type="text" searchkey="Location" searchtype="keyValue" value="">
-              </div>
-              <div>
                 <label for="searchValue-Radius" class="searchCaption">
-                Search Radius</label><br>
+                  Search Radius</label>
                 <select id="searchValue-Radius" searchkey="Radius" searchtype="keyValue" disabledsearchvalue="-1">
                   <option value="-1">This area only</option>
                   <option value="1">within 1 mile</option>
@@ -99,136 +91,149 @@
                   <option value="10">within 10 miles</option>
                   <option value="20">within 20 miles</option>
                 </select>
-              </div>
-            </fieldset>
-            <div>
-              <label for="searchValue-ProviderName" class="searchCaption">Provider Name</label><br>
+              </fieldset>
+            </div>
+
+            <div class="group">
+              <label for="searchValue-ProviderName" class="searchCaption">Provider Name</label>
               <input class="fld_std" id="searchValue-ProviderName" type="text" searchkey="ProviderName" searchtype="keyValue">
             </div>
-            <div>
-              <label class="searchCaption">Provider type</label>
-              <input id="map-cat-cbxccr-asc" type="checkbox" name="category" value="ccr-asc" checked="checked">
-              <span for="map-cat-cbxccr-asc">After School Clubs</span>
-              <span id="resultCount-ccr-asc" catid="ccr-asc">(1)</span>
 
-              <input id="map-cat-cbxccr-btg" type="checkbox" name="category" value="ccr-btg" checked="checked">
-              <span for="map-cat-cbxccr-btg">Baby &amp; Toddler Groups</span>
-              <span id="resultCount-ccr-btg" catid="ccr-btg">(0)</span>
-
-              <input id="map-cat-cbxccr-brk" type="checkbox" name="category" value="ccr-brk" checked="checked">
-              <span for="map-cat-cbxccr-brk">Breakfast Clubs</span>
-              <span id="resultCount-ccr-brk" catid="ccr-brk">(0)</span>
-
-              <input id="map-cat-cbxccr-chm" type="checkbox" name="category" value="ccr-chm" checked="checked">
-              <span for="map-cat-cbxccr-chm">Childminders</span>
-              <span id="resultCount-ccr-chm" catid="ccr-chm">(1)</span>
-
-              <input id="map-cat-cbxccr-cre" type="checkbox" name="category" value="ccr-cre" checked="checked">
-              <span for="map-cat-cbxccr-cre">Crèches</span>
-              <span id="resultCount-ccr-cre" catid="ccr-cre">(0)</span>
-
-              <input id="map-cat-cbxccr-dyn" type="checkbox" name="category" value="ccr-dyn" checked="checked">
-              <span for="map-cat-cbxccr-dyn">Day Nurseries</span>
-              <span id="resultCount-ccr-dyn" catid="ccr-dyn">(1)</span>
-
-              <input id="map-cat-cbxccr-chc" type="checkbox" name="category" value="ccr-chc" checked="checked">
-              <span for="map-cat-cbxccr-chc">Family Hubs</span>
-              <span id="resultCount-ccr-chc" catid="ccr-chc">(0)</span>
-
-              <input id="map-cat-cbxccr-hol" type="checkbox" name="category" value="ccr-hol" checked="checked">
-              <span for="map-cat-cbxccr-hol">Holiday Clubs</span>
-              <span id="resultCount-ccr-hol" catid="ccr-hol">(1)</span>
-
-              <input id="map-cat-cbxccr-mns" type="checkbox" name="category" value="ccr-mns" checked="checked">
-              <span for="map-cat-cbxccr-mns">Maintained Nursery Schools</span>
-              <span id="resultCount-ccr-mns" catid="ccr-mns">(0)</span>
-
-              <input id="map-cat-cbxccr-nis" type="checkbox" name="category" value="ccr-nis" checked="checked">
-              <span for="map-cat-cbxccr-nis">Nursery Unit Of Independent Schools</span>
-              <span id="resultCount-ccr-nis" catid="ccr-nis">(0)</span>
-
-              <input id="map-cat-cbxccr-pre" type="checkbox" name="category" value="ccr-pre" checked="checked">
-              <span for="map-cat-cbxccr-pre">Pre-schools</span>
-              <span id="resultCount-ccr-pre" catid="ccr-pre">(0)</span>
-
-
-              <input id="map-cat-cbxccr-psn" type="checkbox" name="category" value="ccr-psn" checked="checked">
-              <span for="map-cat-cbxccr-psn">Primary School Nurseries</span>
-              <span id="resultCount-ccr-psn" catid="ccr-psn">(0)</span>
-
-            </div>
-            <input type="button" id="map-searchButton" value="Show results" class="button">
-          </div>
-        </div>
-          <!-- Old Radius Panel -->
-        <div id="map-SearchByOfstedRef" class="ui-accordion ui-widget ui-helper-reset ui-accordion-icons" role="tablist">
-          <h3 class="ui-accordion-header ui-helper-reset ui-state-default ui-corner-all" role="tab" aria-expanded="false" aria-selected="false" tabindex="0"><span class="ui-icon ui-icon-triangle-1-e"></span>
-            <a href="find-a-childcare-provider-files/Find-a-provider.aspx" tabindex="-1">Find by Ofsted Reference</a>
-          </h3>
-          <div class="ui-accordion-content ui-helper-reset ui-widget-content ui-corner-bottom" role="tabpanel">
-            <label for="searchValue-OfstedReference" class="searchCaption">Ofsted Reference</label>
-            <br>
-            <input class="fld_std" id="searchValue-OfstedReference" type="text" searchkey="OfstedReference" searchtype="keyValue">
-            <input type="button" id="map-searchButton-OfstedRef" value="Find" class="button">
-          </div>
-        </div>
-
-
-        <div id="map-resultspanel">
-          <div class="dataTables_wrapper" id="resultsTable_wrapper"><div id="resultsTableHeader"><div class="dataTables_filter" id="resultsTable_filter"><label>Search: <input type="text"></label></div></div>
-<!-- moved filters here -->
-
-
-
-
-                      <table id="resultsTable" cellpadding="0" cellspacing="0" border="0" class="pretty">
-                        <thead><tr><th class="sorting_disabled center-align" rowspan="1" colspan="1">More Info</th><th class="sorting" rowspan="1" colspan="1"></th><th class="sorting" rowspan="1" colspan="1">Name</th><th class="right-align sorting_asc" rowspan="1" colspan="1">Distance (miles)</th><th class="center-align sorting" rowspan="1" colspan="1">Funded Places for 2 yr olds</th><th class="center-align sorting" rowspan="1" colspan="1">Funded Places for 3-4 yr olds</th><th class="sorting_disabled center-align" rowspan="1" colspan="1">Add to Shortlist</th></tr></thead><tbody><tr class="odd"><td class="center-align"><span coltype="moreInfo" class="lessInfo" title="Click to close details"></span></td><td class=""><img style="height:16px;width:16px;" src="find-a-childcare-provider-files/ccr-asc.png" catid="ccr-asc"></td><td>Neil O'Sullivan Sports</td><td class="right-align sorting_1">0.1</td><td class="center-align">No</td><td class="center-align">No</td><td class="center-align"><input coltype="shortlist" type="checkbox" value="4112"></td></tr><tr><td class="details" colspan="7"><div id="details-4112" class="map-locationdetail" style=""><dl><dt>Provider Type</dt><dd>After School Club</dd><dt>Ofsted Reference</dt><dd>EY553043</dd><dt>Building Number / Building Name</dt><dd></dd><dt>Secondary</dt><dd></dd><dt>Street</dt><dd></dd><dt>Locality</dt><dd></dd><dt>Town</dt><dd></dd><dt>Postcode</dt><dd>CB10 1NS</dd><dt>Telephone</dt><dd></dd><dt>Email</dt><dd>neilosullivansports@gmail.com</dd><dt>Website</dt><dd></dd><dt>Child Care Periods</dt><dd></dd><dt>Daily Session Times</dt><dd></dd><dt>Additional Information</dt><dd></dd><dt>School Pickups</dt><dd></dd><dt>Can offer 2 Yrs Funded Places</dt><dd>No</dd><dt>Can offer 3 &amp; 4 Yrs Funded Places</dt><dd>No</dd><dt>Date Last Updated</dt><dd>15-January-2019</dd></dl><div id="details-actions"></div></div></td></tr><tr class="even"><td class="center-align"><span coltype="moreInfo" class="lessInfo" title="Click to close details"></span></td><td class=""><img style="height:16px;width:16px;" src="find-a-childcare-provider-files/ccr-hol.png" catid="ccr-hol"></td><td>Stagecoach Saffron Walden
-                        </td><td class="right-align sorting_1">0.1</td><td class="center-align">No</td><td class="center-align">No</td><td class="center-align"><input coltype="shortlist" type="checkbox" value="4187"></td></tr><tr><td class="details" colspan="7"><div id="details-4187" class="map-locationdetail" style=""><dl><dt>Provider Type</dt><dd>Holiday Club</dd><dt>Ofsted Reference</dt><dd>EY558983</dd><dt>Building Number / Building Name</dt><dd></dd><dt>Secondary</dt><dd></dd><dt>Street</dt><dd></dd><dt>Locality</dt><dd></dd><dt>Town</dt><dd></dd><dt>Postcode</dt><dd>CB10 1NS</dd><dt>Telephone</dt><dd>01799 588246
-                          <br></dd><dt>Email</dt><dd>saffronwalden@stagecoach.co.uk</dd><dt>Website</dt><dd></dd><dt>Child Care Periods</dt><dd></dd><dt>Daily Session Times</dt><dd></dd><dt>Additional Information</dt><dd></dd><dt>School Pickups</dt><dd></dd><dt>Can offer 2 Yrs Funded Places</dt><dd>No</dd><dt>Can offer 3 &amp; 4 Yrs Funded Places</dt><dd>No</dd><dt>Date Last Updated</dt><dd>20-September-2018</dd></dl><div id="details-actions"></div></div></td></tr><tr class="odd"><td class="center-align"><span coltype="moreInfo" class="lessInfo" title="Click to close details"></span></td><td class=""><img style="height:16px;width:16px;" src="find-a-childcare-provider-files/ccr-dyn.png" catid="ccr-dyn"></td><td>Pips Nursery</td><td class="right-align sorting_1">2.6</td><td class="center-align">Yes</td><td class="center-align">Yes</td><td class="center-align"><input coltype="shortlist" type="checkbox" value="1018"></td></tr><tr><td class="details" colspan="7"><div id="details-1018" class="map-locationdetail" style=""><dl><dt>Provider Type</dt><dd>Day Nursery</dd><dt>Ofsted Reference</dt><dd>EY442176</dd><dt>Building Number / Building Name</dt><dd> </dd><dt>Secondary</dt><dd></dd><dt>Street</dt><dd></dd><dt>Locality</dt><dd></dd><dt>Town</dt><dd>SAFFRON WALDEN</dd><dt>Postcode</dt><dd>CB11 4XJ</dd><dt>Telephone</dt><dd>07866 469471</dd><dt>Email</dt><dd>pippasnursery@btconnect.com</dd><dt>Website</dt><dd></dd><dt>Child Care Periods</dt><dd></dd><dt>Daily Session Times</dt><dd></dd><dt>Additional Information</dt><dd>Our setting is called PIPS Nursery, ages range from three months to three years. The setting is based in my home so that the children benefit from a home from home environment. I am a Norland nurse and believe in traditional values. I employ up to nine members of staff who work part time (so there are always four members of staff plus myself each day). &nbsp;I believe children of this age group need plenty of one to one attention throughout the day so we are able to give them this during their time here. The children enjoy plenty of fresh air and exercise here in Strethall which is on a farm four miles from Saffron Walden. Every child is an individual with their own special strengths and weaknesses. &nbsp;Here at PIPS they enjoy developing their own strengths and are given every opportunity to flourish and to reach their potential. &nbsp;As early years practitioners we can help build on the areas where they are less confident and secure. &nbsp;We cannot make the world free of discrimination and a safe place to be - but we can do our very best to insure that our early years setting is a small model of what we would like the world to be, where children are safe, valued and included.</dd><dt>School Pickups</dt><dd></dd><dt>Can offer 2 Yrs Funded Places</dt><dd>Yes</dd><dt>Can offer 3 &amp; 4 Yrs Funded Places</dt><dd>Yes</dd><dt>Date Last Updated</dt><dd>28-January-2019</dd></dl><div id="details-actions"></div></div></td></tr><tr class="even"><td class="center-align"><span coltype="moreInfo" class="lessInfo" title="Click to close details"></span></td><td class=""><img style="height:16px;width:16px;" src="find-a-childcare-provider-files/ccr-chm.png" catid="ccr-chm"></td><td>Doherty Phillippa Margaret</td><td class="right-align sorting_1">2.6</td><td class="center-align">No</td><td class="center-align">No</td><td class="center-align"><input coltype="shortlist" type="checkbox" value="3686"></td></tr><tr><td class="details" colspan="7"><div id="details-3686" class="map-locationdetail" style=""><dl><dt>Provider Type</dt><dd>Childminder</dd><dt>Ofsted Reference</dt><dd>149484</dd><dt>Building Number / Building Name</dt><dd></dd><dt>Secondary</dt><dd></dd><dt>Street</dt><dd></dd><dt>Locality</dt><dd></dd><dt>Town</dt><dd></dd><dt>Postcode</dt><dd>CB11 4XJ</dd><dt>Telephone</dt><dd></dd><dt>Email</dt><dd>pippasnursery@btconnect.com</dd><dt>Website</dt><dd></dd><dt>Child Care Periods</dt><dd></dd><dt>Daily Session Times</dt><dd></dd><dt>Additional Information</dt><dd></dd><dt>School Pickups</dt><dd></dd><dt>Can offer 2 Yrs Funded Places</dt><dd>No</dd><dt>Can offer 3 &amp; 4 Yrs Funded Places</dt><dd>No</dd><dt>Date Last Updated</dt><dd>21-February-2019</dd></dl><div id="details-actions"></div></div></td></tr></tbody></table><div class="bottom"><div class="dataTables_info" id="resultsTable_info">Showing records 1 to 4 of 4</div><div id="resultsTable_length" class="dataTables_length"><label>Show <select size="1" name="resultsTable_length"><option value="10">10</option><option value="20" selected="selected">20</option><option value="50">50</option><option value="100">100</option><option value="-1">All</option></select> entries</label></div><div class="dataTables_paginate paging_four_button"><span class="paginate_disabled_previous">First</span><span class="paginate_disabled_previous">Previous</span><span class="paginate_disabled_next">Next</span><span class="paginate_disabled_next">Last</span></div></div><div class="clear"></div></div>
-                        </div>
-                        <div id="map-directionspanel">
-                        </div>
-                        <div class="disclaimerbox">
-                          <div class="disclaimertext">
-                            <h3>
-                            Disclaimer</h3>
-                          </div>
-                          <p class="disclaimertext">
-                            This search is for general information purposes only. All childcare locations shown
-                            on the map are purely indicative and may not represent the exact location. Please
-                            contact the childcare provider to confirm their actual location. Childcare providers
-                            may have asked for their address and/or contact details to be omitted for reasons
-                            of privacy.
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-                    <div id="map-lhcol">
-                      <div id="map-controlpanel">
-                        <div id="map-searchpanel">
-                          <h3>
-                            <a href="find-a-childcare-provider-files/Find-a-provider.aspx"></a>
-                          </h3>
-                          <div>
-                                </div>
-                              </div>
-                              
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
+            <div class="group type-checkbox">
+              <fieldset>
+                <legend class="searchCaption">Provider type</legend>
+                <div class="provider">
+                  <input id="map-cat-cbxccr-asc" type="checkbox" name="category" value="ccr-asc" checked="checked">
+                  <span for="map-cat-cbxccr-asc">After School Clubs</span>
+                  <span id="resultCount-ccr-asc" catid="ccr-asc">(1)</span>
                 </div>
-              </div>
+                
+                <div class="provider">
+                  <input id="map-cat-cbxccr-btg" type="checkbox" name="category" value="ccr-btg" checked="checked">
+                  <span for="map-cat-cbxccr-btg">Baby &amp; Toddler Groups</span>
+                  <span id="resultCount-ccr-btg" catid="ccr-btg">(0)</span>
+                </div>
+
+                <div class="provider">
+                  <input id="map-cat-cbxccr-brk" type="checkbox" name="category" value="ccr-brk" checked="checked">
+                  <span for="map-cat-cbxccr-brk">Breakfast Clubs</span>
+                  <span id="resultCount-ccr-brk" catid="ccr-brk">(0)</span>
+                </div>
+
+                <div class="provider">
+                  <input id="map-cat-cbxccr-chm" type="checkbox" name="category" value="ccr-chm" checked="checked">
+                  <span for="map-cat-cbxccr-chm">Childminders</span>
+                  <span id="resultCount-ccr-chm" catid="ccr-chm">(1)</span>
+                </div>
+
+                <div class="provider">
+                  <input id="map-cat-cbxccr-cre" type="checkbox" name="category" value="ccr-cre" checked="checked">
+                  <span for="map-cat-cbxccr-cre">Crèches</span>
+                  <span id="resultCount-ccr-cre" catid="ccr-cre">(0)</span>
+                </div>
+
+                <div class="provider">
+                  <input id="map-cat-cbxccr-dyn" type="checkbox" name="category" value="ccr-dyn" checked="checked">
+                  <span for="map-cat-cbxccr-dyn">Day Nurseries</span>
+                  <span id="resultCount-ccr-dyn" catid="ccr-dyn">(1)</span>
+                </div>
+
+                <div class="provider">
+                  <input id="map-cat-cbxccr-chc" type="checkbox" name="category" value="ccr-chc" checked="checked">
+                  <span for="map-cat-cbxccr-chc">Family Hubs</span>
+                  <span id="resultCount-ccr-chc" catid="ccr-chc">(0)</span>
+                </div>
+
+                <div class="provider">
+                  <input id="map-cat-cbxccr-hol" type="checkbox" name="category" value="ccr-hol" checked="checked">
+                  <span for="map-cat-cbxccr-hol">Holiday Clubs</span>
+                  <span id="resultCount-ccr-hol" catid="ccr-hol">(1)</span>
+                </div>
+
+                <div class="provider">
+                  <input id="map-cat-cbxccr-mns" type="checkbox" name="category" value="ccr-mns" checked="checked">
+                  <span for="map-cat-cbxccr-mns">Maintained Nursery Schools</span>
+                  <span id="resultCount-ccr-mns" catid="ccr-mns">(0)</span>
+                </div>
+
+                <div class="provider">
+                  <input id="map-cat-cbxccr-nis" type="checkbox" name="category" value="ccr-nis" checked="checked">
+                  <span for="map-cat-cbxccr-nis">Nursery Unit Of Independent Schools</span>
+                  <span id="resultCount-ccr-nis" catid="ccr-nis">(0)</span>
+                </div>
+
+                <div class="provider">
+                  <input id="map-cat-cbxccr-pre" type="checkbox" name="category" value="ccr-pre" checked="checked">
+                  <span for="map-cat-cbxccr-pre">Pre-schools</span>
+                  <span id="resultCount-ccr-pre" catid="ccr-pre">(0)</span>
+                </div>
+
+                <div class="provider">
+                  <input id="map-cat-cbxccr-psn" type="checkbox" name="category" value="ccr-psn" checked="checked">
+                  <span for="map-cat-cbxccr-psn">Primary School Nurseries</span>
+                  <span id="resultCount-ccr-psn" catid="ccr-psn">(0)</span>
+                </div>
+              </fieldset>
             </div>
-          </div>
+
+            <input type="button" id="map-searchButton" value="Show results" class="button button-form">
+
+          </form>
         </div>
+
+        <ul class="search-results">
+          <li>
+            <ul class="data">
+              <li><h3 class="h4"><a href="./childcare-provider">Neil O'Sullivan Sports</a></h3></li>
+              <li><span>Distance</span>0.1</li>
+              <li><span>Provider Type</span>After School Club</li>
+            </ul>
+          </li>
+
+          <li>
+            <ul class="data">
+              <li><h3 class="h4"><a href="#">Stagecoach Saffron Walden</a></h3></li>
+              <li><span>Distance</span>0.1</li>
+              <li><span>Provider Type</span>Holiday Club</li>
+            </ul>
+          </li>
+
+          <li>
+            <ul class="data">
+              <li><h3 class="h4"><a href="#">Pips Nursery</a></h3></li>
+              <li><span>Distance</span>2.6</li>
+              <li><span>Provider Type</span>Day Nursery</li>
+            </ul>
+          </li>
+
+          <li>
+            <ul class="data">
+              <li><h3 class="h4"><a href="#">Doherty Phillippa Margaret</a></h3></li>
+              <li><span>Distance</span>2.6</li>
+              <li><span>Provider Type</span>Childminder</li>
+            </ul>
+          </li>
+        </ul>
+        <h3>Disclaimer</h3>
+          <p>This search is for general information purposes only. All childcare locations shown on the map are purely indicative and may not represent the exact location. Please contact the childcare provider to confirm their actual location. Childcare providers may have asked for their address and/or contact details to be omitted for reasons of privacy.</p>
+      </section>
+
+      <section class="function">
+        <nav class="pagination">
+          <ul>
+            <li class="next">
+              <a href="#">
+                <span class="pagination-item">
+                  <i class="fas fa-arrow-right"></i>Next
+                </span>
+                <span>1 of 124</span>
+              </a>
+            </li>
+          </ul>
+        </nav>
       </section>
     </div>
   </div>
 </main>
 
-
-    {% endblock %}
+{% endblock %}
