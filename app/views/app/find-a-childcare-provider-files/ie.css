@@ -1,0 +1,81 @@
+/* top bar */
+.ie6 .topBar {
+	height: 24px;
+}
+
+	/* stylesheet switcher */
+	.ie6 .altStyles a {
+		font-size: 1px;
+	}
+	
+	/* login */
+	.oldie #login .go {
+		width: 60px;
+	}
+
+/* search form */
+.oldie .quickSearch .input {
+	padding-top: 3px;
+}
+
+/* tagline */
+.ie6 .tagline {
+	background: none;
+	text-indent: 0;
+}
+.ie6 #myAccount .tagline {
+	background: #ffcb08;
+	margin-left: 0px;
+	padding-left: 9px;
+	position: relative;
+}
+
+/* navigation */
+.ie6 .nav a,
+.ie6 .contentTabs .tabs a {
+	background-image: none !important;
+}
+
+/* feature box */
+.ie6 .featured {
+	height: 348px;
+}
+
+/* most popular links */
+.ie6 .popular {
+	height: 182px;
+}
+
+/* home action links */
+.ie6 #homeActions {
+	height: 267px;
+}
+	.ie6 #homeActions dd {
+		height: 38px;
+	}
+	
+/* jump to section */
+.oldie .toSections {
+	margin-top: -10px;
+}
+	
+/* homepage bottom boxes */
+.ie6 .homeEnd .col-i {
+	height: 128px;
+}
+.ie6 .homeEnd .col-ii {
+	height: 134px;
+}
+
+/* form steps */
+.oldie .formSteps li {
+	width: 24.9%;
+}
+		
+/* MANAGE MY ACCOUNT BOX
+ ******************** */
+.manageAccount .box-i,
+.manageAccount .box-ii {
+	display: inline;
+}
+	

@@ -1,0 +1,51 @@
+@import url(gm_sidebar.css);
+
+.gm_inpage {
+    margin-left: 5px;
+}
+
+    .gm_inpage .gm_intro {
+        font-weight: bold;
+        margin-bottom: 8px;
+    }
+
+    .gm_inpage .gm_smileys {
+        display: block;
+        margin-left: 5px;
+    }
+
+        .gm_inpage .gm_smileys a {
+            margin: 5px 3px 0 0;
+            display: inline-block;
+            text-align: center;
+        }
+
+            .gm_inpage .gm_smileys a img {
+                height: 60px;
+                transition: all 0.25s ease;
+                box-shadow: none;
+            }
+
+            .gm_inpage .gm_smileys a:hover img, .gm_inpage .gm_smileys img.hlight {
+                -webkit-transform: scale(1.2); /* android, safari, chrome */
+                -moz-transform: scale(1.2); /* old firefox */
+                -o-transform: scale(1.2); /* old opera */
+                -ms-transform: scale(1.2); /* old IE */
+                transform: scale(1.2); /*standard */
+                transition: all 0.25s ease;
+            }
+
+            .gm_inpage .gm_smileys a img.hlight {
+                -webkit-transform: scale(1.1); /* android, safari, chrome */
+                -moz-transform: scale(1.1); /* old firefox */
+                -o-transform: scale(1.1); /* old opera */
+                -ms-transform: scale(1.1); /* old IE */
+                transform: scale(1.1); /*standard */
+                transition: all 0.25s ease;
+            }
+
+            .gm_inpage .gm_smileys A SPAN {
+                display: block;
+                font-size: .9em;
+                margin-top: .5em;
+            }
