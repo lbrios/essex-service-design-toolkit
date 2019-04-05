@@ -3,7 +3,7 @@
 		.provider {
 			display: inline-block;
 			margin-right: $gutter;
-			margin-bottom: $baseline;
+			margin-bottom: $baseline*0.5;
 		}
 		input[type="checkbox"] {
 			height: 1em;
