@@ -24,7 +24,7 @@
         <!-- Styles Finish -->
 
         <!-- Scripts -->
-        <!--[if IE]> <script src="/_layouts/ecc/csp/MappingWebPart/scripts/html5shiv.js"></script> 	<![endif]-->
+        <!--[if IE]> <script src="/_layouts/ecc/csp/MappingWebPart/scripts/html5shiv.js"></script>  <![endif]-->
 
         <!-- jQuery -->
         <script type="text/javascript" src="find-a-childcare-provider-files/jquery.min.js"></script>
@@ -48,7 +48,7 @@
         <script type="text/javascript">
           // surpress 
           jQuery(document).ready(function ($) {
-      	    // handle enter button on searchValue-Location and searchValue-ProviderName inputs
+            // handle enter button on searchValue-Location and searchValue-ProviderName inputs
            $("#searchValue-Location, #searchValue-ProviderName").keypress(function (e) {
              if ((e.which && e.which == 13) || (e.keyCode && e.keyCode == 13)) {
                $('#map-searchButton').click();
@@ -59,7 +59,7 @@
             }
           });
 
-      	    // handle enter button on searchValue-OfstedReference inputs
+            // handle enter button on searchValue-OfstedReference inputs
             $("#searchValue-OfstedReference").keypress(function (e) {
               if ((e.which && e.which == 13) || (e.keyCode && e.keyCode == 13)) {
                $('map-searchButton-OfstedRef').click();
@@ -74,23 +74,17 @@
       </section>
 
       <section class="content">
-        <div id="map-SearchFields" class="ui-accordion ui-widget ui-helper-reset ui-accordion-icons" role="tablist">
-          <h3 class="ui-accordion-header ui-helper-reset ui-state-default ui-state-active ui-corner-top" role="tab" aria-expanded="true" aria-selected="true" tabindex="0"><span class="ui-icon ui-icon-triangle-1-s"></span>
-            <a href="find-a-childcare-provider-files/Find-a-provider.aspx" tabindex="-1">Find by Address or Provider</a>
+        <div id="map-SearchFields">
+          <h3 class="section-heading">
+            <a href="find-a-childcare-provider-files/Find-a-provider.aspx">Find by Address or Provider</a>
           </h3>
-          <div id="map-search-by-address" class="ui-accordion-content ui-helper-reset ui-widget-content ui-corner-bottom ui-accordion-content-active" role="tabpanel">
-            <fieldset>
-              <legend class="searchCaption">Town or Postcode </legend>
-              <div>
-                  <!--
-              <label for="searchValue-Location" class="searchCaption" >
-                  Town or Postcode</label><br />
-                -->
+          <form class="form">
+            <div id="map-search-by-address" class="group" role="">
+              <fieldset>
+                <legend class="searchCaption">Town or Postcode </legend>
                 <input class="fld_std focus" id="searchValue-Location" type="text" searchkey="Location" searchtype="keyValue" value="">
-              </div>
-              <div>
                 <label for="searchValue-Radius" class="searchCaption">
-                Search Radius</label><br>
+                  Search Radius</label>
                 <select id="searchValue-Radius" searchkey="Radius" searchtype="keyValue" disabledsearchvalue="-1">
                   <option value="-1">This area only</option>
                   <option value="1">within 1 mile</option>
@@ -99,67 +93,91 @@
                   <option value="10">within 10 miles</option>
                   <option value="20">within 20 miles</option>
                 </select>
-              </div>
-            </fieldset>
-            <div>
-              <label for="searchValue-ProviderName" class="searchCaption">Provider Name</label><br>
+              </fieldset>
+            </div>
+            <div class="group">
+              <label for="searchValue-ProviderName" class="searchCaption">Provider Name</label>
               <input class="fld_std" id="searchValue-ProviderName" type="text" searchkey="ProviderName" searchtype="keyValue">
             </div>
-            <div>
+            <div class="group type-checkbox">
               <label class="searchCaption">Provider type</label>
-              <input id="map-cat-cbxccr-asc" type="checkbox" name="category" value="ccr-asc" checked="checked">
-              <span for="map-cat-cbxccr-asc">After School Clubs</span>
-              <span id="resultCount-ccr-asc" catid="ccr-asc">(1)</span>
+              <div class="provider">
+                <input id="map-cat-cbxccr-asc" type="checkbox" name="category" value="ccr-asc" checked="checked">
+                <span for="map-cat-cbxccr-asc">After School Clubs</span>
+                <span id="resultCount-ccr-asc" catid="ccr-asc">(1)</span>
+              </div>
+              
+              <div class="provider">
+                <input id="map-cat-cbxccr-btg" type="checkbox" name="category" value="ccr-btg" checked="checked">
+                <span for="map-cat-cbxccr-btg">Baby &amp; Toddler Groups</span>
+                <span id="resultCount-ccr-btg" catid="ccr-btg">(0)</span>
+              </div>
 
-              <input id="map-cat-cbxccr-btg" type="checkbox" name="category" value="ccr-btg" checked="checked">
-              <span for="map-cat-cbxccr-btg">Baby &amp; Toddler Groups</span>
-              <span id="resultCount-ccr-btg" catid="ccr-btg">(0)</span>
+              <div class="provider">
+                <input id="map-cat-cbxccr-brk" type="checkbox" name="category" value="ccr-brk" checked="checked">
+                <span for="map-cat-cbxccr-brk">Breakfast Clubs</span>
+                <span id="resultCount-ccr-brk" catid="ccr-brk">(0)</span>
+              </div>
 
-              <input id="map-cat-cbxccr-brk" type="checkbox" name="category" value="ccr-brk" checked="checked">
-              <span for="map-cat-cbxccr-brk">Breakfast Clubs</span>
-              <span id="resultCount-ccr-brk" catid="ccr-brk">(0)</span>
+              <div class="provider">
+                <input id="map-cat-cbxccr-chm" type="checkbox" name="category" value="ccr-chm" checked="checked">
+                <span for="map-cat-cbxccr-chm">Childminders</span>
+                <span id="resultCount-ccr-chm" catid="ccr-chm">(1)</span>
+              </div>
 
-              <input id="map-cat-cbxccr-chm" type="checkbox" name="category" value="ccr-chm" checked="checked">
-              <span for="map-cat-cbxccr-chm">Childminders</span>
-              <span id="resultCount-ccr-chm" catid="ccr-chm">(1)</span>
+              <div class="provider">
+                <input id="map-cat-cbxccr-cre" type="checkbox" name="category" value="ccr-cre" checked="checked">
+                <span for="map-cat-cbxccr-cre">Crèches</span>
+                <span id="resultCount-ccr-cre" catid="ccr-cre">(0)</span>
+              </div>
 
-              <input id="map-cat-cbxccr-cre" type="checkbox" name="category" value="ccr-cre" checked="checked">
-              <span for="map-cat-cbxccr-cre">Crèches</span>
-              <span id="resultCount-ccr-cre" catid="ccr-cre">(0)</span>
+              <div class="provider">
+                <input id="map-cat-cbxccr-dyn" type="checkbox" name="category" value="ccr-dyn" checked="checked">
+                <span for="map-cat-cbxccr-dyn">Day Nurseries</span>
+                <span id="resultCount-ccr-dyn" catid="ccr-dyn">(1)</span>
+              </div>
 
-              <input id="map-cat-cbxccr-dyn" type="checkbox" name="category" value="ccr-dyn" checked="checked">
-              <span for="map-cat-cbxccr-dyn">Day Nurseries</span>
-              <span id="resultCount-ccr-dyn" catid="ccr-dyn">(1)</span>
+              <div class="provider">
+                <input id="map-cat-cbxccr-chc" type="checkbox" name="category" value="ccr-chc" checked="checked">
+                <span for="map-cat-cbxccr-chc">Family Hubs</span>
+                <span id="resultCount-ccr-chc" catid="ccr-chc">(0)</span>
+              </div>
 
-              <input id="map-cat-cbxccr-chc" type="checkbox" name="category" value="ccr-chc" checked="checked">
-              <span for="map-cat-cbxccr-chc">Family Hubs</span>
-              <span id="resultCount-ccr-chc" catid="ccr-chc">(0)</span>
+              <div class="provider">
+                <input id="map-cat-cbxccr-hol" type="checkbox" name="category" value="ccr-hol" checked="checked">
+                <span for="map-cat-cbxccr-hol">Holiday Clubs</span>
+                <span id="resultCount-ccr-hol" catid="ccr-hol">(1)</span>
+              </div>
 
-              <input id="map-cat-cbxccr-hol" type="checkbox" name="category" value="ccr-hol" checked="checked">
-              <span for="map-cat-cbxccr-hol">Holiday Clubs</span>
-              <span id="resultCount-ccr-hol" catid="ccr-hol">(1)</span>
+              <div class="provider">
+                <input id="map-cat-cbxccr-mns" type="checkbox" name="category" value="ccr-mns" checked="checked">
+                <span for="map-cat-cbxccr-mns">Maintained Nursery Schools</span>
+                <span id="resultCount-ccr-mns" catid="ccr-mns">(0)</span>
+              </div>
 
-              <input id="map-cat-cbxccr-mns" type="checkbox" name="category" value="ccr-mns" checked="checked">
-              <span for="map-cat-cbxccr-mns">Maintained Nursery Schools</span>
-              <span id="resultCount-ccr-mns" catid="ccr-mns">(0)</span>
+              <div class="provider">
+                <input id="map-cat-cbxccr-nis" type="checkbox" name="category" value="ccr-nis" checked="checked">
+                <span for="map-cat-cbxccr-nis">Nursery Unit Of Independent Schools</span>
+                <span id="resultCount-ccr-nis" catid="ccr-nis">(0)</span>
+              </div>
 
-              <input id="map-cat-cbxccr-nis" type="checkbox" name="category" value="ccr-nis" checked="checked">
-              <span for="map-cat-cbxccr-nis">Nursery Unit Of Independent Schools</span>
-              <span id="resultCount-ccr-nis" catid="ccr-nis">(0)</span>
+              <div class="provider">
+                <input id="map-cat-cbxccr-pre" type="checkbox" name="category" value="ccr-pre" checked="checked">
+                <span for="map-cat-cbxccr-pre">Pre-schools</span>
+                <span id="resultCount-ccr-pre" catid="ccr-pre">(0)</span>
+              </div>
 
-              <input id="map-cat-cbxccr-pre" type="checkbox" name="category" value="ccr-pre" checked="checked">
-              <span for="map-cat-cbxccr-pre">Pre-schools</span>
-              <span id="resultCount-ccr-pre" catid="ccr-pre">(0)</span>
-
-
-              <input id="map-cat-cbxccr-psn" type="checkbox" name="category" value="ccr-psn" checked="checked">
-              <span for="map-cat-cbxccr-psn">Primary School Nurseries</span>
-              <span id="resultCount-ccr-psn" catid="ccr-psn">(0)</span>
-
+              <div class="provider">
+                <input id="map-cat-cbxccr-psn" type="checkbox" name="category" value="ccr-psn" checked="checked">
+                <span for="map-cat-cbxccr-psn">Primary School Nurseries</span>
+                <span id="resultCount-ccr-psn" catid="ccr-psn">(0)</span>
+              </div>
             </div>
             <input type="button" id="map-searchButton" value="Show results" class="button">
           </div>
-        </div>
+        </form>
+
+
           <!-- Old Radius Panel -->
         <div id="map-SearchByOfstedRef" class="ui-accordion ui-widget ui-helper-reset ui-accordion-icons" role="tablist">
           <h3 class="ui-accordion-header ui-helper-reset ui-state-default ui-corner-all" role="tab" aria-expanded="false" aria-selected="false" tabindex="0"><span class="ui-icon ui-icon-triangle-1-e"></span>
@@ -231,4 +249,4 @@
 </main>
 
 
-    {% endblock %}
+{% endblock %}
