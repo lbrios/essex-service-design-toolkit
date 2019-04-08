@@ -14,6 +14,15 @@
       <section class="intro">               
         <h1>Family Information Service: Find a childcare provider</h1>
 
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+        <p><a href="https://reports.ofsted.gov.uk/childcare">Ofsted</a></p>
+
         <!-- Styles Start -->
         <!-- <link rel="stylesheet" type="text/css" href="./Family Information Service_ Find a childcare provider_files/mapping-style.css">
         <link rel="stylesheet" type="text/css" href="./Family Information Service_ Find a childcare provider_files/Find-a-provider.aspx" id="highContrast">
@@ -76,13 +85,20 @@
       <section class="content">
         <div id="map-SearchFields">
           <h2 class="content-heading">Find by Address or Provider</h2>
+
           <form class="form">
-            <div id="map-search-by-address" class="group" role="">
-              <fieldset>
-                <legend class="searchCaption">Town or Postcode </legend>
-                <input class="fld_std focus" id="searchValue-Location" type="text" searchkey="Location" searchtype="keyValue" value="">
-                <label for="searchValue-Radius" class="searchCaption">
-                  Search Radius</label>
+            <fieldset>
+              <div id="map-search-by-address" class="group search" role="">
+                <div class="search-input">
+                  <label for="search">Town, Postcode or Provider Name</label>
+                  <input type="text" id="search" name="search">
+                  <input type="submit" tabindex="-1" value="search" title="search" class="visually-hidden">
+                  <button class="fas fa-search search-icon-position" aria-label="search"></button>
+                </div>
+              </div>
+
+              <div class="group">
+                <label for="searchValue-Radius" class="searchCaption">Search Radius</label>
                 <select id="searchValue-Radius" searchkey="Radius" searchtype="keyValue" disabledsearchvalue="-1">
                   <option value="-1">This area only</option>
                   <option value="1">within 1 mile</option>
@@ -91,13 +107,8 @@
                   <option value="10">within 10 miles</option>
                   <option value="20">within 20 miles</option>
                 </select>
-              </fieldset>
-            </div>
-
-            <div class="group">
-              <label for="searchValue-ProviderName" class="searchCaption">Provider Name</label>
-              <input class="fld_std" id="searchValue-ProviderName" type="text" searchkey="ProviderName" searchtype="keyValue">
-            </div>
+              </div>
+            </fieldset>
 
             <div class="group type-checkbox">
               <fieldset>

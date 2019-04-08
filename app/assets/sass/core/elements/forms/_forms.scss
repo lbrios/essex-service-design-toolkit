@@ -260,8 +260,11 @@ select:focus::-ms-value {
       margin-top: $baseline*0.25;
       margin-bottom: $baseline*0.25;
     }
-    select, input, textarea {
+    input, textarea {
       width: 100%;
+    }
+    select {
+      width: 50%;
     }
   }
 }
