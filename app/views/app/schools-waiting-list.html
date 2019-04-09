@@ -1,0 +1,32 @@
+{% extends "essex_main_template_search_header.html" %}
+
+{% block content %}
+
+<main id="content">
+  <div class="container">
+    <div class="breadcrumbs">
+      <ol>
+        <li><a href="/docs/core/contents">Contents</a></li>
+        <li>Essex Schools Waiting List</li>
+      </ol>
+    </div>
+    <div class="main" id="freedom-of-information">
+      <section class="content">
+        <h1>Essex Schools Waiting List</h1>
+        <p>You can check your child's current position on the waiting list of any Essex secondary school for Year 7 for September 2019.</p>
+        <p>You will need your child's student ID number. This can be found under "your ref" on the letter you received about your application. If you no longer have this letter, please call 0345 603 2200 to obtain your child's student ID.</p>
+        <p>Waiting lists are updated throughout the working day, as the waiting list changes.</p>
+
+        <form class="form">
+          <div class="group">
+            <label for="name">Full name</label>
+            <span class="form-hint">As shown on your birth certificate or passport</span>
+            <input class="form-control" id="name" name="name" type="text">
+          </div>
+        </form>
+      </section>
+    </div>
+  </div>
+</main>
+
+{% endblock %}
