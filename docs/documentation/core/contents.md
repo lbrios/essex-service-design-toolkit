@@ -24,7 +24,8 @@
   <li><a href="/app/emergency-school-closures">Emergency School Closures</a></li>
   <li><a href="/app/find-a-childcare-provider">Find a Childcare Provider</a></li>
   <li><a href="/app/catchment-area">Catchment Area</a></li>
-  <li><a href="/app/childcare-sufficiency-map">Childcare sufficiency map</a></li>
+  <li><a href="/app/childcare-sufficiency">Childcare Sufficiency</a></li>
+  <li><a href="/app/schools-waiting-list">Schools Waiting List</a></li>
 </ul>
 
 <h3>Design</h3>
