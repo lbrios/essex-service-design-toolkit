@@ -19,10 +19,38 @@
 
         <form class="form">
           <div class="group">
-            <label for="name">Full name</label>
-            <span class="form-hint">As shown on your birth certificate or passport</span>
+            <legend>Enter Student Details</legend>
+            <label>Student ID</label>
+            <input class="form-control" id="name" name="name" type="text">
+            <label>Student Family Name</label>
+            <input class="form-control" id="name" name="name" type="text">
+            <label>Student Postcode</label>
             <input class="form-control" id="name" name="name" type="text">
           </div>
+
+          <div class="group">
+            <fieldset>
+              <legend>
+                <span class="form-hint">
+                  Student Date of Birth
+                </span>
+              </legend>
+              <div class="group day">
+                <label for="day">Day</label>
+                <input class="form-control" id="day" name="day" type="number">
+              </div>
+              <div class="group month">
+                <label for="month">Month</label>
+                <input class="form-control" id="month" name="month" type="number">
+              </div>
+              <div class="group year">
+                <label for="year">Year</label>
+                <input class="form-control" id="year" name="year" type="number">
+              </div>
+            </fieldset>
+          </div>
+
+          <input type="button" id="map-searchButton" value="View waiting list" class="button button-form">
         </form>
       </section>
     </div>
@@ -30,3 +58,4 @@
 </main>
 
 {% endblock %}
+
