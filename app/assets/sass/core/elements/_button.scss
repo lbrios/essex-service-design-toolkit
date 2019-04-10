@@ -124,9 +124,9 @@
 
 .button {
   @include button;
-  &.button-form {
-    margin-bottom: $baseline*2;
-  }
+  // &.button-form {
+  //   margin-bottom: $baseline*0.5;
+  // }
 }
 
 // Fix unwanted button padding in Firefox
