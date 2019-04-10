@@ -1,0 +1,116 @@
+{% extends "essex_main_template_search_header.html" %}
+
+{% block content %}
+
+<main id="content">
+  <div class="container">
+    <div class="breadcrumbs">
+      <ol>
+        <li><a href="/docs/core/contents">Contents</a></li>
+        <li>Search for an Inquest</li>
+      </ol>
+    </div>
+    <div class="main" id="freedom-of-information">
+      <section class="content">
+      	<h1>Search for an Inquest</h1>
+      	<p>We have prepared some information <a href="https://coroner.essex.gov.uk/inquests/all-about-inquests/">all about Inquests</a> for families and witnesses. These are the upcoming Inquests and Inquest Openings for Essex Coroner’s Service. Please note:</p>
+      	<ul>
+      		<li>Inquests, Inquest Openings and Pre-Inquest Reviews for Essex are usually held in <a href="https://coroner.essex.gov.uk/find-us-or-contact-us/">open court in Chelmsford.</a></li>
+      		<li>This list is published each working day by 5pm, giving Inquest Hearings two days in advance. Inquest Openings, Pre-Inquest Reviews and Documentary Inquests are listed for the following working day only.</li>
+      		<li>We work hard to make sure these lists are accurate. Sometimes changes are unavoidable.</li>
+      		<li>Inquests timings are not confirmed until the Inquest is officially opened. The media should not publish any details of the deceased until after the Inquest is opened.</li>
+      	</ul>
+      	<h2>Search for an inquest</h2>
+      	<p>The search covers Inquests from last month and any available future dates. Any requests for Inquests prior to last month should be directed to <a href="mailto:essex.coronersservice@essex.gov.uk">essex.coronersservice@essex.gov.uk</a></p>
+      	<p>You can search for a specific inquest by using one or more of the search options below.</p>
+        <form class="form">
+          <div class="group">
+            <legend>Enter Student Details</legend>
+            <label>Surname</label>
+            <input class="form-control" id="name" name="name" type="text">
+          </div> 
+		      <div class="group">
+      	    <fieldset>
+				      <legend>Date of Inquest</legend>
+              <div class="day">
+                <label for="day">Day</label>
+                <input class="form-control" id="day" name="day" type="number">
+              </div>
+              <div class="month">
+                <label for="month">Month</label>
+                <input class="form-control" id="month" name="month" type="number">
+              </div>
+              <div class="year">
+                <label for="year">Year</label>
+                <input class="form-control" id="year" name="year" type="number">
+              </div>
+				    </fieldset>
+		      </div>
+          <div class="group">
+          	<legend>Type of Inquest</legend>
+            <label for="sorting" class="form-hint">Please select inquest type</label>
+            <select class="form-control" id="sorting" name="sorting">
+							<option value="openingsCheck">Opening</option>
+							<option value="mainInquest">Inquest Hearing</option>
+							<option value="documentary">Documentary Inquest</option>
+							<option value="preinquest">Pre inquest review</option>
+            </select>
+          </div>
+          <input type="button" id="map-searchButton" value="Search" class="button button-form">
+		    </form>
+				<ul class="search-results">
+					<li>
+						<ul class="data">
+							<li><h2 class="h4">BROWNE Geoffrey James</h2></li>
+							<li><span>Date of inquest</span>10 April 2019 09.30am</li>
+							<li><span>Type of inquest</span>Opening</li>
+							<li><span>Date of death</span>21 March 2019</li>
+							<li><span>Age</span>49 years old</li>
+							<li><span>Place of death</span>High Road East, Felixstowe</li>
+							<li><span>Conclusion</span></li>
+						</ul>
+					</li>
+					<li>
+						<ul class="data">
+							<li><h2 class="h4">SAMPSON Kieran Peter</h2></li>
+							<li><span>Date of inquest</span>10 April 2019 09.30am</li>
+							<li><span>Type of inquest</span>Opening/ Documentary Inquest</li>
+							<li><span>Date of death</span>27 February 2019</li>
+							<li><span>Age</span>38 years old</li>
+							<li><span>Place of death</span>Wantz Road, Maldon</li>
+							<li><span>Conclusion</span></li>
+						</ul>
+					</li>
+					<li>
+						<ul class="data">
+							<li><h2 class="h4">COX Peter Brian Edward</h2></li>
+							<li><span>Date of inquest</span>10 April 2019 09.30am</li>
+							<li><span>Type of inquest</span>Opening/ Documentary Inquest</li>
+							<li><span>Date of death</span>22 January 2019</li>
+							<li><span>Age</span>76 years old</li>
+							<li><span>Place of death</span>Audley Way, Basildon</li>
+							<li><span>Conclusion</span></li>
+						</ul>
+					</li>					
+				</ul>
+      </section>
+
+      <section class="function">
+      	<nav class="pagination">
+				  <ul>
+				    <li class="next">
+				      <a href="#">
+				        <span class="pagination-item">
+				          <i class="fas fa-arrow-right"></i>Next
+				        </span>
+				        <span>1 of 124</span>
+				      </a>
+				    </li>
+				  </ul>
+				</nav>
+      </section>
+    </div>
+  </div>
+</main>
+
+{% endblock %}

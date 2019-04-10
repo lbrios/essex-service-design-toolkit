@@ -26,6 +26,7 @@
   <li><a href="/app/catchment-area">Catchment Area</a></li>
   <li><a href="/app/childcare-sufficiency">Childcare Sufficiency</a></li>
   <li><a href="/app/schools-waiting-list">Schools Waiting List</a></li>
+  <li><a href="/app/search-for-an-inquest">Search for an Inquest</a></li>
 </ul>
 
 <h3>Design</h3>
