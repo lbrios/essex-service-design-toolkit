@@ -18,13 +18,11 @@
       	<p>Welcome to the priority admission area section. Using the form below you can check which schools' priority admission area an address is located in. Simply enter your postcode below, click 'Find Address' and select your address from the list of results. Please ensure you read all of the information on the page once results are displayed.</p>
         <div class="search" role="search">
           <div class="search-input">
-            <form action="/search" method="get" role="search" class="form">
-              <div class="group search" role="search">
+            <form action="/search" method="get" class="form">
+              <div class="group search">
                 <div class="search-input">
-                  <label for="search">Postcode</label>
-                  <input type="text" id="search" name="search">
-                  <input type="submit" value="search" title="search" class="visually-hidden">
-                  <button class="fas fa-search search-icon-position"></button>
+                  <label>Postcode</label>
+                  <input type="text" id="priority-admission-search" name="priority-admission-search" aria-label="Priorty Admission Search">
                 </div>
               </div>
               <div class="group">
@@ -42,14 +40,15 @@
                   <option>100, High Street, Saffron Walden, CB10 1EA</option>
                 </select>
               </div>
+              <input type="button" value="Show results" class="button button-form">               
             </form>
           </div>
         </div>
       </section>
       <section class="content">
-        <ul class="search-results">    
+        <ul class="search-results">
           <li>
-            <h3>Primary school(s)</h3>
+            <h2 class="h3">Primary school(s)</h2>
             <ul class="data">
               <li><h3 class="h4"><a href="#">R A Butler Infant School</a></h3></li>
               <li><span>Address</span>South Road, Saffron Walden, CB11 3DG</li>
@@ -60,7 +59,7 @@
             </ul>
           </li>
           <li>
-            <h3>Secondary school(s)</h3>
+            <h2 class="h3">Secondary school(s)</h2>
             <ul class="data">
               <li><h3 class="h4"><a href="#">Saffron Walden County High School</a></h3></li>
               <li><span>Address</span>Audley End Road, Saffron Walden, CB11 4UH</li>

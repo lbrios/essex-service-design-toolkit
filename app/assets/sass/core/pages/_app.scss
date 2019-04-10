@@ -17,9 +17,14 @@ ul.search-results {
 }
 
 ul.data {
+  display: inline-block;
   margin-left: 0;
   padding-left: 0;
   list-style: none;
+  margin-bottom: 0;
+  .h4 {
+    margin-top: 0;
+  }
   li {
     float: left;
     width: 100%;

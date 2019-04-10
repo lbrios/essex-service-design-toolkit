@@ -15,13 +15,11 @@
         <h1>Childcare Sufficiency</h1>
         <p>The childcare sufficiency map is taken from the Early Years and Childcare Summer 2017 sufficiency data and is updated annually. This map provides an overview of the availability and quality of childcare in the area for those looking to potentially set up a new Early Years and Childcare provision. Please enter a postcode, click on the relevant criteria and then you can click on the map which will provide an overview of the information required.​</p>
 
-        <form action="/search" method="get" role="search" class="form">
+        <form action="/search" method="get" class="form">
           <div class="group search" role="search">
             <div class="search-input">
-              <label for="search">Postcode</label>
-              <input type="text" id="search" name="search">
-              <input type="submit" value="search" title="search" class="visually-hidden">
-              <!-- <button class="fas fa-search search-icon-position"></button> -->
+              <label>Postcode</label>
+              <input type="text" id="childcare-sufficiency-search" name="childcare-sufficiency-search"  aria-label="Childcare Sufficiency Search">
             </div>
           </div>
 
@@ -39,71 +37,73 @@
             <fieldset>
               <legend>Map categories</legend>
               <div class="map-category">
-                <input type="checkbox" name="category">
+                <input type="checkbox" name="category" aria-label="Vacancies 15 hour 2 year old">
                 <span>Vacancies 15 hour 2 year old</span>
               </div>
               <div class="map-category">
-                <input type="checkbox" name="category">
+                <input type="checkbox" name="category" aria-label="Vacancies 15 hour 3-4 year olds">
                 <span>Vacancies 15 hour 3-4 year olds</span>
               </div>
               <div class="map-category">
-                <input type="checkbox" name="category">
+                <input type="checkbox" name="category" aria-label="Providers returning forms">
                 <span>Providers returning forms</span>
               </div>
               <div class="map-category">
-                <input type="checkbox" name="category">
+                <input type="checkbox" name="category" aria-label="Open Early and Late">
                 <span>Open Early and Late</span>
               </div>
               <div class="map-category">
-                <input type="checkbox" name="category">
+                <input type="checkbox" name="category" aria-label="Average cost per term">
                 <span>Average cost per term</span>
               </div>
               <div class="map-category">
-                <input type="checkbox" name="category">
+                <input type="checkbox" name="category" aria-label="Average cost per term">
                 <span>Average cost per term</span>
               </div>
               <div class="map-category">
-                <input type="checkbox" name="category">
+                <input type="checkbox" name="category" aria-label="Providers over 80 percent capacity">
                 <span>Providers over 80 percent capacity</span>
               </div>
               <div class="map-category">
-                <input type="checkbox" name="category">
+                <input type="checkbox" name="category" aria-label="Good or Outstanding providers">
                 <span>Good or Outstanding providers</span>
               </div>
             </fieldset>
           </div>
 
-          <input type="button" id="map-searchButton" value="Show results" class="button button-form">
+          <input type="button" value="Show results" class="button button-form">
         </form>
 
         <ul class="search-results">
-          <h3>Chesterford & Wenden Lofts, Uttlesford district. </h3>
           <li>
-            <h4>Vacancies 15 hour 2 year old</h4>
+            <h2 class="h3">Chesterford & Wenden Lofts, Uttlesford district. </h2>
+          </li>
+          <li>
+            <h3 class="h4">Vacancies 15 hour 2 year old</h3>
             <p>There are 7 providers located in this ward. Of these, 5 were rated good or outstanding in their latest Ofsted Inspection. 2 offer places both before 07:31 and after 18:59. 100.0% of the providers in this area responded to the survey, and confirmed that there were 0 15 Hour Vacancies for 2 year olds and 0 15 Hour Vacancies for 3-4 year olds. Currently of the 7 providers, 6 are over 80% capacity.</p>
           </li>
           <li>
-            <h4>Vacancies 15 hour 3-4 year olds</h4>
+            <h3 class="h4">Vacancies 15 hour 3-4 year olds</h3>
             <p>There are 7 providers located in this ward. Of these, 5 were rated good or outstanding in their latest Ofsted Inspection. 2 offer places both before 07:31 and after 18:59. 100.0% of the providers in this area responded to the survey, and confirmed that there were 0 15 Hour Vacancies for 2 year olds and 0 15 Hour Vacancies for 3-4 year olds. Currently of the 7 providers, 6 are over 80% capacity.</p>
           </li>
           <li>
-            <h4>Providers returning forms</h4>
+            <h3 class="h4">Providers returning forms</h3>
             <p>There are 7 providers located in this ward. Of these, 5 were rated good or outstanding in their latest Ofsted Inspection. 2 offer places both before 07:31 and after 18:59. 100.0% of the providers in this area responded to the survey, and confirmed that there were 0 15 Hour Vacancies for 2 year olds and 0 15 Hour Vacancies for 3-4 year olds. Currently of the 7 providers, 6 are over 80% capacity.</p>
           </li>
           <li>
-            <h4>Open Early and Late</h4>
+            <h3 class="h4">Open Early and Late</h3>
             <p>There are 7 providers located in this ward. Of these, 5 were rated good or outstanding in their latest Ofsted Inspection. 2 offer places both before 07:31 and after 18:59. 100.0% of the providers in this area responded to the survey, and confirmed that there were 0 15 Hour Vacancies for 2 year olds and 0 15 Hour Vacancies for 3-4 year olds. Currently of the 7 providers, 6 are over 80% capacity.</p>
           </li>
           <li>
-            <h4>Average cost per term</h4>
+            <h3 class="h4">Average cost per term</h3>
             <p>There are 7 providers located in this ward. Of these, 5 were rated good or outstanding in their latest Ofsted Inspection. 2 offer places both before 07:31 and after 18:59. 100.0% of the providers in this area responded to the survey, and confirmed that there were 0 15 Hour Vacancies for 2 year olds and 0 15 Hour Vacancies for 3-4 year olds. Currently of the 7 providers, 6 are over 80% capacity.</p>
           </li>
           <li>
-            <h4>Providers over 80 percent capacity</h4>
+            <h3 class="h4">Providers over 80 percent capacity</h3>
             <p>There are 7 providers located in this ward. Of these, 5 were rated good or outstanding in their latest Ofsted Inspection. 2 offer places both before 07:31 and after 18:59. 100.0% of the providers in this area responded to the survey, and confirmed that there were 0 15 Hour Vacancies for 2 year olds and 0 15 Hour Vacancies for 3-4 year olds. Currently of the 7 providers, 6 are over 80% capacity.</p>
           </li>
           <li>
-            <h4>Good or Outstanding providers</h4>
+            <h3 class="h4">Good or Outstanding providers</h3>
             <p>There are 7 providers located in this ward. Of these, 5 were rated good or outstanding in their latest Ofsted Inspection. 2 offer places both before 07:31 and after 18:59. 100.0% of the providers in this area responded to the survey, and confirmed that there were 0 15 Hour Vacancies for 2 year olds and 0 15 Hour Vacancies for 3-4 year olds. Currently of the 7 providers, 6 are over 80% capacity.</p>
           </li>
         </ul>

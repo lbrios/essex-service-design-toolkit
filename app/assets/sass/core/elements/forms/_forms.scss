@@ -239,6 +239,7 @@ select:focus::-ms-value {
 }
 
 .form {
+  margin-bottom: $baseline;
   legend {
     @include h4;
     margin-top: 0;
