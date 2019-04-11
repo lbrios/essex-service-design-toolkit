@@ -4,9 +4,9 @@
 // Radio buttons & checkboxes
 
 // By default, multiple choice inputs stack vertically
-.form {
-  .group {
-    .multiple-choice {
+.form, ._AF {
+  .group, .fieldContent {
+    .multiple-choice, .radio-wrapper {
       display: inline-block;
       float: left;
       clear: left;

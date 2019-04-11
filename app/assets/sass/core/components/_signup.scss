@@ -61,7 +61,7 @@
       .signup-button {
         @include grid-column(4 / 12);
         input.button.subscribe {
-          @include btn;
+          @include more;
         }
       }
     }

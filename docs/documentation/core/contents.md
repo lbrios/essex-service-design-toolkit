@@ -39,8 +39,8 @@
 
 <h3>Development</h3>
 <ul>
-  <li><a href="https://github.com/essexcountycouncil">Github</li>
-  <li><a href="https://dev.azure.com/essexcountycouncil/essexdesignsystem">Azure Devops</li>
+  <li><a href="https://github.com/essexcountycouncil">Github</a></li>
+  <li><a href="https://dev.azure.com/essexcountycouncil/essexdesignsystem">Azure Devops</a></li>
 </ul>
 
 <h3>Elements</h3>

@@ -1,7 +1,7 @@
 // Buttons
 // ==========================================================================
 
-@mixin btn {
+@mixin more {
   @include box-sizing(border-box);
   font-size: ms(1);
   line-height: $form-height - $ms-base*0.5;
@@ -122,7 +122,7 @@
   }
 }
 
-.button {
+.button, .btn {
   @include button;
   // &.button-form {
   //   margin-bottom: $baseline*0.5;

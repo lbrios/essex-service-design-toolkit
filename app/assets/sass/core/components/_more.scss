@@ -5,7 +5,7 @@
 }
 
 .button.more, a.button.more {
-  @include btn;
+  @include more;
   @include grid-column(4 / 12);
   float: none !important;
   &:hover {
