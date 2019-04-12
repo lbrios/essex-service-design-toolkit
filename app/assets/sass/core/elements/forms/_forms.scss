@@ -239,6 +239,9 @@ select:focus::-ms-value {
 }
 
 // AchieveForms _AF, _fieldName
+.achieveforms-container {
+  margin-bottom: $baseline*2;
+}
 .form, ._AF {
   margin-bottom: $baseline*2;
   legend, ._fieldName {
@@ -262,6 +265,10 @@ select:focus::-ms-value {
       display: block;
       margin-top: $baseline*0.5;
       margin-bottom: $baseline*0.25;
+    }
+    .fieldName {
+      margin-top: 0;
+      margin-bottom: 0;
     }
     .form-hint {
       display: block;
