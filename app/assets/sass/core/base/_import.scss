@@ -1,3 +1,7 @@
+
+// @import "achieve-forms-blessed";
+// @import "achieve-forms";
+
 @import "reset";
 @import "fonts";
 @import "variables";
@@ -12,9 +16,6 @@
 @import "core/elements/import";
 @import "core/components/import";
 @import "core/pages/import";
-
-// @import "achieve-forms-blessed";
-// @import "achieve-forms";
 
 // dev styles will overwrite component/element styles to help view in markdown documentation
 @import "dev";

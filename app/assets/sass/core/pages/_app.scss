@@ -38,3 +38,15 @@ ul.data {
     }
   }
 }
+
+// Achieve forms overwrite
+._AF {
+  .fillinButtons-wrapper {
+    .btn-af.cancelbutton,
+    .icon-valid.fa.fa-check.alignAbove,
+    .submitbutton,
+    .fa-chevron-right {
+      display: none;
+    }
+  }
+}

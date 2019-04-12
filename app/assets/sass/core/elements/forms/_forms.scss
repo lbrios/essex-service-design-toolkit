@@ -238,13 +238,23 @@ select:focus::-ms-value {
   background-color: $link;
 }
 
-.form {
+// AchieveForms _AF, _fieldName
+.achieveforms-container {
   margin-bottom: $baseline*2;
-  legend {
+}
+.form, ._AF {
+  margin-bottom: $baseline*2;
+  legend, ._fieldName {
     @include h4;
     margin-top: 0;
   }
-  .group {
+  ._fieldName {
+    display: inline-block;
+    + .mandatory {
+      display: none;
+    }
+  }
+  .group, .all-sections {
     display: block;
     margin-bottom: $baseline;
     label, input {
@@ -255,6 +265,10 @@ select:focus::-ms-value {
       display: block;
       margin-top: $baseline*0.5;
       margin-bottom: $baseline*0.25;
+    }
+    .fieldName {
+      margin-top: 0;
+      margin-bottom: 0;
     }
     .form-hint {
       display: block;

@@ -1,7 +1,7 @@
 // Buttons
 // ==========================================================================
 
-@mixin btn {
+@mixin more {
   @include box-sizing(border-box);
   font-size: ms(1);
   line-height: $form-height - $ms-base*0.5;
@@ -32,7 +32,7 @@
   outline-offset: -1px; // fixes bug in Safari that outline width on focus is not overwritten, is reset to 0 on focus in govuk_template
   -webkit-appearance: none;
   font-size: 1em; // inherit from parent
-  line-height: 1em;
+  line-height: 1.4em;
   text-decoration: none;
   -webkit-font-smoothing: antialiased;
   cursor: pointer;
@@ -122,7 +122,7 @@
   }
 }
 
-.button {
+.button, .btn {
   @include button;
   // &.button-form {
   //   margin-bottom: $baseline*0.5;
