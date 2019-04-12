@@ -1,6 +1,7 @@
 .header {
   position: relative;
   .form {
+    margin-bottom: 0;
     @include grid-column(1 / 2);
     @include media(mobile) {
       float: left;
@@ -14,6 +15,7 @@
       }
       position: relative;
       float: right;
+      height: $form-height*0.75;
       width: $gutter*8;
       margin-top: $baseline*0.5;
       margin-bottom: $baseline*0.5;
