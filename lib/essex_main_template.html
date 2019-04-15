@@ -14,12 +14,16 @@
       {% include "includes/skip-link.html" %}
     {% endblock %}
 
-    {% block phasebanner %}
-      {% include "includes/phase-banner.html" %}
+    {% block browsercheck %}
+      {% include "includes/browser-check.html" %}
     {% endblock %}
 
     {% block header %}
       {% include "includes/header.html" %}
+    {% endblock %}
+
+    {% block phasebanner %}
+      {% include "includes/phase-banner.html" %}
     {% endblock %}
 
     {% block content %}{% endblock %}
