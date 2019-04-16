@@ -7,30 +7,24 @@
 
 # Browser check
 
-<div id="browser-check" class="banner-header-container banner-header-warning-unsupported">
-    <div class="grid-container grid-100">
-        <div class="banner-header grid-100 mobile-grid-100 tablet-grid-100">
-            <p><span class="banner-title">Outdated browser</span><span class="banner-body">You are currently using an old browser. To get the best experience on this website please <a href="http://browsehappy.com/" title="Learn about the latest browsers">update your browser</a></span></p>
-        </div>
-    </div>
+<div id="browser-check" class="browser-check-background" role="region" aria-label="browsercheck">
+  <div class="browser-check">
+    <p class="browser-content">You are currently using an old browser. To get the best experience on this website please <a href="http://browsehappy.com/" title="Learn about the latest browsers">update your browser</a></p>
+  </div>
 </div>
 
 
-<div id="browser-check" class="banner-header-container banner-header-warning-unsupported hidden">
-    <div class="grid-container grid-100">
-        <div class="banner-header grid-100 mobile-grid-100 tablet-grid-100">
-            <p><span class="banner-title">Outdated browser</span><span class="banner-body">You are currently using an old browser. To get the best experience on this website please <a href="http://browsehappy.com/" title="Learn about the latest browsers">update your browser</a></span></p>
-        </div>
+    <div id="browser-check" class="browser-check-background" role="region" aria-label="browsercheck">
+      <div class="browser-check">
+        <p class="browser-content">You are currently using an old browser. To get the best experience on this website please <a href="http://browsehappy.com/" title="Learn about the latest browsers">update your browser</a></p>
+      </div>
     </div>
-</div>
 
 
-<!--[if lte IE 8]>
-    <div class="banner-header-container banner-header-warning-unsupported">
-        <div class="grid-container grid-100">
-            <div class="banner-header grid-100 mobile-grid-100 tablet-grid-100">
-                <p><span class="banner-title">Outdated browser</span><span class="banner-body">You are currently using an old browser. To get the best experience on this website please <a href="http://browsehappy.com/" title="Learn about the latest browsers">update your browser</a></span></p>
-            </div>
+    <!--[if lte IE 8]>
+        <div id="browser-check" class="browser-check-background" role="region" aria-label="browsercheck">
+          <div class="browser-check">
+            <p class="browser-content">You are currently using an old browser. To get the best experience on this website please <a href="http://browsehappy.com/" title="Learn about the latest browsers">update your browser</a></p>
+          </div>
         </div>
-    </div>
-<![endif]-->
+    <![endif]-->
