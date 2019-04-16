@@ -70,6 +70,7 @@
 <ul>
   <li><a href="components/alert">Alert</a></li>
   <li><a href="components/breadcrumbs">Breadcrumbs</a></li>
+  <li><a href="components/browser-check">Browser check</a></li>
   <li><a href="components/contents">Contents</a></li>
   <li><a href="components/file-download">File download</a></li>
   <li><a href="components/footer">Footer</a></li>
