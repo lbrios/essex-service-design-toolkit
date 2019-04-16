@@ -60,6 +60,10 @@
           </div>
         </div>
 
+        {% block impact %}
+          {% include "includes/impact.html" %}
+        {% endblock %}        
+
         <h2 class="content-heading">Essex County Council News</h2>
         <div class="previews news">
           <div class="preview">
@@ -84,10 +88,6 @@
         <div class="more-background">
           <a href="examples/news-landing" class="button more">More news</a>
         </div>
-
-        {% block impact %}
-          {% include "includes/impact.html" %}
-        {% endblock %}
       </section>
       
     </div>
