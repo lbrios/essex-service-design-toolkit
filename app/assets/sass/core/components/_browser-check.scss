@@ -1,6 +1,6 @@
 // Banner
 .browser-check-background {
-  background-color: $white;
+  background-color: $highlight-box-light;
   .browser-check {
     @extend %site-width-container;
     @extend %contain-floats;
