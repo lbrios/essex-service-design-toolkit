@@ -53,22 +53,6 @@
   </div>
 </div>
 
-### Browser
-
-<div class="alert info js-hidden" id="tab-three" aria-hidden="true">
-  <div class="alert-icon">
-    <i class="fas fa-info-circle"></i>
-  </div>
-  <div class="alert-text">
-    <h2>Browser support</h2>
-    <p>We have noticed you are using an older browser. We are currently only supporting modern browsers so can't garuntee your expeirence will be as perfect as we would like.</p>
-  </div>
-  <div data-target="tab-three">
-    <input class="checkbox" id="hide-three" type="checkbox" aria-controls="tab-three" aria-expanded="false">
-    <label class="close" for="hide-three"><i class="fas fa-times"></i></label>
-  </div>
-</div>
-
     <div class="alert info js-hidden" id="tab-two" aria-hidden="true">
       <div class="alert-icon">
         <i class="fas fa-info-circle"></i>
