@@ -1,6 +1,11 @@
 .landing {
   @extend %contain-floats;
   @extend %grid-row;
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
   @include media(mobile) {
     margin-left: -$gutter !important;
     margin-right: -$gutter !important;
