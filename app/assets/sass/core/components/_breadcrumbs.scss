@@ -17,7 +17,6 @@
     margin-bottom: 0;
     float: left;
     background-image: file-url("/icon/separator.png");
-    // background-image: url("/assets/images/ui-images/separator-2x.png");
     @include device-pixel-ratio() {
       background-image: file-url("icon/separator-2x.png");
       background-size: 6px 11px;
