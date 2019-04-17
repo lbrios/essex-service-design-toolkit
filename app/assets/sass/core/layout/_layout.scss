@@ -110,5 +110,8 @@ main#content {
 .content {
   img {
     margin-bottom: $baseline;
+    @include media(mobile) {
+      width: 100%;
+    }
   }
 }
