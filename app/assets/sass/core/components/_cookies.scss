@@ -30,7 +30,12 @@
 }
 
 // http://silktide.com/cookieconsent
+// styling can be at Load within script but putting overwrites here
 
+.cc-banner.cc-bottom {
+  bottom: initial !important;
+  top: 0;
+}
 
 // link within cookies
 a.cc_more_info {

@@ -1,5 +1,6 @@
 .impact {
   position: relative;
+  margin-bottom: $baseline*1.5;
   .hero {
     @include media(tablet) {
       background-position-x: center;

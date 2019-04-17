@@ -1,6 +1,7 @@
 // Banner
 .phase-banner-background {
   background-color: $white;
+  border-bottom: $border-thin $grey-light solid;
   .phase-banner {
     @extend %site-width-container;
     @extend %contain-floats;
