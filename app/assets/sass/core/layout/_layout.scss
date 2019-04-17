@@ -106,3 +106,9 @@ main#content {
     @include grid-column(3 / 12);
   }
 }
+
+.content {
+  img {
+    margin-bottom: $baseline;
+  }
+}
