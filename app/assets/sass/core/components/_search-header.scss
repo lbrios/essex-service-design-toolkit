@@ -6,8 +6,7 @@
     @include media(mobile) {
       float: left;
       width: 100%;
-      margin-top: $baseline;
-      margin-bottom: $baseline;
+      margin-bottom: $baseline*0.5;
     }
     .group.search {
       @media print {
@@ -31,9 +30,6 @@
         margin-top: 0;
         margin-bottom: 0;
         border-color: $white;
-        @include media(mobile) {
-          border-color: $black;
-        }
       }
       label, input {
         @include box-sizing(border-box);
@@ -59,8 +55,6 @@
         height: $form-height*0.75;
         width: $form-height*0.75;
         @include media(mobile) {
-          color: $white;
-          background: $brand;
           @include box-sizing(border-box);
         }
       }

@@ -5,6 +5,10 @@ ul.link-boxes {
 }
 
 .link-boxes {
+  @include media(mobile) {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
   @include media(desktop) {
     flex-wrap: wrap;
     display: flex;
@@ -28,8 +32,6 @@ ul.link-boxes {
     }
     @include media(desktop) {
       display: flex;
-    }
-    @include media(desktop) {
       float: left;
       width: calc(33.33333% - #{$gutter*0.7});
       margin-right: $gutter;

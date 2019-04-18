@@ -30,7 +30,6 @@
     input {
       font-size: ms(1);
       text-transform: none;
-      text-indent: -5000px;
       background: transparent;
       position: absolute;
       left: 0;
@@ -42,12 +41,14 @@
       &:focus {
         height: $form-height;
         left: 0;
-        text-indent: 0;
-        background: #fff;
+        background: $white;
         outline-offset: 0;
-        padding: $gutter*0.25;
+        padding: $baseline*0.5;
         z-index: 10;
       }
+    }
+    input:-webkit-autofill {
+      -webkit-box-shadow: 0 0 0px 1000px $white inset
     }
     .fas.fa-search.search-icon-position {
       @include box-sizing(border-box);

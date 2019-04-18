@@ -12,7 +12,6 @@
       margin-bottom: 0;
       label {
         $color: $body-text-colour;
-        background: $white;
         z-index: 0;
         margin-right: 0;
       }
@@ -31,22 +30,17 @@
         label {
           margin-top: 0;
           margin-bottom: 0;
+          background: $white;
         }
         input {
           text-transform: none;
-          text-indent: -5000px;
           background: transparent;
           position: absolute;
-          // left: $gutter;
           top: 0;
           height: $form-height;
           width: calc(100% - #{$gutter*2});
           &:focus {
-            left: $gutter;
-            text-indent: 0;
-            background: #fff;
-            outline-offset: 0;
-            padding: $baseline;
+            background: $white;
           }
           @include media(mobile) {
             left: $gutter*0.5;
@@ -56,6 +50,9 @@
               width: calc(100% - #{$gutter});
             }
           }
+        }
+        input:-webkit-autofill {
+          -webkit-box-shadow: 0 0 0px 1000px $white inset
         }
       }
       .signup-button {
@@ -91,14 +88,7 @@
         .signup-input {
           input {
             border: none;
-            text-transform: none;
-            text-indent: -5000px;
-            background: transparent;
-            position: absolute;
-            top: 0;
             &:focus {
-              text-indent: 0;
-              background: #fff;
               outline-offset: 0;
             }
           }
