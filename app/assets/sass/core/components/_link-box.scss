@@ -15,6 +15,7 @@ ul.link-boxes {
   }
   margin-left: 0;
   display: inline-block;
+  margin-bottom: 0;
   .link-box {
     cursor: pointer;
     margin-bottom: $baseline;
@@ -23,6 +24,9 @@ ul.link-boxes {
     border-bottom: solid $border-thin $grey-dark;
     text-decoration: none;
     padding-left: 0;
+    @include media(mobile) {
+      margin-bottom: $baseline*0.5;
+    }
     a {
       text-decoration: none;
     }
@@ -44,6 +48,9 @@ ul.link-boxes {
       @include box-sizing(border-box);
       @include border-radius($border-radius);
       padding: $baseline $gutter*0.25;
+      @include media(mobile) {
+        padding: $baseline*0.25 $gutter*0.25;
+      }
       @media print {
         padding: 0;
       }

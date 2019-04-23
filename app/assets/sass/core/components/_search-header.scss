@@ -40,10 +40,8 @@
         position: absolute;
         left: 0;
         width: calc(100% - #{$form-height*0.75} - #{$border-thick});
-        @include media(desktop) {
-          border: none;
-        }
-      }
+        border: none;
+      }      
       .fas.fa-search.search-icon-position {
         padding: $baseline*0.25;
         position: absolute;

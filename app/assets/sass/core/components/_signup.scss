@@ -8,6 +8,7 @@
   }
   .form {
     @extend %grid-row;
+    margin-bottom: $baseline*0.5;
     .group {
       margin-bottom: 0;
       label {
@@ -72,7 +73,9 @@
       padding-bottom: $baseline;
     }
     h3 {
-      font-weight: 400;
+      @include media(desktop) {
+        font-weight: 400;
+      }
     }
     h3, p {
       color: $white;

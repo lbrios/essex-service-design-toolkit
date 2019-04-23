@@ -37,6 +37,7 @@ p {
 }
 
 h1, h2, h3, h4 {
+  display: inline-block;
   letter-spacing: -1.5px;
 }
 
@@ -46,13 +47,13 @@ h1, h2, h3, h4 {
   font-weight: $bold;
   text-transform: none;
   line-height: $baseline*2;
-  margin-top: $baseline*2;
-  margin-bottom: $baseline*2;
+  margin-top: $baseline*1.5;
+  margin-bottom: $baseline*1.5;
   @include media(mobile) {
-    font-size: ms(6);
+    font-size: ms(5);
     line-height: $baseline*1.5;
     margin-top: $baseline*0.5;
-    margin-bottom: $baseline*1.5;
+    margin-bottom: $baseline;
   }
 }
 
@@ -64,6 +65,12 @@ h1, h2, h3, h4 {
   margin-bottom: $baseline;
   font-weight: $bold;
   text-transform: none;
+  @include media(mobile) {
+    font-size: ms(2);
+    line-height: $baseline;
+    margin-top: $baseline*0.5;
+    margin-bottom: $baseline*0.5;
+  }
 }
 
 @mixin h3 {
@@ -75,6 +82,11 @@ h1, h2, h3, h4 {
   font-weight: $bold;
   text-transform: none;
   letter-spacing: -0.5px;
+  @include media(mobile) {
+    font-size: ms(1);
+    line-height: $baseline;
+    margin-top: $baseline*0.5;
+  }
 }
 
 @mixin h4 {
@@ -86,6 +98,11 @@ h1, h2, h3, h4 {
   font-weight: $bold;
   text-transform: none;
   letter-spacing: -0.5px;
+  @include media(mobile) {
+    font-size: ms(1);
+    line-height: $baseline;
+    margin-top: $baseline*0.5;
+  }
 }
 
 // page-heading is used at the top of each page
@@ -98,11 +115,11 @@ h2, .h2, .content-heading {
   @include h2;
 }
 
-.content-heading ~ .content-heading,
-.page-heading ~ .content-heading {
-  @include content-break-large;
-  padding-top: $baseline;
-}
+// .content-heading ~ .content-heading,
+// .page-heading ~ .content-heading {
+//   @include content-break-large;
+//   padding-top: $baseline;
+// }
 
 // section-heading is used for each section within content on a page.
 h3, .h3, .section-heading {
