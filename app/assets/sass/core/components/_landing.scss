@@ -32,7 +32,7 @@
   }
   .landing-preview {
   	float: left;
-  	margin-bottom: $baseline;
+  	margin-bottom: $baseline*0.5;
 	  .landing-img {
 	    @include grid-column(3 / 12);
 	    img {
@@ -44,6 +44,7 @@
 	  	@include grid-column(9 / 12);
 	  	.meta {
 	  		margin-top: 0;
+        margin-bottom: 0;
 	  	}
 	  	h3 {
 	  		@include h3;

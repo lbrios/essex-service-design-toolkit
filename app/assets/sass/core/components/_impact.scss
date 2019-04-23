@@ -1,6 +1,9 @@
 .impact {
   position: relative;
   margin-bottom: $baseline*1.5;
+  @include media(mobile) {
+    margin-bottom: 0;
+  }
   .hero {
     @include media(tablet) {
       background-position-x: center;
@@ -39,9 +42,9 @@
       @include media(mobile) {
         padding: 0;
         h2 {
-          font-size: ms(6);
-          line-height: $baseline*1.5;
-          padding: $baseline $gutter;
+          @include h2;
+          display: block;
+          padding: $baseline $gutter*0.5;
           background: $highlight-box;
           margin-bottom: $baseline*0.5;
           a {

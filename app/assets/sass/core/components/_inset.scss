@@ -7,6 +7,9 @@
   border-left: $border-very-thick solid $grey-light;
   padding: $baseline $gutter*0.25;
   margin-bottom: $baseline;
+  @include media(mobile) {
+    padding: $baseline*0.5 $gutter*0.25;
+  }
   h3 {
     margin-top: 0;
   }

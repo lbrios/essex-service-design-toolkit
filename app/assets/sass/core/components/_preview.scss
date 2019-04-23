@@ -4,6 +4,8 @@
   margin-top: $baseline*1.5;
   margin-bottom: $baseline*1.5;
   @include media(mobile) {
+    margin-top: $baseline*1.5;
+    margin-bottom: $baseline;
     margin-left: -$gutter !important;
     margin-right: -$gutter !important;
     .preview {
@@ -51,12 +53,21 @@
       @include media(mobile) {
         @include h4;
         min-height: initial;
+        margin-top: 0;
         margin-bottom: $baseline*0.25;
+      }
+      & + p {
+        @include media(mobile) {
+          @include smaller;
+        }
       }
     }
     img {
       margin-top: 0;
       width: 100%;
+      @include media(mobile) {
+        margin-bottom: 0;
+      }
       @media print {
         display: none;
       }
@@ -69,9 +80,6 @@
           margin-bottom: $baseline*0.5;
         }
       }
-    }
-    h4 + p {
-      margin-top: 0;
     }
     .meta {
       @include smaller;
@@ -87,10 +95,13 @@
     }
   }
   &.news {
+    @include media(mobile) {
+      margin-top: 0;
+    }
     .preview {
       border: none;
       @include media(mobile) {
-        margin-bottom: $baseline*0.5;
+        margin-bottom: $baseline*1.5;
       }
     }
     @include media(desktop) {
