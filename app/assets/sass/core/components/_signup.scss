@@ -30,18 +30,13 @@
         label {
           margin-top: 0;
           margin-bottom: 0;
-          background: $white;
         }
         input {
           text-transform: none;
-          background: transparent;
           position: absolute;
           top: 0;
           height: $form-height;
           width: calc(100% - #{$gutter*2});
-          &:focus {
-            background: $white;
-          }
           @include media(mobile) {
             left: $gutter*0.5;
             width: calc(100% - #{$gutter});
