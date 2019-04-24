@@ -151,12 +151,13 @@
 // Start now buttons
 .button-start,
 .button-get-started {
-  font-size: $large;
-  font-weight: 600;
+  font-size: ms(3);
+  font-weight: 700;
   background-image: file-url("/icon/icon-pointers.png");
   background-repeat: no-repeat;
   background-position: 100% 50%;
   padding: $baseline*0.25 $gutter*1.5 $baseline*0.25 $gutter*0.25;
+  padding-top: #{$baseline - ms(3)};
   @include device-pixel-ratio {
     background-image: file-url("/icon/icon-pointer-2x.png");
     background-size: 30px 19px;
