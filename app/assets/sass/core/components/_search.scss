@@ -68,6 +68,9 @@
         cursor: pointer;
         color: $white-hover;
       }
+      &:before {
+        text-align: center !important;
+      }
     }
   }
 }
