@@ -55,6 +55,12 @@
         @include grid-column(4 / 12);
         input.button.subscribe {
           @include more;
+          border: $border-normal $brand solid;
+          &:hover {
+            border: $border-normal $brand-hover-darken solid;
+            color: $white;
+            background-color: $brand-hover-darken;
+          }                    
         }
       }
     }
