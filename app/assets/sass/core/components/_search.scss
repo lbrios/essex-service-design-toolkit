@@ -55,7 +55,7 @@
       font-size: ms(2);
       line-height: $icon;
       color: $white;
-      text-align: center;
+      text-align: center !important;
       position: absolute;
       top: 0;
       right: 0;
@@ -66,10 +66,8 @@
       width: $form-height;
       &:hover {
         cursor: pointer;
-        color: $white-hover;
-      }
-      &:before {
-        text-align: center !important;
+        color: $white;
+        background: $brand-hover-darken;
       }
     }
   }
