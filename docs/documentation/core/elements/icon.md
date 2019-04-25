@@ -59,6 +59,10 @@
 
 	<i class="fas fa-times"></i>
 
+<i class="fas fa-external-link-alt"></i>
+
+		<i class="fas fa-external-link-alt"></i>
+
 ## Using icons
 
 Icons should only be used when there is a user need.
