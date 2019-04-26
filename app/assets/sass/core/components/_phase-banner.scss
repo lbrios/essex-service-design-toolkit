@@ -1,7 +1,6 @@
 // Banner
 .phase-banner-background {
   background-color: $white;
-  border-bottom: $border-thin $grey-light solid;
   .phase-banner {
     @extend %site-width-container;
     @extend %contain-floats;
@@ -30,5 +29,8 @@
         margin-right: $gutter*0.25;
       }
     }
+  }
+  + main#content {
+    border-top: $border-thin $grey-light solid;
   }
 }
