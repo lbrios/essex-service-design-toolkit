@@ -19,7 +19,8 @@
       margin-bottom: 0;
       width: 100%;
     }
-    li.prev, li.next {
+    li.prev, li.next,
+    li a#LinkPrevPage, li a#LinkNextPage {
       padding-left: 0;
       width: 50%;
       @include media(mobile) {
@@ -27,19 +28,21 @@
         width: 100%;
       }
     }
-    li.prev {
+    li.prev, li a#LinkPrevPage {
       float: left;
     }
-    li.next {
+    li.next, li a#LinkNextPage {
       float: right;
     }
-    li.next a {
+    li.next a,
+    li a#LinkNextPage {
       text-align: right;
       @include media(mobile) {
         text-align: left;
       }
     }
-    a {
+    a,
+    li a#LinkPrevPage, li a#LinkNextPage {
       @include box-sizing(border-box);
       padding: $baseline*0.5;
       display: block;
@@ -81,6 +84,15 @@
           text-decoration: underline;
         }
       }
+    }
+  }
+}
+
+#PagingControls {
+  li {
+    padding-left: 0;
+    #lblPageNumbers {
+      padding: $baseline*0.5;
     }
   }
 }
