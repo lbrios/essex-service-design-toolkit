@@ -12,7 +12,7 @@
     <li class="prev">
       <a href="#">
         <span class="pagination-item">
-          <i class="fas fa-arrow-left"></i>Prev
+          <i class="fas fa-arrow-left"></i>Previous
         </span>
         <span>Personal budget</span>
       </a>
@@ -33,7 +33,7 @@
         <li class="prev">
           <a href="#">
             <span class="pagination-item">
-              <i class="fas fa-arrow-left"></i>Prev
+              <i class="fas fa-arrow-left"></i>Previous
             </span>
             <span>Personal budget</span>
           </a>

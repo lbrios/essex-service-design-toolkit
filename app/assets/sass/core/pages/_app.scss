@@ -32,11 +32,18 @@ ul.data {
     margin-bottom: $baseline*0.25;
     span {
       float: left;
-      width: 100%;
       margin-right: $gutter*0.125;
       font-weight: $bold;
+      + span, + p span {
+        font-weight: $regular;
+      }
     }
   }
+}
+
+#LinkFrstPage, 
+#LinkLastPage {
+  display: none;
 }
 
 // Achieve forms overwrite
