@@ -70,5 +70,10 @@
         background: $brand-hover-darken;
       }
     }
+    & .no-search-button {
+      label, input {
+        width: calc(100%);
+      }
+    }
   }
 }
