@@ -14,8 +14,8 @@
       <section class="intro">               
         <h1>Find a childcare provider</h1>
 
-        <p>To find a childcare provider near you, enter your town or postcode in the search box below, then select the size of the area you want to search using the dropdown list.</p>
-        <p>You can narrow your search by type of provider, search directly for the name of a provider, or search using a provider’s Ofsted reference number. To find a particular provider’s Ofsted reference number, search on the <a href="https://reports.ofsted.gov.uk/childcare">Ofsted site.</a></p>
+        <p>To find a childcare provider near you, enter your town, postcode or type of provider in the search box below, then select the size of the area you want to search using the dropdown list.</p>
+        <p>Alternatively you can also search by Ofsted reference number on the <a href="https://reports.ofsted.gov.uk/childcare">Ofsted site.</a></p>
 
         <!-- Styles Start -->
         <!-- <link rel="stylesheet" type="text/css" href="./Family Information Service_ Find a childcare provider_files/mapping-style.css">
@@ -78,18 +78,21 @@
 
       <section class="content">
         <div id="map-SearchFields">
-          <h2 class="content-heading">Find by Address or Provider</h2>
+          <!-- <h2 class="content-heading">Search by address or provider</h2> -->
 
           <form class="form">
+            <legend>
+              <span class="form-hint">Search by town, postcode or provider name</span>
+            </legend>
             <fieldset>
               <div id="map-search-by-address" class="group search">
-                <div class="search-input">
+                <div class="search-input no-search-button">
                   <label>Town, Postcode or Provider Name</label>
                   <input type="text" id="freedom-search" name="freedom-search" aria-label="Childcare Provioder Search">
                 </div>
               </div>
 
-
+<!--               <p>You can narrow your search by type of provider, search directly for the name of a provider, or search using a provider’s Ofsted reference number. To find a particular provider’s Ofsted reference number, search on the <a href="https://reports.ofsted.gov.uk/childcare">Ofsted site.</a></p> -->
 
 
               <div class="group">
@@ -187,6 +190,17 @@
           </form>
         </div>
 
+        <div class="show-hide">
+          <div data-target="tab-one">
+            <input class="checkbox" id="toggle-one" type="checkbox" aria-controls="tab-one" aria-expanded="false">
+            <label class="show" for="toggle-one">Show provider locations on a map</label>
+            <label class="hide" for="toggle-one">Hide map</label>
+          </div>
+          <div class="js-hidden map" id="tab-one" aria-hidden="true">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d19830.969765028345!2d-0.0827392!3d51.588923550000004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2suk!4v1556288540016!5m2!1sen!2suk" width="100%" height="400px" frameborder="0" style="border:0" allowfullscreen></iframe>
+          </div>
+        </div>
+
         <ul class="search-results">
           <li>
             <ul class="data">
@@ -227,12 +241,18 @@
       <section class="function">
         <nav class="pagination">
           <ul>
+            <li class="prev">
+              <a href="#">
+                <span class="pagination-item">
+                  <i class="fas fa-arrow-left"></i>Previous
+                </span>
+              </a>
+            </li>
             <li class="next">
               <a href="#">
                 <span class="pagination-item">
                   <i class="fas fa-arrow-right"></i>Next
                 </span>
-                <span>1 of 124</span>
               </a>
             </li>
           </ul>
