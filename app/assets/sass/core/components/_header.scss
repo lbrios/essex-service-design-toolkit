@@ -3,7 +3,6 @@
   height: auto;
   position: relative;
   z-index: 20;
-  @include box-shadow(0px 1px 1px 0px $black);
   @media print {
     height: auto;
     @include box-shadow(none);
