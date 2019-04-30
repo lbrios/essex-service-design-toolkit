@@ -170,6 +170,13 @@
           transition: ($property $duration $function $delay);
 }
 
+@mixin transition-none {
+  -webkit-transition: none;
+     -moz-transition: none;
+       -o-transition: none;
+          transition: none;
+}
+
 @mixin box-sizing($type) {
   // http://www.w3.org/TR/css3-ui/#box-sizing
   // $type can be one of: content-box | padding-box | border-box | inherit
