@@ -3,13 +3,17 @@ $modularscale: (
   ratio: $major-second
 );
 
-p {
+@mixin p {
   font-size: ms(0);
   line-height: $baseline;
   margin-top: 0;
   margin-bottom: $baseline;
   color: $body-text-colour;
   text-transform: none;
+}
+
+p {
+  @include p;
   @include word-break;
   &.lede {
     font-size: ms(1);
