@@ -104,6 +104,10 @@ ul.data {
     float: left !important;
     @include box-sizing(border-box);
   }
+  .achieveforms-container {
+    float: left;
+    width: 100%;
+  }
   .achieveforms-container .fillinButtons .btn i, 
   .achieveforms-container .fillinButtons .btn span {
     padding-right: 0;
@@ -134,7 +138,7 @@ ul.data {
     }
   }
   .achieveforms-container .all-sections .field .fieldContent .fieldName ._fieldName {
-    margin-bottom: $baseline;
+    margin-bottom: $baseline*0.5;
   }
   .achieveforms-container .all-sections .field {
     padding-top: 0;
