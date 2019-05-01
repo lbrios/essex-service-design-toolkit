@@ -10,7 +10,7 @@
         <li>Find a childcare provider</li>
       </ol>
     </div>
-    <div class="main" id="freedom-of-information">
+    <div class="main" id="find-childcare-provider">
       <section class="intro">               
         <h1>Find a childcare provider</h1>
 
@@ -190,15 +190,8 @@
           </form>
         </div>
 
-        <div class="show-hide">
-          <div data-target="tab-one">
-            <input class="checkbox" id="toggle-one" type="checkbox" aria-controls="tab-one" aria-expanded="false">
-            <label class="show" for="toggle-one">Show provider locations on a map</label>
-            <label class="hide" for="toggle-one">Hide map</label>
-          </div>
-          <div class="js-hidden map" id="tab-one" aria-hidden="true">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d19830.969765028345!2d-0.0827392!3d51.588923550000004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2suk!4v1556288540016!5m2!1sen!2suk" width="100%" height="400px" frameborder="0" style="border:0" allowfullscreen></iframe>
-          </div>
+        <div class="map">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d19830.969765028345!2d-0.0827392!3d51.588923550000004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2suk!4v1556288540016!5m2!1sen!2suk" width="100%" height="400px" frameborder="0" style="border:0" allowfullscreen></iframe>
         </div>
 
         <ul class="search-results">
@@ -206,7 +199,7 @@
             <ul class="data">
               <li><h3 class="h4"><a href="./childcare-provider">Neil O'Sullivan Sports</a></h3></li>
               <li><span>Distance</span>0.1</li>
-              <li><span>Provider Type</span>After School Club</li>
+              <li><span>Provider Type:</span><span class="icon-map"><img src="/public/images/find-provider-icons/ccr-asc.png"></span>After School Club</li>
             </ul>
           </li>
 
@@ -214,7 +207,7 @@
             <ul class="data">
               <li><h3 class="h4"><a href="#">Stagecoach Saffron Walden</a></h3></li>
               <li><span>Distance</span>0.1</li>
-              <li><span>Provider Type</span>Holiday Club</li>
+              <li><span>Provider Type:</span><span class="icon-map"><img src="/public/images/find-provider-icons/ccr-hol.png"></span>Holiday Club</li>
             </ul>
           </li>
 
@@ -222,7 +215,7 @@
             <ul class="data">
               <li><h3 class="h4"><a href="#">Pips Nursery</a></h3></li>
               <li><span>Distance</span>2.6</li>
-              <li><span>Provider Type</span>Day Nursery</li>
+              <li><span>Provider Type:</span><span class="icon-map"><img src="/public/images/find-provider-icons/ccr-dyn.png"></span>Day Nursery</li>
             </ul>
           </li>
 
@@ -230,7 +223,7 @@
             <ul class="data">
               <li><h3 class="h4"><a href="#">Doherty Phillippa Margaret</a></h3></li>
               <li><span>Distance</span>2.6</li>
-              <li><span>Provider Type</span>Childminder</li>
+              <li><span>Provider Type:</span><span class="icon-map"><img src="/public/images/find-provider-icons/ccr-chm.png"></span>Childminder</li>
             </ul>
           </li>
         </ul>
