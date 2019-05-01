@@ -238,21 +238,11 @@ select:focus::-ms-value {
   background-color: $link;
 }
 
-// AchieveForms _AF, _fieldName
-.achieveforms-container {
+.form {
   margin-bottom: $baseline*2;
-}
-.form, ._AF {
-  margin-bottom: $baseline*2;
-  legend, ._fieldName {
+  legend {
     @include h4;
     margin-top: 0;
-  }
-  ._fieldName {
-    display: inline-block;
-    + .mandatory {
-      display: none;
-    }
   }
   .group, .all-sections {
     display: block;

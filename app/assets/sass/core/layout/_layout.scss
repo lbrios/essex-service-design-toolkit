@@ -71,8 +71,6 @@ main#content {
   margin-bottom: $baseline;
   .container {
     @extend %site-width-container;
-    // @include box-sizing(content-box);
-    // width: 100%;
     outline: none;
     .breadcrumbs {
       @extend %grid-row;
