@@ -3,6 +3,9 @@
 		.group.type-checkbox {
 			.provider, .map-category {
 				display: inline-block;
+				@include media(mobile) {
+					display: block;
+				}
 				margin-right: $gutter;
 				margin-bottom: $baseline*0.5;
 			}
