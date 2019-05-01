@@ -63,10 +63,10 @@ h1, h2, h3, h4 {
 @mixin h2 {
   font-family: $stack;
   font-size: ms(6);
+  font-weight: $bold;
   line-height: $baseline*1.5;
   margin-top: $baseline;
   margin-bottom: $baseline;
-  font-weight: $bold;
   text-transform: none;
   @include media(mobile) {
     font-size: ms(2);
@@ -79,10 +79,10 @@ h1, h2, h3, h4 {
 @mixin h3 {
   font-family: $stack;
   font-size: ms(3);
+  font-weight: $bold;
   line-height: $baseline;
   margin-top: $baseline*1.5;
   margin-bottom: $baseline*0.5;
-  font-weight: $bold;
   text-transform: none;
   letter-spacing: -0.5px;
   @include media(mobile) {
@@ -95,10 +95,10 @@ h1, h2, h3, h4 {
 @mixin h4 {
   font-family: $stack;
   font-size: ms(1);
+  font-weight: $bold;
   line-height: $baseline;
   margin-top: $baseline*1.5;
   margin-bottom: $baseline*0.5;
-  font-weight: $bold;
   text-transform: none;
   letter-spacing: -0.5px;
   @include media(mobile) {
