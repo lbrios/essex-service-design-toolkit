@@ -4,8 +4,9 @@
     @include button;
   }
   .container {
+    @extend %site-width-container;
     @include box-sizing(content-box);
-    width: 100%;
+    // width: 100%;
   }
   .fillinButtons-wrapper {
     .btn-af.cancelbutton,
