@@ -1,6 +1,7 @@
 input {
   @include box-sizing(border-box);
   @include border-radius(0);
+  font-family: $stack;
   font-size: ms(0);
   font-weight: $normal;
   text-transform: none;
