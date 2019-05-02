@@ -68,7 +68,8 @@
 }
 
 main#content {
-  margin-bottom: $baseline;
+  background: $white;
+  padding-bottom: $baseline;
   .container {
     @extend %site-width-container;
     outline: none;
