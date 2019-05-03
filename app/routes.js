@@ -14,7 +14,7 @@ module.exports = router
 
 router.get('/typeOfCare', function (req, res) {
   var option = req.query.typeOfCare
-  if (option === 'dom') {
+  if (option === 'yes') {
     res.redirect('your-home')
   }
   else {
