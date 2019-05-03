@@ -8,19 +8,49 @@ router.get('/', function (req, res) {
 
 // Route new page, with title copy
 
-module.exports = router
-
 // Care Cost Calculator Flow
 
 router.get('/typeOfCare', function (req, res) {
   var option = req.query.typeOfCare
-  if (option === 'yes') {
-    res.redirect('your-home')
+  if (option === 'dom') {
+    res.redirect('app/care-contribution-calculator/your-home')
   }
   else {
-    res.render('savings-and-investment')
+    res.render('app/care-contribution-calculator/savings-and-investments')
   }
 })
+
+router.get('/savingsAndInvestment', function (req, res) {
+    res.redirect('app/care-contribution-calculator/pensions')
+})
+
+router.get('/yourHome', function (req, res) {
+    res.redirect('app/care-contribution-calculator/pensions')
+})
+
+router.get('/pensions', function (req, res) {
+    res.redirect('app/care-contribution-calculator/rental-income')
+})
+
+router.get('/rentalIncome', function (req, res) {
+    res.redirect('app/care-contribution-calculator/benefits')
+})
+
+router.get('/benefits', function (req, res) {
+    res.redirect('app/care-contribution-calculator/other-income')
+})
+
+router.get('/otherIncome', function (req, res) {
+    res.redirect('app/care-contribution-calculator/personal-allowance')
+})
+
+router.get('/personalAllowance', function (req, res) {
+    res.redirect('app/care-contribution-calculator/results')
+})
+
+
+
+module.exports = router
 
 
 // router.get('/careneedsAssessed', function (req, res) {
