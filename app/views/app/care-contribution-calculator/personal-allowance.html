@@ -1,0 +1,181 @@
+{% extends "care_cost_calculator_template.html" %}
+
+
+{% block content %}
+
+<main id="content">
+	<div class="container">
+		<div class="breadcrumbs">
+			<ol>
+				<li><a href="/docs/core/contents">Contents</a></li>
+				<li>Care Contribution calculator with Achieve Forms markup</li>
+			</ol>
+		</div>
+
+
+		<div id="page" class="main row render">
+			<section class="content">
+
+            <section class="achieveforms-container render col-xs-12 col-sm-12" data-category-id="AF-Category-9f573cda-96c9-4570-96c6-e0ae1f5bba6a" data-form-id="AF-Form-bdc4618e-083d-49f2-a60a-58b8c7ad6116" style="display: block;">
+                <div class="form-error-wrapper AF-Form-bdc4618e-083d-49f2-a60a-58b8c7ad6116 col-xs-11 col-sm-11"></div>
+                <header class="formHeader render row af-row">
+                    <h1 class="formName"><span class="_formName">Care contribution calculator</span></h1>
+                    <p class="formDescription"><span class="_formDescription"></span></p>
+                </header>
+                <form class="achieveform row af-row" method="post" enctype="multipart/form-data" id="AF-Form-bdc4618e-083d-49f2-a60a-58b8c7ad6116" data-name="Care contribution calculator" data-uri="" data-id="AF-Form-bdc4618e-083d-49f2-a60a-58b8c7ad6116" data-must-be-valid="" data-submission-api="/form/submit/" data-section-length="9" title="">
+                    <section class="sectionsHead navbar-default render ">
+                        <div class="sections-toggle-wrapper visible-xs"><span class="active-section-name">Personal allowance</span>
+                            <button type="button" class="navbar-toggle sections-toggle" data-toggle="collapse" data-target=".sectionsHeadInner.sections-head-AF-Form-bdc4618e-083d-49f2-a60a-58b8c7ad6116"><i class="fa fa-caret-down"></i></button>
+                        </div>
+                        <ul class="nav nav-tabs sectionsHeadInner collapse sections-head-AF-Form-bdc4618e-083d-49f2-a60a-58b8c7ad6116">
+                            <li data-name="Type of care" class="sectionNameWrapper valid"><a data-url="Type-of-care.html" class="sectionNameTab ">Type of care</a></li>
+                            <li data-name="Your home" class="sectionNameWrapper"></li>
+                            <li data-name="Savings and investments" class="sectionNameWrapper valid" style="opacity: 1;"><a class="sectionNameTab ">Savings and investments</a></li>
+                            <li data-name="Pensions" class="sectionNameWrapper invalid" style="opacity: 1;"><a class="sectionNameTab ">Pensions</a></li>
+                            <li data-name="Rental income" class="sectionNameWrapper invalid" style="opacity: 1;"><a class="sectionNameTab ">Rental income</a></li>
+                            <li data-name="Benefits" class="sectionNameWrapper invalid" style="opacity: 1;"><a class="sectionNameTab ">Benefits</a></li>
+                            <li data-name="Other income" class="sectionNameWrapper invalid" style="opacity: 1;"><a class="sectionNameTab ">Other income</a></li>
+                            <li data-name="Personal allowance" class="sectionNameWrapper active invalid"><a data-url="Personal-allowance.html" class="sectionNameTab conditional " data-display-condition="{txt_SavingsAndInvestmentSectionPass} contains &#39;true&#39;">Personal allowance</a></li>
+                            <li data-name="Results" class="sectionNameWrapper valid" style="opacity: 1;"><a class="sectionNameTab ">Results</a></li>
+                        </ul>
+                    </section>
+                    <section class="all-sections col-xs-12 AF-col-xs-fluid col-sm-12">
+                        <section class="fields render" data-section-name="Personal allowance " aria-label="Personal allowance">
+                            <div class="section-name-hidden" tabindex="0">Personal allowance</div>
+                            <div class="field" data-field-name="dte_DateOfBirth" data-field-type="date" style="display: block; opacity: 1;">
+                                <div class="fieldContent">
+                                    <label for="dte_DateOfBirth" class="col-xs-11 col-sm-4   fieldName alignLeft    "><span class="_fieldName">What is your date of birth?</span><span class="mandatory"> *</span> </label>
+                                    <div class="af-block col-xs-1 col-sm-1 hidden-sm hidden-md hidden-lg"></div>
+                                    <fieldset name="dte_DateOfBirth" data-name="dte_DateOfBirth" data-type="date" class="col-xs-11 col-sm-7    required alignLeft fieldInput dateInput date valid" required="true" data-date-end-date="{today}" data-mandatory-message="You must select a date of birth" data-min-message="Please input a date no earlier than _min_value_" data-max-message="Please input a date no later than _max_value_" data-date-format-message="Please input a date in the format _date_format_">
+                                        <input type="text" data-type="date-subfield" id="dte_DateOfBirth-day" placeholder="DD" pattern="[0-9]*" maxlength="4" class="displayAsSeparated subField day">
+                                        <input type="text" data-type="date-subfield" id="dte_DateOfBirth-month" placeholder="MM" pattern="[0-9]*" maxlength="4" class="displayAsSeparated subField month">
+                                        <input type="text" data-type="date-subfield" id="dte_DateOfBirth-year" placeholder="YYYY" pattern="[0-9]*" maxlength="8" class="displayAsSeparated subField year">
+                                    </fieldset>
+                                    <div class="screen-reader-error" aria-live="polite" aria-atomic="true"></div><i class="icon-valid fa fa-check " title="Field is valid"><span class="sr-only">Field is valid</span></i></div>
+                            </div>
+                            <div class="field" data-field-name="statictext5" data-field-type="html" style="display: block; opacity: 1;">
+                                <div class="fieldContent"> <span data-name="statictext5" data-type="html" class="col-xs-11 col-sm-11 fieldInput content html non-input " data-content="&lt;p&gt;We use your age to calculate how much personal allowance you are entitled to.&lt;/p&gt;
+&lt;p&gt;Personal allowance is a portion of your income that will not be included in your care contribution costs. This is so you are left with money for living expenses.&lt;/p&gt;"><p>We use your age to calculate how much personal allowance you are entitled to.</p>
+<p>Personal allowance is a portion of your income that will not be included in your care contribution costs. This is so you are left with money for living expenses.</p></span>
+                                    <div class="screen-reader-error" aria-live="polite" aria-atomic="true"></div>
+                                </div>
+                            </div>
+                            <div class="field" data-field-name="num_Age" data-field-type="number" style="display: block; opacity: 1; padding-top: 0px;">
+                                <div class="fieldContent">
+                                    <label for="num_Age" class="col-xs-11 col-sm-4   fieldName alignLeft    " style="display: none;"><span class="_fieldName" style="display: none;">Age</span> </label>
+                                    <div class="af-block col-xs-1 col-sm-1 hidden-sm hidden-md hidden-lg" style="display: none;"></div>
+                                    <input name="num_Age" id="num_Age" data-name="num_Age" data-type="number" type="number" pattern="[1-9]" readonly="true" step="any" class="col-xs-11 col-sm-7     alignLeft fieldInput number " data-hidden="true" data-default-value="datediff(fy, {today}, {dte_DateOfBirth})" data-mandatory-message="This field is required" data-min-message="Please input _min_value_ or more" data-max-message="Please input _max_value_ or less" tabindex="-1" autocomplete="off" style="display: none;">
+                                    <div class="screen-reader-error" aria-live="polite" aria-atomic="true" style="display: none;"></div>
+                                </div>
+                            </div>
+                            <div class="field" data-field-name="num_18To24" data-field-type="number" style="display: block; opacity: 1; padding-top: 0px;">
+                                <div class="fieldContent">
+                                    <label for="num_18To24" class="col-xs-11 col-sm-4   fieldName alignLeft   " style="display: none;"><span class="_fieldName" style="display: none;">18 to 24</span> </label>
+                                    <div class="af-block col-xs-1 col-sm-1 hidden-sm hidden-md hidden-lg" style="display: none;"></div>
+                                    <div class="prefix-suffix-mode col-xs-11 col-sm-7 clearfix" style="display: none;">
+                                        <div class="input-group" style="display: none;"><span class="prefix-wrapper input-group-addon alignLeft readonly" style="display: none;"><span value="£" class="prefix alignLeft" style="display: none;">£</span></span>
+                                            <input name="num_18To24" id="num_18To24" data-name="num_18To24" data-type="number" type="number" readonly="true" decimal="2" step="any" class="form-control hasPrefix alignLeft fieldInput number " data-hidden="true" data-default-value="132.45" data-mandatory-message="This field is required" data-min-message="Please input _min_value_ or more" data-max-message="Please input _max_value_ or less" tabindex="-1" autocomplete="off" style="display: none;">
+                                        </div>
+                                    </div>
+                                    <div class="screen-reader-error" aria-live="polite" aria-atomic="true" style="display: none;"></div>
+                                </div>
+                            </div>
+                            <div class="field" data-field-name="num_25NoPension" data-field-type="number" style="display: block; opacity: 1; padding-top: 0px;">
+                                <div class="fieldContent">
+                                    <label for="num_25NoPension" class="col-xs-11 col-sm-4   fieldName alignLeft    " style="display: none;"><span class="_fieldName" style="display: none;">25 not receiving a pension</span> </label>
+                                    <div class="af-block col-xs-1 col-sm-1 hidden-sm hidden-md hidden-lg" style="display: none;"></div>
+                                    <div class="prefix-suffix-mode col-xs-11 col-sm-7 clearfix" style="display: none;">
+                                        <div class="input-group" style="display: none;"><span class="prefix-wrapper input-group-addon alignLeft readonly" style="display: none;"><span value="£" class="prefix alignLeft" style="display: none;">£</span></span>
+                                            <input name="num_25NoPension" id="num_25NoPension" data-name="num_25NoPension" data-type="number" type="number" readonly="true" decimal="2" step="any" class="form-control hasPrefix alignLeft fieldInput number " data-hidden="true" data-default-value="151.45" data-mandatory-message="This field is required" data-min-message="Please input _min_value_ or more" data-max-message="Please input _max_value_ or less" tabindex="-1" autocomplete="off" style="display: none;">
+                                        </div>
+                                    </div>
+                                    <div class="screen-reader-error" aria-live="polite" aria-atomic="true" style="display: none;"></div>
+                                </div>
+                            </div>
+                            <div class="field" data-field-name="num_25WithPension" data-field-type="number" style="display: block; opacity: 1; padding-top: 0px;">
+                                <div class="fieldContent">
+                                    <label for="num_25WithPension" class="col-xs-11 col-sm-4   fieldName alignLeft    " style="display: none;"><span class="_fieldName" style="display: none;">25 receiving a pension</span> </label>
+                                    <div class="af-block col-xs-1 col-sm-1 hidden-sm hidden-md hidden-lg" style="display: none;"></div>
+                                    <div class="prefix-suffix-mode col-xs-11 col-sm-7 clearfix" style="display: none;">
+                                        <div class="input-group" style="display: none;"><span class="prefix-wrapper input-group-addon alignLeft readonly" style="display: none;"><span value="£" class="prefix alignLeft" style="display: none;">£</span></span>
+                                            <input name="num_25WithPension" id="num_25WithPension" data-name="num_25WithPension" data-type="number" type="number" readonly="true" decimal="2" step="any" class="form-control hasPrefix alignLeft fieldInput number " data-hidden="true" data-default-value="189" data-mandatory-message="This field is required" data-min-message="Please input _min_value_ or more" data-max-message="Please input _max_value_ or less" tabindex="-1" autocomplete="off" style="display: none;">
+                                        </div>
+                                    </div>
+                                    <div class="screen-reader-error" aria-live="polite" aria-atomic="true" style="display: none;"></div>
+                                </div>
+                            </div>
+                            <div class="field" data-field-name="num_ProtectedIncomeValue" data-field-type="number" style="padding-top: 0px;">
+                                <div class="fieldContent">
+                                    <label for="num_ProtectedIncomeValue" class="col-xs-11 col-sm-4   fieldName alignLeft   " style="display: none;"><span class="_fieldName" style="display: none;">Personal allowance value</span> </label>
+                                    <div class="af-block col-xs-1 col-sm-1 hidden-sm hidden-md hidden-lg" style="display: none;"></div>
+                                    <div class="prefix-suffix-mode col-xs-11 col-sm-7 clearfix" style="display: none;">
+                                        <div class="input-group" style="display: none;"><span class="prefix-wrapper input-group-addon alignLeft readonly" style="display: none;"><span value="£" class="prefix alignLeft" style="display: none;">£</span></span>
+                                            <input name="num_ProtectedIncomeValue" id="num_ProtectedIncomeValue" data-name="num_ProtectedIncomeValue" data-type="number" type="number" readonly="true" decimal="2" step="any" class="form-control hasPrefix alignLeft fieldInput number " data-hidden="true" data-default-value="if(({num_Age} isnt &#39;&#39;) and ({num_Age} &gt;= 18), 
+    if({num_Age} &lt; 25, 
+        {num_18To24}, 
+        if({rad_ReceiveAPension} is &#39;no&#39;,
+            {num_25NoPension}, 
+            {num_25WithPension}
+          )
+      ),
+    0
+  )" data-mandatory-message="This field is required" data-min-message="Please input _min_value_ or more" data-max-message="Please input _max_value_ or less" tabindex="-1" autocomplete="off" style="display: none;">
+                                        </div>
+                                    </div>
+                                    <div class="screen-reader-error" aria-live="polite" aria-atomic="true" style="display: none;"></div>
+                                </div>
+                            </div>
+                            <div class="field" data-field-name="num_ResidentialPersonalAllowance" data-field-type="number" style="padding-top: 0px;">
+                                <div class="fieldContent">
+                                    <label for="num_ResidentialPersonalAllowance" class="col-xs-11 col-sm-4   fieldName alignLeft   " style="display: none;"><span class="_fieldName" style="display: none;">Residential Personal Allowance</span> </label>
+                                    <div class="af-block col-xs-1 col-sm-1 hidden-sm hidden-md hidden-lg" style="display: none;"></div>
+                                    <div class="prefix-suffix-mode col-xs-11 col-sm-7 clearfix" style="display: none;">
+                                        <div class="input-group" style="display: none;"><span class="prefix-wrapper input-group-addon alignLeft readonly" style="display: none;"><span value="£" class="prefix alignLeft" style="display: none;">£</span></span>
+                                            <input name="num_ResidentialPersonalAllowance" id="num_ResidentialPersonalAllowance" data-name="num_ResidentialPersonalAllowance" data-type="number" type="number" readonly="true" decimal="2" step="any" class="form-control hasPrefix alignLeft fieldInput number " data-hidden="true" data-default-value="24.90" data-mandatory-message="This field is required" data-min-message="Please input _min_value_ or more" data-max-message="Please input _max_value_ or less" tabindex="-1" autocomplete="off" style="display: none;">
+                                        </div>
+                                    </div>
+                                    <div class="screen-reader-error" aria-live="polite" aria-atomic="true" style="display: none;"></div>
+                                </div>
+                            </div>
+                            <div class="field" data-field-name="num_SavingsCreditDisregard" data-field-type="number" style="display: none; padding-top: 0px;">
+                                <div class="fieldContent">
+                                    <label for="num_SavingsCreditDisregard" class="col-xs-11 col-sm-4   fieldName alignLeft   " style="display: none;"><span class="_fieldName" style="display: none;">Savings credit disregard</span> </label>
+                                    <div class="af-block col-xs-1 col-sm-1 hidden-sm hidden-md hidden-lg" style="display: none;"></div>
+                                    <div class="prefix-suffix-mode col-xs-11 col-sm-7 clearfix" style="display: none;">
+                                        <div class="input-group" style="display: none;"><span class="prefix-wrapper input-group-addon alignLeft readonly" style="display: none;"><span value="£" class="prefix alignLeft" style="display: none;">£</span></span>
+                                            <input name="num_SavingsCreditDisregard" id="num_SavingsCreditDisregard" data-name="num_SavingsCreditDisregard" data-type="number" type="number" readonly="true" decimal="2" step="any" class="form-control hasPrefix alignLeft fieldInput number " data-hidden="true" data-default-value="5.75" data-mandatory-message="This field is required" data-min-message="Please input _min_value_ or more" data-max-message="Please input _max_value_ or less" tabindex="-1" autocomplete="off" style="display: none;">
+                                        </div>
+                                    </div>
+                                    <div class="screen-reader-error" aria-live="polite" aria-atomic="true" style="display: none;"></div>
+                                </div>
+                            </div>
+                            <div class="field" data-field-name="statictext12" data-field-type="html" style="display: none;">
+                                <div class="fieldContent"> <span data-name="statictext12" data-type="html" class="col-xs-11 col-sm-11 fieldInput content html non-input " data-content="&lt;p&gt;The following money is taken off your weekly contribution:&lt;/p&gt;
+&lt;p&gt;Residential Personal Allowance: £{num_ResidentialPersonalAllowance}&lt;/p&gt;
+&lt;p&gt;Savings credit disregard (this is the maximum allowed): £{num_SavingsCreditDisregard}&lt;/p&gt;
+&lt;p&gt;This is called personal allowance.&lt;/p&gt;"><p>The following money is taken off your weekly contribution:</p>
+<p>Residential Personal Allowance: £24.90</p>
+<p>Savings credit disregard (this is the maximum allowed): £</p>
+<p>This is called personal allowance.</p></span>
+                                    <div class="screen-reader-error" aria-live="polite" aria-atomic="true"></div>
+                                </div>
+                            </div>
+                        </section>
+                    </section>
+                    <br class="clear">
+                    <div class="fillinButtons-wrapper col-xs-11 col-sm-11">
+                        <div class="fillinButtons">
+                            <button class="btn btn-af previousbutton pull-left" type="button"><i class="fa fa-chevron-left"></i> <span class="previousText">Previous</span></button>
+                            <button class="btn btn-af cancelbutton pull-left" type="button"><i class="fa fa-times"></i><span class="cancelText">Cancel</span></button>
+                            <button class="btn btn-af nextbutton pull-right" type="button"><span class="nextText">Next</span><i class="fa fa-chevron-right"></i></button>
+                        </div>
+                    </div>
+                </form>
+            </section>
+
+			</section>
+		</div>
+	</div>
+</main>
+
+{% endblock %}

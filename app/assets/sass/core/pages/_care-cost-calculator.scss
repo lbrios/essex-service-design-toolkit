@@ -4,6 +4,9 @@
   -webkit-font-smoothing: antialiased;
   background: $white;
   color: $body-text-colour;
+  .navbar-default {
+    display: none;
+  }
   .browser-check-background {
     background-color: $highlight-box-light;
     .browser-check {
@@ -359,6 +362,11 @@
       }
     }
   }
+  .col-xs-11.col-sm-11.fieldInput.content.staticText.non-input  {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    width: 100% !important;
+  }
   section {
     margin-bottom: 0;
   }
@@ -370,15 +378,7 @@
     @include box-sizing(content-box);
     width: initial;
   }
-  .fillinButtons-wrapper {
-    .btn-af.cancelbutton,
-    .icon-valid.fa.fa-check.alignAbove,
-    .submitbutton,
-    .fa-chevron-right {
-      display: none;
-    }
-  }
-  h1 {
+  h1, .section-name-hidden {
     @include h1;
   }
   h2 {
@@ -423,7 +423,6 @@
     padding-right: 0;
   }
   .nextbutton {
-    float: left !important;
     @include box-sizing(border-box);
   }
   .achieveforms-container {
@@ -739,5 +738,23 @@
   .col-md-12, 
   .col-lg-12 {
     min-height: 0;
+  }
+// nuns
+  .formName {
+    display: none;
+  }
+  .fa.fa-chevron-left,
+  .fa.fa-chevron-right,
+  .fa.fa-check {
+    display: none;
+  }
+  .fillinButtons-wrapper {
+    .btn-af.cancelbutton,
+    .icon-valid.fa.fa-check.alignAbove {
+      display: none;
+    }
+  }
+  .icon-valid.fa.fa-check {
+    display: none;
   }
 }
