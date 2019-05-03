@@ -19,9 +19,6 @@
         <input id="selection-two" type="radio" name="radio" value="no">
         <label for="selection-two">No</label>
       </div>
-      <div class="panel js-hidden" id="radio-selection">
-          This panel is shown if selecting last radio
-      </div>
     </fieldset>
   </div>
 </div>
@@ -38,12 +35,51 @@
             <input id="selection-two" type="radio" name="radio" value="no">
             <label for="selection-two">No</label>
           </div>
-          <div class="panel js-hidden" id="radio-selection">
+        </fieldset>
+      </div>
+    </div>
+
+<div class="form">
+  <div class="group">
+    <fieldset>
+      <legend>Asking your question?</legend>
+      <div class="multiple-choice">
+        <input id="selection-three" type="radio" name="radio" value="yes">
+        <label for="selection-three">Yes</label>
+      </div>
+      <div class="multiple-choice" data-target="radio-selection">
+        <input id="selection-four" type="radio" name="radio" value="no" aria-controls="radio-selection" aria-expanded="false">
+        <label for="selection-four" class="show">No show result</label>
+      </div>
+      <!-- show/hide this -->
+      <div class="inset panel js-hidden" id="radio-selection" aria-hidden="true">
+          This panel is shown if selecting last radio
+      </div>
+    </fieldset>
+  </div>
+</div>
+
+    <div class="form">
+      <div class="group">
+        <fieldset>
+          <legend>Asking your question?</legend>
+          <div class="multiple-choice">
+            <input id="selection-three" type="radio" name="radio" value="yes">
+            <label for="selection-three">Yes</label>
+          </div>
+          <div class="multiple-choice" data-target="radio-selection">
+            <input id="selection-four" type="radio" name="radio" value="no" aria-controls="radio-selection" aria-expanded="false">
+            <label for="selection-four" class="show">No show result</label>
+          </div>
+          <!-- show/hide this -->
+          <div class="inset panel js-hidden" id="radio-selection" aria-hidden="true">
               This panel is shown if selecting last radio
           </div>
         </fieldset>
       </div>
     </div>
+
+
 
 # Using radio
 

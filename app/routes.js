@@ -8,113 +8,162 @@ router.get('/', function (req, res) {
 
 // Route new page, with title copy
 
+// Care Cost Calculator Flow
 
-
-// FINANCIAL CHECKER FORM
-
-// accomodation
-
-router.get('/accomodationType', function (req, res) {
-  var option = req.query.accomodationType
-  if (option === 'flat-house') {
-    res.redirect('financial-checker/savings-and-investment')
+router.get('/typeOfCare', function (req, res) {
+  var option = req.query.typeOfCare
+  if (option === 'dom') {
+    res.redirect('app/care-contribution-calculator/your-home')
   }
   else {
-    res.render('financial-checker/where-do-you-live')
+    res.render('app/care-contribution-calculator/savings-and-investments')
   }
 })
 
-// savings and investments
-
-router.get('/savingsValue', function (req, res) {
-  var option = req.query.savingsValue
-  if (option === 'over') {
-    res.redirect('financial-checker/self-funded-care')
-  }
-  else {
-    res.render('financial-checker/age')
-  }
+router.get('/savingsAndInvestment', function (req, res) {
+    res.redirect('app/care-contribution-calculator/pensions')
 })
 
-// age
-
-router.get('/howOld', function (req, res) {
-    res.redirect('financial-checker/benefits')
+router.get('/yourHome', function (req, res) {
+    res.redirect('app/care-contribution-calculator/pensions')
 })
-
-// benefits
-
-router.get('/benefits', function (req, res) {
-    res.redirect('financial-checker/rent-property')
-})
-
-
-// rent out property
-
-router.get('/rentProperty', function (req, res) {
-    res.redirect('financial-checker/pensions')
-})
-
-
-// pensions
 
 router.get('/pensions', function (req, res) {
-    res.redirect('financial-checker/other-income')
+    res.redirect('app/care-contribution-calculator/rental-income')
 })
 
+router.get('/rentalIncome', function (req, res) {
+    res.redirect('app/care-contribution-calculator/benefits')
+})
 
-// other income
+router.get('/benefits', function (req, res) {
+    res.redirect('app/care-contribution-calculator/other-income')
+})
 
 router.get('/otherIncome', function (req, res) {
-    res.redirect('financial-checker/part-funded-care')
+    res.redirect('app/care-contribution-calculator/personal-allowance')
 })
 
+router.get('/personalAllowance', function (req, res) {
+    res.redirect('app/care-contribution-calculator/results')
+})
 
-// financial-assessment-explained
 
 
 module.exports = router
 
 
+// router.get('/careneedsAssessed', function (req, res) {
+//   var option = req.query.careneedsAssessed
+//   if (option === 'yes') {
+//     res.redirect('declare-finances')
+//   }
+//   else {
+//     res.render('needs-assessment')
+//   }
+// })
 
 
-// FINANCIAL ASSESSMENT FORM
+// // FINANCIAL CHECKER FORM
 
-// needs assessment confirmation
+// // accomodation
 
-router.get('/careneedsAssessed', function (req, res) {
-  var option = req.query.careneedsAssessed
-  if (option === 'yes') {
-    res.redirect('declare-finances')
-  }
-  else {
-    res.render('needs-assessment')
-  }
-})
+// router.get('/accomodationType', function (req, res) {
+//   var option = req.query.accomodationType
+//   if (option === 'flat-house') {
+//     res.redirect('financial-checker/savings-and-investment')
+//   }
+//   else {
+//     res.render('financial-checker/where-do-you-live')
+//   }
+// })
 
-// declaration of finances
+// // savings and investments
 
-router.get('/declareFinances', function (req, res) {
-  var option = req.query.declareFinances
-  if (option === 'yes') {
-    res.redirect('bank-accounts-savings')
-  }
-  // if (option === 'between') {
-  //   res.redirect('private-pension')
-  // }
-  else {
-    res.render('end-financial-assessment')
-  }
-})
+// router.get('/savingsValue', function (req, res) {
+//   var option = req.query.savingsValue
+//   if (option === 'over') {
+//     res.redirect('financial-checker/self-funded-care')
+//   }
+//   else {
+//     res.render('financial-checker/age')
+//   }
+// })
 
-// confirm bank accounts, savings and investments
+// // age
 
-router.get('/bankAccounts', function (req, res) {
-  var option = req.query.bankAccounts
-  if (option === 'yes') {
-    res.redirect('bank-accounts-savings')
-  }
-  else {
-    res.render('bank-accounts-savings')
-  }
-})
+// router.get('/howOld', function (req, res) {
+//     res.redirect('financial-checker/benefits')
+// })
+
+// // benefits
+
+// router.get('/benefits', function (req, res) {
+//     res.redirect('financial-checker/rent-property')
+// })
+
+
+// // rent out property
+
+// router.get('/rentProperty', function (req, res) {
+//     res.redirect('financial-checker/pensions')
+// })
+
+
+// // pensions
+
+// router.get('/pensions', function (req, res) {
+//     res.redirect('financial-checker/other-income')
+// })
+
+
+// // other income
+
+// router.get('/otherIncome', function (req, res) {
+//     res.redirect('financial-checker/part-funded-care')
+// })
+
+
+// // financial-assessment-explained
+
+
+// // FINANCIAL ASSESSMENT FORM
+
+// // needs assessment confirmation
+
+// router.get('/careneedsAssessed', function (req, res) {
+//   var option = req.query.careneedsAssessed
+//   if (option === 'yes') {
+//     res.redirect('declare-finances')
+//   }
+//   else {
+//     res.render('needs-assessment')
+//   }
+// })
+
+// // declaration of finances
+
+// router.get('/declareFinances', function (req, res) {
+//   var option = req.query.declareFinances
+//   if (option === 'yes') {
+//     res.redirect('bank-accounts-savings')
+//   }
+//   // if (option === 'between') {
+//   //   res.redirect('private-pension')
+//   // }
+//   else {
+//     res.render('end-financial-assessment')
+//   }
+// })
+
+// // confirm bank accounts, savings and investments
+
+// router.get('/bankAccounts', function (req, res) {
+//   var option = req.query.bankAccounts
+//   if (option === 'yes') {
+//     res.redirect('bank-accounts-savings')
+//   }
+//   else {
+//     res.render('bank-accounts-savings')
+//   }
+// })
