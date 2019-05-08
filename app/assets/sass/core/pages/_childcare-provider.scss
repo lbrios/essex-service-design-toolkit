@@ -18,6 +18,54 @@
 			span {
 				height: 1em;
 			}
+			.provider {
+				span {
+					margin-left: 5px;
+					margin-right: 5px;
+				}
+				div {
+					float: right;
+				}
+			}
+		}
+	}
+	#map-SearchByOfstedRef {
+		.ui-icon.ui-icon-triangle-1-e {
+			display: none;
+		}
+		.ui-accordion-header a {
+			padding: 0;
+			margin-bottom: $baseline;
+		}
+		#searchValue-OfstedReference {
+			float: left;
+			margin-right: $gutter*0.5;
+		}
+		#map-searchButton-OfstedRef {
+			float: left !important;
+		}
+		.ui-state-default {
+			background: none;
+			border: none;
+		}
+		.ui-accordion-content {
+			height: initial !important;
+			display: block !important;
+			padding: 0;
+			border: none;
+			@include border-radius(initial);
+		}
+	}
+	.map {
+		margin-bottom: $baseline;
+		button.gm-control-active img {
+			padding: 11px;
+		}
+		#map-controls {
+			display: none;
+		}
+		#map-mappanel {
+			margin-left: 0;
 		}
 	}
 	.icon-map {
@@ -26,6 +74,78 @@
 			margin-bottom: 0;
 			padding: $baseline*0.125 0;
 			width: $icon;
+		}
+	}
+	#lower {
+		.ui-widget-header {
+			border: none;
+		}
+		.ui-widget-content {
+			border: none;
+		}
+		.ui-tabs {
+			padding: 0;
+		}
+		.ui-corner-all {
+			@include border-radius(initial);
+		}
+		.ui-tabs-nav {
+			padding: 0;
+			li {
+				top: 0;
+				margin: 0;
+				border: none;
+				@include border-radius(initial);
+			}
+		}
+		#map-container {
+			padding: 0;
+		}
+		#map-resultspanel {
+			margin: 0;
+			.dataTables_wrapper {
+				margin: 0;
+				table.pretty {
+					border-collapse: initial;
+					border: 1px solid $black;
+					thead {
+						th {
+							color: $black;
+							background: none;
+						}
+						tr {
+							border-bottom: 2px solid $black;
+						}
+					}
+					tbody tr.odd {
+						border-top: 1px solid $black;
+						border-bottom: 1px solid $black;
+						td {
+							background: none;
+						}
+					}
+				}
+			}
+		}
+		.ui-tabs.ui-tabs-panel {
+			padding: 0;
+		}
+		.tabPanelBar {
+			display: none;
+		}
+		#resultsTableHeader input.button {
+			margin: 0 !important;
+		}
+	}
+	.bottom {
+		.dataTables_info, 
+		.dataTables_length,
+		.dataTables_paginate {
+			background: none;
+		}
+		.paginate_disabled_previous,
+		.paginate_disabled_next {
+			background: none;
 		}
 	}
 }
