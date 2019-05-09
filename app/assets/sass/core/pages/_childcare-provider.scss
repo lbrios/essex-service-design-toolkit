@@ -77,7 +77,6 @@
 		}
 	}
 	#lower {
-		border: $border-thin solid $grey-light;
 		.ui-widget-header {
 			border: none;
 		}
@@ -91,7 +90,6 @@
 			border: $border-thin solid $grey-light;
 			border-top: none;
 			padding: 0;
-			margin: $gutter;
 			.ui-tabs-nav {
 				border-bottom: $border-thin solid $grey-light;
 				padding: 0;
@@ -162,9 +160,11 @@
 			display: none;
 		}
 		#resultsTableHeader {
+			float: left;
 			margin: $gutter;
 			input.button {
 				margin: 0 !important;
+				display: none;
 			}
 		}
 		#resultsTable {
