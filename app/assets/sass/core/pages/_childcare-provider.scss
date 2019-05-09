@@ -77,25 +77,48 @@
 		}
 	}
 	#lower {
+		border: $border-thin solid $grey-light;
 		.ui-widget-header {
 			border: none;
 		}
 		.ui-widget-content {
 			border: none;
 		}
-		.ui-tabs {
-			padding: 0;
-		}
 		.ui-corner-all {
 			@include border-radius(initial);
 		}
-		.ui-tabs-nav {
+		#mainTabs {
+			border: $border-thin solid $grey-light;
+			border-top: none;
 			padding: 0;
-			li {
-				top: 0;
-				margin: 0;
-				border: none;
-				@include border-radius(initial);
+			margin: $gutter;
+			.ui-tabs-nav {
+				border-bottom: $border-thin solid $grey-light;
+				padding: 0;
+				li {
+					top: 0;
+					margin: 0;
+					border: none;
+					@include border-radius(initial);
+					a {
+						padding: $gutter*0.5;
+					}
+				}
+				.ui-state-default {
+					background: $grey-lighter;
+					a {
+						border: $border-thicker solid $white;
+					}
+				}
+				.ui-tabs-selected {
+					background: $white;
+					border-top: $border-thin solid $grey-light;
+					border-right: $border-thin solid $grey-light;
+					margin-bottom: -1px;
+					a {
+						color: $black;
+					}
+				}				
 			}
 		}
 		#map-container {
@@ -105,21 +128,26 @@
 			margin: 0;
 			.dataTables_wrapper {
 				margin: 0;
+				#resultsTableHeader {
+					input {
+						border: 1px solid $grey-light;
+					}
+				}
 				table.pretty {
-					border-collapse: initial;
-					border: 1px solid $black;
 					thead {
 						th {
+							text-align: left;
+							font-weight: $bold;
 							color: $black;
 							background: none;
 						}
 						tr {
-							border-bottom: 2px solid $black;
+							// border-bottom: 2px solid $black;
 						}
 					}
 					tbody tr.odd {
-						border-top: 1px solid $black;
-						border-bottom: 1px solid $black;
+						border-top: $border-thin solid $black;
+						border-bottom: $border-thin solid $black;
 						td {
 							background: none;
 						}
@@ -133,19 +161,34 @@
 		.tabPanelBar {
 			display: none;
 		}
-		#resultsTableHeader input.button {
-			margin: 0 !important;
+		#resultsTableHeader {
+			margin: $gutter;
+			input.button {
+				margin: 0 !important;
+			}
+		}
+		#resultsTable {
+			margin: $gutter;
+			width: auto !important;
 		}
 	}
 	.bottom {
+		display: inline-block;
+		padding: $gutter;
 		.dataTables_info, 
 		.dataTables_length,
 		.dataTables_paginate {
+			float: left;
+			width: 100%;
+			padding: 0;
+			margin: $baseline*0.5 0;
 			background: none;
 		}
 		.paginate_disabled_previous,
 		.paginate_disabled_next {
 			background: none;
+			padding: 0;
+			margin: 0;
 		}
 	}
 }
