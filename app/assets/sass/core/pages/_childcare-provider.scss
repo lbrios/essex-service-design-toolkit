@@ -9,12 +9,7 @@
 				margin-right: $gutter;
 				margin-bottom: $baseline*0.5;
 			}
-			input[type="checkbox"] {
-				height: 1em;
-				display: inline-block;
-				margin: 0;
-				width: auto;
-			}
+
 			span {
 				height: 1em;
 			}
@@ -30,19 +25,24 @@
 		}
 	}
 	#map-SearchByOfstedRef {
+		float: left;
+		padding: $gutter*0.5;
 		.ui-icon.ui-icon-triangle-1-e {
 			display: none;
 		}
 		.ui-accordion-header a {
+			font-weight: $regular;
 			padding: 0;
-			margin-bottom: $baseline;
+			margin-bottom: $baseline*0.25;
 		}
 		#searchValue-OfstedReference {
 			float: left;
 			margin-right: $gutter*0.5;
+			border: $border-thin solid $grey;
 		}
 		#map-searchButton-OfstedRef {
 			float: left !important;
+			margin: 0;
 		}
 		.ui-state-default {
 			background: none;
@@ -53,19 +53,222 @@
 			display: block !important;
 			padding: 0;
 			border: none;
+			overflow: initial;
 			@include border-radius(initial);
 		}
 	}
-	.map {
+	#map-container,
+	#map-shortlistpanel {
+		.formhelper.yellowbg {
+			h3 {
+				@include h4;
+				margin-top: $baseline;
+				margin-bottom: $baseline*0.25;
+			}
+			p {
+				@include default-type;
+				margin-top: 0;
+				margin-bottom: $baseline*0.25;
+				font-size: $smaller;
+				a {
+					color: $link;
+					&:hover {
+						color: $hover;
+					}
+					&:active {
+						color: $active;
+					}
+					&:visited {
+						color: $visited;
+					}
+				}
+			}
+		}
+	}
+	#map-container {
+		float: left;
+		border: $border-thin solid $grey;
+		border-top: none;
+		margin-top: 0;
 		margin-bottom: $baseline;
+		padding: 0;
+		padding-top: $baseline*0.5;
+		@include border-radius(initial);
+		.disclaimertext h3 {
+			@include h4;
+		}
+		#map-lhcol {
+			label, legend {
+				display: inline-block;
+				margin-top: $baseline*0.25;
+				margin-bottom: $baseline*0.125;
+			}
+		}
+		#map-rhcontent {
+			padding-right: $gutter*0.5;
+			padding-left: $gutter*0.5
+		}
 		button.gm-control-active img {
 			padding: 11px;
+		}
+		#map-controlpanel {
+			background-color: initial;
+			border: none;
+			margin: 0;
+			padding: 0;
+			#map-searchpanel h3 {
+				margin: 0;
+			}
+			#map-SearchFields {
+				padding: $gutter*0.5;
+				.ui-state-active, 
+				.ui-widget-content .ui-state-active, 
+				.ui-widget-header.ui-state-active {
+					background: none;
+					border: none;
+					a {
+						@include button;
+					}
+				}
+				h3 {
+					font-size: 1rem;
+					font-weight: $regular;
+				}
+				.ui-accordion-header {
+					margin: 0;
+				}
+				#map-search-by-address {
+					@include border-radius(0);
+					overflow: initial;
+					border: none;
+					padding: 0;
+					margin: $baseline 0 0 0;
+					background: none;
+					height: initial !important;
+					#map-catpanel {
+						margin-bottom: 0;
+						input[type="checkbox"] {
+							height: 1em;
+							display: inline-block;
+							margin: 0;
+							width: auto;
+						}
+						& > div {
+							margin: 0 0 $baseline*0.5 0;
+						}
+						#chk-selectAllCategories {
+							margin-left: 22px;
+						}
+						#lbl-selectAllCategories {
+							font-size: $small;
+						}						
+						#map-catlist {
+							#cat-table tr {
+								display: inline-block;
+								margin-bottom: $baseline*0.25;
+								width: 100%;
+								img {
+									margin: 0;
+									padding: 0;
+									width: 16px;
+									height: 16px;
+								}
+								input {
+									margin: 0 $gutter*0.125;
+								}
+								span {
+									font-size: $smaller;
+								}
+							}
+						}
+					}
+					#searchValue-Location,
+					#searchValue-Radius,
+					#searchValue-ProviderName {
+						border: 1px solid $grey;
+						width: 100%;
+					}
+					#map-searchButton {
+						float: left !important;
+					}
+				}
+			}
+			.searchSeparator {
+				padding: $gutter*0.5;
+				display: none;
+			}
+			.ui-accordion {
+				width: initial;
+			}
+			legend {
+				padding: 0;
+				margin: 0;
+			}
+			fieldset {
+				border: none;
+				padding: 0;
+				margin: 0;
+				@include border-radius(0); 
+			}		
+			& + div {
+				padding: $gutter*0.5;
+				margin: 0 !important;
+				width: 100%;
+			}
+		}
+		#map-resultspanel {
+			margin: 0;
+			.dataTables_wrapper {
+				margin: 0;
+				#resultsTableHeader {
+					input {
+						border: 1px solid $grey;
+					}
+				}
+				table.pretty {
+					thead {
+						th {
+							text-align: left;
+							font-weight: $bold;
+							color: $black;
+							background: none;
+							padding: 0 $gutter*0.5 0 0;
+							width: initial !important;
+						}
+					}
+					tbody tr.odd {
+						border-top: $border-thin solid $black;
+						border-bottom: $border-thin solid $black;
+						td {
+							background: none;
+						}
+					}
+				}
+			}
 		}
 		#map-controls {
 			display: none;
 		}
 		#map-mappanel {
-			margin-left: 0;
+			margin: 0;
+			border: none;
+		}
+	}
+	#formhelperHelp {
+		p {
+			margin-bottom: $baseline*0.25;
+			a {
+				color: $link !important;
+				&:hover {
+					color: $hover !important;
+				}
+				&:active {
+					color: $active !important;
+				}
+				&:visited {
+					color: $visited !important;
+				}
+			}
 		}
 	}
 	.icon-map {
@@ -76,22 +279,91 @@
 			width: $icon;
 		}
 	}
-	#lower {
-		.ui-widget-header {
+	#map-shortlistpanel {
+		float: left;
+		margin: 0;
+		padding: 0;
+		padding-top: $baseline*0.5;
+		background: none;
+		border: $border-thin solid $grey;
+		border-top: none;
+		width: 100%;
+		#map-report,
+		#shortlistFrame {
+			margin: 0;
+		}
+		#map-lhcol1 #map-controlpanel1 {
+			margin: 0;
+			padding: 0;
 			border: none;
 		}
-		.ui-widget-content {
+		input {
+			margin: 0;
+			float: left;
+			@include button;
+		}
+		textarea {
+			font-family: $stack;
+			border: $border-thin solid $grey;
+		}
+		table p {
+			margin: 0 !important;
+		}
+		#map-rhcontent1 {
+			padding-right: $gutter*0.5;
+			padding-left: $gutter*0.5;
+		}
+		#map-userComments {
+			background: none;
+			padding: 0;
+			#txtUserComments {
+				padding: $baseline*0.5 $gutter*0.5;
+				width: 100%;
+			}
+		}
+		#map-controlpanel1 {
+			overflow: initial;
+			background: none;
+			@include border-radius(0);
+			#map-shortlist-links {
+				padding: $gutter*0.5;
+				table {
+					text-align: left !important;
+					tr {
+						display: inline-block;
+						margin-bottom: $baseline*0.25;
+					}
+				}
+			}
+			& + div {
+				margin: 0 !important;
+				padding: $gutter*0.5;
+				width: initial !important;
+			}
+		}
+		// #shortlistFrame {
+		// 	padding: 0 $gutter*0.5 0 0;
+		// }
+	}
+	.shortlist-comments-header {
+		@include h3;
+		padding: 0;
+		margin-top: 0;
+		margin-bottom: $baseline*0.5;
+	}
+	#lower {
+		.ui-widget-header {
 			border: none;
 		}
 		.ui-corner-all {
 			@include border-radius(initial);
 		}
 		#mainTabs {
-			border: $border-thin solid $grey-light;
-			border-top: none;
+			overflow: initial !important;
+			border: none;
 			padding: 0;
 			.ui-tabs-nav {
-				border-bottom: $border-thin solid $grey-light;
+				border-bottom: $border-thin solid $grey;
 				padding: 0;
 				li {
 					top: 0;
@@ -110,8 +382,8 @@
 				}
 				.ui-tabs-selected {
 					background: $white;
-					border-top: $border-thin solid $grey-light;
-					border-right: $border-thin solid $grey-light;
+					border: $border-thin solid $grey;
+					border-bottom: none;
 					margin-bottom: -1px;
 					a {
 						color: $black;
@@ -119,62 +391,28 @@
 				}				
 			}
 		}
-		#map-container {
-			padding: 0;
-		}
-		#map-resultspanel {
-			margin: 0;
-			.dataTables_wrapper {
-				margin: 0;
-				#resultsTableHeader {
-					input {
-						border: 1px solid $grey-light;
-					}
-				}
-				table.pretty {
-					thead {
-						th {
-							text-align: left;
-							font-weight: $bold;
-							color: $black;
-							background: none;
-						}
-						tr {
-							// border-bottom: 2px solid $black;
-						}
-					}
-					tbody tr.odd {
-						border-top: $border-thin solid $black;
-						border-bottom: $border-thin solid $black;
-						td {
-							background: none;
-						}
-					}
-				}
-			}
-		}
-		.ui-tabs.ui-tabs-panel {
+		#map-controlpanel input[type='checkbox'] .ui-tabs.ui-tabs-panel {
 			padding: 0;
 		}
 		.tabPanelBar {
 			display: none;
 		}
 		#resultsTableHeader {
-			float: left;
-			margin: $gutter;
+			float: right;
+			margin: $baseline*0.25 0 $baseline 0;
 			input.button {
 				margin: 0 !important;
 				display: none;
 			}
 		}
 		#resultsTable {
-			margin: $gutter;
+			margin: $baseline 0;
 			width: auto !important;
 		}
 	}
 	.bottom {
 		display: inline-block;
-		padding: $gutter;
+		padding: $baseline 0;
 		.dataTables_info, 
 		.dataTables_length,
 		.dataTables_paginate {

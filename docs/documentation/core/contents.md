@@ -22,7 +22,8 @@
 <ul>
   <li><a href="/app/freedom-of-information">Freedom of Information Search</a></li>
   <li><a href="/app/emergency-school-closures">Emergency School Closures</a></li>
-  <li><a href="/app/find-a-childcare-provider">Find a Childcare Provider</a></li>
+  <li><a href="/app/find-a-childcare-provider-b">Find a Childcare Provider first tab</a></li>
+  <li><a href="/app/find-a-childcare-provider-c">Find a Childcare Provider second tab</a></li>
   <li><a href="/app/catchment-area">Catchment Area</a></li>
   <li><a href="/app/childcare-sufficiency">Childcare Sufficiency</a></li>
   <li><a href="/app/schools-waiting-list">Schools Waiting List</a></li>
