@@ -57,26 +57,8 @@
 			@include border-radius(initial);
 		}
 	}
-	#map-container {
-		border: $border-thin solid $grey;
-		margin-top: 0;
-		margin-bottom: $baseline;
-		padding: 0;
-		padding-top: $baseline*0.5;
-		@include border-radius(initial);
-		.disclaimertext h3 {
-			@include h4;
-		}
-		#map-lhcol {
-			label, legend {
-				display: inline-block;
-				margin-top: $baseline*0.25;
-				margin-bottom: $baseline*0.125;
-			}
-		}
-		button.gm-control-active img {
-			padding: 11px;
-		}
+	#map-container,
+	#map-shortlistpanel {
 		.formhelper.yellowbg {
 			h3 {
 				@include h4;
@@ -102,6 +84,33 @@
 				}
 			}
 		}
+	}
+	#map-container {
+		float: left;
+		border: $border-thin solid $grey;
+		border-top: none;
+		margin-top: 0;
+		margin-bottom: $baseline;
+		padding: 0;
+		padding-top: $baseline*0.5;
+		@include border-radius(initial);
+		.disclaimertext h3 {
+			@include h4;
+		}
+		#map-lhcol {
+			label, legend {
+				display: inline-block;
+				margin-top: $baseline*0.25;
+				margin-bottom: $baseline*0.125;
+			}
+		}
+		#map-rhcontent {
+			padding-right: $gutter*0.5;
+			padding-left: $gutter*0.5
+		}
+		button.gm-control-active img {
+			padding: 11px;
+		}
 		#map-controlpanel {
 			background-color: initial;
 			border: none;
@@ -120,6 +129,10 @@
 					a {
 						@include button;
 					}
+				}
+				h3 {
+					font-size: 1rem;
+					font-weight: $regular;
 				}
 				.ui-accordion-header {
 					margin: 0;
@@ -219,9 +232,8 @@
 							font-weight: $bold;
 							color: $black;
 							background: none;
-						}
-						tr {
-							// border-bottom: 2px solid $black;
+							padding: 0 $gutter*0.5 0 0;
+							width: initial !important;
 						}
 					}
 					tbody tr.odd {
@@ -241,20 +253,20 @@
 			margin: 0;
 			border: none;
 		}
-		#formhelperHelp {
-			p {
-				margin-bottom: $baseline*0.25;
-				a {
-					color: $link !important;
-					&:hover {
-						color: $hover !important;
-					}
-					&:active {
-						color: $active !important;
-					}
-					&:visited {
-						color: $visited !important;
-					}
+	}
+	#formhelperHelp {
+		p {
+			margin-bottom: $baseline*0.25;
+			a {
+				color: $link !important;
+				&:hover {
+					color: $hover !important;
+				}
+				&:active {
+					color: $active !important;
+				}
+				&:visited {
+					color: $visited !important;
 				}
 			}
 		}
@@ -267,18 +279,87 @@
 			width: $icon;
 		}
 	}
+	#map-shortlistpanel {
+		float: left;
+		margin: 0;
+		padding: 0;
+		padding-top: $baseline*0.5;
+		background: none;
+		border: $border-thin solid $grey;
+		border-top: none;
+		width: 100%;
+		#map-report,
+		#shortlistFrame {
+			margin: 0;
+		}
+		#map-lhcol1 #map-controlpanel1 {
+			margin: 0;
+			padding: 0;
+			border: none;
+		}
+		input {
+			margin: 0;
+			float: left;
+			@include button;
+		}
+		textarea {
+			font-family: $stack;
+			border: $border-thin solid $grey;
+		}
+		table p {
+			margin: 0 !important;
+		}
+		#map-rhcontent1 {
+			padding-right: $gutter*0.5;
+			padding-left: $gutter*0.5;
+		}
+		#map-userComments {
+			background: none;
+			padding: 0;
+			#txtUserComments {
+				padding: $baseline*0.5 $gutter*0.5;
+				width: 100%;
+			}
+		}
+		#map-controlpanel1 {
+			overflow: initial;
+			background: none;
+			@include border-radius(0);
+			#map-shortlist-links {
+				padding: $gutter*0.5;
+				table {
+					text-align: left !important;
+					tr {
+						display: inline-block;
+						margin-bottom: $baseline*0.25;
+					}
+				}
+			}
+			& + div {
+				margin: 0 !important;
+				padding: $gutter*0.5;
+				width: initial !important;
+			}
+		}
+		// #shortlistFrame {
+		// 	padding: 0 $gutter*0.5 0 0;
+		// }
+	}
+	.shortlist-comments-header {
+		@include h3;
+		padding: 0;
+		margin-top: 0;
+		margin-bottom: $baseline*0.5;
+	}
 	#lower {
 		.ui-widget-header {
 			border: none;
-		}
-		.ui-widget-content {
-			float: left;
-			border-top: none;
 		}
 		.ui-corner-all {
 			@include border-radius(initial);
 		}
 		#mainTabs {
+			overflow: initial !important;
 			border: none;
 			padding: 0;
 			.ui-tabs-nav {
@@ -310,8 +391,7 @@
 				}				
 			}
 		}
-		#map-controlpanel input[type='checkbox']
-		.ui-tabs.ui-tabs-panel {
+		#map-controlpanel input[type='checkbox'] .ui-tabs.ui-tabs-panel {
 			padding: 0;
 		}
 		.tabPanelBar {
@@ -319,7 +399,7 @@
 		}
 		#resultsTableHeader {
 			float: right;
-			margin: $baseline 0;
+			margin: $baseline*0.25 0 $baseline 0;
 			input.button {
 				margin: 0 !important;
 				display: none;
@@ -332,7 +412,7 @@
 	}
 	.bottom {
 		display: inline-block;
-		padding: $gutter;
+		padding: $baseline 0;
 		.dataTables_info, 
 		.dataTables_length,
 		.dataTables_paginate {
