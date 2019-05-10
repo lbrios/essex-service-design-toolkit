@@ -10,7 +10,7 @@
         <li>Family Information Service: Find a childcare provider</li>
       </ol>
     </div>
-    <div class="main" id="find-childcare-provider">
+    <div class="main only" id="find-childcare-provider">
       <section class="intro">               
         <h1>Family Information Service: Find a childcare provider</h1>
 
@@ -45,290 +45,410 @@
         <script type="text/javascript" src="./Core App_files/Main.js.download"></script>
       </section>
       <section class="content">
-        <div>
-          <form class="form">
-            <legend>
-              <span class="form-hint">Search by town or postcode</span>
-            </legend>
-            <fieldset>
-              <div id="map-search-by-address " class="group search">
-                <div class="search-input no-search-button">
-                  <label>Town or postcode</label>
-                  <input id="searchValue-Location" type="text" searchkey="Location" searchtype="keyValue" value="">
-                </div>
-              </div>
-              <div class="group">
-                <label for="searchValue-Radius" class="searchCaption">Search Radius</label>
-                <select id="searchValue-Radius" searchkey="Radius" searchtype="keyValue" disabledsearchvalue="-1">
-                  <option value="-1">This area only</option>
-                  <option value="1">within 1 mile</option>
-                  <option value="3">within 3 miles</option>
-                  <option value="5">within 5 miles</option>
-                  <option value="10">within 10 miles</option>
-                  <option value="20">within 20 miles</option>
-                </select>
-              </div>
-            </fieldset>
-            <div class="group type-checkbox">
-              <fieldset>
-                <legend class="searchCaption">
-                  Provider type
-                </legend>
-                <div id="map-catpanel">
-                  <div class="provider">
-                    <input id="chk-selectAllCategories" type="checkbox" name="category">
-                    <span for="chk-selectAllCategories">Select All</span>
-                  </div>
-
-                  <div id="map-catlist"><div id="cat-table"><div class="provider"><img src="/public/images/find-provider-icons/ccr-asc.png" style="width:16px; height:16px; display:unset;" title="After school clubs provide care and activities to fit around school hours. They are registered and inspected by Ofsted for children up to eight years old, but may also cater for older children."><input id="map-cat-cbxccr-asc" type="checkbox" name="category" value="ccr-asc"><span for="map-cat-cbxccr-asc">After School Clubs</span><div coltype="count"><span id="resultCount-ccr-asc" catid="ccr-asc">(7)</span></div></div><div class="provider"><img src="/public/images/find-provider-icons/ccr-btg.png" style="width:16px; height:16px; display:unset;" title="Baby and toddler groups are for parents/ carers and young children to enjoy activities together, and with other families. Most run once a week for a few hours and may be based in church halls, community centres or children’s centres. They usually operate during term time."><input id="map-cat-cbxccr-btg" type="checkbox" name="category" value="ccr-btg"><span for="map-cat-cbxccr-btg">Baby &amp; Toddler Groups</span><div coltype="count"><span id="resultCount-ccr-btg" catid="ccr-btg"></span></div></div><div class="provider"><img src="/public/images/find-provider-icons/ccr-brk.png" style="width:16px; height:16px; display:unset;" title="Breakfast clubs provide care and activities to fit around school hours. They are registered and inspected by Ofsted for children up to eight years old, but may also cater for older children."><input id="map-cat-cbxccr-brk" type="checkbox" name="category" value="ccr-brk"><span for="map-cat-cbxccr-brk">Breakfast Clubs</span><div coltype="count"><span id="resultCount-ccr-brk" catid="ccr-brk"></span></div></div><div class="provider"><img src="/public/images/find-provider-icons/ccr-chc.png" style="width:16px; height:16px; display:unset;" title="Children’s centres provide a range of services for families and others caring for children under five years. All families are encouraged to contact their local centre for more information."><input id="map-cat-cbxccr-chc" type="checkbox" name="category" value="ccr-chc"><span for="map-cat-cbxccr-chc">Children's Centre</span><div coltype="count"><span id="resultCount-ccr-chc" catid="ccr-chc"></span></div></div><div class="provider"><img src="/public/images/find-provider-icons/ccr-cma.png" style="width:16px; height:16px; display:unset;" title="
-                    A childminder agency is an organisation that is able to register childminders in England and may provide a range of services to its members and parents. They were introduced by the Department for Education in 2013. Childminder agencies are obliged by law to ensure a childminder&#39;s suitability, support the training / development of childminders, help parents find and work with a suitable childminder, improve the quality of the provision offered by its registered childminders and monitor the standard of care provided by the childminders they register
-
-                    Childminder agencies may provide childminders with support services such as marketing, administration, training and development. They also carry out assessments of childminders registered with them. Agencies may provide parents with matching services to help them find a childminder, as well as access to holiday and sickness cover when their regular childminder is not available.
-                    "><input id="map-cat-cbxccr-cma" type="checkbox" name="category" value="ccr-cma"><span for="map-cat-cbxccr-cma">Childminder Agency</span><div coltype="count"><span id="resultCount-ccr-cma" catid="ccr-cma"></span></div></div><div class="provider"><img src="/public/images/find-provider-icons/ccr-chm.png" style="width:16px; height:16px; display:unset;" title="Childminders provide care for children, usually in the childminder&#39;s own home. They often offer flexible hours while providing a range of learning opportunities in and out of the home. They are registered by Ofsted."><input id="map-cat-cbxccr-chm" type="checkbox" name="category" value="ccr-chm"><span for="map-cat-cbxccr-chm">Childminders</span><div coltype="count"><span id="resultCount-ccr-chm" catid="ccr-chm"></span></div></div><div class="provider"><img src="/public/images/find-provider-icons/ccr-cre.png" style="width:16px; height:16px; display:unset;" title="Creches provide occasional care for children under eight years old. Some are in permanent premises and care for children while parents are engaged in particular activities, such as shopping or sport. Others are provided on a temporary basis, perhaps running alongside a one-off event."><input id="map-cat-cbxccr-cre" type="checkbox" name="category" value="ccr-cre"><span for="map-cat-cbxccr-cre">Crèches</span><div coltype="count"><span id="resultCount-ccr-cre" catid="ccr-cre"></span></div></div><div class="provider"><img src="/public/images/find-provider-icons/ccr-dyn.png" style="width:16px; height:16px; display:unset;" title="Day nurseries provide full or part-time care and early education for babies and children up to the age of five. Some may also offer a provision for older children before/after school and in the holiday period. They are usually open from approximately 8am to 6pm and generally operate all year, including school holidays. They are registered by Ofsted."><input id="map-cat-cbxccr-dyn" type="checkbox" name="category" value="ccr-dyn"><span for="map-cat-cbxccr-dyn">Day Nurseries</span><div coltype="count"><span id="resultCount-ccr-dyn" catid="ccr-dyn"></span></div></div><div class="provider"><img src="/public/images/find-provider-icons/ccr-hol.png" style="width:16px; height:16px; display:unset;" title="Holiday clubs provide care and activities to fit around school holidays. They are registered and inspected by Ofsted for children up to eight years old, but may also cater for older children."><input id="map-cat-cbxccr-hol" type="checkbox" name="category" value="ccr-hol"><span for="map-cat-cbxccr-hol">Holiday Clubs</span><div coltype="count"><span id="resultCount-ccr-hol" catid="ccr-hol"></span></div></div><div class="provider"><img src="/public/images/find-provider-icons/ccr-mns.png" style="width:16px; height:16px; display:unset;" title="A maintained nursery school is funded by the local authority and generally provides education for children aged from three to five, although some do take children from two years old. They are registered and inspected by Ofsted."><input id="map-cat-cbxccr-mns" type="checkbox" name="category" value="ccr-mns"><span for="map-cat-cbxccr-mns">Maintained Nursery Schools</span><div coltype="count"><span id="resultCount-ccr-mns" catid="ccr-mns"></span></div></div><div class="provider"><img src="/public/images/find-provider-icons/ccr-nis.png" style="width:16px; height:16px; display:unset;" title="A nursery unit of an independent school generally provides education for children aged from three to five, although some do take children from two years old.  They are registered and inspected by Ofsted."><input id="map-cat-cbxccr-nis" type="checkbox" name="category" value="ccr-nis"><span for="map-cat-cbxccr-nis">Nursery Unit Of Independent Schools</span><div coltype="count"><span id="resultCount-ccr-nis" catid="ccr-nis"></span></div></div><div class="provider"><img src="/public/images/find-provider-icons/ccr-pre.png" style="width:16px; height:16px; display:unset;" title="Pre-schools provide play and early education for children under five years old. This is sessional care usually provided during term time for children aged between two and five years old. They are registered by Ofsted."><input id="map-cat-cbxccr-pre" type="checkbox" name="category" value="ccr-pre"><span for="map-cat-cbxccr-pre">Pre-schools</span><div coltype="count"><span id="resultCount-ccr-pre" catid="ccr-pre"></span></div></div><div class="provider"><img src="/public/images/find-provider-icons/ccr-psn.png" style="width:16px; height:16px; display:unset;" title="A nursery unit of a primary school generally provides education for children aged from three to five, although some do take children from two years old.  They are registered and inspected by Ofsted."><input id="map-cat-cbxccr-psn" type="checkbox" name="category" value="ccr-psn"><span for="map-cat-cbxccr-psn">Primary School Nurseries</span><div coltype="count"><span id="resultCount-ccr-psn" catid="ccr-psn"></span></div></div></div></div>
-                  </div>
-                </fieldset>
-              </div>
-              <div id="map-search-by-address " class="group">
-                <div>
-                  <div class="search-input no-search-button">
-                    <label for="searchValue-ProviderName" class="searchCaption">Provider Name</label>
-                    <input id="searchValue-ProviderName" type="text" searchkey="ProviderName" searchtype="keyValue">
-                  </div>
-                </div>
-              </div>
-              <input type="button" id="map-searchButton" value="Show results" class="button button-form">
-            </form>
-            <div id="map-SearchByOfstedRef" class="ui-accordion ui-widget ui-helper-reset ui-accordion-icons" role="tablist">
-              <h3 class="ui-accordion-header ui-helper-reset ui-state-default ui-corner-all" role="tab" aria-expanded="false" aria-selected="false" tabindex="0"><span class="ui-icon ui-icon-triangle-1-e"></span>
-                <a href="http://internetdev3.essexcc.gov.uk/fis#" tabindex="-1">Find by Ofsted Reference</a>
-              </h3>
-<!--               <div class="ui-accordion-content ui-helper-reset ui-widget-content ui-corner-bottom" role="tabpanel" style="height: 60.8px; display: none;"> -->
-              <div class="ui-accordion-content ui-helper-reset ui-widget-content ui-corner-bottom" role="tabpanel" style="height: 60.8px; display: block;">
-                <label for="searchValue-OfstedReference" class="searchCaption">
-                  Ofsted Reference
-                </label><br>
-                <input class="fld_std" id="searchValue-OfstedReference" type="text" searchkey="OfstedReference" searchtype="keyValue">
-                <input type="button" id="map-searchButton-OfstedRef" value="Find" class="button" style="float: right;">
-              </div>
-            </div>
-          </div>
-          <div class="map">
-            <div id="map-mappanel" style="height: 300px; position: relative; overflow: hidden;"><div style="height: 100%; width: 100%; position: absolute; top: 0px; left: 0px; background-color: rgb(229, 227, 223);"><div class="gm-style" style="position: absolute; z-index: 0; left: 0px; top: 0px; height: 100%; width: 100%; padding: 0px; border-width: 0px; margin: 0px;"><div tabindex="0" style="position: absolute; z-index: 0; left: 0px; top: 0px; height: 100%; width: 100%; padding: 0px; border-width: 0px; margin: 0px; cursor: url(&quot;http://maps.gstatic.com/mapfiles/openhand_8_8.cur&quot;), default; touch-action: pan-x pan-y;"><div style="z-index: 1; position: absolute; left: 50%; top: 50%; width: 100%; transform: translate(0px, 0px);"><div style="position: absolute; left: 0px; top: 0px; z-index: 100; width: 100%;"><div style="position: absolute; left: 0px; top: 0px; z-index: 0;"><div style="position: absolute; z-index: 991; transform: matrix(1, 0, 0, 1, -94, -58);"><div style="position: absolute; left: 0px; top: 0px; width: 256px; height: 256px;"><div style="width: 256px; height: 256px;"></div></div><div style="position: absolute; left: 256px; top: -256px; width: 256px; height: 256px;"><div style="width: 256px; height: 256px;"></div></div><div style="position: absolute; left: 256px; top: 0px; width: 256px; height: 256px;"><div style="width: 256px; height: 256px;"></div></div><div style="position: absolute; left: -512px; top: 0px; width: 256px; height: 256px;"><div style="width: 256px; height: 256px;"></div></div><div style="position: absolute; left: -512px; top: -256px; width: 256px; height: 256px;"><div style="width: 256px; height: 256px;"></div></div><div style="position: absolute; left: -256px; top: 0px; width: 256px; height: 256px;"><div style="width: 256px; height: 256px;"></div></div><div style="position: absolute; left: -256px; top: -256px; width: 256px; height: 256px;"><div style="width: 256px; height: 256px;"></div></div><div style="position: absolute; left: 0px; top: -256px; width: 256px; height: 256px;"><div style="width: 256px; height: 256px;"></div></div></div></div></div><div style="position: absolute; left: 0px; top: 0px; z-index: 101; width: 100%;"></div><div style="position: absolute; left: 0px; top: 0px; z-index: 102; width: 100%;"></div><div style="position: absolute; left: 0px; top: 0px; z-index: 103; width: 100%;"><div style="position: absolute; left: 0px; top: 0px; z-index: -1;"><div style="position: absolute; z-index: 991; transform: matrix(1, 0, 0, 1, -94, -58);"><div style="width: 256px; height: 256px; overflow: hidden; position: absolute; left: 0px; top: 0px;"></div><div style="width: 256px; height: 256px; overflow: hidden; position: absolute; left: -256px; top: 0px;"></div><div style="width: 256px; height: 256px; overflow: hidden; position: absolute; left: -256px; top: -256px;"></div><div style="width: 256px; height: 256px; overflow: hidden; position: absolute; left: 0px; top: -256px;"></div><div style="width: 256px; height: 256px; overflow: hidden; position: absolute; left: 256px; top: -256px;"></div><div style="width: 256px; height: 256px; overflow: hidden; position: absolute; left: 256px; top: 0px;"></div><div style="width: 256px; height: 256px; overflow: hidden; position: absolute; left: -512px; top: 0px;"></div><div style="width: 256px; height: 256px; overflow: hidden; position: absolute; left: -512px; top: -256px;"></div></div></div><div style="width: 32px; height: 32px; overflow: hidden; position: absolute; left: 64px; top: 64px; z-index: 96;"><img alt="" src="/public/images/find-provider-icons/ccr-asc.png" draggable="false" style="position: absolute; left: 0px; top: 0px; user-select: none; width: 32px; height: 32px; border: 0px; padding: 0px; margin: 0px; max-width: none; opacity: 1;"></div><div style="width: 32px; height: 32px; overflow: hidden; position: absolute; left: 3px; top: 60px; z-index: 92;"><img alt="" src="/public/images/find-provider-icons/ccr-asc.png" draggable="false" style="position: absolute; left: 0px; top: 0px; user-select: none; width: 32px; height: 32px; border: 0px; padding: 0px; margin: 0px; max-width: none; opacity: 1;"></div><div style="width: 32px; height: 32px; overflow: hidden; position: absolute; left: -21px; top: -71px; z-index: -39;"><img alt="" src="/public/images/find-provider-icons/ccr-asc.png" draggable="false" style="position: absolute; left: 0px; top: 0px; user-select: none; width: 32px; height: 32px; border: 0px; padding: 0px; margin: 0px; max-width: none; opacity: 1;"></div><div style="width: 32px; height: 32px; overflow: hidden; position: absolute; left: -95px; top: 77px; z-index: 109;"><img alt="" src="/public/images/find-provider-icons/ccr-asc.png" draggable="false" style="position: absolute; left: 0px; top: 0px; user-select: none; width: 32px; height: 32px; border: 0px; padding: 0px; margin: 0px; max-width: none; opacity: 1;"></div><div style="width: 32px; height: 32px; overflow: hidden; position: absolute; left: 40px; top: 4px; z-index: 36;"><img alt="" src="/public/images/find-provider-icons/ccr-asc.png" draggable="false" style="position: absolute; left: 0px; top: 0px; user-select: none; width: 32px; height: 32px; border: 0px; padding: 0px; margin: 0px; max-width: none; opacity: 1;"></div><div style="width: 32px; height: 32px; overflow: hidden; position: absolute; left: -66px; top: 71px; z-index: 103;"><img alt="" src="/public/images/find-provider-icons/ccr-asc.png" draggable="false" style="position: absolute; left: 0px; top: 0px; user-select: none; width: 32px; height: 32px; border: 0px; padding: 0px; margin: 0px; max-width: none; opacity: 1;"></div><div style="width: 32px; height: 32px; overflow: hidden; position: absolute; left: -39px; top: -99px; z-index: -67;"><img alt="" src="/public/images/find-provider-icons/ccr-asc.png" draggable="false" style="position: absolute; left: 0px; top: 0px; user-select: none; width: 32px; height: 32px; border: 0px; padding: 0px; margin: 0px; max-width: none; opacity: 1;"></div><div style="width: 32px; height: 37px; overflow: hidden; position: absolute; left: -23px; top: -77px; z-index: -40;"><img alt="" src="/public/images/find-provider-icons/home.png" draggable="false" style="position: absolute; left: 0px; top: 0px; user-select: none; width: 32px; height: 37px; border: 0px; padding: 0px; margin: 0px; max-width: none; opacity: 1;"></div></div><div style="position: absolute; left: 0px; top: 0px; z-index: 0;"><div style="position: absolute; z-index: 991; transform: matrix(1, 0, 0, 1, -94, -58);"><div style="position: absolute; left: -256px; top: 0px; width: 256px; height: 256px; transition: opacity 200ms linear 0s;"><img draggable="false" alt="" role="presentation" src="/public/images/find-provider-icons/vt" style="width: 256px; height: 256px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"></div><div style="position: absolute; left: 0px; top: 0px; width: 256px; height: 256px; transition: opacity 200ms linear 0s;"><img draggable="false" alt="" role="presentation" src="/public/images/find-provider-icons/vt(1)" style="width: 256px; height: 256px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"></div><div style="position: absolute; left: -256px; top: -256px; width: 256px; height: 256px; transition: opacity 200ms linear 0s;"><img draggable="false" alt="" role="presentation" src="/public/images/find-provider-icons/vt(2)" style="width: 256px; height: 256px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"></div><div style="position: absolute; left: 256px; top: 0px; width: 256px; height: 256px; transition: opacity 200ms linear 0s;"><img draggable="false" alt="" role="presentation" src="/public/images/find-provider-icons/vt(3)" style="width: 256px; height: 256px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"></div><div style="position: absolute; left: 256px; top: -256px; width: 256px; height: 256px; transition: opacity 200ms linear 0s;"><img draggable="false" alt="" role="presentation" src="/public/images/find-provider-icons/vt(4)" style="width: 256px; height: 256px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"></div><div style="position: absolute; left: -512px; top: 0px; width: 256px; height: 256px; transition: opacity 200ms linear 0s;"><img draggable="false" alt="" role="presentation" src="/public/images/find-provider-icons/vt(5)" style="width: 256px; height: 256px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"></div><div style="position: absolute; left: 0px; top: -256px; width: 256px; height: 256px; transition: opacity 200ms linear 0s;"><img draggable="false" alt="" role="presentation" src="/public/images/find-provider-icons/vt(6)" style="width: 256px; height: 256px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"></div><div style="position: absolute; left: -512px; top: -256px; width: 256px; height: 256px; transition: opacity 200ms linear 0s;"><img draggable="false" alt="" role="presentation" src="/public/images/find-provider-icons/vt(7)" style="width: 256px; height: 256px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"></div></div></div></div><div class="gm-style-pbc" style="z-index: 2; position: absolute; height: 100%; width: 100%; padding: 0px; border-width: 0px; margin: 0px; left: 0px; top: 0px; opacity: 0;"><p class="gm-style-pbt"></p></div><div style="z-index: 3; position: absolute; height: 100%; width: 100%; padding: 0px; border-width: 0px; margin: 0px; left: 0px; top: 0px; touch-action: pan-x pan-y;"><div style="z-index: 4; position: absolute; left: 50%; top: 50%; width: 100%; transform: translate(0px, 0px);"><div style="position: absolute; left: 0px; top: 0px; z-index: 104; width: 100%;"></div><div style="position: absolute; left: 0px; top: 0px; z-index: 105; width: 100%;"></div><div style="position: absolute; left: 0px; top: 0px; z-index: 106; width: 100%;"><div title="ACA The Activity Club" style="width: 32px; height: 32px; overflow: hidden; position: absolute; opacity: 0; cursor: pointer; touch-action: none; left: 64px; top: 64px; z-index: 96;"><img alt="" src="/public/images/find-provider-icons/ccr-asc.png" draggable="false" style="position: absolute; left: 0px; top: 0px; user-select: none; width: 32px; height: 32px; border: 0px; padding: 0px; margin: 0px; max-width: none; opacity: 1;"></div><div title="Jam After School Club The Rodings
-            " style="width: 32px; height: 32px; overflow: hidden; position: absolute; opacity: 0; cursor: pointer; touch-action: none; left: 3px; top: 60px; z-index: 92;"><img alt="" src="/public/images/find-provider-icons/ccr-asc.png" draggable="false" style="position: absolute; left: 0px; top: 0px; user-select: none; width: 32px; height: 32px; border: 0px; padding: 0px; margin: 0px; max-width: none; opacity: 1;"></div><div title="R A B Late Play Club" style="width: 32px; height: 32px; overflow: hidden; position: absolute; opacity: 0; cursor: pointer; touch-action: none; left: -21px; top: -71px; z-index: -39;"><img alt="" src="/public/images/find-provider-icons/ccr-asc.png" draggable="false" style="position: absolute; left: 0px; top: 0px; user-select: none; width: 32px; height: 32px; border: 0px; padding: 0px; margin: 0px; max-width: none; opacity: 1;"></div><div title="Roydon Acorns After School Club
-            " style="width: 32px; height: 32px; overflow: hidden; position: absolute; opacity: 0; cursor: pointer; touch-action: none; left: -95px; top: 77px; z-index: 109;"><img alt="" src="/public/images/find-provider-icons/ccr-asc.png" draggable="false" style="position: absolute; left: 0px; top: 0px; user-select: none; width: 32px; height: 32px; border: 0px; padding: 0px; margin: 0px; max-width: none; opacity: 1;"></div><div title="Sffitness
-            " style="width: 32px; height: 32px; overflow: hidden; position: absolute; opacity: 0; cursor: pointer; touch-action: none; left: 40px; top: 4px; z-index: 36;"><img alt="" src="/public/images/find-provider-icons/ccr-asc.png" draggable="false" style="position: absolute; left: 0px; top: 0px; user-select: none; width: 32px; height: 32px; border: 0px; padding: 0px; margin: 0px; max-width: none; opacity: 1;"></div><div title="Vine Centre After School Club
-            " style="width: 32px; height: 32px; overflow: hidden; position: absolute; opacity: 0; cursor: pointer; touch-action: none; left: -66px; top: 71px; z-index: 103;"><img alt="" src="/public/images/find-provider-icons/ccr-asc.png" draggable="false" style="position: absolute; left: 0px; top: 0px; user-select: none; width: 32px; height: 32px; border: 0px; padding: 0px; margin: 0px; max-width: none; opacity: 1;"></div><div title="Neil O&#39;Sullivan Sports" style="width: 32px; height: 32px; overflow: hidden; position: absolute; opacity: 0; cursor: pointer; touch-action: none; left: -39px; top: -99px; z-index: -67;"><img alt="" src="/public/images/find-provider-icons/ccr-asc.png" draggable="false" style="position: absolute; left: 0px; top: 0px; user-select: none; width: 32px; height: 32px; border: 0px; padding: 0px; margin: 0px; max-width: none; opacity: 1;"></div><div title="Your Location" style="width: 32px; height: 37px; overflow: hidden; position: absolute; opacity: 0; cursor: pointer; touch-action: none; left: -23px; top: -77px; z-index: -40;"><img alt="" src="/public/images/find-provider-icons/home.png" draggable="false" style="position: absolute; left: 0px; top: 0px; user-select: none; width: 32px; height: 37px; border: 0px; padding: 0px; margin: 0px; max-width: none; opacity: 1;"></div></div><div style="position: absolute; left: 0px; top: 0px; z-index: 107; width: 100%;"><div style="cursor: default; position: absolute; top: -137px; left: -147px; width: 279px; height: 36px; z-index: -137;"><div style="position: absolute; left: 0px; top: 0px;"><div style="width: 0px; height: 0px; border-right: 10px solid transparent; border-left: 10px solid transparent; border-top: 24px solid rgba(0, 0, 0, 0.1); position: absolute; left: 130px; top: 36px;"></div><div style="position: absolute; left: 0px; top: 0px; background-color: rgba(0, 0, 0, 0.2); border-radius: 2px; box-shadow: rgba(0, 0, 0, 0.3) 0px 1px 4px -1px; width: 279px; height: 36px;"></div><div style="border-top-width: 24px; position: absolute; left: 130px; top: 33px;"><div style="position: absolute; overflow: hidden; left: -6px; top: -1px; width: 16px; height: 30px;"><div style="position: absolute; left: 6px; background-color: rgb(255, 255, 255); transform: skewX(22.6deg); transform-origin: 0px 0px; height: 24px; width: 10px; box-shadow: rgba(0, 0, 0, 0.6) 0px 1px 6px;"></div></div><div style="position: absolute; overflow: hidden; top: -1px; left: 10px; width: 16px; height: 30px;"><div style="position: absolute; left: 0px; background-color: rgb(255, 255, 255); transform: skewX(-22.6deg); transform-origin: 10px 0px; height: 24px; width: 10px; box-shadow: rgba(0, 0, 0, 0.6) 0px 1px 6px;"></div></div></div><div style="position: absolute; left: 1px; top: 1px; border-radius: 2px; background-color: rgb(255, 255, 255); width: 277px; height: 34px;"></div></div><div class="gm-style-iw" style="top: 9px; position: absolute; left: 15px; width: 249px;"><div style="display: inline-block; overflow: auto; max-height: 121px; max-width: 300px;"><div style="overflow: auto;"><strong>High St, Saffron Walden CB10 1AA, UK</strong><br></div></div></div><button draggable="false" title="Close" aria-label="Close" type="button" class="gm-ui-hover-effect" style="background: none; display: block; border: 0px; margin: 0px; padding: 0px; position: absolute; cursor: pointer; user-select: none; top: 0px; right: 0px; width: 37px; height: 33px;"><img src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2224px%22%20height%3D%2224px%22%20viewBox%3D%220%200%2024%2024%22%20fill%3D%22%23000000%22%3E%0A%20%20%20%20%3Cpath%20d%3D%22M19%206.41L17.59%205%2012%2010.59%206.41%205%205%206.41%2010.59%2012%205%2017.59%206.41%2019%2012%2013.41%2017.59%2019%2019%2017.59%2013.41%2012z%22%2F%3E%0A%20%20%20%20%3Cpath%20d%3D%22M0%200h24v24H0z%22%20fill%3D%22none%22%2F%3E%0A%3C%2Fsvg%3E%0A" style="pointer-events: none; display: block; width: 13px; height: 13px; margin: 10px 12px;"></button></div></div></div></div></div><iframe aria-hidden="true" frameborder="0" style="z-index: -1; position: absolute; width: 100%; height: 100%; top: 0px; left: 0px; border: none;" src="./Core App_files/saved_resource.html"></iframe><div style="margin-left: 5px; margin-right: 5px; z-index: 1000000; position: absolute; left: 0px; bottom: 0px;"><a target="_blank" rel="noopener" href="https://maps.google.com/maps?ll=51.953808,0.25834&amp;z=9&amp;t=m&amp;hl=en&amp;gl=GB&amp;mapclient=apiv3" title="Open this area in Google Maps (opens a new window)" style="position: static; overflow: visible; float: none; display: inline;"><div style="width: 66px; height: 26px; cursor: pointer;"><img alt="" src="./Core App_files/google4.png" draggable="false" style="position: absolute; left: 0px; top: 0px; width: 66px; height: 26px; user-select: none; border: 0px; padding: 0px; margin: 0px;"></div></a></div><div style="background-color: white; padding: 15px 21px; border: 1px solid rgb(171, 171, 171); font-family: Roboto, Arial, sans-serif; color: rgb(34, 34, 34); box-sizing: border-box; box-shadow: rgba(0, 0, 0, 0.2) 0px 4px 16px; z-index: 10000002; display: none; width: 300px; height: 180px; position: absolute; left: 225px; top: 60px;"><div style="padding: 0px 0px 10px; font-size: 16px;">Map Data</div><div style="font-size: 13px;">Map data ©2019 Google</div><button draggable="false" title="Close" aria-label="Close" type="button" class="gm-ui-hover-effect" style="background: none; display: block; border: 0px; margin: 0px; padding: 0px; position: absolute; cursor: pointer; user-select: none; top: 0px; right: 0px; width: 37px; height: 37px;"><img src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2224px%22%20height%3D%2224px%22%20viewBox%3D%220%200%2024%2024%22%20fill%3D%22%23000000%22%3E%0A%20%20%20%20%3Cpath%20d%3D%22M19%206.41L17.59%205%2012%2010.59%206.41%205%205%206.41%2010.59%2012%205%2017.59%206.41%2019%2012%2013.41%2017.59%2019%2019%2017.59%2013.41%2012z%22%2F%3E%0A%20%20%20%20%3Cpath%20d%3D%22M0%200h24v24H0z%22%20fill%3D%22none%22%2F%3E%0A%3C%2Fsvg%3E%0A" style="pointer-events: none; display: block; width: 13px; height: 13px; margin: 12px;"></button></div><div class="gmnoprint" style="z-index: 1000001; position: absolute; right: 265px; bottom: 0px; width: 121px;"><div draggable="false" class="gm-style-cc" style="user-select: none; height: 14px; line-height: 14px;"><div style="opacity: 0.7; width: 100%; height: 100%; position: absolute;"><div style="width: 1px;"></div><div style="background-color: rgb(245, 245, 245); width: auto; height: 100%; margin-left: 1px;"></div></div><div style="position: relative; padding-right: 6px; padding-left: 6px; font-family: Roboto, Arial, sans-serif; font-size: 10px; color: rgb(68, 68, 68); white-space: nowrap; direction: ltr; text-align: right; vertical-align: middle; display: inline-block;"><a style="text-decoration: none; cursor: pointer; display: none;">Map Data</a><span>Map data ©2019 Google</span></div></div></div><div class="gmnoscreen" style="position: absolute; right: 0px; bottom: 0px;"><div style="font-family: Roboto, Arial, sans-serif; font-size: 11px; color: rgb(68, 68, 68); direction: ltr; text-align: right; background-color: rgb(245, 245, 245);">Map data ©2019 Google</div></div><div class="gmnoprint gm-style-cc" draggable="false" style="z-index: 1000001; user-select: none; height: 14px; line-height: 14px; position: absolute; right: 95px; bottom: 0px;"><div style="opacity: 0.7; width: 100%; height: 100%; position: absolute;"><div style="width: 1px;"></div><div style="background-color: rgb(245, 245, 245); width: auto; height: 100%; margin-left: 1px;"></div></div><div style="position: relative; padding-right: 6px; padding-left: 6px; font-family: Roboto, Arial, sans-serif; font-size: 10px; color: rgb(68, 68, 68); white-space: nowrap; direction: ltr; text-align: right; vertical-align: middle; display: inline-block;"><a href="https://www.google.com/intl/en_GB/help/terms_maps.html" target="_blank" rel="noopener" style="text-decoration: none; cursor: pointer; color: rgb(68, 68, 68);">Terms of Use</a></div></div><button draggable="false" title="Toggle fullscreen view" aria-label="Toggle fullscreen view" type="button" class="gm-control-active gm-fullscreen-control" style="background: none rgb(255, 255, 255); border: 0px; margin: 10px; padding: 0px; position: absolute; cursor: pointer; user-select: none; border-radius: 2px; height: 40px; width: 40px; box-shadow: rgba(0, 0, 0, 0.3) 0px 1px 4px -1px; overflow: hidden; top: 0px; right: 0px;"><img src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2218%22%20height%3D%2218%22%20viewBox%3D%220%20018%2018%22%3E%0A%20%20%3Cpath%20fill%3D%22%23666%22%20d%3D%22M0%2C0v2v4h2V2h4V0H2H0z%20M16%2C0h-4v2h4v4h2V2V0H16z%20M16%2C16h-4v2h4h2v-2v-4h-2V16z%20M2%2C12H0v4v2h2h4v-2H2V12z%22%2F%3E%0A%3C%2Fsvg%3E%0A" style="height: 18px; width: 18px;"><img src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2218%22%20height%3D%2218%22%20viewBox%3D%220%200%2018%2018%22%3E%0A%20%20%3Cpath%20fill%3D%22%23333%22%20d%3D%22M0%2C0v2v4h2V2h4V0H2H0z%20M16%2C0h-4v2h4v4h2V2V0H16z%20M16%2C16h-4v2h4h2v-2v-4h-2V16z%20M2%2C12H0v4v2h2h4v-2H2V12z%22%2F%3E%0A%3C%2Fsvg%3E%0A" style="height: 18px; width: 18px;"><img src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2218%22%20height%3D%2218%22%20viewBox%3D%220%200%2018%2018%22%3E%0A%20%20%3Cpath%20fill%3D%22%23111%22%20d%3D%22M0%2C0v2v4h2V2h4V0H2H0z%20M16%2C0h-4v2h4v4h2V2V0H16z%20M16%2C16h-4v2h4h2v-2v-4h-2V16z%20M2%2C12H0v4v2h2h4v-2H2V12z%22%2F%3E%0A%3C%2Fsvg%3E%0A" style="height: 18px; width: 18px;"></button><div draggable="false" class="gm-style-cc" style="user-select: none; height: 14px; line-height: 14px; position: absolute; right: 0px; bottom: 0px;"><div style="opacity: 0.7; width: 100%; height: 100%; position: absolute;"><div style="width: 1px;"></div><div style="background-color: rgb(245, 245, 245); width: auto; height: 100%; margin-left: 1px;"></div></div><div style="position: relative; padding-right: 6px; padding-left: 6px; font-family: Roboto, Arial, sans-serif; font-size: 10px; color: rgb(68, 68, 68); white-space: nowrap; direction: ltr; text-align: right; vertical-align: middle; display: inline-block;"><a target="_blank" rel="noopener" title="Report errors in the road map or imagery to Google" href="https://www.google.com/maps/@51.9538081,0.2583397,9z/data=!10m1!1e1!12b1?source=apiv3&amp;rapsrc=apiv3" style="font-family: Roboto, Arial, sans-serif; font-size: 10px; color: rgb(68, 68, 68); text-decoration: none; position: relative;">Report a map error</a></div></div><div class="gmnoprint gm-bundled-control gm-bundled-control-on-bottom" draggable="false" controlwidth="40" controlheight="81" style="margin: 10px; user-select: none; position: absolute; bottom: 95px; right: 40px;"><div class="gmnoprint" controlwidth="40" controlheight="81" style="position: absolute; left: 0px; top: 0px;"><div draggable="false" style="user-select: none; box-shadow: rgba(0, 0, 0, 0.3) 0px 1px 4px -1px; border-radius: 2px; cursor: pointer; background-color: rgb(255, 255, 255); width: 40px; height: 81px;"><button draggable="false" title="Zoom in" aria-label="Zoom in" type="button" class="gm-control-active" style="background: none; display: block; border: 0px; margin: 0px; padding: 0px; position: relative; cursor: pointer; user-select: none; overflow: hidden; width: 40px; height: 40px; top: 0px; left: 0px;"><img src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2218%22%20height%3D%2218%22%20viewBox%3D%220%200%2018%2018%22%3E%0A%20%20%3Cpolygon%20fill%3D%22%23666%22%20points%3D%2218%2C7%2011%2C7%2011%2C0%207%2C0%207%2C7%200%2C7%200%2C11%207%2C11%207%2C18%2011%2C18%2011%2C11%2018%2C11%22%2F%3E%0A%3C%2Fsvg%3E%0A" style="height: 18px; width: 18px;"><img src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2218%22%20height%3D%2218%22%20viewBox%3D%220%200%2018%2018%22%3E%0A%20%20%3Cpolygon%20fill%3D%22%23333%22%20points%3D%2218%2C7%2011%2C7%2011%2C0%207%2C0%207%2C7%200%2C7%200%2C11%207%2C11%207%2C18%2011%2C18%2011%2C11%2018%2C11%22%2F%3E%0A%3C%2Fsvg%3E%0A" style="height: 18px; width: 18px;"><img src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2218%22%20height%3D%2218%22%20viewBox%3D%220%200%2018%2018%22%3E%0A%20%20%3Cpolygon%20fill%3D%22%23111%22%20points%3D%2218%2C7%2011%2C7%2011%2C0%207%2C0%207%2C7%200%2C7%200%2C11%207%2C11%207%2C18%2011%2C18%2011%2C11%2018%2C11%22%2F%3E%0A%3C%2Fsvg%3E%0A" style="height: 18px; width: 18px;"></button><div style="position: relative; overflow: hidden; width: 30px; height: 1px; margin: 0px 5px; background-color: rgb(230, 230, 230); top: 0px;"></div><button draggable="false" title="Zoom out" aria-label="Zoom out" type="button" class="gm-control-active" style="background: none; display: block; border: 0px; margin: 0px; padding: 0px; position: relative; cursor: pointer; user-select: none; overflow: hidden; width: 40px; height: 40px; top: 0px; left: 0px;"><img src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2218%22%20height%3D%2218%22%20viewBox%3D%220%200%2018%2018%22%3E%0A%20%20%3Cpath%20fill%3D%22%23666%22%20d%3D%22M0%2C7h18v4H0V7z%22%2F%3E%0A%3C%2Fsvg%3E%0A" style="height: 18px; width: 18px;"><img src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2218%22%20height%3D%2218%22%20viewBox%3D%220%200%2018%2018%22%3E%0A%20%20%3Cpath%20fill%3D%22%23333%22%20d%3D%22M0%2C7h18v4H0V7z%22%2F%3E%0A%3C%2Fsvg%3E%0A" style="height: 18px; width: 18px;"><img src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2218%22%20height%3D%2218%22%20viewBox%3D%220%200%2018%2018%22%3E%0A%20%20%3Cpath%20fill%3D%22%23111%22%20d%3D%22M0%2C7h18v4H0V7z%22%2F%3E%0A%3C%2Fsvg%3E%0A" style="height: 18px; width: 18px;"></button></div></div><div class="gmnoprint" controlwidth="40" controlheight="40" style="display: none; position: absolute;"><div style="width: 40px; height: 40px;"><button draggable="false" title="Rotate map 90 degrees" aria-label="Rotate map 90 degrees" type="button" class="gm-control-active" style="background: none rgb(255, 255, 255); display: none; border: 0px; margin: 0px 0px 32px; padding: 0px; position: relative; cursor: pointer; user-select: none; width: 40px; height: 40px; top: 0px; left: 0px; overflow: hidden; box-shadow: rgba(0, 0, 0, 0.3) 0px 1px 4px -1px; border-radius: 2px;"><img src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2224%22%20height%3D%2222%22%20viewBox%3D%220%200%2024%2022%22%3E%0A%20%20%3Cpath%20fill%3D%22%23666%22%20fill-rule%3D%22evenodd%22%20d%3D%22M20%2010c0-5.52-4.48-10-10-10s-10%204.48-10%2010v5h5v-5c0-2.76%202.24-5%205-5s5%202.24%205%205v5h-4l6.5%207%206.5-7h-4v-5z%22%20clip-rule%3D%22evenodd%22%2F%3E%0A%3C%2Fsvg%3E%0A" style="height: 18px; width: 18px;"><img src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2224%22%20height%3D%2222%22%20viewBox%3D%220%200%2024%2022%22%3E%0A%20%20%3Cpath%20fill%3D%22%23333%22%20fill-rule%3D%22evenodd%22%20d%3D%22M20%2010c0-5.52-4.48-10-10-10s-10%204.48-10%2010v5h5v-5c0-2.76%202.24-5%205-5s5%202.24%205%205v5h-4l6.5%207%206.5-7h-4v-5z%22%20clip-rule%3D%22evenodd%22%2F%3E%0A%3C%2Fsvg%3E%0A" style="height: 18px; width: 18px;"><img src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2224%22%20height%3D%2222%22%20viewBox%3D%220%200%2024%2022%22%3E%0A%20%20%3Cpath%20fill%3D%22%23111%22%20fill-rule%3D%22evenodd%22%20d%3D%22M20%2010c0-5.52-4.48-10-10-10s-10%204.48-10%2010v5h5v-5c0-2.76%202.24-5%205-5s5%202.24%205%205v5h-4l6.5%207%206.5-7h-4v-5z%22%20clip-rule%3D%22evenodd%22%2F%3E%0A%3C%2Fsvg%3E%0A" style="height: 18px; width: 18px;"></button><button draggable="false" title="Tilt map" aria-label="Tilt map" type="button" class="gm-tilt gm-control-active" style="background: none rgb(255, 255, 255); display: block; border: 0px; margin: 0px; padding: 0px; position: relative; cursor: pointer; user-select: none; width: 40px; height: 40px; top: 0px; left: 0px; overflow: hidden; box-shadow: rgba(0, 0, 0, 0.3) 0px 1px 4px -1px; border-radius: 2px;"><img src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2218px%22%20height%3D%2216px%22%20viewBox%3D%220%200%2018%2016%22%3E%0A%20%20%3Cpath%20fill%3D%22%23666%22%20d%3D%22M0%2C16h8V9H0V16z%20M10%2C16h8V9h-8V16z%20M0%2C7h8V0H0V7z%20M10%2C0v7h8V0H10z%22%2F%3E%0A%3C%2Fsvg%3E%0A" style="width: 18px;"><img src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2218px%22%20height%3D%2216px%22%20viewBox%3D%220%200%2018%2016%22%3E%0A%20%20%3Cpath%20fill%3D%22%23333%22%20d%3D%22M0%2C16h8V9H0V16z%20M10%2C16h8V9h-8V16z%20M0%2C7h8V0H0V7z%20M10%2C0v7h8V0H10z%22%2F%3E%0A%3C%2Fsvg%3E%0A" style="width: 18px;"><img src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2218px%22%20height%3D%2216px%22%20viewBox%3D%220%200%2018%2016%22%3E%0A%20%20%3Cpath%20fill%3D%22%23111%22%20d%3D%22M0%2C16h8V9H0V16z%20M10%2C16h8V9h-8V16z%20M0%2C7h8V0H0V7z%20M10%2C0v7h8V0H10z%22%2F%3E%0A%3C%2Fsvg%3E%0A" style="width: 18px;"></button></div></div></div><div class="gmnoprint" style="margin: 10px; z-index: 0; position: absolute; cursor: pointer; left: 0px; top: 0px;"><div class="gm-style-mtc" style="float: left; position: relative;"><div role="button" tabindex="0" title="Show street map" aria-label="Show street map" aria-pressed="true" draggable="false" style="direction: ltr; overflow: hidden; text-align: center; height: 40px; display: table-cell; vertical-align: middle; position: relative; color: rgb(0, 0, 0); font-family: Roboto, Arial, sans-serif; user-select: none; font-size: 18px; background-color: rgb(255, 255, 255); padding: 0px 17px; border-bottom-left-radius: 2px; border-top-left-radius: 2px; background-clip: padding-box; box-shadow: rgba(0, 0, 0, 0.3) 0px 1px 4px -1px; min-width: 36px; font-weight: 500;">Map</div><div style="background-color: white; z-index: -1; padding: 2px; border-bottom-left-radius: 2px; border-bottom-right-radius: 2px; box-shadow: rgba(0, 0, 0, 0.3) 0px 1px 4px -1px; position: absolute; left: 0px; top: 40px; text-align: left; display: none;"><div draggable="false" title="Show street map with terrain" style="color: black; font-family: Roboto, Arial, sans-serif; user-select: none; font-size: 18px; background-color: rgb(255, 255, 255); padding: 5px 8px 5px 5px; direction: ltr; text-align: left; white-space: nowrap;"><span role="checkbox" style="vertical-align: middle;"><img src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2224px%22%20height%3D%2224px%22%20viewBox%3D%220%200%2024%2024%22%20fill%3D%22%23000000%22%3E%0A%20%20%20%20%3Cpath%20d%3D%22M0%200h24v24H0z%22%20fill%3D%22none%22%2F%3E%0A%20%20%20%20%3Cpath%20d%3D%22M19%203H5c-1.11%200-2%20.9-2%202v14c0%201.1.89%202%202%202h14c1.11%200%202-.9%202-2V5c0-1.1-.89-2-2-2zm-9%2014l-5-5%201.41-1.41L10%2014.17l7.59-7.59L19%208l-9%209z%22%2F%3E%0A%3C%2Fsvg%3E%0A" style="height: 1em; width: 1em; transform: translateY(0.15em); display: none;"><img src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2224px%22%20height%3D%2224px%22%20viewBox%3D%220%200%2024%2024%22%20fill%3D%22%23000000%22%3E%0A%20%20%20%20%3Cpath%20d%3D%22M19%205v14H5V5h14m0-2H5c-1.1%200-2%20.9-2%202v14c0%201.1.9%202%202%202h14c1.1%200%202-.9%202-2V5c0-1.1-.9-2-2-2z%22%2F%3E%0A%20%20%20%20%3Cpath%20d%3D%22M0%200h24v24H0z%22%20fill%3D%22none%22%2F%3E%0A%3C%2Fsvg%3E%0A" style="height: 1em; width: 1em; transform: translateY(0.15em);"></span><label style="vertical-align: middle; cursor: pointer;">Terrain</label></div></div></div><div class="gm-style-mtc" style="float: left; position: relative;"><div role="button" tabindex="0" title="Show satellite imagery" aria-label="Show satellite imagery" aria-pressed="false" draggable="false" style="direction: ltr; overflow: hidden; text-align: center; height: 40px; display: table-cell; vertical-align: middle; position: relative; color: rgb(86, 86, 86); font-family: Roboto, Arial, sans-serif; user-select: none; font-size: 18px; background-color: rgb(255, 255, 255); padding: 0px 17px; border-bottom-right-radius: 2px; border-top-right-radius: 2px; background-clip: padding-box; box-shadow: rgba(0, 0, 0, 0.3) 0px 1px 4px -1px; min-width: 66px; border-left: 0px;">Satellite</div><div style="background-color: white; z-index: -1; padding: 2px; border-bottom-left-radius: 2px; border-bottom-right-radius: 2px; box-shadow: rgba(0, 0, 0, 0.3) 0px 1px 4px -1px; position: absolute; right: 0px; top: 40px; text-align: left; display: none;"><div draggable="false" title="Show imagery with street names" style="color: black; font-family: Roboto, Arial, sans-serif; user-select: none; font-size: 18px; background-color: rgb(255, 255, 255); padding: 5px 8px 5px 5px; direction: ltr; text-align: left; white-space: nowrap;"><span role="checkbox" style="vertical-align: middle;"><img src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2224px%22%20height%3D%2224px%22%20viewBox%3D%220%200%2024%2024%22%20fill%3D%22%23000000%22%3E%0A%20%20%20%20%3Cpath%20d%3D%22M0%200h24v24H0z%22%20fill%3D%22none%22%2F%3E%0A%20%20%20%20%3Cpath%20d%3D%22M19%203H5c-1.11%200-2%20.9-2%202v14c0%201.1.89%202%202%202h14c1.11%200%202-.9%202-2V5c0-1.1-.89-2-2-2zm-9%2014l-5-5%201.41-1.41L10%2014.17l7.59-7.59L19%208l-9%209z%22%2F%3E%0A%3C%2Fsvg%3E%0A" style="height: 1em; width: 1em; transform: translateY(0.15em);"><img src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2224px%22%20height%3D%2224px%22%20viewBox%3D%220%200%2024%2024%22%20fill%3D%22%23000000%22%3E%0A%20%20%20%20%3Cpath%20d%3D%22M19%205v14H5V5h14m0-2H5c-1.1%200-2%20.9-2%202v14c0%201.1.9%202%202%202h14c1.1%200%202-.9%202-2V5c0-1.1-.9-2-2-2z%22%2F%3E%0A%20%20%20%20%3Cpath%20d%3D%22M0%200h24v24H0z%22%20fill%3D%22none%22%2F%3E%0A%3C%2Fsvg%3E%0A" style="height: 1em; width: 1em; transform: translateY(0.15em); display: none;"></span><label style="vertical-align: middle; cursor: pointer;">Labels</label></div></div></div></div><div draggable="false" class="gm-style-cc" style="position: absolute; user-select: none; height: 14px; line-height: 14px; right: 166px; bottom: 0px;"><div style="opacity: 0.7; width: 100%; height: 100%; position: absolute;"><div style="width: 1px;"></div><div style="background-color: rgb(245, 245, 245); width: auto; height: 100%; margin-left: 1px;"></div></div><div style="position: relative; padding-right: 6px; padding-left: 6px; font-family: Roboto, Arial, sans-serif; font-size: 10px; color: rgb(68, 68, 68); white-space: nowrap; direction: ltr; text-align: right; vertical-align: middle; display: inline-block;"><span>10 km&nbsp;</span><div style="position: relative; display: inline-block; height: 8px; bottom: -1px; width: 57px;"><div style="width: 100%; height: 4px; position: absolute; left: 0px; top: 0px;"></div><div style="width: 4px; height: 8px; left: 0px; top: 0px; background-color: rgb(255, 255, 255);"></div><div style="width: 4px; height: 8px; position: absolute; background-color: rgb(255, 255, 255); right: 0px; bottom: 0px;"></div><div style="position: absolute; background-color: rgb(102, 102, 102); height: 2px; left: 1px; bottom: 1px; right: 1px;"></div><div style="position: absolute; width: 2px; height: 6px; left: 1px; top: 1px; background-color: rgb(102, 102, 102);"></div><div style="width: 2px; height: 6px; position: absolute; background-color: rgb(102, 102, 102); bottom: 1px; right: 1px;"></div></div></div></div></div></div></div>
-            <div id="map-controls">
-              <table style="width: 100%; margin-top: 3px;">
-                <tbody><tr>
-                  <td style="width: 325px;">
-                    <table style="display: none">
-                      <tbody><tr>
-                        <td style="width: 100px;">
-                          <label style="font-weight: bold">
-                            Search radius
-                          </label>
-                        </td>
-                        <td id="map-radius-decrease" style="cursor: hand; cursor: pointer; vertical-align: middle;">
-                          <span class="ui-icon ui-icon-minusthick"></span>
-                        </td>
-                        <td class="slider" style="width: 100px; vertical-align: middle;">
-                          <div id="map-radius-slider">
-                          </div>
-                        </td>
-                        <td id="map-radius-increase" style="cursor: hand; cursor: pointer; vertical-align: middle;">
-                          <span class="ui-icon ui-icon-plusthick"></span>
-                        </td>
-                        <td style="margin-left: 5px;">
-                          &nbsp;&nbsp;&nbsp;
-                          <input type="text" id="map-radius-text" readonly="readonly" style="width: 15px;" size="2">
-                          <label style="display: inline" id="map-radius-unit">
-                            Miles
-                          </label>
-                        </td>
-                      </tr>
-                    </tbody></table>
-                  </td>
-                  <td style="text-align: right">
-                    <label style="font-weight: bold">
-                      Map Size
-                    </label>
-                    <fieldset id="map-sizepanel" style="display: inline">
-                      <div id="map-size" class="ui-buttonset">
-                        <input id="map-size-sml" type="radio" name="mapSize" value="sml" checked="checked" class="ui-helper-hidden-accessible">
-                        <label for="map-size-sml" class="ui-state-active ui-button ui-widget ui-state-default ui-button-text-only ui-corner-left" aria-pressed="true" role="button" aria-disabled="false"><span class="ui-button-text">
-                          S
-                        </span></label>
-                        <input id="map-size-med" type="radio" name="mapSize" value="med" class="ui-helper-hidden-accessible">
-                        <label for="map-size-med" aria-pressed="false" class="ui-button ui-widget ui-state-default ui-button-text-only" role="button" aria-disabled="false"><span class="ui-button-text">
-                          M
-                        </span></label>
-                        <input id="map-size-lrg" type="radio" name="mapSize" value="lrg" class="ui-helper-hidden-accessible">
-                        <label for="map-size-lrg" aria-pressed="false" class="ui-button ui-widget ui-state-default ui-button-text-only" role="button" aria-disabled="false"><span class="ui-button-text">
-                          L
-                        </span></label>
-                        <input id="map-size-xlrg" type="radio" name="mapSize" value="xlrg" class="ui-helper-hidden-accessible">
-                        <label for="map-size-xlrg" aria-pressed="false" class="ui-button ui-widget ui-state-default ui-button-text-only ui-corner-right" role="button" aria-disabled="false"><span class="ui-button-text">
-                          XL
-                        </span></label>
-                      </div>
-                    </fieldset>
-                  </td>
-                </tr>
-              </tbody></table>
-            </div>
-          </div>
-          <div id="lower">
+        <div id="lower">
             <!-- Main Tabs -->
-            <div id="ajaxAnimationPanel" class="spinner" style="display: none;">
-              <table>
-                <tbody><tr>
-                  <td>
-                    <img id="ajax-animationImage" alt="Please wait" src="./Core App_files/GEARS_AN.gif">
-                    <!-- src="/_layouts/Content/images/GEARS_AN.gif" -->
-                  </td>
-                  <td>
-                    <label id="ajax-animationMessage">
-                      Please wait ...
-                    </label>
-                  </td>
-                </tr>
-              </tbody></table>
+            <div id="ajaxAnimationPanel" class="spinner" style="display: none">
+                <table>
+                    <tbody><tr>
+                        <td>
+                            <img id="ajax-animationImage" alt="Please wait" src="./Core App_files/GEARS_AN.gif">
+                            <!-- src="/_layouts/Content/images/GEARS_AN.gif" -->
+                        </td>
+                        <td>
+                            <label id="ajax-animationMessage">
+                                Please wait ...
+                            </label>
+                        </td>
+                    </tr>
+                </tbody></table>
+            </div>
+            <div id="testPanel" style="display:none;">
+                <input id="btnTestPanel" type="button" value="Panels Test">
             </div>
             <div id="mainTabs" style="overflow: auto;" class="ui-tabs ui-widget ui-widget-content ui-corner-all">
-              <ul class="ui-tabs-nav ui-helper-reset ui-helper-clearfix ui-widget-header ui-corner-all">
-                <li class="ui-state-default ui-corner-top ui-tabs-selected ui-state-active"><a href="http://internetdev3.essexcc.gov.uk/fis#map-container">Search Results</a></li>
-                <li class="ui-state-default ui-corner-top"><a href="http://internetdev3.essexcc.gov.uk/fis#map-shortlistpanel" id="map-basket-text">My Shortlist: (0)</a></li>
-              </ul>
-              <div id="map-container" class="ui-tabs-panel ui-widget-content ui-corner-bottom">
-                <div class="tabPanelBar">
-                </div>
-                <div id="map-resultspanel">
-                  <div class="dataTables_wrapper" id="resultsTable_wrapper"><div id="resultsTableHeader"><div class="dataTables_filter" id="resultsTable_filter"><label>Search: <input type="text"></label></div><input type="button" value="View Shortlist" onclick="displayShortlist()" class="button" style="margin-top:-20px;"></div><table id="resultsTable" cellpadding="0" cellspacing="0" border="0" style="width:100%" class="pretty"><thead><tr><th class="sorting_disabled center-align" rowspan="1" colspan="1" style="width: 10px;">More Info</th><th class="sorting" rowspan="1" colspan="1" style="width: 20px;"></th><th class="sorting" rowspan="1" colspan="1" style="width: 280px;">Name</th><th class="right-align sorting_asc" rowspan="1" colspan="1" style="width: 40px;">Distance (miles)</th><th class="center-align sorting" rowspan="1" colspan="1" style="width: 50px;">Funded Places for 2 yr olds</th><th class="center-align sorting" rowspan="1" colspan="1" style="width: 50px;">Funded Places for 3-4 yr olds</th><th class="sorting_disabled center-align" rowspan="1" colspan="1" style="width: 45px;">Add to Shortlist</th></tr></thead><tbody><tr class="odd"><td class="center-align"><span coltype="moreInfo" class="moreInfo" title="Click for more info about this provider"></span></td><td class=""><img style="height:16px;width:16px;" src="./Core App_files/ccr-asc.png" catid="ccr-asc"></td><td>R A B Late Play Club</td><td class="right-align sorting_1">0.3</td><td class="center-align">No</td><td class="center-align">No</td><td class="center-align"><input coltype="shortlist" type="checkbox" value="3649"></td></tr><tr class="even"><td class="center-align"><span coltype="moreInfo" class="moreInfo" title="Click for more info about this provider"></span></td><td class=""><img style="height:16px;width:16px;" src="./Core App_files/ccr-asc.png" catid="ccr-asc"></td><td>Neil O'Sullivan Sports</td><td class="right-align sorting_1">3.7</td><td class="center-align">No</td><td class="center-align">No</td><td class="center-align"><input coltype="shortlist" type="checkbox" value="4112"></td></tr><tr class="odd"><td class="center-align"><span coltype="moreInfo" class="moreInfo" title="Click for more info about this provider"></span></td><td class=""><img style="height:16px;width:16px;" src="./Core App_files/ccr-asc.png" catid="ccr-asc"></td><td>Sffitness
-                  </td><td class="right-align sorting_1">11.5</td><td class="center-align">No</td><td class="center-align">No</td><td class="center-align"><input coltype="shortlist" type="checkbox" value="3656"></td></tr><tr class="even"><td class="center-align"><span coltype="moreInfo" class="moreInfo" title="Click for more info about this provider"></span></td><td class=""><img style="height:16px;width:16px;" src="./Core App_files/ccr-asc.png" catid="ccr-asc"></td><td>Jam After School Club The Rodings
-                  </td><td class="right-align sorting_1">15.7</td><td class="center-align">No</td><td class="center-align">No</td><td class="center-align"><input coltype="shortlist" type="checkbox" value="3615"></td></tr><tr class="odd"><td class="center-align"><span coltype="moreInfo" class="moreInfo" title="Click for more info about this provider"></span></td><td class=""><img style="height:16px;width:16px;" src="./Core App_files/ccr-asc.png" catid="ccr-asc"></td><td>Vine Centre After School Club
-                  </td><td class="right-align sorting_1">17.5</td><td class="center-align">No</td><td class="center-align">No</td><td class="center-align"><input coltype="shortlist" type="checkbox" value="3685"></td></tr><tr class="even"><td class="center-align"><span coltype="moreInfo" class="moreInfo" title="Click for more info about this provider"></span></td><td class=""><img style="height:16px;width:16px;" src="./Core App_files/ccr-asc.png" catid="ccr-asc"></td><td>ACA The Activity Club</td><td class="right-align sorting_1">18.9</td><td class="center-align">No</td><td class="center-align">No</td><td class="center-align"><input coltype="shortlist" type="checkbox" value="3444"></td></tr><tr class="odd"><td class="center-align"><span coltype="moreInfo" class="moreInfo" title="Click for more info about this provider"></span></td><td class=""><img style="height:16px;width:16px;" src="./Core App_files/ccr-asc.png" catid="ccr-asc"></td><td>Roydon Acorns After School Club
-                  </td><td class="right-align sorting_1">19.4</td><td class="center-align">No</td><td class="center-align">No</td><td class="center-align"><input coltype="shortlist" type="checkbox" value="3652"></td></tr></tbody></table><div class="bottom"><div class="dataTables_info" id="resultsTable_info">Showing records 1 to 7 of 7</div><div id="resultsTable_length" class="dataTables_length"><label>Show <select size="1" name="resultsTable_length"><option value="10">10</option><option value="20" selected="selected">20</option><option value="50">50</option><option value="100">100</option><option value="-1">All</option></select> entries</label></div><div class="dataTables_paginate paging_four_button"><span class="paginate_disabled_previous">First</span><span class="paginate_disabled_previous">Previous</span><span class="paginate_disabled_next">Next</span><span class="paginate_disabled_next">Last</span></div></div><div class="clear"></div></div>
-                </div>
-                <div id="map-directionspanel">
-                </div>                      
-                <div id="map-dlg-email" title="Email Shortlist" class="map-formblock" style="display: none;">
-                  <ul id="map-dlg-email-msg"></ul>
-                  <h2>
-                    To:
-                  </h2>
-                  <label for="map-email-rcpt">
-                    Email address
-                  </label>
-                  <input type="text" id="map-dlg-email-rcpt-email" class="fld_std">
-                  <h2 style="display: none">
-                    From:
-                  </h2>
-                  <label style="display: none" for="map-dlg-email-sndr-name">
-                    Your Name
-                  </label>
-                  <input style="display: none" type="text" id="map-dlg-email-sndr-name" value="Visitor" class="fld_std">
-                  <label style="display: none" for="map-dlg-email-sndr-email">
-                    Email address
-                  </label>
-                  <input style="display: none" type="text" id="map-dlg-email-sndr-email" value="no-reply@essex.gov.uk" class="fld_std">
-                  <label for="map-dlg-email-sndr-body">
-                    Message Body
-                  </label>
-                  <textarea id="map-dlg-email-sndr-body" class="fld_std" rows="10" cols="20"></textarea>
-                  <p>
-                    &nbsp;
-                  </p>
-                      <!--
-                      <p>
-                          All form fields are required.</p>
-                      <p>
-                      -->
-                      <p>
-                        The details you provide on this page will not be used to send unsolicited e-mail,
-                        and will not be sold to a third party.
-                      </p>
+                <ul class="ui-tabs-nav ui-helper-reset ui-helper-clearfix ui-widget-header ui-corner-all">
+                    <li class="ui-state-default ui-corner-top ui-tabs-selected ui-state-active"><a href="https://secureinternetdev3.essexcc.gov.uk/fis#map-container">Search</a></li>
+                    <li class="ui-state-default ui-corner-top"><a href="https://secureinternetdev3.essexcc.gov.uk/fis#map-shortlistpanel" id="map-basket-text">My Shortlist: (0)</a></li>
+                </ul>
+                <div id="map-container" class="ui-tabs-panel ui-widget-content ui-corner-bottom">
+                    <div class="tabPanelBar">
                     </div>
-                  </div>
-                  <div id="map-shortlistpanel" class="ui-tabs-panel ui-widget-content ui-corner-bottom ui-tabs-hide">
+                    <div id="map-rhcol">
+                        <div id="map-rhcontent">
+                            <!-- old Short list -->
+                            <div id="map-mappanel" style="height: 300px; position: relative; overflow: hidden;"><div style="height: 100%; width: 100%; position: absolute; top: 0px; left: 0px; background-color: rgb(229, 227, 223);"><div class="gm-style" style="position: absolute; z-index: 0; left: 0px; top: 0px; height: 100%; width: 100%; padding: 0px; border-width: 0px; margin: 0px;"><div tabindex="0" style="position: absolute; z-index: 0; left: 0px; top: 0px; height: 100%; width: 100%; padding: 0px; border-width: 0px; margin: 0px; cursor: url(&quot;https://maps.gstatic.com/mapfiles/openhand_8_8.cur&quot;), default; touch-action: pan-x pan-y;"><div style="z-index: 1; position: absolute; left: 50%; top: 50%; width: 100%; transform: translate(0px, 0px);"><div style="position: absolute; left: 0px; top: 0px; z-index: 100; width: 100%;"><div style="position: absolute; left: 0px; top: 0px; z-index: 0;"><div style="position: absolute; z-index: 989; transform: matrix(1, 0, 0, 1, -182, -237);"><div style="position: absolute; left: 256px; top: 256px; width: 256px; height: 256px;"><div style="width: 256px; height: 256px;"></div></div><div style="position: absolute; left: 0px; top: 256px; width: 256px; height: 256px;"><div style="width: 256px; height: 256px;"></div></div><div style="position: absolute; left: 0px; top: 0px; width: 256px; height: 256px;"><div style="width: 256px; height: 256px;"></div></div><div style="position: absolute; left: 256px; top: 0px; width: 256px; height: 256px;"><div style="width: 256px; height: 256px;"></div></div><div style="position: absolute; left: 512px; top: 0px; width: 256px; height: 256px;"><div style="width: 256px; height: 256px;"></div></div><div style="position: absolute; left: 512px; top: 256px; width: 256px; height: 256px;"><div style="width: 256px; height: 256px;"></div></div><div style="position: absolute; left: -256px; top: 256px; width: 256px; height: 256px;"><div style="width: 256px; height: 256px;"></div></div><div style="position: absolute; left: -256px; top: 0px; width: 256px; height: 256px;"><div style="width: 256px; height: 256px;"></div></div></div></div></div><div style="position: absolute; left: 0px; top: 0px; z-index: 101; width: 100%;"></div><div style="position: absolute; left: 0px; top: 0px; z-index: 102; width: 100%;"></div><div style="position: absolute; left: 0px; top: 0px; z-index: 103; width: 100%;"></div><div style="position: absolute; left: 0px; top: 0px; z-index: 0;"><div style="position: absolute; z-index: 989; transform: matrix(1, 0, 0, 1, -182, -237);"><div style="position: absolute; left: 256px; top: 256px; width: 256px; height: 256px; transition: opacity 200ms linear 0s;"><img draggable="false" alt="" role="presentation" src="./Core App_files/vt" style="width: 256px; height: 256px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"></div><div style="position: absolute; left: 0px; top: 256px; width: 256px; height: 256px; transition: opacity 200ms linear 0s;"><img draggable="false" alt="" role="presentation" src="./Core App_files/vt(1)" style="width: 256px; height: 256px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"></div><div style="position: absolute; left: 0px; top: 0px; width: 256px; height: 256px; transition: opacity 200ms linear 0s;"><img draggable="false" alt="" role="presentation" src="./Core App_files/vt(2)" style="width: 256px; height: 256px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"></div><div style="position: absolute; left: 256px; top: 0px; width: 256px; height: 256px; transition: opacity 200ms linear 0s;"><img draggable="false" alt="" role="presentation" src="./Core App_files/vt(3)" style="width: 256px; height: 256px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"></div><div style="position: absolute; left: 512px; top: 0px; width: 256px; height: 256px; transition: opacity 200ms linear 0s;"><img draggable="false" alt="" role="presentation" src="./Core App_files/vt(4)" style="width: 256px; height: 256px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"></div><div style="position: absolute; left: 512px; top: 256px; width: 256px; height: 256px; transition: opacity 200ms linear 0s;"><img draggable="false" alt="" role="presentation" src="./Core App_files/vt(5)" style="width: 256px; height: 256px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"></div><div style="position: absolute; left: -256px; top: 256px; width: 256px; height: 256px; transition: opacity 200ms linear 0s;"><img draggable="false" alt="" role="presentation" src="./Core App_files/vt(6)" style="width: 256px; height: 256px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"></div><div style="position: absolute; left: -256px; top: 0px; width: 256px; height: 256px; transition: opacity 200ms linear 0s;"><img draggable="false" alt="" role="presentation" src="./Core App_files/vt(7)" style="width: 256px; height: 256px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"></div></div></div></div><div class="gm-style-pbc" style="z-index: 2; position: absolute; height: 100%; width: 100%; padding: 0px; border-width: 0px; margin: 0px; left: 0px; top: 0px; opacity: 0;"><p class="gm-style-pbt"></p></div><div style="z-index: 3; position: absolute; height: 100%; width: 100%; padding: 0px; border-width: 0px; margin: 0px; left: 0px; top: 0px; touch-action: pan-x pan-y;"><div style="z-index: 4; position: absolute; left: 50%; top: 50%; width: 100%; transform: translate(0px, 0px);"><div style="position: absolute; left: 0px; top: 0px; z-index: 104; width: 100%;"></div><div style="position: absolute; left: 0px; top: 0px; z-index: 105; width: 100%;"></div><div style="position: absolute; left: 0px; top: 0px; z-index: 106; width: 100%;"></div><div style="position: absolute; left: 0px; top: 0px; z-index: 107; width: 100%;"></div></div></div></div><iframe aria-hidden="true" frameborder="0" style="z-index: -1; position: absolute; width: 100%; height: 100%; top: 0px; left: 0px; border: none;" src="./Core App_files/saved_resource.html"></iframe><div style="margin-left: 5px; margin-right: 5px; z-index: 1000000; position: absolute; left: 0px; bottom: 0px;"><a target="_blank" rel="noopener" href="https://maps.google.com/maps?ll=51.734964,0.476197&amp;z=11&amp;t=m&amp;hl=en&amp;gl=GB&amp;mapclient=apiv3" title="Open this area in Google Maps (opens a new window)" style="position: static; overflow: visible; float: none; display: inline;"><div style="width: 66px; height: 26px; cursor: pointer;"><img alt="" src="./Core App_files/google4.png" draggable="false" style="position: absolute; left: 0px; top: 0px; width: 66px; height: 26px; user-select: none; border: 0px; padding: 0px; margin: 0px;"></div></a></div><div style="background-color: white; padding: 15px 21px; border: 1px solid rgb(171, 171, 171); font-family: Roboto, Arial, sans-serif; color: rgb(34, 34, 34); box-sizing: border-box; box-shadow: rgba(0, 0, 0, 0.2) 0px 4px 16px; z-index: 10000002; display: none; width: 300px; height: 180px; position: absolute; left: 262px; top: 60px;"><div style="padding: 0px 0px 10px; font-size: 16px;">Map Data</div><div style="font-size: 13px;">Map data ©2019 Google</div><button draggable="false" title="Close" aria-label="Close" type="button" class="gm-ui-hover-effect" style="background: none; display: block; border: 0px; margin: 0px; padding: 0px; position: absolute; cursor: pointer; user-select: none; top: 0px; right: 0px; width: 37px; height: 37px;"><img src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2224px%22%20height%3D%2224px%22%20viewBox%3D%220%200%2024%2024%22%20fill%3D%22%23000000%22%3E%0A%20%20%20%20%3Cpath%20d%3D%22M19%206.41L17.59%205%2012%2010.59%206.41%205%205%206.41%2010.59%2012%205%2017.59%206.41%2019%2012%2013.41%2017.59%2019%2019%2017.59%2013.41%2012z%22%2F%3E%0A%20%20%20%20%3Cpath%20d%3D%22M0%200h24v24H0z%22%20fill%3D%22none%22%2F%3E%0A%3C%2Fsvg%3E%0A" style="pointer-events: none; display: block; width: 13px; height: 13px; margin: 12px;"></button></div><div class="gmnoprint" style="z-index: 1000001; position: absolute; right: 249px; bottom: 0px; width: 121px;"><div draggable="false" class="gm-style-cc" style="user-select: none; height: 14px; line-height: 14px;"><div style="opacity: 0.7; width: 100%; height: 100%; position: absolute;"><div style="width: 1px;"></div><div style="background-color: rgb(245, 245, 245); width: auto; height: 100%; margin-left: 1px;"></div></div><div style="position: relative; padding-right: 6px; padding-left: 6px; font-family: Roboto, Arial, sans-serif; font-size: 10px; color: rgb(68, 68, 68); white-space: nowrap; direction: ltr; text-align: right; vertical-align: middle; display: inline-block;"><a style="text-decoration: none; cursor: pointer; display: none;">Map Data</a><span>Map data ©2019 Google</span></div></div></div><div class="gmnoscreen" style="position: absolute; right: 0px; bottom: 0px;"><div style="font-family: Roboto, Arial, sans-serif; font-size: 11px; color: rgb(68, 68, 68); direction: ltr; text-align: right; background-color: rgb(245, 245, 245);">Map data ©2019 Google</div></div><div class="gmnoprint gm-style-cc" draggable="false" style="z-index: 1000001; user-select: none; height: 14px; line-height: 14px; position: absolute; right: 96px; bottom: 0px;"><div style="opacity: 0.7; width: 100%; height: 100%; position: absolute;"><div style="width: 1px;"></div><div style="background-color: rgb(245, 245, 245); width: auto; height: 100%; margin-left: 1px;"></div></div><div style="position: relative; padding-right: 6px; padding-left: 6px; font-family: Roboto, Arial, sans-serif; font-size: 10px; color: rgb(68, 68, 68); white-space: nowrap; direction: ltr; text-align: right; vertical-align: middle; display: inline-block;"><a href="https://www.google.com/intl/en_GB/help/terms_maps.html" target="_blank" rel="noopener" style="text-decoration: none; cursor: pointer; color: rgb(68, 68, 68);">Terms of Use</a></div></div><button draggable="false" title="Toggle fullscreen view" aria-label="Toggle fullscreen view" type="button" class="gm-control-active gm-fullscreen-control" style="background: none rgb(255, 255, 255); border: 0px; margin: 10px; padding: 0px; position: absolute; cursor: pointer; user-select: none; border-radius: 2px; height: 40px; width: 40px; box-shadow: rgba(0, 0, 0, 0.3) 0px 1px 4px -1px; overflow: hidden; top: 0px; right: 0px;"><img src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2218%22%20height%3D%2218%22%20viewBox%3D%220%20018%2018%22%3E%0A%20%20%3Cpath%20fill%3D%22%23666%22%20d%3D%22M0%2C0v2v4h2V2h4V0H2H0z%20M16%2C0h-4v2h4v4h2V2V0H16z%20M16%2C16h-4v2h4h2v-2v-4h-2V16z%20M2%2C12H0v4v2h2h4v-2H2V12z%22%2F%3E%0A%3C%2Fsvg%3E%0A" style="height: 18px; width: 18px;"><img src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2218%22%20height%3D%2218%22%20viewBox%3D%220%200%2018%2018%22%3E%0A%20%20%3Cpath%20fill%3D%22%23333%22%20d%3D%22M0%2C0v2v4h2V2h4V0H2H0z%20M16%2C0h-4v2h4v4h2V2V0H16z%20M16%2C16h-4v2h4h2v-2v-4h-2V16z%20M2%2C12H0v4v2h2h4v-2H2V12z%22%2F%3E%0A%3C%2Fsvg%3E%0A" style="height: 18px; width: 18px;"><img src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2218%22%20height%3D%2218%22%20viewBox%3D%220%200%2018%2018%22%3E%0A%20%20%3Cpath%20fill%3D%22%23111%22%20d%3D%22M0%2C0v2v4h2V2h4V0H2H0z%20M16%2C0h-4v2h4v4h2V2V0H16z%20M16%2C16h-4v2h4h2v-2v-4h-2V16z%20M2%2C12H0v4v2h2h4v-2H2V12z%22%2F%3E%0A%3C%2Fsvg%3E%0A" style="height: 18px; width: 18px;"></button><div draggable="false" class="gm-style-cc" style="user-select: none; height: 14px; line-height: 14px; position: absolute; right: 0px; bottom: 0px;"><div style="opacity: 0.7; width: 100%; height: 100%; position: absolute;"><div style="width: 1px;"></div><div style="background-color: rgb(245, 245, 245); width: auto; height: 100%; margin-left: 1px;"></div></div><div style="position: relative; padding-right: 6px; padding-left: 6px; font-family: Roboto, Arial, sans-serif; font-size: 10px; color: rgb(68, 68, 68); white-space: nowrap; direction: ltr; text-align: right; vertical-align: middle; display: inline-block;"><a target="_blank" rel="noopener" title="Report errors in the road map or imagery to Google" href="https://www.google.com/maps/@51.734964,0.4761971,11z/data=!10m1!1e1!12b1?source=apiv3&amp;rapsrc=apiv3" style="font-family: Roboto, Arial, sans-serif; font-size: 10px; color: rgb(68, 68, 68); text-decoration: none; position: relative;">Report a map error</a></div></div><div class="gmnoprint gm-bundled-control gm-bundled-control-on-bottom" draggable="false" controlwidth="40" controlheight="81" style="margin: 10px; user-select: none; position: absolute; bottom: 95px; right: 40px;"><div class="gmnoprint" controlwidth="40" controlheight="81" style="position: absolute; left: 0px; top: 0px;"><div draggable="false" style="user-select: none; box-shadow: rgba(0, 0, 0, 0.3) 0px 1px 4px -1px; border-radius: 2px; cursor: pointer; background-color: rgb(255, 255, 255); width: 40px; height: 81px;"><button draggable="false" title="Zoom in" aria-label="Zoom in" type="button" class="gm-control-active" style="background: none; display: block; border: 0px; margin: 0px; padding: 0px; position: relative; cursor: pointer; user-select: none; overflow: hidden; width: 40px; height: 40px; top: 0px; left: 0px;"><img src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2218%22%20height%3D%2218%22%20viewBox%3D%220%200%2018%2018%22%3E%0A%20%20%3Cpolygon%20fill%3D%22%23666%22%20points%3D%2218%2C7%2011%2C7%2011%2C0%207%2C0%207%2C7%200%2C7%200%2C11%207%2C11%207%2C18%2011%2C18%2011%2C11%2018%2C11%22%2F%3E%0A%3C%2Fsvg%3E%0A" style="height: 18px; width: 18px;"><img src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2218%22%20height%3D%2218%22%20viewBox%3D%220%200%2018%2018%22%3E%0A%20%20%3Cpolygon%20fill%3D%22%23333%22%20points%3D%2218%2C7%2011%2C7%2011%2C0%207%2C0%207%2C7%200%2C7%200%2C11%207%2C11%207%2C18%2011%2C18%2011%2C11%2018%2C11%22%2F%3E%0A%3C%2Fsvg%3E%0A" style="height: 18px; width: 18px;"><img src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2218%22%20height%3D%2218%22%20viewBox%3D%220%200%2018%2018%22%3E%0A%20%20%3Cpolygon%20fill%3D%22%23111%22%20points%3D%2218%2C7%2011%2C7%2011%2C0%207%2C0%207%2C7%200%2C7%200%2C11%207%2C11%207%2C18%2011%2C18%2011%2C11%2018%2C11%22%2F%3E%0A%3C%2Fsvg%3E%0A" style="height: 18px; width: 18px;"></button><div style="position: relative; overflow: hidden; width: 30px; height: 1px; margin: 0px 5px; background-color: rgb(230, 230, 230); top: 0px;"></div><button draggable="false" title="Zoom out" aria-label="Zoom out" type="button" class="gm-control-active" style="background: none; display: block; border: 0px; margin: 0px; padding: 0px; position: relative; cursor: pointer; user-select: none; overflow: hidden; width: 40px; height: 40px; top: 0px; left: 0px;"><img src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2218%22%20height%3D%2218%22%20viewBox%3D%220%200%2018%2018%22%3E%0A%20%20%3Cpath%20fill%3D%22%23666%22%20d%3D%22M0%2C7h18v4H0V7z%22%2F%3E%0A%3C%2Fsvg%3E%0A" style="height: 18px; width: 18px;"><img src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2218%22%20height%3D%2218%22%20viewBox%3D%220%200%2018%2018%22%3E%0A%20%20%3Cpath%20fill%3D%22%23333%22%20d%3D%22M0%2C7h18v4H0V7z%22%2F%3E%0A%3C%2Fsvg%3E%0A" style="height: 18px; width: 18px;"><img src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2218%22%20height%3D%2218%22%20viewBox%3D%220%200%2018%2018%22%3E%0A%20%20%3Cpath%20fill%3D%22%23111%22%20d%3D%22M0%2C7h18v4H0V7z%22%2F%3E%0A%3C%2Fsvg%3E%0A" style="height: 18px; width: 18px;"></button></div></div><div class="gmnoprint" controlwidth="40" controlheight="40" style="display: none; position: absolute;"><div style="width: 40px; height: 40px;"><button draggable="false" title="Rotate map 90 degrees" aria-label="Rotate map 90 degrees" type="button" class="gm-control-active" style="background: none rgb(255, 255, 255); display: none; border: 0px; margin: 0px 0px 32px; padding: 0px; position: relative; cursor: pointer; user-select: none; width: 40px; height: 40px; top: 0px; left: 0px; overflow: hidden; box-shadow: rgba(0, 0, 0, 0.3) 0px 1px 4px -1px; border-radius: 2px;"><img src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2224%22%20height%3D%2222%22%20viewBox%3D%220%200%2024%2022%22%3E%0A%20%20%3Cpath%20fill%3D%22%23666%22%20fill-rule%3D%22evenodd%22%20d%3D%22M20%2010c0-5.52-4.48-10-10-10s-10%204.48-10%2010v5h5v-5c0-2.76%202.24-5%205-5s5%202.24%205%205v5h-4l6.5%207%206.5-7h-4v-5z%22%20clip-rule%3D%22evenodd%22%2F%3E%0A%3C%2Fsvg%3E%0A" style="height: 18px; width: 18px;"><img src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2224%22%20height%3D%2222%22%20viewBox%3D%220%200%2024%2022%22%3E%0A%20%20%3Cpath%20fill%3D%22%23333%22%20fill-rule%3D%22evenodd%22%20d%3D%22M20%2010c0-5.52-4.48-10-10-10s-10%204.48-10%2010v5h5v-5c0-2.76%202.24-5%205-5s5%202.24%205%205v5h-4l6.5%207%206.5-7h-4v-5z%22%20clip-rule%3D%22evenodd%22%2F%3E%0A%3C%2Fsvg%3E%0A" style="height: 18px; width: 18px;"><img src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2224%22%20height%3D%2222%22%20viewBox%3D%220%200%2024%2022%22%3E%0A%20%20%3Cpath%20fill%3D%22%23111%22%20fill-rule%3D%22evenodd%22%20d%3D%22M20%2010c0-5.52-4.48-10-10-10s-10%204.48-10%2010v5h5v-5c0-2.76%202.24-5%205-5s5%202.24%205%205v5h-4l6.5%207%206.5-7h-4v-5z%22%20clip-rule%3D%22evenodd%22%2F%3E%0A%3C%2Fsvg%3E%0A" style="height: 18px; width: 18px;"></button><button draggable="false" title="Tilt map" aria-label="Tilt map" type="button" class="gm-tilt gm-control-active" style="background: none rgb(255, 255, 255); display: block; border: 0px; margin: 0px; padding: 0px; position: relative; cursor: pointer; user-select: none; width: 40px; height: 40px; top: 0px; left: 0px; overflow: hidden; box-shadow: rgba(0, 0, 0, 0.3) 0px 1px 4px -1px; border-radius: 2px;"><img src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2218px%22%20height%3D%2216px%22%20viewBox%3D%220%200%2018%2016%22%3E%0A%20%20%3Cpath%20fill%3D%22%23666%22%20d%3D%22M0%2C16h8V9H0V16z%20M10%2C16h8V9h-8V16z%20M0%2C7h8V0H0V7z%20M10%2C0v7h8V0H10z%22%2F%3E%0A%3C%2Fsvg%3E%0A" style="width: 18px;"><img src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2218px%22%20height%3D%2216px%22%20viewBox%3D%220%200%2018%2016%22%3E%0A%20%20%3Cpath%20fill%3D%22%23333%22%20d%3D%22M0%2C16h8V9H0V16z%20M10%2C16h8V9h-8V16z%20M0%2C7h8V0H0V7z%20M10%2C0v7h8V0H10z%22%2F%3E%0A%3C%2Fsvg%3E%0A" style="width: 18px;"><img src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2218px%22%20height%3D%2216px%22%20viewBox%3D%220%200%2018%2016%22%3E%0A%20%20%3Cpath%20fill%3D%22%23111%22%20d%3D%22M0%2C16h8V9H0V16z%20M10%2C16h8V9h-8V16z%20M0%2C7h8V0H0V7z%20M10%2C0v7h8V0H10z%22%2F%3E%0A%3C%2Fsvg%3E%0A" style="width: 18px;"></button></div></div></div><div class="gmnoprint" style="margin: 10px; z-index: 0; position: absolute; cursor: pointer; left: 0px; top: 0px;"><div class="gm-style-mtc" style="float: left; position: relative;"><div role="button" tabindex="0" title="Show street map" aria-label="Show street map" aria-pressed="true" draggable="false" style="direction: ltr; overflow: hidden; text-align: center; height: 40px; display: table-cell; vertical-align: middle; position: relative; color: rgb(0, 0, 0); font-family: Roboto, Arial, sans-serif; user-select: none; font-size: 18px; background-color: rgb(255, 255, 255); padding: 0px 17px; border-bottom-left-radius: 2px; border-top-left-radius: 2px; background-clip: padding-box; box-shadow: rgba(0, 0, 0, 0.3) 0px 1px 4px -1px; min-width: 36px; font-weight: 500;">Map</div><div style="background-color: white; z-index: -1; padding: 2px; border-bottom-left-radius: 2px; border-bottom-right-radius: 2px; box-shadow: rgba(0, 0, 0, 0.3) 0px 1px 4px -1px; position: absolute; left: 0px; top: 40px; text-align: left; display: none;"><div draggable="false" title="Show street map with terrain" style="color: black; font-family: Roboto, Arial, sans-serif; user-select: none; font-size: 18px; background-color: rgb(255, 255, 255); padding: 5px 8px 5px 5px; direction: ltr; text-align: left; white-space: nowrap;"><span role="checkbox" style="vertical-align: middle;"><img src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2224px%22%20height%3D%2224px%22%20viewBox%3D%220%200%2024%2024%22%20fill%3D%22%23000000%22%3E%0A%20%20%20%20%3Cpath%20d%3D%22M0%200h24v24H0z%22%20fill%3D%22none%22%2F%3E%0A%20%20%20%20%3Cpath%20d%3D%22M19%203H5c-1.11%200-2%20.9-2%202v14c0%201.1.89%202%202%202h14c1.11%200%202-.9%202-2V5c0-1.1-.89-2-2-2zm-9%2014l-5-5%201.41-1.41L10%2014.17l7.59-7.59L19%208l-9%209z%22%2F%3E%0A%3C%2Fsvg%3E%0A" style="height: 1em; width: 1em; transform: translateY(0.15em); display: none;"><img src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2224px%22%20height%3D%2224px%22%20viewBox%3D%220%200%2024%2024%22%20fill%3D%22%23000000%22%3E%0A%20%20%20%20%3Cpath%20d%3D%22M19%205v14H5V5h14m0-2H5c-1.1%200-2%20.9-2%202v14c0%201.1.9%202%202%202h14c1.1%200%202-.9%202-2V5c0-1.1-.9-2-2-2z%22%2F%3E%0A%20%20%20%20%3Cpath%20d%3D%22M0%200h24v24H0z%22%20fill%3D%22none%22%2F%3E%0A%3C%2Fsvg%3E%0A" style="height: 1em; width: 1em; transform: translateY(0.15em);"></span><label style="vertical-align: middle; cursor: pointer;">Terrain</label></div></div></div><div class="gm-style-mtc" style="float: left; position: relative;"><div role="button" tabindex="0" title="Show satellite imagery" aria-label="Show satellite imagery" aria-pressed="false" draggable="false" style="direction: ltr; overflow: hidden; text-align: center; height: 40px; display: table-cell; vertical-align: middle; position: relative; color: rgb(86, 86, 86); font-family: Roboto, Arial, sans-serif; user-select: none; font-size: 18px; background-color: rgb(255, 255, 255); padding: 0px 17px; border-bottom-right-radius: 2px; border-top-right-radius: 2px; background-clip: padding-box; box-shadow: rgba(0, 0, 0, 0.3) 0px 1px 4px -1px; min-width: 66px; border-left: 0px;">Satellite</div><div style="background-color: white; z-index: -1; padding: 2px; border-bottom-left-radius: 2px; border-bottom-right-radius: 2px; box-shadow: rgba(0, 0, 0, 0.3) 0px 1px 4px -1px; position: absolute; right: 0px; top: 40px; text-align: left; display: none;"><div draggable="false" title="Show imagery with street names" style="color: black; font-family: Roboto, Arial, sans-serif; user-select: none; font-size: 18px; background-color: rgb(255, 255, 255); padding: 5px 8px 5px 5px; direction: ltr; text-align: left; white-space: nowrap;"><span role="checkbox" style="vertical-align: middle;"><img src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2224px%22%20height%3D%2224px%22%20viewBox%3D%220%200%2024%2024%22%20fill%3D%22%23000000%22%3E%0A%20%20%20%20%3Cpath%20d%3D%22M0%200h24v24H0z%22%20fill%3D%22none%22%2F%3E%0A%20%20%20%20%3Cpath%20d%3D%22M19%203H5c-1.11%200-2%20.9-2%202v14c0%201.1.89%202%202%202h14c1.11%200%202-.9%202-2V5c0-1.1-.89-2-2-2zm-9%2014l-5-5%201.41-1.41L10%2014.17l7.59-7.59L19%208l-9%209z%22%2F%3E%0A%3C%2Fsvg%3E%0A" style="height: 1em; width: 1em; transform: translateY(0.15em);"><img src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2224px%22%20height%3D%2224px%22%20viewBox%3D%220%200%2024%2024%22%20fill%3D%22%23000000%22%3E%0A%20%20%20%20%3Cpath%20d%3D%22M19%205v14H5V5h14m0-2H5c-1.1%200-2%20.9-2%202v14c0%201.1.9%202%202%202h14c1.1%200%202-.9%202-2V5c0-1.1-.9-2-2-2z%22%2F%3E%0A%20%20%20%20%3Cpath%20d%3D%22M0%200h24v24H0z%22%20fill%3D%22none%22%2F%3E%0A%3C%2Fsvg%3E%0A" style="height: 1em; width: 1em; transform: translateY(0.15em); display: none;"></span><label style="vertical-align: middle; cursor: pointer;">Labels</label></div></div></div></div><div draggable="false" class="gm-style-cc" style="position: absolute; user-select: none; height: 14px; line-height: 14px; right: 167px; bottom: 0px;"><div style="opacity: 0.7; width: 100%; height: 100%; position: absolute;"><div style="width: 1px;"></div><div style="background-color: rgb(245, 245, 245); width: auto; height: 100%; margin-left: 1px;"></div></div><div style="position: relative; padding-right: 6px; padding-left: 6px; font-family: Roboto, Arial, sans-serif; font-size: 10px; color: rgb(68, 68, 68); white-space: nowrap; direction: ltr; text-align: right; vertical-align: middle; display: inline-block;"><span>2 km&nbsp;</span><div style="position: relative; display: inline-block; height: 8px; bottom: -1px; width: 46px;"><div style="width: 100%; height: 4px; position: absolute; left: 0px; top: 0px;"></div><div style="width: 4px; height: 8px; left: 0px; top: 0px; background-color: rgb(255, 255, 255);"></div><div style="width: 4px; height: 8px; position: absolute; background-color: rgb(255, 255, 255); right: 0px; bottom: 0px;"></div><div style="position: absolute; background-color: rgb(102, 102, 102); height: 2px; left: 1px; bottom: 1px; right: 1px;"></div><div style="position: absolute; width: 2px; height: 6px; left: 1px; top: 1px; background-color: rgb(102, 102, 102);"></div><div style="width: 2px; height: 6px; position: absolute; background-color: rgb(102, 102, 102); bottom: 1px; right: 1px;"></div></div></div></div></div></div></div>
+                            <div id="map-controls">
+                                <table style="width: 100%; margin-top: 3px;">
+                                    <tbody><tr>
+                                        <td style="width: 325px;">
+                                            <table style="display: none">
+                                                <tbody><tr>
+                                                    <td style="width: 100px;">
+                                                        <label style="font-weight: bold">
+                                                            Search radius
+                                                        </label>
+                                                    </td>
+                                                    <td id="map-radius-decrease" style="cursor: hand; cursor: pointer; vertical-align: middle;">
+                                                        <span class="ui-icon ui-icon-minusthick"></span>
+                                                    </td>
+                                                    <td class="slider" style="width: 100px; vertical-align: middle;">
+                                                        <div id="map-radius-slider">
+                                                        </div>
+                                                    </td>
+                                                    <td id="map-radius-increase" style="cursor: hand; cursor: pointer; vertical-align: middle;">
+                                                        <span class="ui-icon ui-icon-plusthick"></span>
+                                                    </td>
+                                                    <td style="margin-left: 5px;">
+                                                        &nbsp;&nbsp;&nbsp;
+                                                        <input type="text" id="map-radius-text" readonly="readonly" style="width: 15px;" size="2">
+                                                        <label style="display: inline" id="map-radius-unit">
+                                                            Miles
+                                                        </label>
+                                                    </td>
+                                                </tr>
+                                            </tbody></table>
+                                        </td>
+                                        <td style="text-align: right">
+                                            <label style="font-weight: bold">
+                                                Map Size
+                                            </label>
+                                            <fieldset id="map-sizepanel" style="display: inline">
+                                                <div id="map-size" class="ui-buttonset">
+                                                    <input id="map-size-sml" type="radio" name="mapSize" value="sml" checked="checked" class="ui-helper-hidden-accessible">
+                                                    <label for="map-size-sml" class="ui-state-active ui-button ui-widget ui-state-default ui-button-text-only ui-corner-left" aria-pressed="true" role="button" aria-disabled="false"><span class="ui-button-text">
+                                                        S
+                                                    </span></label>
+                                                    <input id="map-size-med" type="radio" name="mapSize" value="med" class="ui-helper-hidden-accessible">
+                                                    <label for="map-size-med" aria-pressed="false" class="ui-button ui-widget ui-state-default ui-button-text-only" role="button" aria-disabled="false"><span class="ui-button-text">
+                                                        M
+                                                    </span></label>
+                                                    <input id="map-size-lrg" type="radio" name="mapSize" value="lrg" class="ui-helper-hidden-accessible">
+                                                    <label for="map-size-lrg" aria-pressed="false" class="ui-button ui-widget ui-state-default ui-button-text-only" role="button" aria-disabled="false"><span class="ui-button-text">
+                                                        L
+                                                    </span></label>
+                                                    <input id="map-size-xlrg" type="radio" name="mapSize" value="xlrg" class="ui-helper-hidden-accessible">
+                                                    <label for="map-size-xlrg" aria-pressed="false" class="ui-button ui-widget ui-state-default ui-button-text-only ui-corner-right" role="button" aria-disabled="false"><span class="ui-button-text">
+                                                        XL
+                                                    </span></label>
+                                                </div>
+                                            </fieldset>
+                                        </td>
+                                    </tr>
+                                </tbody></table>
+                            </div>
+                            <div id="map-resultspanel">
+                                <div class="dataTables_wrapper" id="resultsTable_wrapper"><div id="resultsTableHeader"><div class="dataTables_filter" id="resultsTable_filter"><label>Search: <input type="text"></label></div><input type="button" value="View Shortlist" onclick="displayShortlist()" class="button" style="margin-top:-20px;"></div><table id="resultsTable" cellpadding="0" cellspacing="0" border="0" style="width:100%" class="pretty"><thead><tr><th class="sorting_disabled center-align" rowspan="1" colspan="1" style="width: 10px;">More Info</th><th class="sorting" rowspan="1" colspan="1" style="width: 20px;"></th><th class="sorting" rowspan="1" colspan="1" style="width: 280px;">Name</th><th class="right-align sorting_asc" rowspan="1" colspan="1" style="width: 40px;">Distance (miles)</th><th class="center-align sorting" rowspan="1" colspan="1" style="width: 50px;">Funded Places for 2 yr olds</th><th class="center-align sorting" rowspan="1" colspan="1" style="width: 50px;">Funded Places for 3-4 yr olds</th><th class="sorting_disabled center-align" rowspan="1" colspan="1" style="width: 45px;">Add to Shortlist</th></tr></thead><tbody><tr class="odd"><td valign="top" colspan="7" class="dataTables_empty"></td></tr></tbody></table><div class="bottom"><div class="dataTables_info" id="resultsTable_info">Showing 0 to 0 of 0 entries</div><div id="resultsTable_length" class="dataTables_length"><label>Show <select size="1" name="resultsTable_length"><option value="10">10</option><option value="20" selected="selected">20</option><option value="50">50</option><option value="100">100</option><option value="-1">All</option></select> entries</label></div><div class="dataTables_paginate paging_four_button"><span class="paginate_disabled_previous">First</span><span class="paginate_disabled_previous">Previous</span><span class="paginate_disabled_next">Next</span><span class="paginate_disabled_next">Last</span></div></div><div class="clear"></div></div>
+                            </div>
+                            <div id="map-directionspanel">
+                            </div>
+                            <div class="disclaimerbox">
+                                <div class="disclaimertext">
+                                    <h3>
+                                        Disclaimer
+                                    </h3>
+                                </div>
+                                <p class="disclaimertext">
+                                    This search is for general information purposes only. All childcare locations shown
+                                    on the map are purely indicative and may not represent the exact location. Please
+                                    contact the childcare provider to confirm their actual location. Childcare providers
+                                    may have asked for their address and/or contact details to be omitted for reasons
+                                    of privacy.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="map-lhcol">
+                        <div id="map-controlpanel">
+                            <div id="map-searchpanel">
+                                <h3>
+                                    <a href="https://secureinternetdev3.essexcc.gov.uk/fis#"></a>
+                                </h3>
+                                <div>
+                                    <!--
+                                    <label for="map-address">
+                                        Enter place or postcode:</label>
+                                    <input type="text" id="map-address" class="fld_std" />
+                                    -->
+                                    <select id="map-search-type" class="fld_std" style="display: none;"></select>
+                                    <div id="map-SearchFieldsOld">
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="map-SearchFields" class="ui-accordion ui-widget ui-helper-reset ui-accordion-icons" role="tablist">
+                                <h3 class="ui-accordion-header ui-helper-reset ui-state-default ui-state-active ui-corner-top" role="tab" aria-expanded="true" aria-selected="true" tabindex="0"><span class="ui-icon ui-icon-triangle-1-s"></span>
+                                    <a href="https://secureinternetdev3.essexcc.gov.uk/fis#" tabindex="-1">Find by Address or Provider</a>
+                                </h3>
+                                <div id="map-search-by-address" class="ui-accordion-content ui-helper-reset ui-widget-content ui-corner-bottom ui-accordion-content-active" role="tabpanel" style="height: 1146.8px;">
+                                    <fieldset>
+                                        <legend class="searchCaption">Town or Postcode </legend>
+                                        <div>
+                                            <!--
+                                            <label for="searchValue-Location" class="searchCaption" >
+                                                Town or Postcode</label><br />
+                                                -->
+                                            <input class="fld_std focus" id="searchValue-Location" type="text" searchkey="Location" searchtype="keyValue" value="">
+                                        </div>
+                                        <div>
+                                            <label for="searchValue-Radius" class="searchCaption">
+                                                Search Radius
+                                            </label><br>
+                                            <select id="searchValue-Radius" searchkey="Radius" searchtype="keyValue" disabled="disabled" disabledsearchvalue="-1">
+                                                <option value="-1">This area only</option>
+                                                <option value="1">within 1 mile</option>
+                                                <option value="3">within 3 miles</option>
+                                                <option value="5">within 5 miles</option>
+                                                <option value="10">within 10 miles</option>
+                                                <option value="20">within 20 miles</option>
+                                            </select>
+                                        </div>
+                                    </fieldset>
+                                    <div>
+                                        <label for="searchValue-ProviderName" class="searchCaption">
+                                            Provider Name
+                                        </label><br>
+                                        <input class="fld_std" id="searchValue-ProviderName" type="text" searchkey="ProviderName" searchtype="keyValue">
+                                    </div>
+                                    <div>
+                                        <label class="searchCaption">
+                                            Provider type
+                                        </label>
+                                        <div id="map-catpanel" style="font-size:medium">
+                                            <div>
+                                                <input id="chk-selectAllCategories" type="checkbox"><label id="lbl-selectAllCategories">
+                                                    Select
+                                                    All
+                                                </label>
+                                            </div>
+                                            <div id="map-catlist" style="font-size:medium"><table id="cat-table" cellpadding="5"><tbody><tr><td style="vertical-align:middle"><img src="/public/images/find-provider-icons/ccr-asc.png" width="16" height="16" title="After school clubs provide care and activities to fit around school hours. They are registered and inspected by Ofsted for children up to eight years old, but may also cater for older children."></td><td><input id="map-cat-cbxccr-asc" type="checkbox" name="category" value="ccr-asc"></td><td></td><td><span for="map-cat-cbxccr-asc">After School Clubs</span></td><td coltype="count"><span id="resultCount-ccr-asc" catid="ccr-asc"></span></td></tr><tr><td style="vertical-align:middle"><img src="/public/images/find-provider-icons/ccr-btg.png" width="16" height="16" title="Baby and toddler groups are for parents/ carers and young children to enjoy activities together, and with other families. Most run once a week for a few hours and may be based in church halls, community centres or children’s centres. They usually operate during term time."></td><td><input id="map-cat-cbxccr-btg" type="checkbox" name="category" value="ccr-btg"></td><td></td><td><span for="map-cat-cbxccr-btg">Baby &amp; Toddler Groups</span></td><td coltype="count"><span id="resultCount-ccr-btg" catid="ccr-btg"></span></td></tr><tr><td style="vertical-align:middle"><img src="/public/images/find-provider-icons/ccr-brk.png" width="16" height="16" title="Breakfast clubs provide care and activities to fit around school hours. They are registered and inspected by Ofsted for children up to eight years old, but may also cater for older children."></td><td><input id="map-cat-cbxccr-brk" type="checkbox" name="category" value="ccr-brk"></td><td></td><td><span for="map-cat-cbxccr-brk">Breakfast Clubs</span></td><td coltype="count"><span id="resultCount-ccr-brk" catid="ccr-brk"></span></td></tr><tr><td style="vertical-align:middle"><img src="/public/images/find-provider-icons/ccr-chc.png" width="16" height="16" title="Children’s centres provide a range of services for families and others caring for children under five years. All families are encouraged to contact their local centre for more information."></td><td><input id="map-cat-cbxccr-chc" type="checkbox" name="category" value="ccr-chc"></td><td></td><td><span for="map-cat-cbxccr-chc">Children's Centre</span></td><td coltype="count"><span id="resultCount-ccr-chc" catid="ccr-chc"></span></td></tr><tr><td style="vertical-align:middle"><img src="/public/images/find-provider-icons/ccr-cma.png" width="16" height="16" title="
+          A childminder agency is an organisation that is able to register childminders in England and may provide a range of services to its members and parents. They were introduced by the Department for Education in 2013. Childminder agencies are obliged by law to ensure a childminder&#39;s suitability, support the training / development of childminders, help parents find and work with a suitable childminder, improve the quality of the provision offered by its registered childminders and monitor the standard of care provided by the childminders they register
+
+          Childminder agencies may provide childminders with support services such as marketing, administration, training and development. They also carry out assessments of childminders registered with them. Agencies may provide parents with matching services to help them find a childminder, as well as access to holiday and sickness cover when their regular childminder is not available.
+        "></td><td><input id="map-cat-cbxccr-cma" type="checkbox" name="category" value="ccr-cma"></td><td></td><td><span for="map-cat-cbxccr-cma">Childminder Agency</span></td><td coltype="count"><span id="resultCount-ccr-cma" catid="ccr-cma"></span></td></tr><tr><td style="vertical-align:middle"><img src="/public/images/find-provider-icons/ccr-chm.png" width="16" height="16" title="Childminders provide care for children, usually in the childminder&#39;s own home. They often offer flexible hours while providing a range of learning opportunities in and out of the home. They are registered by Ofsted."></td><td><input id="map-cat-cbxccr-chm" type="checkbox" name="category" value="ccr-chm"></td><td></td><td><span for="map-cat-cbxccr-chm">Childminders</span></td><td coltype="count"><span id="resultCount-ccr-chm" catid="ccr-chm"></span></td></tr><tr><td style="vertical-align:middle"><img src="/public/images/find-provider-icons/ccr-cre.png" width="16" height="16" title="Creches provide occasional care for children under eight years old. Some are in permanent premises and care for children while parents are engaged in particular activities, such as shopping or sport. Others are provided on a temporary basis, perhaps running alongside a one-off event."></td><td><input id="map-cat-cbxccr-cre" type="checkbox" name="category" value="ccr-cre"></td><td></td><td><span for="map-cat-cbxccr-cre">Crèches</span></td><td coltype="count"><span id="resultCount-ccr-cre" catid="ccr-cre"></span></td></tr><tr><td style="vertical-align:middle"><img src="/public/images/find-provider-icons/ccr-dyn.png" width="16" height="16" title="Day nurseries provide full or part-time care and early education for babies and children up to the age of five. Some may also offer a provision for older children before/after school and in the holiday period. They are usually open from approximately 8am to 6pm and generally operate all year, including school holidays. They are registered by Ofsted."></td><td><input id="map-cat-cbxccr-dyn" type="checkbox" name="category" value="ccr-dyn"></td><td></td><td><span for="map-cat-cbxccr-dyn">Day Nurseries</span></td><td coltype="count"><span id="resultCount-ccr-dyn" catid="ccr-dyn"></span></td></tr><tr><td style="vertical-align:middle"><img src="/public/images/find-provider-icons/ccr-hol.png" width="16" height="16" title="Holiday clubs provide care and activities to fit around school holidays. They are registered and inspected by Ofsted for children up to eight years old, but may also cater for older children."></td><td><input id="map-cat-cbxccr-hol" type="checkbox" name="category" value="ccr-hol"></td><td></td><td><span for="map-cat-cbxccr-hol">Holiday Clubs</span></td><td coltype="count"><span id="resultCount-ccr-hol" catid="ccr-hol"></span></td></tr><tr><td style="vertical-align:middle"><img src="/public/images/find-provider-icons/ccr-mns.png" width="16" height="16" title="A maintained nursery school is funded by the local authority and generally provides education for children aged from three to five, although some do take children from two years old. They are registered and inspected by Ofsted."></td><td><input id="map-cat-cbxccr-mns" type="checkbox" name="category" value="ccr-mns"></td><td></td><td><span for="map-cat-cbxccr-mns">Maintained Nursery Schools</span></td><td coltype="count"><span id="resultCount-ccr-mns" catid="ccr-mns"></span></td></tr><tr><td style="vertical-align:middle"><img src="/public/images/find-provider-icons/ccr-nis.png" width="16" height="16" title="A nursery unit of an independent school generally provides education for children aged from three to five, although some do take children from two years old.  They are registered and inspected by Ofsted."></td><td><input id="map-cat-cbxccr-nis" type="checkbox" name="category" value="ccr-nis"></td><td></td><td><span for="map-cat-cbxccr-nis">Nursery Unit Of Independent Schools</span></td><td coltype="count"><span id="resultCount-ccr-nis" catid="ccr-nis"></span></td></tr><tr><td style="vertical-align:middle"><img src="/public/images/find-provider-icons/ccr-pre.png" width="16" height="16" title="Pre-schools provide play and early education for children under five years old. This is sessional care usually provided during term time for children aged between two and five years old. They are registered by Ofsted."></td><td><input id="map-cat-cbxccr-pre" type="checkbox" name="category" value="ccr-pre"></td><td></td><td><span for="map-cat-cbxccr-pre">Pre-schools</span></td><td coltype="count"><span id="resultCount-ccr-pre" catid="ccr-pre"></span></td></tr><tr><td style="vertical-align:middle"><img src="/public/images/find-provider-icons/ccr-psn.png" width="16" height="16" title="A nursery unit of a primary school generally provides education for children aged from three to five, although some do take children from two years old.  They are registered and inspected by Ofsted."></td><td><input id="map-cat-cbxccr-psn" type="checkbox" name="category" value="ccr-psn"></td><td></td><td><span for="map-cat-cbxccr-psn">Primary School Nurseries</span></td><td coltype="count"><span id="resultCount-ccr-psn" catid="ccr-psn"></span></td></tr></tbody></table></div>
+                                        </div>
+                                    </div>
+                                    <input type="button" id="map-searchButton" value="Show results" class="button" style="float: right;">
+                                </div>
+                            </div>
+                            <!-- Old Radius Panel -->
+                            <div id="map-catpanel2" style="display: none">
+                                <h3>
+                                    <a href="https://secureinternetdev3.essexcc.gov.uk/fis#">Provider type</a>
+                                </h3>
+                                <div id="map-catlist2">
+                                    <img id="map-catspinner2" src="./Core App_files/Kpiprogressbar.gif" alt="Loading">
+                                </div>
+                            </div>
+                            <div class="searchSeparator">
+                                <label>
+                                    OR
+                                </label>
+                            </div>
+                            <div id="map-SearchByOfstedRef" class="ui-accordion ui-widget ui-helper-reset ui-accordion-icons" role="tablist">
+                                <h3 class="ui-accordion-header ui-helper-reset ui-state-default ui-corner-all" role="tab" aria-expanded="false" aria-selected="false" tabindex="0"><span class="ui-icon ui-icon-triangle-1-e"></span>
+                                    <a href="https://secureinternetdev3.essexcc.gov.uk/fis#" tabindex="-1">Find by Ofsted Reference</a>
+                                </h3>
+                                <div class="ui-accordion-content ui-helper-reset ui-widget-content ui-corner-bottom" role="tabpanel" style="height: 130px; display: none;">
+                                    <label for="searchValue-OfstedReference" class="searchCaption">
+                                        Ofsted Reference
+                                    </label><br>
+                                    <input class="fld_std" id="searchValue-OfstedReference" type="text" searchkey="OfstedReference" searchtype="keyValue">
+                                    <input type="button" id="map-searchButton-OfstedRef" value="Find" class="button" style="float: right;">
+                                </div>
+                            </div>
+                            <!-- Old Map Size Panel -->
+                            <!--
+                            <input type="button" id="map-button-email" value="Email This Page" />
+                            -->
+                        </div>
+                        <div style="width: 247px; margin-left: -12px">
+                            <div>
+                                <aside class="formhelper bluebg" id="formhelperHelp">
+
+
+                                    <p style="margin-top:0px;"><a target="_blank" style="color:#fff;text-decoration:underline" href="http://www.essex.gov.uk/Education-Schools/Early-Years-Childcare/Choosing%20the%20right%20childcare/Pages/Default.aspx">Choosing the right childcare</a></p>
+                                    <p><a target="_blank" style="color:#fff;text-decoration:underline" href="http://www.essex.gov.uk/Education-Schools/Early-Years-Childcare/Making%20childcare%20arrangements/Pages/Default.aspx">Making childcare arrangements</a></p>
+                                    <p><a target="_blank" style="color:#fff;text-decoration:underline" href="http://www.essex.gov.uk/Education-Schools/Early-Years-Childcare/Help%20paying%20for%20childcare/Pages/Default.aspx">Help paying for childcare</a></p>
+                                    <p><a target="_blank" style="color:#fff;text-decoration:underline" href="http://www.surveymonkey.com/s/fiscustomer">Tell us what you think</a></p>
+                                </aside>
+                                <aside class="formhelper yellowbg">
+                                    <h3>Contact details</h3>
+                                    <p>
+                                        If you need advice about other steps you could take to find childcare please contact:
+                                    </p>
+
+                                    <p>
+                                        Family Information Service
+                                        <br>
+                                        Tel:0800 055 6874
+                                        <br>
+                                        Email: <a style="text-decoration:underline" href="mailto:%20fis@essex.gov.uk">fis@essex.gov.uk </a>
+                                    </p>
+                                </aside>
+                            </div>
+                        </div>
+                        <!-- Old disclaimer box -->
+                    </div>
+                    <div id="map-dlg-email" title="Email Shortlist" class="map-formblock" style="display: none;">
+                        <ul id="map-dlg-email-msg"></ul>
+                        <h2>
+                            To:
+                        </h2>
+                        <label for="map-email-rcpt">
+                            Email address
+                        </label>
+                        <input type="text" id="map-dlg-email-rcpt-email" class="fld_std">
+                        <h2 style="display: none">
+                            From:
+                        </h2>
+                        <label style="display: none" for="map-dlg-email-sndr-name">
+                            Your Name
+                        </label>
+                        <input style="display: none" type="text" id="map-dlg-email-sndr-name" value="Visitor" class="fld_std">
+                        <label style="display: none" for="map-dlg-email-sndr-email">
+                            Email address
+                        </label>
+                        <input style="display: none" type="text" id="map-dlg-email-sndr-email" value="no-reply@essex.gov.uk" class="fld_std">
+                        <label for="map-dlg-email-sndr-body">
+                            Message Body
+                        </label>
+                        <textarea id="map-dlg-email-sndr-body" class="fld_std" rows="10" cols="20"></textarea>
+                        <p>
+                            &nbsp;
+                        </p>
+                        <!--
+                        <p>
+                            All form fields are required.</p>
+                        <p>
+                        -->
+                        <p>
+                            The details you provide on this page will not be used to send unsolicited e-mail,
+                            and will not be sold to a third party.
+                        </p>
+                        <!--
+                        <p>
+                            <a href="http://www.essex.gov.uk/Pages/Privacy-statement.aspx"
+                                target="_blank">Privacy Statement</a>
+                        </p>
+                        -->
+                    </div>
+                </div>
+                <div id="map-shortlistpanel" class="ui-tabs-panel ui-widget-content ui-corner-bottom ui-tabs-hide">
                     <div class="tabPanelBar">
                     </div>
                     <div id="map-rhcol1">
-                      <div id="map-rhcontent1">
-                        <div id="map-report" class="map-report">
-                        </div>
-                        <!--UK code start-->
-                        <div id="shortlistFrame">
-                          <!-- Add Shortlist frame as designed by UK here. Get it from TFS 25-Jul-2012 13:21 -->
-                          <div id="map-userComments" class="shortlist-comments-section">
-                            <div class="shortlist-comments-header">
-                              My Notes
+                        <div id="map-rhcontent1">
+                            <!-- old Short list -->
+                            <!-- Following H3 has been made invisible due to new type of basket UI -->
+                            <h3 style="display: none;">
+                                <a href="https://secureinternetdev3.essexcc.gov.uk/fis#">Shortlist</a>
+                            </h3>
+                            <div id="map-report" class="map-report">
+                                <!--
+                                    <input type="button" id="map-shortlist-clear-button" value="Clear Shortlist" />
+                                    -->
                             </div>
-                            <!--Comments entered here will be included when you print or email the shortlist-->
-                            <textarea id="txtUserComments" rows="15" class="shortlist-comments-box" placeholder="Comments entered here will be included when you email the shortlist"></textarea>
-                          </div>
+                            <!--UK code start-->
+                            <div id="shortlistFrame">
+                                <!-- Add Shortlist frame as designed by UK here. Get it from TFS 25-Jul-2012 13:21 -->
+                                <div id="map-userComments" class="shortlist-comments-section">
+                                    <div class="shortlist-comments-header">
+                                        My Notes
+                                    </div>
+                                    <!--Comments entered here will be included when you print or email the shortlist-->
+                                    <textarea id="txtUserComments" rows="15" class="shortlist-comments-box" placeholder="Comments entered here will be included when you email the shortlist"></textarea>
+                                </div>
+                            </div>
+                            <div class="disclaimerbox">
+                                <div class="disclaimertext">
+                                    <h3>
+                                        Disclaimer
+                                    </h3>
+                                </div>
+                                <p class="disclaimertext">
+                                    This search is for general information purposes only. All childcare locations shown
+                                    on the map are purely indicative and may not represent the exact location. Please
+                                    contact the childcare provider to confirm their actual location. Childcare providers
+                                    may have asked for their address and/or contact details to be omitted for reasons
+                                    of privacy.
+                                </p>
+
+                            </div>
+                            <!--UK code end-->
                         </div>
-                        <!--UK code end-->
-                      </div>
                     </div>
                     <div id="map-lhcol1">
-                      <div id="map-controlpanel1">
-                        <div id="map-shortlist-links">
-                          <table style="width: 100%; text-align: center;" cellspacing="30">
-                            <tbody>
-                              <tr>
-                                <td>
-                                  <input type="button" id="map-shortlist-back-button" value="Back to Results" class="button shortlistActionButtons">
-                                </td>
-                              </tr>
-                              <tr>
-                                <td>
-                                  <input type="button" id="map-shortlist-clear-button" value="Clear Shortlist" class="button shortlistActionButtons">
-                                </td>
-                              </tr>
-                              <tr>
-                                <td>
-                                  <input type="button" id="map-button-email" value="Email Shortlist" class="button shortlistActionButtons">
-                                </td>
-                              </tr>
-                              <tr>
-                                <td>
-                                  <div>
-                                    <form action="http://internetdev3.essexcc.gov.uk/FIS/ShortList/DownloadShortlist" method="post"><input name="__RequestVerificationToken" type="hidden" value="ec8RiNSTMiKhhq0if5QmJl_RpMwVsNIN8MvTKIN7ExiUvM2bqF0Op8Eu_d-41uSo6okeZWHG1wsNGA5x8OmBGcIVonscKMqcrgykGAg8zdw1">                                                        <input type="submit" id="map-shortlist-print-button" value="Download as PDF" class="button shortlistActionButtons">
-                                      <input type="hidden" id="h_downloadReq" name="h_downloadReq" readonly="readonly">
-                                      <input type="hidden" id="shortlistIDs" name="shortlistIDs" readonly="readonly">
-                                      <input type="hidden" id="comments" name="comments" readonly="readonly">
-                                    </form>                                                </div>
-                                  </td>
-                                </tr>
-                                <tr>
-                                  <td>
-                                    <p style="margin-top: 15px;">
-                                      <a id="acrobat-reader-tip" class="dyn-tooltip panePos-l" href="http://get.adobe.com/reader/">
-                                        <img alt="Download PDF Reader" src="./Core App_files/get_adobe_reader.png">
-                                      </a>
-                                    </p>
-                                  </td>
-                                </tr>
-                              </tbody>
-                            </table>
-                          </div>
+                        <div id="map-controlpanel1">
+                            <div id="map-shortlist-links">
+                                <table style="width: 100%; text-align: center;" cellspacing="30">
+                                    <tbody>
+                                        <tr>
+                                            <td>
+                                                <input type="button" id="map-shortlist-back-button" value="Back to Search" class="button shortlistActionButtons">
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <input type="button" id="map-shortlist-clear-button" value="Clear Shortlist" class="button shortlistActionButtons">
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <input type="button" id="map-button-email" value="Email Shortlist" class="button shortlistActionButtons">
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <div>
+<form action="https://secureinternetdev3.essexcc.gov.uk/FIS/ShortList/DownloadShortlist" method="post"><input name="__RequestVerificationToken" type="hidden" value="-267iW8_kfsExDDVkxO12YaAvhdN13p79KHEGGT6Yi7C5wOemridvKLDBXUHiJtCB4GE3c6tZzs54gzNUDqqkpsk8CKxYwUj_RPzDBQUXs81">                                                        <input type="submit" id="map-shortlist-print-button" value="Download as PDF" class="button shortlistActionButtons">
+                                                        <input type="hidden" id="h_downloadReq" name="h_downloadReq" readonly="readonly">
+                                                        <input type="hidden" id="shortlistIDs" name="shortlistIDs" readonly="readonly">
+                                                        <input type="hidden" id="comments" name="comments" readonly="readonly">
+</form>                                                </div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <p style="margin-top: 15px;">
+                                                    <a id="acrobat-reader-tip" class="dyn-tooltip panePos-l" href="http://get.adobe.com/reader/">
+                                                        <img alt="Download PDF Reader" src="./Core App_files/get_adobe_reader.png">
+                                                    </a>
+                                                </p>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                            <!-- Old comment box -->
                         </div>
-                      </div>
+                        <div style="width: 247px; margin-left: -12px">
+                            <div>
+                                <aside class="formhelper bluebg" id="formhelperHelp">
+
+
+                                    <p style="margin-top:0px;"><a target="_blank" style="color:#fff;text-decoration:underline" href="http://www.essex.gov.uk/Education-Schools/Early-Years-Childcare/Choosing%20the%20right%20childcare/Pages/Default.aspx">Choosing the right childcare</a></p>
+                                    <p style="margin-top:10px;"><a target="_blank" style="color:#fff;text-decoration:underline" href="http://www.essex.gov.uk/Education-Schools/Early-Years-Childcare/Making%20childcare%20arrangements/Pages/Default.aspx">Making childcare arrangements</a></p>
+                                    <p style="margin-top:10px;"><a target="_blank" style="color:#fff;text-decoration:underline" href="http://www.essex.gov.uk/Education-Schools/Early-Years-Childcare/Help%20paying%20for%20childcare/Pages/Default.aspx">Help paying for childcare</a></p>
+                                    <p style="margin-top:10px;"><a target="_blank" style="color:#fff;text-decoration:underline" href="http://www.surveymonkey.com/s/fiscustomer">Tell us what you think</a></p>
+                                </aside>
+                                <aside class="formhelper yellowbg">
+                                    <h3>Contact details</h3>
+                                    <p style="margin-top:10px;">
+                                        If you need advice about other steps you could take to find childcare please contact:
+                                    </p>
+                                    <p style="margin-top:10px;">
+                                        Family Information Service
+                                        <br>
+                                        Tel:0800 055 6874
+                                        <br>
+                                        Email: <a style="text-decoration:underline" href="mailto:%20fis@essex.gov.uk">fis@essex.gov.uk </a>
+                                    </p>
+                                </aside>
+                            </div>
+                        </div>
                     </div>
-                  </div>
                 </div>
-                <h4>
-                  Disclaimer
-                </h4>
-                <p>
-                  This search is for general information purposes only. All childcare locations shown
-                  on the map are purely indicative and may not represent the exact location. Please
-                  contact the childcare provider to confirm their actual location. Childcare providers
-                  may have asked for their address and/or contact details to be omitted for reasons
-                  of privacy.
-                </p>
-              </section>
+            </div>
+        </div>
             </div>
 
             <script type="text/javascript">

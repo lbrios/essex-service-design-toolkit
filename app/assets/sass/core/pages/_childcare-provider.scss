@@ -56,10 +56,48 @@
 			@include border-radius(initial);
 		}
 	}
-	.map {
+	#map-container {
 		margin-bottom: $baseline;
 		button.gm-control-active img {
 			padding: 11px;
+		}
+		#map-controlpanel {
+			background-color: initial;
+			border: none;
+			margin: 0;
+			padding: 0;
+			#map-searchpanel h3 {
+				margin: 0;
+			}
+			#map-SearchFields {
+				padding: $gutter*0.5;
+				.ui-state-active, 
+				.ui-widget-content .ui-state-active, 
+				.ui-widget-header.ui-state-active {
+					background: none;
+					border: none;
+					a {
+						@include button;
+					}
+				}
+				.ui-accordion-header {
+					margin: 0;
+				}
+				#map-search-by-address {
+					padding: 0;
+					margin: $baseline 0;
+				}
+			}
+			legend {
+				padding: 0;
+				margin: 0;
+			}
+			fieldset {
+				border: none;
+				padding: 0;
+				margin: 0;
+				@include border-radius(0); 
+			}
 		}
 		#map-controls {
 			display: none;
@@ -160,8 +198,8 @@
 			display: none;
 		}
 		#resultsTableHeader {
-			float: left;
-			margin: $gutter;
+			float: right;
+			margin: $baseline 0;
 			input.button {
 				margin: 0 !important;
 				display: none;
