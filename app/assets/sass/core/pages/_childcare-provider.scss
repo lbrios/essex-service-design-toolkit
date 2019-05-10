@@ -9,12 +9,7 @@
 				margin-right: $gutter;
 				margin-bottom: $baseline*0.5;
 			}
-			input[type="checkbox"] {
-				height: 1em;
-				display: inline-block;
-				margin: 0;
-				width: auto;
-			}
+
 			span {
 				height: 1em;
 			}
@@ -30,19 +25,24 @@
 		}
 	}
 	#map-SearchByOfstedRef {
+		float: left;
+		padding: $gutter*0.5;
 		.ui-icon.ui-icon-triangle-1-e {
 			display: none;
 		}
 		.ui-accordion-header a {
+			font-weight: $regular;
 			padding: 0;
-			margin-bottom: $baseline;
+			margin-bottom: $baseline*0.25;
 		}
 		#searchValue-OfstedReference {
 			float: left;
 			margin-right: $gutter*0.5;
+			border: $border-thin solid $grey;
 		}
 		#map-searchButton-OfstedRef {
 			float: left !important;
+			margin: 0;
 		}
 		.ui-state-default {
 			background: none;
@@ -53,13 +53,54 @@
 			display: block !important;
 			padding: 0;
 			border: none;
+			overflow: initial;
 			@include border-radius(initial);
 		}
 	}
 	#map-container {
+		border: $border-thin solid $grey;
+		margin-top: 0;
 		margin-bottom: $baseline;
+		padding: 0;
+		padding-top: $baseline*0.5;
+		@include border-radius(initial);
+		.disclaimertext h3 {
+			@include h4;
+		}
+		#map-lhcol {
+			label, legend {
+				display: inline-block;
+				margin-top: $baseline*0.25;
+				margin-bottom: $baseline*0.125;
+			}
+		}
 		button.gm-control-active img {
 			padding: 11px;
+		}
+		.formhelper.yellowbg {
+			h3 {
+				@include h4;
+				margin-top: $baseline;
+				margin-bottom: $baseline*0.25;
+			}
+			p {
+				@include default-type;
+				margin-top: 0;
+				margin-bottom: $baseline*0.25;
+				font-size: $smaller;
+				a {
+					color: $link;
+					&:hover {
+						color: $hover;
+					}
+					&:active {
+						color: $active;
+					}
+					&:visited {
+						color: $visited;
+					}
+				}
+			}
 		}
 		#map-controlpanel {
 			background-color: initial;
@@ -84,9 +125,67 @@
 					margin: 0;
 				}
 				#map-search-by-address {
+					@include border-radius(0);
+					overflow: initial;
+					border: none;
 					padding: 0;
-					margin: $baseline 0;
+					margin: $baseline 0 0 0;
+					background: none;
+					height: initial !important;
+					#map-catpanel {
+						margin-bottom: 0;
+						input[type="checkbox"] {
+							height: 1em;
+							display: inline-block;
+							margin: 0;
+							width: auto;
+						}
+						& > div {
+							margin: 0 0 $baseline*0.5 0;
+						}
+						#chk-selectAllCategories {
+							margin-left: 22px;
+						}
+						#lbl-selectAllCategories {
+							font-size: $small;
+						}						
+						#map-catlist {
+							#cat-table tr {
+								display: inline-block;
+								margin-bottom: $baseline*0.25;
+								width: 100%;
+								img {
+									margin: 0;
+									padding: 0;
+									width: 16px;
+									height: 16px;
+								}
+								input {
+									margin: 0 $gutter*0.125;
+								}
+								span {
+									font-size: $smaller;
+								}
+							}
+						}
+					}
+					#searchValue-Location,
+					#searchValue-Radius,
+					#searchValue-ProviderName {
+						border: 1px solid $grey;
+						width: 100%;
+					}
+					#map-searchButton {
+						float: left !important;
+					}
 				}
+			}
+			.searchSeparator {
+				padding: $gutter*0.5;
+				display: none;
+			}
+			.ui-accordion {
+				width: initial;
 			}
 			legend {
 				padding: 0;
@@ -97,68 +196,12 @@
 				padding: 0;
 				margin: 0;
 				@include border-radius(0); 
+			}		
+			& + div {
+				padding: $gutter*0.5;
+				margin: 0 !important;
+				width: 100%;
 			}
-		}
-		#map-controls {
-			display: none;
-		}
-		#map-mappanel {
-			margin-left: 0;
-		}
-	}
-	.icon-map {
-		float: left;
-		img {
-			margin-bottom: 0;
-			padding: $baseline*0.125 0;
-			width: $icon;
-		}
-	}
-	#lower {
-		.ui-widget-header {
-			border: none;
-		}
-		.ui-widget-content {
-			border: none;
-		}
-		.ui-corner-all {
-			@include border-radius(initial);
-		}
-		#mainTabs {
-			border: $border-thin solid $grey-light;
-			border-top: none;
-			padding: 0;
-			.ui-tabs-nav {
-				border-bottom: $border-thin solid $grey-light;
-				padding: 0;
-				li {
-					top: 0;
-					margin: 0;
-					border: none;
-					@include border-radius(initial);
-					a {
-						padding: $gutter*0.5;
-					}
-				}
-				.ui-state-default {
-					background: $grey-lighter;
-					a {
-						border: $border-thicker solid $white;
-					}
-				}
-				.ui-tabs-selected {
-					background: $white;
-					border-top: $border-thin solid $grey-light;
-					border-right: $border-thin solid $grey-light;
-					margin-bottom: -1px;
-					a {
-						color: $black;
-					}
-				}				
-			}
-		}
-		#map-container {
-			padding: 0;
 		}
 		#map-resultspanel {
 			margin: 0;
@@ -166,7 +209,7 @@
 				margin: 0;
 				#resultsTableHeader {
 					input {
-						border: 1px solid $grey-light;
+						border: 1px solid $grey;
 					}
 				}
 				table.pretty {
@@ -191,6 +234,83 @@
 				}
 			}
 		}
+		#map-controls {
+			display: none;
+		}
+		#map-mappanel {
+			margin: 0;
+			border: none;
+		}
+		#formhelperHelp {
+			p {
+				margin-bottom: $baseline*0.25;
+				a {
+					color: $link !important;
+					&:hover {
+						color: $hover !important;
+					}
+					&:active {
+						color: $active !important;
+					}
+					&:visited {
+						color: $visited !important;
+					}
+				}
+			}
+		}
+	}
+	.icon-map {
+		float: left;
+		img {
+			margin-bottom: 0;
+			padding: $baseline*0.125 0;
+			width: $icon;
+		}
+	}
+	#lower {
+		.ui-widget-header {
+			border: none;
+		}
+		.ui-widget-content {
+			float: left;
+			border-top: none;
+		}
+		.ui-corner-all {
+			@include border-radius(initial);
+		}
+		#mainTabs {
+			border: none;
+			padding: 0;
+			.ui-tabs-nav {
+				border-bottom: $border-thin solid $grey;
+				padding: 0;
+				li {
+					top: 0;
+					margin: 0;
+					border: none;
+					@include border-radius(initial);
+					a {
+						padding: $gutter*0.5;
+					}
+				}
+				.ui-state-default {
+					background: $grey-lighter;
+					a {
+						border: $border-thicker solid $white;
+					}
+				}
+				.ui-tabs-selected {
+					background: $white;
+					border: $border-thin solid $grey;
+					border-bottom: none;
+					margin-bottom: -1px;
+					a {
+						color: $black;
+					}
+				}				
+			}
+		}
+		#map-controlpanel input[type='checkbox']
 		.ui-tabs.ui-tabs-panel {
 			padding: 0;
 		}
@@ -206,7 +326,7 @@
 			}
 		}
 		#resultsTable {
-			margin: $gutter;
+			margin: $baseline 0;
 			width: auto !important;
 		}
 	}
