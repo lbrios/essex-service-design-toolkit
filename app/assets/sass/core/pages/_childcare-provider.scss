@@ -61,28 +61,28 @@
 			font-size: $smaller;
 			line-height: 1rem;
 		}
-		.formhelper.yellowbg {
-			h3 {
-				@include h4;
-				margin-top: $baseline;
-				margin-bottom: $baseline*0.25;
-			}
-			p {
-				@include default-type;
-				margin-top: 0;
-				margin-bottom: $baseline*0.25;
-				font-size: $smaller;
-				a {
-					color: $link;
-					&:hover {
-						color: $hover;
-					}
-					&:active {
-						color: $active;
-					}
-					&:visited {
-						color: $visited;
-					}
+	}
+	.formhelper.yellowbg {
+		h3 {
+			@include h4;
+			margin-top: 0;
+			margin-bottom: $baseline*0.25;
+		}
+		p {
+			@include default-type;
+			margin-top: 0;
+			margin-bottom: $baseline*0.25;
+			font-size: $smaller;
+			a {
+				color: $link;
+				&:hover {
+					color: $hover;
+				}
+				&:active {
+					color: $active;
+				}
+				&:visited {
+					color: $visited;
 				}
 			}
 		}
@@ -114,10 +114,12 @@
 			padding: 11px;
 		}
 		#map-controlpanel {
+			float: left;
 			background-color: initial;
 			border: none;
 			margin: 0;
 			padding: 0;
+			overflow: initial;
 			#map-searchpanel h3 {
 				margin: 0;
 			}
@@ -205,6 +207,10 @@
 					#map-searchButton {
 						float: left !important;
 					}
+					#searchValue-Radius {
+						padding-top: 0;
+						padding-bottom: 0;
+					}
 				}
 			}
 			.searchSeparator {
@@ -257,7 +263,9 @@
 					font-size: $small;
 					select {
 						font-size: $smaller;
-						height: 1.5rem;	
+						height: 1.5rem;
+						padding-top: 0;
+						padding-bottom: 0;
 					}
 				}
 				table.pretty {
@@ -277,10 +285,12 @@
 						font-size: $small;
 					}
 					tbody tr.odd {
-						border-top: $border-thin solid $black;
-						border-bottom: $border-thin solid $black;
 						td {
-							background: none;
+							background: $grey-lighter;
+						}
+						td.dataTables_empty {
+							background: $black;
+							padding: 1px;
 						}
 					}
 				}
@@ -295,6 +305,8 @@
 		}
 	}
 	#formhelperHelp {
+		float: left;
+		margin-top: $baseline*0.25;
 		p {
 			font-size: $small;
 			margin-top: 0;
@@ -321,6 +333,22 @@
 			width: $icon;
 		}
 	}
+	.shortlist-category-header {
+		background: none;
+		color: $black;
+		padding: 0;
+	}
+	.shortlist-resource-header {
+		background: none;
+		color: $black;
+		padding: 0;
+	}
+	.map-reportitem {
+		background: none;
+		padding: $gutter*0.5;
+		border: $border-thin solid $grey-light;
+		margin-top: $baseline*0.5;
+	}
 	#map-shortlistpanel {
 		float: left;
 		margin: 0;
@@ -334,13 +362,21 @@
 		#shortlistFrame {
 			margin: 0;
 		}
+		#map-report {
+			overflow: initial;
+		}
+		#shortlistFrame,
+		.disclaimerbox {
+			padding-left: $gutter*0.5;
+			padding-right: $gutter*0.5;
+		}
 		#map-lhcol1 #map-controlpanel1 {
 			margin: 0;
 			padding: 0;
 			border: none;
-			#acrobat-reader-tip {
-				display: none;
-			}
+		}
+		.map-reportitem dl {
+			font-size: $small;
 		}
 		input {
 			margin: 0;
@@ -359,6 +395,7 @@
 			padding-left: $gutter*0.5;
 		}
 		#map-userComments {
+			margin-top: $baseline*0.5;
 			background: none;
 			padding: 0;
 			#txtUserComments {
@@ -366,25 +403,34 @@
 				width: 100%;
 			}
 		}
-		#map-controlpanel1 {
-			overflow: initial;
-			background: none;
-			@include border-radius(0);
-			#map-shortlist-links {
-				padding: $gutter*0.5;
-				table {
-					text-align: left !important;
-					tr {
-						display: inline-block;
-						margin-bottom: $baseline*0.25;
-					}
+	}
+	#acrobat-reader-tip {
+		display: none;
+	}
+	#map-controlpanel1 {
+		overflow: initial;
+		background: none;
+		@include border-radius(0);
+		margin: 0;
+		padding: 0;
+		border: none;
+		#map-shortlist-links {
+			padding: $gutter*0.5 $gutter*0.5 0 $gutter*0.5;
+			table {
+				text-align: left !important;
+				tr {
+					display: inline-block;
+					margin-bottom: $baseline*0.25;
 				}
 			}
-			& + div {
-				margin: 0 !important;
-				padding: $gutter*0.5;
-				width: initial !important;
-			}
+		}
+		& + div {
+			margin: 0 !important;
+			padding: $gutter*0.5;
+			width: initial !important;
+			margin-left: 0;
+			border: none;
+			margin: 0;
 		}
 	}
 	.shortlist-comments-header {
@@ -451,6 +497,9 @@
 		#resultsTable {
 			margin: $baseline 0;
 			width: auto !important;
+			.ui-widget input {
+				height: 1rem;
+			}
 		}
 	}
 	.bottom {
