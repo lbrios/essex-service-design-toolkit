@@ -120,15 +120,21 @@
 				margin: 0;
 			}
 			#map-SearchFields {
-				padding: $gutter*0.5;
+				padding: 0 $gutter*0.5 0 $gutter*0.5;
 				.ui-state-active, 
 				.ui-widget-content .ui-state-active, 
 				.ui-widget-header.ui-state-active {
 					background: none;
 					border: none;
 					a {
-						@include button;
+						color: $black;
+						font-weight: $bold;
 					}
+				}
+				.searchCaption {
+					font-size: ms(-1);
+					font-weight: $bold;
+					margin: 0;
 				}
 				h3 {
 					font-size: 1rem;
@@ -142,7 +148,7 @@
 					overflow: initial;
 					border: none;
 					padding: 0;
-					margin: $baseline 0 0 0;
+					margin: $baseline*0.5 0 0 0;
 					background: none;
 					height: initial !important;
 					#map-catpanel {
@@ -154,19 +160,22 @@
 							width: auto;
 						}
 						& > div {
-							margin: 0 0 $baseline*0.5 0;
+							margin: 0 0 $baseline*0.25 0;
 						}
 						#chk-selectAllCategories {
-							margin-left: 22px;
+							margin-left: 0;
+							margin: 0 $gutter*0.125;
 						}
 						#lbl-selectAllCategories {
-							font-size: $small;
+							font-size: $smaller;
 						}						
 						#map-catlist {
 							#cat-table tr {
 								display: inline-block;
-								margin-bottom: $baseline*0.25;
 								width: 100%;
+								td {
+									line-height: 0.8rem;
+								}
 								img {
 									margin: 0;
 									padding: 0;
@@ -185,7 +194,10 @@
 					#searchValue-Location,
 					#searchValue-Radius,
 					#searchValue-ProviderName {
+						font-size: $smaller;
+						height: $form-height*0.5;
 						border: 1px solid $grey;
+						margin-bottom: 0;
 						width: 100%;
 					}
 					#map-searchButton {
@@ -223,6 +235,7 @@
 				#resultsTableHeader {
 					input {
 						border: 1px solid $grey;
+						height: $form-height*0.5;
 					}
 				}
 				table.pretty {
@@ -296,6 +309,9 @@
 			margin: 0;
 			padding: 0;
 			border: none;
+			#acrobat-reader-tip {
+				display: none;
+			}
 		}
 		input {
 			margin: 0;
@@ -341,9 +357,6 @@
 				width: initial !important;
 			}
 		}
-		// #shortlistFrame {
-		// 	padding: 0 $gutter*0.5 0 0;
-		// }
 	}
 	.shortlist-comments-header {
 		@include h3;
@@ -371,11 +384,12 @@
 					border: none;
 					@include border-radius(initial);
 					a {
-						padding: $gutter*0.5;
+						padding: $gutter*0.125 $gutter*0.25;
 					}
 				}
 				.ui-state-default {
 					background: $grey-lighter;
+					font-size: ms(-1);
 					a {
 						border: $border-thicker solid $white;
 					}
@@ -428,5 +442,20 @@
 			padding: 0;
 			margin: 0;
 		}
+	}
+	.ui-accordion .ui-accordion-header {
+		a {
+			font-size: ms(-1);
+			padding-top: $gutter*0.125;
+			padding-right: $gutter*0.125;
+			padding-bottom: $gutter*0.125;
+			padding-left: 24px;
+		}
+		.ui-icon {
+			left: 0;
+		}
+	}
+	.ui-state-active .ui-icon {
+		background-image: url('/public/images/find-provider-icons/ui-icons_000000_256x240.png');
 	}
 }
