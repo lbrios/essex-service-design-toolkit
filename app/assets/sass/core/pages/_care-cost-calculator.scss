@@ -1,9 +1,18 @@
 // Achieve forms overwrite
 .AF-Category-GovUK {
-  font-family: $stack;
+  font-family: $stack !important;
   -webkit-font-smoothing: antialiased;
   background: $white;
   color: $body-text-colour;
+  h1, 
+  h2, 
+  h3, 
+  h4, 
+  h5, 
+  p {
+    font-family: $stack !important;
+    color: $body-text-colour;
+  }
   .navbar-default {
     display: none;
   }
@@ -375,6 +384,7 @@
   }
   button, .btn {
     @include button;
+    padding: 4px $baseline;
   }
   .container {
     @extend %site-width-container;
@@ -383,6 +393,12 @@
   }
   h1, .section-name-hidden {
     @include h1;
+    font-size: ms(9) !important;
+    font-weight: $bold !important;
+    text-transform: none !important;
+    line-height: $baseline*2 !important;
+    margin-top: $baseline*1.5 !important;
+    margin-bottom: $baseline*1.5 !important;
   }
   h2 {
     @include h2;
@@ -412,6 +428,7 @@
   }
   input[type=radio] + label:before {
     padding: 0;
+    margin-left: 0 !important;
   }
   *:after, 
   *:before, 
@@ -682,6 +699,7 @@
     }
     select, input, textarea {
       width: 100%;
+      margin-bottom: $baseline*0.25;
     }
     select {
       @include media(desktop) {
@@ -759,5 +777,34 @@
   }
   .icon-valid.fa.fa-check {
     display: none;
+  }
+  .achieveforms-container .all-sections .field .fieldContent fieldset.fieldInput.valid input[type=checkbox]+label:before, 
+  .achieveforms-container .all-sections .field .fieldContent fieldset.fieldInput.valid input[type=radio]+label:before {
+    color: $black;
+  }
+  label.radio-label {
+    margin-left: 0 !important;
+  }
+  .achieveforms-container .all-sections .field .fieldContent fieldset.fieldInput {
+    margin: 0;
+    padding: 0;
+    border: none; 
+  }
+  .achieveforms-container .all-sections .field .fieldContent .fieldInput.hasCurrencyPrefix, .achieveforms-container .all-sections .field .fieldContent .fieldInput.hasPrefix, 
+  .achieveforms-container .all-sections .field .fieldContent .prefix-suffix-mode.hasCurrencyPrefix, 
+  .achieveforms-container .all-sections .field .fieldContent .prefix-suffix-mode.hasPrefix {
+    @include border-radius(0 !important);
+    border-width: $border-normal;
+    border-style: solid;
+    border-color: $grey-dark;
+  }
+  .achieveforms-container .all-sections .field .fieldContent fieldset.fieldInput.valid input[data-type=date-subfield], 
+  .achieveforms-container .all-sections .field .fieldContent fieldset.fieldInput.valid input[type=checkbox]+label.btn, 
+  .achieveforms-container .all-sections .field .fieldContent fieldset.fieldInput.valid input[type=radio]+label.btn, 
+  .achieveforms-container .all-sections .field .fieldContent fieldset.fieldInput.valid+input.other-input {
+    border-color: $black;
+  }
+  .pull-left {
+    float: left;
   }
 }
