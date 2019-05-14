@@ -49,6 +49,7 @@
           text-align: left;
         }
         li {
+          margin-right: 0;
           margin-left: $baseline*0.5;
           @include media(mobile) {
             margin-left: 0;

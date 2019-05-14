@@ -25,7 +25,7 @@
   }
   @include inline-block;
   font-family: $stack;
-  font-size: 1em; // inherit from parent
+  font-size: ms(0);
   line-height: 1.4em;
   background-color: $button;
   position: relative;
