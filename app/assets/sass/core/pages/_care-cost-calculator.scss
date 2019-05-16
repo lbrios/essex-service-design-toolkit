@@ -1,5 +1,6 @@
 // Achieve forms overwrite
 .AF-Category-GovUK {
+/* /////////////////////// GOV.UK //////////////////////// */
   font-family: $stack !important;
   -webkit-font-smoothing: antialiased;
   background: $white;
@@ -11,6 +12,11 @@
   h5, 
   p {
     font-family: $stack !important;
+    font-size: ms(0) !important;
+    line-height: $baseline !important;
+    color: $text-colour;
+  }
+  p {
     color: $body-text-colour;
   }
   .navbar-default {
@@ -261,124 +267,124 @@
       }
     }
   }
-  .footer-container {
-    @media print {
-      display: none;
-    }
-    .footer-top, .footer-bottom {
-      @include small;
-      padding-top: $baseline;
-    }
-    .footer-top {
-      background-color: $brand3;
-    }
-    .footer-bottom {
-      background-color: $brand4;
-      padding-bottom: $baseline;
-    }
-    .footer {
-      @include box-sizing(content-box);
-      @extend %site-width-container;
-      position: relative;
-      .nav {
-        @extend %grid-row;
-        .nav-links {
-          @include grid-column(8 / 12);
-          margin-top: 0;
-          margin-bottom: 0;
-          li {
-            display: inline-block;
-            padding-left: 0;
-            margin-bottom: $baseline;
-            a {
-              color: $white;
-              line-height: $baseline;
-              font-weight: $normal;
-              &:hover, &:active, &:visited {
-                color: $white-on-black-hover;
-              }
-              &:focus {
-                color: $black;
-              }
-            }
-          }
-        }
-        .social {
-          @include grid-column(4 / 12);
-          text-align: right;
-          margin-top: 0;
-          margin-bottom: 0;
-          padding-bottom: $baseline;
-          @include media(mobile) {
-            text-align: left;
-          }
-          li {
-            margin-left: $baseline*0.5;
-            @include media(mobile) {
-              margin-left: 0;
-              margin-right: $baseline*0.5;
-            }
-            a {
-              font-size: $body;
-              color: $white;
-              &:hover {
-                color: $white-on-black-hover;
-              }
-              &:focus {
-                color: $black;
-              }
-            }
-          }
-        }
-      }
-      ul.credits {
-        @extend %grid-row;
-        list-style: none;
-        padding-left: 0;
-        margin-top: 0;
-        margin-bottom: 0;
-        li {
-          padding-left: 0;
-          display: inline;
-        }
-        .design-link {
-          a {
-            float: right;
-          }
-          @include media(mobile) {
-            display: block;
-            a {
-              float: left;
-            }
-          }
-        }
-        .copyright, .design-link {
-          @include grid-column(6 / 12);
-          display: block;
-          color: $white;
-          line-height: $baseline*1.25;
-          text-align: left;
-          @include media(mobile) {
-            margin-bottom: $baseline;
-          }
-          a {
-            color: $white;
-            &:hover {
-              color: $white-on-black-hover;
-            }
-            &:focus {
-              color: $black;
-            }
-          }
-        }
-      }
-    }
-  }
-  .col-xs-11.col-sm-11.fieldInput.content.staticText.non-input  {
-    padding-left: 0 !important;
-    padding-right: 0 !important;
-    width: 100% !important;
-  }
+  // .footer-container {
+  //   @media print {
+  //     display: none;
+  //   }
+  //   .footer-top, .footer-bottom {
+  //     @include small;
+  //     padding-top: $baseline;
+  //   }
+  //   .footer-top {
+  //     background-color: $brand3;
+  //   }
+  //   .footer-bottom {
+  //     background-color: $brand4;
+  //     padding-bottom: $baseline;
+  //   }
+  //   .footer {
+  //     @include box-sizing(content-box);
+  //     @extend %site-width-container;
+  //     position: relative;
+  //     .nav {
+  //       @extend %grid-row;
+  //       .nav-links {
+  //         @include grid-column(8 / 12);
+  //         margin-top: 0;
+  //         margin-bottom: 0;
+  //         li {
+  //           display: inline-block;
+  //           padding-left: 0;
+  //           margin-bottom: $baseline;
+  //           a {
+  //             color: $white;
+  //             line-height: $baseline;
+  //             font-weight: $normal;
+  //             &:hover, &:active, &:visited {
+  //               color: $white-on-black-hover;
+  //             }
+  //             &:focus {
+  //               color: $black;
+  //             }
+  //           }
+  //         }
+  //       }
+  //       .social {
+  //         @include grid-column(4 / 12);
+  //         text-align: right;
+  //         margin-top: 0;
+  //         margin-bottom: 0;
+  //         padding-bottom: $baseline;
+  //         @include media(mobile) {
+  //           text-align: left;
+  //         }
+  //         li {
+  //           margin-left: $baseline*0.5;
+  //           @include media(mobile) {
+  //             margin-left: 0;
+  //             margin-right: $baseline*0.5;
+  //           }
+  //           a {
+  //             font-size: $body;
+  //             color: $white;
+  //             &:hover {
+  //               color: $white-on-black-hover;
+  //             }
+  //             &:focus {
+  //               color: $black;
+  //             }
+  //           }
+  //         }
+  //       }
+  //     }
+  //     ul.credits {
+  //       @extend %grid-row;
+  //       list-style: none;
+  //       padding-left: 0;
+  //       margin-top: 0;
+  //       margin-bottom: 0;
+  //       li {
+  //         padding-left: 0;
+  //         display: inline;
+  //       }
+  //       .design-link {
+  //         a {
+  //           float: right;
+  //         }
+  //         @include media(mobile) {
+  //           display: block;
+  //           a {
+  //             float: left;
+  //           }
+  //         }
+  //       }
+  //       .copyright, .design-link {
+  //         @include grid-column(6 / 12);
+  //         display: block;
+  //         color: $white;
+  //         line-height: $baseline*1.25;
+  //         text-align: left;
+  //         @include media(mobile) {
+  //           margin-bottom: $baseline;
+  //         }
+  //         a {
+  //           color: $white;
+  //           &:hover {
+  //             color: $white-on-black-hover;
+  //           }
+  //           &:focus {
+  //             color: $black;
+  //           }
+  //         }
+  //       }
+  //     }
+  //   }
+  // }
+  // .col-xs-11.col-sm-11.fieldInput.content.staticText.non-input  {
+  //   padding-left: 0 !important;
+  //   padding-right: 0 !important;
+  //   width: 100% !important;
+  // }
   section {
     margin-bottom: 0;
   }
@@ -386,11 +392,11 @@
     @include button;
     padding: 4px $baseline;
   }
-  .container {
-    @extend %site-width-container;
-    @include box-sizing(content-box);
-    width: initial;
-  }
+  // .container {
+  //   @extend %site-width-container;
+  //   @include box-sizing(content-box);
+  //   width: initial;
+  // }
   h1, .section-name-hidden {
     @include h1;
     font-size: ms(9) !important;
@@ -437,17 +443,14 @@
   .achieveforms-container *:before {
     @include box-sizing(content-box);
   }
-  .col-xs-11.col-sm-11,
-  .col-xs-11 {
-    padding-left: 0;
-    padding-right: 0;
-  }
   .nextbutton {
     @include box-sizing(border-box);
   }
-  .achieveforms-container {
-    float: left;
-    width: 100%;
+  .previousbutton {
+    position: absolute;
+    background: none;
+    padding: 0;
+    left: 0;
   }
   .achieveforms-container .fillinButtons .btn i, 
   .achieveforms-container .fillinButtons .btn span {
@@ -652,6 +655,7 @@
 // Forms
 // ==========================================================================
   .achieveforms-container {
+    margin-top: $baseline*2;
     margin-bottom: $baseline*2;
   }
   legend, ._fieldName {
@@ -710,56 +714,56 @@
   .fieldInput.selectInput.radio.vertical.error {
     margin-bottom: $baseline;
   }
-  .col-xs-1, 
-  .col-sm-1, 
-  .col-md-1, 
-  .col-lg-1, 
-  .col-xs-2, 
-  .col-sm-2, 
-  .col-md-2, 
-  .col-lg-2, 
-  .col-xs-3, 
-  .col-sm-3, 
-  .col-md-3, 
-  .col-lg-3, 
-  .col-xs-4, 
-  .col-sm-4, 
-  .col-md-4, 
-  .col-lg-4, 
-  .col-xs-5, 
-  .col-sm-5, 
-  .col-md-5, 
-  .col-lg-5, 
-  .col-xs-6, 
-  .col-sm-6, 
-  .col-md-6, 
-  .col-lg-6, 
-  .col-xs-7, 
-  .col-sm-7, 
-  .col-md-7, 
-  .col-lg-7, 
-  .col-xs-8, 
-  .col-sm-8, 
-  .col-md-8, 
-  .col-lg-8, 
-  .col-xs-9, 
-  .col-sm-9, 
-  .col-md-9, 
-  .col-lg-9, 
-  .col-xs-10, 
-  .col-sm-10, 
-  .col-md-10, 
-  .col-lg-10, 
-  .col-xs-11, 
-  .col-sm-11, 
-  .col-md-11, 
-  .col-lg-11, 
-  .col-xs-12, 
-  .col-sm-12, 
-  .col-md-12, 
-  .col-lg-12 {
-    min-height: 0;
-  }
+  // .col-xs-1, 
+  // .col-sm-1, 
+  // .col-md-1, 
+  // .col-lg-1, 
+  // .col-xs-2, 
+  // .col-sm-2, 
+  // .col-md-2, 
+  // .col-lg-2, 
+  // .col-xs-3, 
+  // .col-sm-3, 
+  // .col-md-3, 
+  // .col-lg-3, 
+  // .col-xs-4, 
+  // .col-sm-4, 
+  // .col-md-4, 
+  // .col-lg-4, 
+  // .col-xs-5, 
+  // .col-sm-5, 
+  // .col-md-5, 
+  // .col-lg-5, 
+  // .col-xs-6, 
+  // .col-sm-6, 
+  // .col-md-6, 
+  // .col-lg-6, 
+  // .col-xs-7, 
+  // .col-sm-7, 
+  // .col-md-7, 
+  // .col-lg-7, 
+  // .col-xs-8, 
+  // .col-sm-8, 
+  // .col-md-8, 
+  // .col-lg-8, 
+  // .col-xs-9, 
+  // .col-sm-9, 
+  // .col-md-9, 
+  // .col-lg-9, 
+  // .col-xs-10, 
+  // .col-sm-10, 
+  // .col-md-10, 
+  // .col-lg-10, 
+  // .col-xs-11, 
+  // .col-sm-11, 
+  // .col-md-11, 
+  // .col-lg-11, 
+  // .col-xs-12, 
+  // .col-sm-12, 
+  // .col-md-12, 
+  // .col-lg-12 {
+  //   min-height: 0;
+  // }
 // nuns
   .formName {
     display: none;
@@ -797,14 +801,106 @@
     border-width: $border-normal;
     border-style: solid;
     border-color: $grey-dark;
+    border-left: none;
+    padding: $baseline*0.25;
+  }
+  .achieveforms-container .all-sections .field .fieldContent .prefix-suffix-mode {
+    margin-bottom: $baseline*0.5;
   }
   .achieveforms-container .all-sections .field .fieldContent fieldset.fieldInput.valid input[data-type=date-subfield], 
   .achieveforms-container .all-sections .field .fieldContent fieldset.fieldInput.valid input[type=checkbox]+label.btn, 
   .achieveforms-container .all-sections .field .fieldContent fieldset.fieldInput.valid input[type=radio]+label.btn, 
-  .achieveforms-container .all-sections .field .fieldContent fieldset.fieldInput.valid+input.other-input {
-    border-color: $black;
+  .achieveforms-container .all-sections .field .fieldContent fieldset.fieldInput.valid+input.other-input,
+  fieldset.valid input[type=checkbox]+label:before, 
+  fieldset.valid input[type=radio]+label:before {
+    border-color: $black !important;
   }
   .pull-left {
     float: left;
+  }
+  .achieveforms-container .all-sections .field .fieldContent .prefix-wrapper .prefix {
+    @include border-radius(0);
+    padding: 0;
+    width: $gutter;
+  }
+  .prefix-wrapper.error .prefix,
+  .achieveforms-container .prefix-wrapper.error .prefix {
+    border-color: $black;
+    border-width: $border-normal;
+  }
+  ._AF input[type=date].error:focus, 
+  ._AF input[type=date]:focus, 
+  ._AF input[type=datetime-local].error:focus, 
+  ._AF input[type=datetime-local]:focus, 
+  ._AF input[type=datetime].error:focus, 
+  ._AF input[type=datetime]:focus, 
+  ._AF input[type=email].error:focus, 
+  ._AF input[type=email]:focus, 
+  ._AF input[type=month].error:focus, 
+  ._AF input[type=month]:focus, 
+  ._AF input[type=number].error:focus, 
+  ._AF input[type=number]:focus, 
+  ._AF input[type=password].error:focus, 
+  ._AF input[type=password]:focus, 
+  ._AF input[type=search].error:focus, 
+  ._AF input[type=search]:focus, 
+  ._AF input[type=tel].error:focus, 
+  ._AF input[type=tel]:focus, 
+  ._AF input[type=text].error:focus, 
+  ._AF input[type=text]:focus, 
+  ._AF input[type=time].error:focus, 
+  ._AF input[type=time]:focus, 
+  ._AF input[type=url].error:focus, 
+  ._AF input[type=url]:focus, 
+  ._AF input[type=week].error:focus, 
+  ._AF input[type=week]:focus, 
+  ._AF select.error:focus, 
+  ._AF select:focus, 
+  ._AF textarea.error:focus, 
+  ._AF textarea:focus, 
+  .achieveforms-container input[type=date].error:focus, 
+  .achieveforms-container input[type=date]:focus, 
+  .achieveforms-container input[type=datetime-local].error:focus, 
+  .achieveforms-container input[type=datetime-local]:focus, 
+  .achieveforms-container input[type=datetime].error:focus, 
+  .achieveforms-container input[type=datetime]:focus, 
+  .achieveforms-container input[type=email].error:focus, 
+  .achieveforms-container input[type=email]:focus, 
+  .achieveforms-container input[type=month].error:focus, 
+  .achieveforms-container input[type=month]:focus, 
+  .achieveforms-container input[type=number].error:focus, 
+  .achieveforms-container input[type=number]:focus, 
+  .achieveforms-container input[type=password].error:focus, 
+  .achieveforms-container input[type=password]:focus, 
+  .achieveforms-container input[type=search].error:focus, 
+  .achieveforms-container input[type=search]:focus, 
+  .achieveforms-container input[type=tel].error:focus, 
+  .achieveforms-container input[type=tel]:focus, 
+  .achieveforms-container input[type=text].error:focus, 
+  .achieveforms-container input[type=text]:focus, 
+  .achieveforms-container input[type=time].error:focus, 
+  .achieveforms-container input[type=time]:focus, 
+  .achieveforms-container input[type=url].error:focus, 
+  .achieveforms-container input[type=url]:focus, 
+  .achieveforms-container input[type=week].error:focus, 
+  .achieveforms-container input[type=week]:focus, 
+  .achieveforms-container select.error:focus, 
+  .achieveforms-container select:focus, 
+  .achieveforms-container textarea.error:focus, 
+  .achieveforms-container textarea:focus {
+    box-shadow: none;
+    @include box-shadow(0 0 0 3px $focus-colour);
+  }
+  .help-img-wrapper {
+    display: none;
+  }
+  .help-text {
+    display: block !important;
+    i {
+      display: none;
+    }
+  }
+  .achieveforms-container .help-text {
+    color: $black;
   }
 }
