@@ -1,10 +1,10 @@
 // Achieve forms overwrite
 .AF-Category-GovUK {
-/* /////////////////////// GOV.UK //////////////////////// */
+/* /////////////////////// AF ugly overwrites //////////////////////// */
   font-family: $stack !important;
   -webkit-font-smoothing: antialiased;
   background: $white;
-  color: $body-text-colour;
+  color: $body-text-colour !important;
   h1, 
   h2, 
   h3, 
