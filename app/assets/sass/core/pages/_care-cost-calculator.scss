@@ -19,11 +19,27 @@
   p {
     color: $body-text-colour;
   }
+  .achieveforms-container .all-sections .field .fieldContent .fieldInput.content {
+    margin-bottom: 0;
+  }
   .navbar-default {
-    display: none;
+    background: none;
   }
   .section-name-hidden {
     display: none;
+  }
+  .fieldContent h1,
+  .fieldInput.content.staticText.non-input  {
+    display: none;
+  }
+  .sections-toggle-wrapper.visible-xs {
+    display: none;
+  }
+  .sectionNameWrapper {
+    display: none;
+  }
+  .sectionNameWrapper.active {
+    display: block;
   }
   .browser-check-background {
     background-color: $highlight-box-light;
@@ -267,129 +283,25 @@
       }
     }
   }
-  // .footer-container {
-  //   @media print {
-  //     display: none;
-  //   }
-  //   .footer-top, .footer-bottom {
-  //     @include small;
-  //     padding-top: $baseline;
-  //   }
-  //   .footer-top {
-  //     background-color: $brand3;
-  //   }
-  //   .footer-bottom {
-  //     background-color: $brand4;
-  //     padding-bottom: $baseline;
-  //   }
-  //   .footer {
-  //     @include box-sizing(content-box);
-  //     @extend %site-width-container;
-  //     position: relative;
-  //     .nav {
-  //       @extend %grid-row;
-  //       .nav-links {
-  //         @include grid-column(8 / 12);
-  //         margin-top: 0;
-  //         margin-bottom: 0;
-  //         li {
-  //           display: inline-block;
-  //           padding-left: 0;
-  //           margin-bottom: $baseline;
-  //           a {
-  //             color: $white;
-  //             line-height: $baseline;
-  //             font-weight: $normal;
-  //             &:hover, &:active, &:visited {
-  //               color: $white-on-black-hover;
-  //             }
-  //             &:focus {
-  //               color: $black;
-  //             }
-  //           }
-  //         }
-  //       }
-  //       .social {
-  //         @include grid-column(4 / 12);
-  //         text-align: right;
-  //         margin-top: 0;
-  //         margin-bottom: 0;
-  //         padding-bottom: $baseline;
-  //         @include media(mobile) {
-  //           text-align: left;
-  //         }
-  //         li {
-  //           margin-left: $baseline*0.5;
-  //           @include media(mobile) {
-  //             margin-left: 0;
-  //             margin-right: $baseline*0.5;
-  //           }
-  //           a {
-  //             font-size: $body;
-  //             color: $white;
-  //             &:hover {
-  //               color: $white-on-black-hover;
-  //             }
-  //             &:focus {
-  //               color: $black;
-  //             }
-  //           }
-  //         }
-  //       }
-  //     }
-  //     ul.credits {
-  //       @extend %grid-row;
-  //       list-style: none;
-  //       padding-left: 0;
-  //       margin-top: 0;
-  //       margin-bottom: 0;
-  //       li {
-  //         padding-left: 0;
-  //         display: inline;
-  //       }
-  //       .design-link {
-  //         a {
-  //           float: right;
-  //         }
-  //         @include media(mobile) {
-  //           display: block;
-  //           a {
-  //             float: left;
-  //           }
-  //         }
-  //       }
-  //       .copyright, .design-link {
-  //         @include grid-column(6 / 12);
-  //         display: block;
-  //         color: $white;
-  //         line-height: $baseline*1.25;
-  //         text-align: left;
-  //         @include media(mobile) {
-  //           margin-bottom: $baseline;
-  //         }
-  //         a {
-  //           color: $white;
-  //           &:hover {
-  //             color: $white-on-black-hover;
-  //           }
-  //           &:focus {
-  //             color: $black;
-  //           }
-  //         }
-  //       }
-  //     }
-  //   }
-  // }
-  // .col-xs-11.col-sm-11.fieldInput.content.staticText.non-input  {
-  //   padding-left: 0 !important;
-  //   padding-right: 0 !important;
-  //   width: 100% !important;
-  // }
   section {
     margin-bottom: 0;
   }
-  button, .btn {
+  button, 
+  .btn,
+  .btn-group-lg>.btn, 
+  .btn-lg,
+  .cee.btn.btn-default:hover, 
+  .cee.btn.btn-search:hover, 
+  .cee.btn.btn-search:active, 
+  .cee.btn.btn-primary:hover, 
+  .cee.btn.btn-primary:active,
+  .btn-block,
+  .cee.btn.btn-default, 
+  .cee.btn.btn-search, 
+  .cee.btn.btn-primary {
     @include button;
+    @include border-radius(0);
+    text-align: left;
     padding: 4px $baseline;
   }
   // .container {
@@ -450,7 +362,11 @@
     position: absolute;
     background: none;
     padding: 0;
-    left: 0;
+    left: 25px;
+    top: 0;
+    background-color: $white !important;
+    border: none !important;
+    color: $black !important;
   }
   .achieveforms-container .fillinButtons .btn i, 
   .achieveforms-container .fillinButtons .btn span {
@@ -461,8 +377,8 @@
     text-shadow: none;
   }
   .achieveforms-container .fillinButtons .btn {
-    font-size: 1em;
-    line-height: 1.4em;
+    font-size: 1rem;
+    line-height: 1.4rem;
     margin: 0;
     min-width: initial;
   }
@@ -714,57 +630,6 @@
   .fieldInput.selectInput.radio.vertical.error {
     margin-bottom: $baseline;
   }
-  // .col-xs-1, 
-  // .col-sm-1, 
-  // .col-md-1, 
-  // .col-lg-1, 
-  // .col-xs-2, 
-  // .col-sm-2, 
-  // .col-md-2, 
-  // .col-lg-2, 
-  // .col-xs-3, 
-  // .col-sm-3, 
-  // .col-md-3, 
-  // .col-lg-3, 
-  // .col-xs-4, 
-  // .col-sm-4, 
-  // .col-md-4, 
-  // .col-lg-4, 
-  // .col-xs-5, 
-  // .col-sm-5, 
-  // .col-md-5, 
-  // .col-lg-5, 
-  // .col-xs-6, 
-  // .col-sm-6, 
-  // .col-md-6, 
-  // .col-lg-6, 
-  // .col-xs-7, 
-  // .col-sm-7, 
-  // .col-md-7, 
-  // .col-lg-7, 
-  // .col-xs-8, 
-  // .col-sm-8, 
-  // .col-md-8, 
-  // .col-lg-8, 
-  // .col-xs-9, 
-  // .col-sm-9, 
-  // .col-md-9, 
-  // .col-lg-9, 
-  // .col-xs-10, 
-  // .col-sm-10, 
-  // .col-md-10, 
-  // .col-lg-10, 
-  // .col-xs-11, 
-  // .col-sm-11, 
-  // .col-md-11, 
-  // .col-lg-11, 
-  // .col-xs-12, 
-  // .col-sm-12, 
-  // .col-md-12, 
-  // .col-lg-12 {
-  //   min-height: 0;
-  // }
-// nuns
   .formName {
     display: none;
   }
@@ -772,6 +637,12 @@
   .fa.fa-chevron-right,
   .fa.fa-check {
     display: none;
+  }
+  .fa.fa-chevron-left {
+    display: inline-block;
+  }
+  .achieveforms-container .all-sections .field .staticText ul {
+    font-size: 1rem;
   }
   .fillinButtons-wrapper {
     .btn-af.cancelbutton,
@@ -802,6 +673,14 @@
     border-style: solid;
     border-color: $grey-dark;
     border-left: none;
+    padding: $baseline*0.25;
+  }
+  .achieveforms-container .prefix-wrapper.valid .prefix {
+    @include border-radius(0 !important);
+    border-width: $border-normal;
+    border-style: solid;
+    border-color: $grey-dark;
+    border-right: none;
     padding: $baseline*0.25;
   }
   .achieveforms-container .all-sections .field .fieldContent .prefix-suffix-mode {
@@ -902,5 +781,88 @@
   }
   .achieveforms-container .help-text {
     color: $black;
+  }
+  .col-lg-1, 
+  .col-lg-10, 
+  .col-lg-11, 
+  .col-lg-12, 
+  .col-lg-2, 
+  .col-lg-3, 
+  .col-lg-4, 
+  .col-lg-5, 
+  .col-lg-6, 
+  .col-lg-7, 
+  .col-lg-8, 
+  .col-lg-9, 
+  .col-md-1, 
+  .col-md-10, 
+  .col-md-11, 
+  .col-md-12, 
+  .col-md-2, 
+  .col-md-3, 
+  .col-md-4, 
+  .col-md-5, 
+  .col-md-6, 
+  .col-md-7, 
+  .col-md-8, 
+  .col-md-9, 
+  .col-sm-1, 
+  .col-sm-10, 
+  .col-sm-11, 
+  .col-sm-12, 
+  .col-sm-2, 
+  .col-sm-3, 
+  .col-sm-4, 
+  .col-sm-5, 
+  .col-sm-6, 
+  .col-sm-7, 
+  .col-sm-8, 
+  .col-sm-9, 
+  .col-xs-1, 
+  .col-xs-10, 
+  .col-xs-11, 
+  .col-xs-12, 
+  .col-xs-2, 
+  .col-xs-3, 
+  .col-xs-4, 
+  .col-xs-5, 
+  .col-xs-6, 
+  .col-xs-7, 
+  .col-xs-8, 
+  .col-xs-9 {
+    position: initial;
+  }
+  .achieveforms-container .sectionsHead .sectionsHeadInner {
+    display: block;
+    padding: 0;
+    margin: 0;
+  }
+  .achieveforms-container .sectionsHead .sectionsHeadInner .sectionNameWrapper.active .sectionNameTab,
+  .achieveforms-container .sectionsHead .sectionsHeadInner, 
+  .nav-tabs>li>a:hover {
+    border: none;
+    color: $black;
+  }
+  .nav>li>a {
+    display: block;
+    padding-top: 0;
+    padding-bottom: 0;
+    color: $black;
+    @include h1;
+    text-decoration: none;
+  }
+  .sectionNameWrapper {
+    padding-left: 0;
+  }
+  .cee.btn.btn-default, .cee.btn.btn-search, .cee.btn.btn-primary {
+    border-color: $button;
+  }
+  .achieveforms-container .all-sections .field .fieldContent fieldset.fieldInput.error input[data-type=date-subfield] {
+    border-width: $border-normal;
+    border-style: solid;
+    border-color: $grey-dark;
+  }
+  .btn.btn-af.nextbutton.pull-right {
+    float: left !important;
   }
 }
