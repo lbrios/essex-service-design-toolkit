@@ -28,8 +28,7 @@
   .section-name-hidden {
     display: none;
   }
-  .fieldContent h1,
-  .fieldInput.content.staticText.non-input  {
+  .fieldContent h1  {
     display: none;
   }
   .sections-toggle-wrapper.visible-xs {
@@ -303,12 +302,10 @@
     @include border-radius(0);
     text-align: left;
     padding: 4px $baseline;
+    &:focus {
+      outline: $border-thick solid $focus-colour;
+    }
   }
-  // .container {
-  //   @extend %site-width-container;
-  //   @include box-sizing(content-box);
-  //   width: initial;
-  // }
   h1, .section-name-hidden {
     @include h1;
     font-size: ms(9) !important;
