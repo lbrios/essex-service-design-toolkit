@@ -45,6 +45,8 @@
 		.ui-state-default {
 			background: none;
 			border: none;
+			display: none;
+			// if removing toggle for usibility, don't need heading as we have tab search
 		}
 		.ui-accordion-content {
 			height: initial !important;
@@ -143,6 +145,8 @@
 				h3 {
 					font-size: 1rem;
 					font-weight: $regular;
+					display: none;
+					// if removing toggle for usibility, don't need heading as we have tab search
 				}
 				.ui-accordion-header {
 					margin: 0;
@@ -179,6 +183,7 @@
 								width: 100%;
 								td {
 									line-height: 0.8rem;
+									vertical-align: top;
 								}
 								img {
 									margin: 0;
@@ -252,8 +257,41 @@
 					}
 				}
 				#resultsTable {
+					thead tr th {
+						padding-left: 0;
+						padding-right: 5px;
+					}
 					input {
 						line-height: 1rem;
+					}
+					input[type='checkbox'] {
+						height: 13px;
+						width: 13px;
+					}
+					.map-locationdetail {
+						background-color: $white;
+						margin-top: $baseline*0.5;
+						margin-bottom: $baseline*0.5;
+						dt, dd {
+							border-top-color: $grey-light;
+							padding-left: 0;
+							padding-right: 5px;
+							width: calc(50% - 5px);
+						}
+						dl {
+							width: 100%;
+						}
+					}
+					#details-actions {
+						float: left !important;
+						padding-bottom: 0 !important;
+						padding-right: 0 !important;
+						margin-bottom: $baseline*0.5;
+						input {
+							float: right;
+							margin: 0 !important;
+							margin-right: $gutter*0.5 !important;
+						}
 					}
 				}
 				#resultsTable_info {
@@ -269,6 +307,9 @@
 					}
 				}
 				table.pretty {
+					th, td {
+						border: none !important;
+					}
 					thead {
 						th {
 							text-align: left;
@@ -277,20 +318,34 @@
 							line-height: 1rem;
 							color: $black;
 							background: none;
-							padding: 0 $gutter*0.5 0 0;
+							padding: $gutter*0.25 $gutter*0.5;
 							width: initial !important;
 						}
 					}
 					tbody tr {
 						font-size: $small;
+						border-bottom: 1px solid $grey;
 					}
 					tbody tr.odd {
 						td {
 							background: $grey-lighter;
+							background: none;
 						}
 						td.dataTables_empty {
 							background: $black;
-							padding: 1px;
+							padding: 0;
+							height: 1px;
+						}
+					}
+					tbody tr td {
+						vertical-align: top;
+						text-align: left;
+						padding: $baseline*0.25;
+						padding-left: 0;
+						padding-right: 5px;
+						margin: 0;
+						&.details {
+							padding: 0;
 						}
 					}
 				}
@@ -540,9 +595,23 @@
 		}
 	}
 	.ui-state-default .ui-icon {
-		background-image: url('/public/images/find-provider-icons/ui-icons_000000_256x240.png');
+		background-image: url('../images/ui-icons_000000_256x240.png');
 	}
 	.ui-state-active .ui-icon {
-		background-image: url('/public/images/find-provider-icons/ui-icons_000000_256x240.png');
+		background-image: url('../images/ui-icons_000000_256x240.png');
+	}
+	.lessInfo, .moreInfo {
+		margin: 0;
+		// @include font-awesome;
+	}
+	.lessInfo {
+		background-image: url('../images/details_close.png');
+		// background: none !important;
+		// content: "\f068";
+	}
+	.moreInfo {
+		background-image: url('../images/details_open.png');	
+		// background: none !important;
+		// content: "\f067";
 	}
 }
