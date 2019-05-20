@@ -273,22 +273,34 @@
 						margin-top: $baseline*0.5;
 						margin-bottom: $baseline*0.5;
 						dt, dd {
-							border-top-color: $grey-light;
+							border-top: none;
+							border-bottom: $border-thin $grey-light solid;
+							// &:first-child, &:nth-child(2) {
+							// 	border-top: none;
+							// }
+						}
+						dt, dd {
 							padding-left: 0;
 							padding-right: 5px;
 							width: calc(50% - 5px);
+							min-height: 26px;
 						}
 						dl {
 							width: 100%;
+							border-bottom: none;
 						}
 					}
 					#details-actions {
+						background: $white;
 						float: left !important;
 						padding-bottom: 0 !important;
 						padding-right: 0 !important;
-						margin-bottom: $baseline*0.5;
+						padding-top: $baseline;
+						margin-bottom: $baseline;
+						margin-top: -$baseline;
+						width: 100%;
 						input {
-							float: right;
+							float: left;
 							margin: 0 !important;
 							margin-right: $gutter*0.5 !important;
 						}
@@ -361,7 +373,8 @@
 	}
 	#formhelperHelp {
 		float: left;
-		margin-top: $baseline*0.25;
+		margin-top: $baseline*1.5;
+		margin-bottom: $baseline*0.5;
 		p {
 			font-size: $small;
 			margin-top: 0;
@@ -379,6 +392,12 @@
 				}
 			}
 		}
+	}
+	.formhelper {
+		padding-right: $gutter*0.5;
+	}
+	.formhelper.yellowbg {
+		float: left;
 	}
 	.icon-map {
 		float: left;
@@ -495,6 +514,11 @@
 		margin-bottom: $baseline*0.5;
 	}
 	#lower {
+		font-family: $stack;
+		.ui-widget,
+		.searchCaption {
+			font-family: $stack;
+		}
 		.ui-widget-header {
 			border: none;
 		}
@@ -602,16 +626,24 @@
 	}
 	.lessInfo, .moreInfo {
 		margin: 0;
-		// @include font-awesome;
+		@include font-awesome;
 	}
 	.lessInfo {
 		background-image: url('../images/details_close.png');
 		// background: none !important;
-		// content: "\f068";
+		// content: '\f068';
+		// height: 20px;
+		// width: 20px;
 	}
 	.moreInfo {
 		background-image: url('../images/details_open.png');	
 		// background: none !important;
 		// content: "\f067";
+	}
+	.ui-widget input, 
+	.ui-widget select, 
+	.ui-widget textarea, 
+	.ui-widget button {
+		font-family: $stack;
 	}
 }
