@@ -7,9 +7,9 @@
 
 <h1>Contents</h1>
 
-<h3>Page examples</h3>
+<h3>Website static page examples</h3>
 <ul>
-  <li><a href="/">Main home page</a></li>
+  <li><a href="/examples/index">Main home page</a></li>
   <li><a href="/examples/news-landing">News Landing</a></li>
   <li><a href="/examples/content-break">Content break</a></li>
   <li><a href="/examples/form">Form</a></li>
@@ -18,7 +18,7 @@
   <li><a href="/examples/topic-b">Alternative Topic page</a></li>
 </ul>
 
-<h3>Apps</h3>
+<h3>Apps static page examples</h3>
 <ul>
   <li><a href="/app/freedom-of-information">Freedom of Information Search</a></li>
   <li><a href="/app/emergency-school-closures">Emergency School Closures</a></li>
