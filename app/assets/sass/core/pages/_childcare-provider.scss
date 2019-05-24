@@ -344,9 +344,8 @@
 							background: none;
 						}
 						td.dataTables_empty {
-							background: $black;
+							background: none;
 							padding: 0;
-							height: 1px;
 						}
 					}
 					tbody tr td {
@@ -596,14 +595,18 @@
 		.dataTables_paginate.paging_four_button {
 			font-size: $smaller;
 		}
-		.paginate_disabled_previous,
-		.paginate_disabled_next {
+		.paginate_enabled_previous,
+		.paginate_enabled_next {
 			background: none;
 			color: $link !important;
 			text-decoration: underline;
 			padding: 0;
 			margin: 0;
 			margin-right: $gutter*0.25;
+		}
+		.paginate_disabled_previous,
+		.paginate_disabled_next {
+			display: none;
 		}
 	}
 	.ui-accordion .ui-accordion-header {
