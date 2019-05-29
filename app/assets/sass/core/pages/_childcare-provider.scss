@@ -1,4 +1,28 @@
 #find-childcare-provider {
+	#map-controlpanel, #map-controlpanel1 {
+		width: 253px;
+		overflow: hidden;
+		overflow: initial;
+	}
+	.ui-corner-all, 
+	.ui-corner-bottom, 
+	.ui-corner-right, 
+	.ui-corner-br,
+	.ui-corner-all, 
+	.ui-corner-top, 
+	.ui-corner-right, 
+	.ui-corner-tr {
+		@include border-radius(0);
+	}
+	#map-search-by-address {
+		height: initial !important;
+	}
+	#map-lhcol {
+		width: 253px;
+	}
+	.ui-accordion .ui-accordion-content {
+		overflow: initial !important;
+	}
 	.form {
 		.group.type-checkbox {
 			.provider, .map-category {
@@ -26,7 +50,7 @@
 	}
 	#map-SearchByOfstedRef {
 		float: left;
-		padding: $baseline*0.25 $gutter*0.25 0 $gutter*0.25;
+		padding: $baseline*0.25 8px 0 8px;
 		.ui-accordion-header a {
 			padding: 0;
 			padding-left: 24px;
@@ -34,9 +58,13 @@
 		}
 		#searchValue-OfstedReference {
 			float: left;
-			margin-right: $gutter*0.5;
 			border: $border-thin solid $grey;
 			height: $form-height*0.5;
+			font-size: $smaller;
+			height: $form-height*0.5;
+			margin-left: 3px;
+			margin-right: 3px;
+			width: 231px;
 		}
 		#map-searchButton-OfstedRef {
 			float: left !important;
@@ -54,7 +82,7 @@
 			padding: 0;
 			border: none;
 			overflow: initial;
-			@include border-radius(initial);
+			@include border-radius(0);
 		}
 	}
 	#map-container,
@@ -97,7 +125,7 @@
 		margin-bottom: $baseline;
 		padding: 0;
 		padding-top: $baseline*0.25;
-		@include border-radius(initial);
+		@include border-radius(0);
 		.disclaimertext h3 {
 			@include h4;
 		}
@@ -117,16 +145,19 @@
 		}
 		#map-controlpanel {
 			float: left;
-			background-color: initial;
+			background-color: $white;
 			border: none;
 			margin: 0;
 			padding: 0;
+			overflow: hidden;
 			overflow: initial;
 			#map-searchpanel h3 {
 				margin: 0;
 			}
 			#map-SearchFields {
-				padding: 0 $gutter*0.25 0 $gutter*0.25;
+				padding: 0 8px;
+				width: 237px;
+				overflow: hidden;
 				.ui-state-active, 
 				.ui-widget-content .ui-state-active, 
 				.ui-widget-header.ui-state-active {
@@ -158,6 +189,7 @@
 					padding: 0;
 					margin: $baseline*0.5 0 0 0;
 					background: none;
+					height: auto !important;
 					height: initial !important;
 					#map-catpanel {
 						margin-bottom: 0;
@@ -207,7 +239,9 @@
 						height: $form-height*0.5;
 						border: 1px solid $grey;
 						margin-bottom: 0;
-						width: 100%;
+						margin-left: 3px;
+						margin-right: 3px;
+						width: 231px;
 					}
 					#map-searchButton {
 						float: left !important;
@@ -233,7 +267,7 @@
 				border: none;
 				padding: 0;
 				margin: 0;
-				@include border-radius(0); 
+				@include border-radius(0);
 			}		
 			& + div {
 				padding: $gutter*0.25;
@@ -430,7 +464,7 @@
 		background: none;
 		border: $border-thin solid $grey;
 		border-top: none;
-		width: 100%;
+		width: 1018px;
 		#map-report,
 		#shortlistFrame {
 			margin: 0;
@@ -481,6 +515,7 @@
 		display: none;
 	}
 	#map-controlpanel1 {
+		overflow: auto;
 		overflow: initial;
 		background: none;
 		@include border-radius(0);
@@ -574,7 +609,7 @@
 		}
 		#resultsTable {
 			margin: $baseline 0;
-			width: auto !important;
+			width: 100%;
 			.ui-widget input {
 				height: 1rem;
 			}
