@@ -6,6 +6,11 @@
   }
   #govukHeader {
     display: block !important;
+    .header {
+      margin-left: auto;
+      margin-right: auto;
+      width: $site-width;
+    }
   }
   #customFooter {
     display: none;
@@ -17,13 +22,41 @@
     background-color: $brand;
     height: 65px;
   }
+  .row {
+    margin: 0;
+  }
+  #navigation .navbar,
+  .nav {
+    width: 100%;
+  }
+  .container-fluid {
+    margin-left: auto;
+    margin-right: auto;
+    width: $site-width;
+  }
+  .footer {
+    margin-left: auto;
+    margin-right: auto;
+    width: $site-width + 80px;
+  }
+  .nav>li>a, 
+  .nav>li>span,
+  .container, 
+  .container-fluid,
+  #page.render,
+  .renderForm,
   #self-content {
+    padding: 0;
+  }
+  .container {
+    width: 100%;
+  }
+  .col-xs-12 {
     padding-left: 0;
     padding-right: 0;
   }
   .nav {
     margin: 0 auto;
-    width: 970px;
   }
   .breadcrumbs {
     position: absolute;
@@ -32,9 +65,9 @@
     padding-left: 0;
     padding-right: 0;
   }
-  #page {
-    margin: 0 auto;
-    width: 970px;
+  #page,
+  .row.render {
+    margin: 0;
     &.render {
       padding: 0;
     }
@@ -74,7 +107,7 @@
     display: inline-block;
     margin-top: $baseline*0.5;
     margin-bottom: $baseline*0.5;
-    padding-left: 30px;
+    padding-left: 0;
     @include media(mobile) {
       margin-top: $baseline*0.25;
       margin-bottom: $baseline*0.25;
@@ -128,8 +161,8 @@
       @extend %site-width-container;
       @extend %contain-floats;
       margin-top: 13px;
-      padding-left: 57px;
-      padding-right: 57px;
+      padding-left: 0;
+      padding-right: 0;
       @media print {
         margin: 0;
       }
@@ -165,9 +198,8 @@
     }
     .footer-top, .footer-bottom {
       font-size: 14px;
+      padding: 0;
       padding-top: $baseline;
-      padding-left: 57px;
-      padding-right: 57px;
     }
     .footer-top {
       background-color: $brand3;
