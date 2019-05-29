@@ -1,8 +1,46 @@
 // Achieve forms overwrite
 .AF-Category-GovUK {
 /* /////////////////////// AF ugly overwrites //////////////////////// */
+  .genericHeader {
+    display: none;
+  }
+  #govukHeader {
+    display: block !important;
+  }
+  #customFooter {
+    display: none;
+  }
+  #govukFooter {
+    display: block !important;
+  }
   #header {
+    background-color: $brand;
     height: 65px;
+  }
+  #self-content {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .nav {
+    margin: 0 auto;
+    width: 970px;
+  }
+  .breadcrumbs {
+    position: absolute;
+  }
+  .renderForm #page-container, #page {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  #page {
+    margin: 0 auto;
+    width: 970px;
+    &.render {
+      padding: 0;
+    }
+  }
+  .sectionNameTab, .all-sections {
+    padding: 0;
   }
   font-family: $stack !important;
   -webkit-font-smoothing: antialiased;
@@ -36,7 +74,7 @@
     display: inline-block;
     margin-top: $baseline*0.5;
     margin-bottom: $baseline*0.5;
-    padding-left: 15px;
+    padding-left: 30px;
     @include media(mobile) {
       margin-top: $baseline*0.25;
       margin-bottom: $baseline*0.25;
@@ -78,7 +116,9 @@
   .header-background {
     background-color: $brand;
     height: auto;
-    position: relative;
+    position: absolute;
+    left: 0;
+    right: 0;
     z-index: 20;
     @media print {
       height: auto;
@@ -88,6 +128,8 @@
       @extend %site-width-container;
       @extend %contain-floats;
       margin-top: 13px;
+      padding-left: 57px;
+      padding-right: 57px;
       @media print {
         margin: 0;
       }
@@ -124,9 +166,12 @@
     .footer-top, .footer-bottom {
       font-size: 14px;
       padding-top: $baseline;
+      padding-left: 57px;
+      padding-right: 57px;
     }
     .footer-top {
       background-color: $brand3;
+
     }
     .footer-bottom {
       float: left;
@@ -136,6 +181,7 @@
     }
     .footer {
       @extend %site-width-container;
+      margin: 0 auto;
       position: relative;
       .nav {
         @extend %grid-row;
