@@ -59,9 +59,10 @@
 		#searchValue-OfstedReference {
 			float: left;
 			border: $border-thin solid $grey;
-			height: $form-height*0.5;
+			line-height: 2rem;
+			height: 35px;
 			font-size: $smaller;
-			height: $form-height*0.5;
+			height: 30px;
 			margin-left: 3px;
 			margin-right: 3px;
 			width: 231px;
@@ -77,6 +78,7 @@
 			// if removing toggle for usibility, don't need heading as we have tab search
 		}
 		.ui-accordion-content {
+			height: auto !important;
 			height: initial !important;
 			display: block !important;
 			padding: 0;
@@ -236,12 +238,17 @@
 					#searchValue-Radius,
 					#searchValue-ProviderName {
 						font-size: $smaller;
-						height: $form-height*0.5;
+						line-height: 2rem;
+						height: 30px;
 						border: 1px solid $grey;
 						margin-bottom: 0;
 						margin-left: 3px;
 						margin-right: 3px;
 						width: 231px;
+					}
+					select#searchValue-Radius {
+						height: 40px;
+						padding: 5px;
 					}
 					#map-searchButton {
 						float: left !important;
