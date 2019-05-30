@@ -1,13 +1,116 @@
 // Achieve forms overwrite
 .AF-Category-GovUK {
 /* /////////////////////// AF ugly overwrites //////////////////////// */
-  #header {
-    height: 65px;
-  }
   font-family: $stack !important;
   -webkit-font-smoothing: antialiased;
-  background: $white;
+  background: $brand4;
   color: $body-text-colour !important;
+  // nuns
+  #customFooter,
+  #toolbar::before,
+  #session-badge,
+  .genericHeader,
+  #navigation,
+  .social,
+  .formName,
+  .fa.fa-chevron-left,
+  .fa.fa-chevron-right,
+  .fa.fa-check,
+  .fa.fa-chevron-left,
+  .section-name-hidden,
+  .fieldContent h1,
+  .sections-toggle-wrapper.visible-xs,
+  .sectionNameWrapper,
+  .fillinButtons-wrapper .btn-af.cancelbutton,
+  .fillinButtons-wrapper .icon-valid.fa.fa-check.alignAbove,
+  .icon-valid.fa.fa-check,
+  .help-img-wrapper,
+  .help-text i,
+  ._fieldName  + .mandatory {
+    display: none;
+  }
+  .loading.row {
+    background: $white;
+  }
+  #govukHeader {
+    display: block !important;
+    .header {
+      margin-left: auto;
+      margin-right: auto;
+      width: $site-width;
+    }
+  }
+  .achieveforms-container .fillinButtons-wrapper,
+  .container-fluid,
+  .footer,
+  .header,
+  #navigation > .row {
+    margin-left: auto;
+    margin-right: auto;
+    width: $site-width;
+  }
+  #govukFooter {
+    display: block !important;
+  }
+  #header {
+    background-color: $brand;
+    height: 65px;
+  }
+  .row {
+    margin: 0;
+  }
+  #navigation .navbar,
+  .nav {
+    width: 100%;
+  }
+  .nav>li>a, 
+  .nav>li>span,
+  .container, 
+  .container-fluid,
+  #page.render,
+  .renderForm,
+  #self-content,
+  .achieveforms-container .fillinButtons-wrapper {
+    padding: 0;
+    background: $white;
+  }
+  #self-content {
+    margin-top: 0;
+    margin-bottom: 0;
+  } 
+  .container {
+    width: 100%;
+  }
+  .col-xs-12 {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .nav {
+    margin: 0 auto;
+  }
+  .breadcrumbs {
+    position: absolute;
+  }
+  .renderForm #page-container, #page {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .achieveforms-container .all-sections .field .fieldContent .prefix-wrapper .prefix {
+    height: 35px;
+  }
+  .hasPrefix {
+    width: 50% !important;
+  }
+  #page,
+  .row.render {
+    margin: 0;
+    &.render {
+      padding: 0;
+    }
+  }
+  .sectionNameTab, .all-sections {
+    padding: 0;
+  }
   h1, 
   h2, 
   h3, 
@@ -36,7 +139,7 @@
     display: inline-block;
     margin-top: $baseline*0.5;
     margin-bottom: $baseline*0.5;
-    padding-left: 15px;
+    padding-left: 0;
     @include media(mobile) {
       margin-top: $baseline*0.25;
       margin-bottom: $baseline*0.25;
@@ -78,7 +181,9 @@
   .header-background {
     background-color: $brand;
     height: auto;
-    position: relative;
+    position: absolute;
+    left: 0;
+    right: 0;
     z-index: 20;
     @media print {
       height: auto;
@@ -88,6 +193,8 @@
       @extend %site-width-container;
       @extend %contain-floats;
       margin-top: 13px;
+      padding-left: 0;
+      padding-right: 0;
       @media print {
         margin: 0;
       }
@@ -123,10 +230,12 @@
     }
     .footer-top, .footer-bottom {
       font-size: 14px;
+      padding: 0;
       padding-top: $baseline;
     }
     .footer-top {
       background-color: $brand3;
+
     }
     .footer-bottom {
       float: left;
@@ -136,11 +245,13 @@
     }
     .footer {
       @extend %site-width-container;
+      margin: 0 auto;
       position: relative;
       .nav {
         @extend %grid-row;
         .nav-links {
-          @include grid-column(8 / 12);
+          // @include grid-column(8 / 12);
+          padding-left: 0;
           margin-top: 0;
           margin-bottom: 0;
           li {
@@ -155,13 +266,15 @@
                 color: $white-on-black-hover;
               }
               &:focus {
-                color: $black;
+                color: $white;
+                outline: $border-thick solid $focus-colour;
               }
             }
           }
         }
         .social {
           @include grid-column(4 / 12);
+          padding-right: 0;
           text-align: right;
           margin-top: 0;
           margin-bottom: 0;
@@ -183,7 +296,8 @@
                 color: $white-on-black-hover;
               }
               &:focus {
-                color: $black;
+                color: $white;
+                outline: $border-thick solid $focus-colour;
               }
             }
           }
@@ -200,6 +314,7 @@
           display: inline;
         }
         .design-link {
+          padding-right: 0;
           a {
             float: right;
           }
@@ -210,8 +325,12 @@
             }
           }
         }
+        .copyright {
+          padding-left: 0;
+        }
         .copyright, .design-link {
-          @include grid-column(6 / 12);
+          float: left;
+          width: 50%;
           display: block;
           color: $white;
           line-height: $baseline*1.25;
@@ -225,7 +344,8 @@
               color: $white-on-black-hover;
             }
             &:focus {
-              color: $black;
+              color: $white;
+              outline: $border-thick solid $focus-colour;
             }
           }
         }
@@ -305,18 +425,6 @@
   }
   .navbar-default {
     background: none;
-  }
-  .section-name-hidden {
-    display: none;
-  }
-  .fieldContent h1  {
-    display: none;
-  }
-  .sections-toggle-wrapper.visible-xs {
-    display: none;
-  }
-  .sectionNameWrapper {
-    display: none;
   }
   .sectionNameWrapper.active {
     display: block;
@@ -539,7 +647,7 @@
     @include button;
     @include border-radius(0);
     text-align: left;
-    padding: 4px $baseline;
+    padding: $baseline*0.25 $gutter*0.25;
     &:focus {
       outline: $border-thick solid $focus-colour;
     }
@@ -594,18 +702,16 @@
     @include box-sizing(border-box);
   }
   .previousbutton {
-    position: absolute;
-    background: none;
     padding: 0;
-    left: 25px;
-    top: 0;
     background-color: $white !important;
     border: none !important;
     color: $black !important;
+    width: 100%;
   }
   .achieveforms-container .fillinButtons .btn i, 
   .achieveforms-container .fillinButtons .btn span {
     padding-right: 0;
+    text-decoration: underline;
   }
   .btn-af, 
   .achieveforms-container .btn-af {
@@ -815,9 +921,6 @@
   }
   ._fieldName {
     display: inline-block;
-    + .mandatory {
-      display: none;
-    }
   }
   .group, .all-sections {
     display: block;
@@ -865,28 +968,8 @@
   .fieldInput.selectInput.radio.vertical.error {
     margin-bottom: $baseline;
   }
-  .formName {
-    display: none;
-  }
-  .fa.fa-chevron-left,
-  .fa.fa-chevron-right,
-  .fa.fa-check {
-    display: none;
-  }
-  .fa.fa-chevron-left {
-    display: inline-block;
-  }
   .achieveforms-container .all-sections .field .staticText ul {
     font-size: 1rem;
-  }
-  .fillinButtons-wrapper {
-    .btn-af.cancelbutton,
-    .icon-valid.fa.fa-check.alignAbove {
-      display: none;
-    }
-  }
-  .icon-valid.fa.fa-check {
-    display: none;
   }
   .achieveforms-container .all-sections .field .fieldContent fieldset.fieldInput.valid input[type=checkbox]+label:before, 
   .achieveforms-container .all-sections .field .fieldContent fieldset.fieldInput.valid input[type=radio]+label:before {
@@ -1005,14 +1088,8 @@
     box-shadow: none;
     @include box-shadow(0 0 0 3px $focus-colour);
   }
-  .help-img-wrapper {
-    display: none;
-  }
   .help-text {
     display: block !important;
-    i {
-      display: none;
-    }
   }
   .achieveforms-container .help-text {
     color: $black;
@@ -1099,5 +1176,63 @@
   }
   .btn.btn-af.nextbutton.pull-right {
     float: left !important;
+    margin: $baseline*0.5 0;
+  }
+  .fieldInput content html non-input {
+    width: 100%;
+  }
+  input {
+    width: 50%;
+  }
+  table {
+    width: 100%;
+  }
+  @media (max-width: 767px) {
+    .achieveforms-container .all-sections .field .fieldContent .prefix-wrapper .prefix {
+      height: 33px;
+    }
+    .btn.btn-af.previousbutton.pull-left {
+      text-align: left;
+      padding: 0 !important;
+      width: auto;
+    }
+    .achieveforms-container .fillinButtons-wrapper .fillinButtons .btn {
+      margin: $baseline*0.5 0;
+      padding: $baseline*0.25 $gutter*0.25;
+    }
+    .col-xs-11.col-sm-11 {
+      width: 100%;
+    }
+    .achieveforms-container .sectionsHead .sections-toggle-wrapper.visible-xs {
+      display: none !important;
+    }
+    .achieveforms-container .sectionsHead .sectionsHeadInner .sectionNameWrapper .sectionNameTab {
+      padding: 0 !important;
+    }
+    .achieveform {
+      margin: 0 !important;
+    }
+    .achieveforms-container .fillinButtons-wrapper {
+      margin: $baseline*0.5 0;
+      width: 100%;
+    }
+    .footer-container .footer ul.credits .design-link {
+      float: left;
+      width: 100%;
+    }
+    .hasPrefix {
+      width: 100% !important;
+    }
+  }
+  @media (max-width: $site-width + 60px) {
+      .container-fluid,
+      .footer,
+      .header,
+      #navigation > .row,
+      #govukHeader .header {
+        width: 100%;
+        padding-left: 30px;
+        padding-right: 30px;
+      }
   }
 }
