@@ -266,7 +266,8 @@
                 color: $white-on-black-hover;
               }
               &:focus {
-                color: $black;
+                color: $white;
+                outline: $border-thick solid $focus-colour;
               }
             }
           }
@@ -295,7 +296,8 @@
                 color: $white-on-black-hover;
               }
               &:focus {
-                color: $black;
+                color: $white;
+                outline: $border-thick solid $focus-colour;
               }
             }
           }
@@ -342,7 +344,8 @@
               color: $white-on-black-hover;
             }
             &:focus {
-              color: $black;
+              color: $white;
+              outline: $border-thick solid $focus-colour;
             }
           }
         }
