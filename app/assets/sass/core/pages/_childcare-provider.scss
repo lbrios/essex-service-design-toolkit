@@ -74,8 +74,6 @@
 		.ui-state-default {
 			background: none;
 			border: none;
-			display: none;
-			// if removing toggle for usibility, don't need heading as we have tab search
 		}
 		.ui-accordion-content {
 			height: auto !important;
@@ -178,8 +176,6 @@
 				h3 {
 					font-size: 1rem;
 					font-weight: $regular;
-					display: none;
-					// if removing toggle for usibility, don't need heading as we have tab search
 				}
 				.ui-accordion-header {
 					margin: 0;
