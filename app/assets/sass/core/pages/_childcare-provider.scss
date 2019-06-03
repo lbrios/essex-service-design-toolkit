@@ -1,15 +1,17 @@
 #find-childcare-provider {
-	.ui-state-default,
-	.ui-widget-content.ui-state-default,
-	.ui-widget-header.ui-state-default,
-	.ui-state-hover,
-	.ui-state-active,
-	.ui-widget-content.ui-state-active,
-	.ui-widget-header.ui-state-active {
-		font-weight: $bold !important;
-		border: none !important;
-		background-color: $white !important;
-		color: $black !important;
+	#map-SearchFields h3 {
+		.ui-state-default,
+		.ui-widget-content.ui-state-default,
+		.ui-widget-header.ui-state-default,
+		.ui-state-hover,
+		.ui-state-active,
+		.ui-widget-content.ui-state-active,
+		.ui-widget-header.ui-state-active {
+			font-weight: $bold !important;
+			border: none !important;
+			background-color: $white !important;
+			color: $black !important;
+		}
 	}
 	#map-controlpanel, #map-controlpanel1 {
 		width: 253px;
