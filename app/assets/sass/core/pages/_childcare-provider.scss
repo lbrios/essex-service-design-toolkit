@@ -62,7 +62,7 @@
 			line-height: 2rem;
 			height: 35px;
 			font-size: $smaller;
-			height: 30px;
+			height: 35px;
 			margin-left: 3px;
 			margin-right: 3px;
 			width: 231px;
@@ -74,6 +74,18 @@
 		.ui-state-default {
 			background: none;
 			border: none;
+		}
+		.ui-state-default,
+		.ui-widget-content.ui-state-default,
+		.ui-widget-header.ui-state-default,
+		.ui-state-hover,
+		.ui-state-active,
+		.ui-widget-content.ui-state-active,
+		.ui-widget-header.ui-state-active {
+			font-weight: $bold;
+			border: none;
+			background-color: $white;
+			color: $black;
 		}
 		.ui-accordion-content {
 			height: auto !important;
@@ -235,7 +247,7 @@
 					#searchValue-ProviderName {
 						font-size: $smaller;
 						line-height: 2rem;
-						height: 30px;
+						height: 35px;
 						border: 1px solid $grey;
 						margin-bottom: 0;
 						margin-left: 3px;
@@ -467,7 +479,6 @@
 		background: none;
 		border: $border-thin solid $grey;
 		border-top: none;
-		width: 1018px;
 		#map-report,
 		#shortlistFrame {
 			margin: 0;
@@ -670,14 +681,14 @@
 		@include font-awesome;
 	}
 	.lessInfo {
-		background-image: url('../images/details_close.png');
+		background-image: url('images/details_close.png');
 		// background: none !important;
 		// content: '\f068';
 		// height: 20px;
 		// width: 20px;
 	}
 	.moreInfo {
-		background-image: url('../images/details_open.png');	
+		background-image: url('images/details_open.png');	
 		// background: none !important;
 		// content: "\f067";
 	}
