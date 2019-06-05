@@ -16,6 +16,7 @@
   <li><a href="/examples/information">Information</a></li>
   <li><a href="/examples/cludo">Cludo Search</a></li>
   <li><a href="/examples/topic-b">Alternative Topic page</a></li>
+  <li><a href="/examples/step-by-step">Step by step page</a></li>
 </ul>
 
 <h3>Apps static page examples</h3>

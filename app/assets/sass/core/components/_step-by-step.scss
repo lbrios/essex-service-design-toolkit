@@ -1,0 +1,29 @@
+.step-by-step {
+	float: left;
+	width: 100%;
+	position: relative;
+	.step {
+		float: left;
+		width: $gutter*2;
+		span.number {
+			display: block;
+			border: $border-thick solid $grey-light;
+			border-radius: 100%;
+			text-align: center;
+			height: $gutter;
+			width: $gutter;
+			margin-top: $baseline*1.4;
+		}
+		span.step-link {
+			border-left: $border-thick solid $grey-light;
+	    height: 100%;
+	    display: block;
+	    position: absolute;
+	    left: 17px;
+	  }
+	}
+	.toggle {
+		float: left;
+		width: calc(100% - #{$gutter*2});
+	}
+}
