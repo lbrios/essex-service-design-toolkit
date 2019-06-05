@@ -1,0 +1,13 @@
+.step-by-step {
+	.step {
+		float: left;
+		width: 10%;
+		span {
+			display: block;
+		}
+	}
+	.toggle {
+		float: left;
+		width: 90%;
+	}
+}
