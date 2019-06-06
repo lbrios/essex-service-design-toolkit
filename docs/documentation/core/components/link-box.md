@@ -11,7 +11,7 @@
   <li class="link-box">
     <a href="#">
       <div class="link-content">
-        <h2>Link box</h2>
+        <div class="sub-section-heading">Link box</div>
           <p>Link box copy explaining what content it contains
           </p>
       </div>
@@ -20,7 +20,7 @@
   <li class="link-box">
     <a href="#">
       <div class="link-content">
-        <h2>Link box</h2>
+        <div class="sub-section-heading">Link box</div>
           <p>Link box copy explaining what content it contains
           </p>
       </div>
@@ -29,7 +29,7 @@
   <li class="link-box">
     <a href="#">
       <div class="link-content">
-        <h2>Link box</h2>
+        <div class="sub-section-heading">Link box</div>
           <p>Link box copy explaining what content it contains
           </p>
       </div>
@@ -41,7 +41,7 @@
       <li class="link-box">
         <a href="#">
           <div class="link-content">
-            <h2>Link box</h2>
+            <div class="sub-section-heading">Link box</div>
               <p>Link box copy explaining what content it contains
               </p>
           </div>
@@ -50,7 +50,7 @@
       <li class="link-box">
         <a href="#">
           <div class="link-content">
-            <h2>Link box</h2>
+            <div class="sub-section-heading">Link box</div>
               <p>Link box copy explaining what content it contains
               </p>
           </div>
@@ -59,7 +59,7 @@
       <li class="link-box">
         <a href="#">
           <div class="link-content">
-            <h2>Link box</h2>
+            <div class="sub-section-heading">Link box</div>
               <p>Link box copy explaining what content it contains
               </p>
           </div>

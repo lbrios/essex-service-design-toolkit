@@ -27,6 +27,16 @@
   .bold {
     font-weight: 700;
   }
+  code {
+    @include wrap;
+    @include box-sizing(border-box);
+    width: auto;
+    display: inline-block;
+    margin: 0;
+    padding: 0 $gutter*0.25;
+    border: $border-thin solid $grey-light;
+    background-color: $grey-lighter;
+  }
   pre {
     position: relative;
     font-family: monospace;
@@ -37,6 +47,7 @@
     code {
       @include wrap;
       @include box-sizing(border-box);
+      float: left;
       width: 100%;
       display: inline-block;
       margin: 0 0 $baseline 0;

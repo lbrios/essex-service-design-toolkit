@@ -12,7 +12,7 @@
     <div class="overlay"></div>
     <div class="overlay-box">
       <div class="overlay-content">
-        <h2><a href="#">Get out more at our Country Parks</a></h2>
+        <div class="content-heading"><a href="#">Get out more at our Country Parks</a></div>
         <p>Whether you’re out for a walk or run to improve your fitness or want to take the family on an outdoor adventure, discover many ways to get out more at our Country Parks.</p>
       </div>
     </div>
@@ -24,7 +24,7 @@
         <div class="overlay"></div>
         <div class="overlay-box">
           <div class="overlay-content">
-            <h2><a href="#">Get out more at our Country Parks</a></h2>
+            <div class="content-heading"><a href="#">Get out more at our Country Parks</a></div>
             <p>Whether you’re out for a walk or run to improve your fitness or want to take the family on an outdoor adventure, discover many ways to get out more at our Country Parks.</p>
           </div>
         </div>
