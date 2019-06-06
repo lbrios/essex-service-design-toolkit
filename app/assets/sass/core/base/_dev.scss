@@ -1,8 +1,12 @@
 // all styles are based on main class "markdown" for viewing purposes in core documentation
 .markdown {
   .breadcrumbs {
-    margin-left: -$gutter !important;
-    margin-right: -$gutter !important;
+    margin-left: -$gutter*2 !important;
+    margin-right: -$gutter*2 !important;
+    ol {
+      padding-left: 0;
+      padding-right: 0;
+    }
   }
   h1, h2, h3, h4 {
     span {
@@ -23,6 +27,16 @@
   .bold {
     font-weight: 700;
   }
+  code {
+    @include wrap;
+    @include box-sizing(border-box);
+    width: auto;
+    display: inline-block;
+    margin: 0;
+    padding: 0 $gutter*0.25;
+    border: $border-thin solid $grey-light;
+    background-color: $grey-lighter;
+  }
   pre {
     position: relative;
     font-family: monospace;
@@ -33,6 +47,7 @@
     code {
       @include wrap;
       @include box-sizing(border-box);
+      float: left;
       width: 100%;
       display: inline-block;
       margin: 0 0 $baseline 0;

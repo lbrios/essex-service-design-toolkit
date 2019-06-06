@@ -2,6 +2,18 @@
 	overflow: hidden;
 	label.show, label.hide {
 		@include smaller;
+	  &:visited {
+	    color: $visited;
+	  }
+
+	  &:hover {
+	    color: $hover;
+	    text-decoration: underline;
+	  }
+
+	  &:active {
+	    color: $active;
+	  }
 	}
 	.step {
 		float: left;

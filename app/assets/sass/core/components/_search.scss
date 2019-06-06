@@ -12,11 +12,14 @@
     outline: none;
     position: relative;
     margin-bottom: $baseline;
-    label, input {
+    label {
       @include box-sizing(border-box);
       padding: $baseline*0.5;
       height: $form-height;
       width: calc(100% - #{$form-height} - #{$border-thick});
+      input {
+        width: calc(100% - #{$form-height} - #{$border-thick});
+      }
     }
     label {
       $color: $body-text-colour;
@@ -34,6 +37,7 @@
       left: 0;
       top: 0;
       height: $form-height;
+      padding: $baseline*0.5;
       &::-ms-clear {
         display: none;
       }

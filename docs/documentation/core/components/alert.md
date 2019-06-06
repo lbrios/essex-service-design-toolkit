@@ -5,6 +5,7 @@
   </ol>
 </div>
 
+
 # Alert
 
 ## Error
@@ -14,7 +15,7 @@
     <i class="fas fa-exclamation-circle"></i>
   </div>
   <div class="alert-text">
-    <h2>We are updating our system</h2>
+    <div class="section-heading">We are updating our system</div>
     <p>You may experience some issues with our website. Please bare with us while we resolve the issue.</a></p>
   </div>
   <div data-target="tab-one">
@@ -28,7 +29,7 @@
         <i class="fas fa-exclamation-circle"></i>
       </div>
       <div class="alert-text">
-        <h2>We are updating our system</h2>
+        <div class="section-heading">We are updating our system</div>
         <p>You may experience some issues with our website. Please bare with us while we resolve the issue.</a></p>
       </div>
       <div data-target="tab-one">
@@ -44,7 +45,7 @@
     <i class="fas fa-info-circle"></i>
   </div>
   <div class="alert-text">
-    <h2>We are updating this service</h2>
+    <div class="section-heading">We are updating our system</div>
     <p>We have been doing lots of research and you have helped us update this service.</a></p>
   </div>
   <div data-target="tab-two">
@@ -58,7 +59,7 @@
         <i class="fas fa-info-circle"></i>
       </div>
       <div class="alert-text">
-        <h2>We are updating this service</h2>
+        <div class="section-heading">We are updating our system</div>
         <p>We have been doing lots of research and you have helped us update this service.</a></p>
       </div>
       <div data-target="tab-two">
@@ -74,7 +75,7 @@
     <i class="fas fa-exclamation-triangle"></i>
   </div>
   <div class="alert-text">
-    <h2>School closures</h2>
+    <div class="section-heading">School closures</div>
     <p>Some schools in Essex are closed due to severe weather. <a href="#">Check if your child's school is closed</a></p>
   </div>
   <div data-target="tab-three">
@@ -88,7 +89,7 @@
         <i class="fas fa-exclamation-triangle"></i>
       </div>
       <div class="alert-text">
-        <h2>School closures</h2>
+        <div class="section-heading">School closures</div>
         <p>Some schools in Essex are closed due to severe weather. <a href="#">Check if your child's school is closed</a></p>
       </div>
       <div data-target="tab-three">

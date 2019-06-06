@@ -42,8 +42,7 @@
     .overlay-content {
       @include media(mobile) {
         padding: 0;
-        h2 {
-          @include h2;
+        .content-heading {
           display: block;
           padding: $baseline $gutter*0.5;
           background: $highlight-box;

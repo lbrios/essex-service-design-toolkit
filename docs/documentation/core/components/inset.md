@@ -20,14 +20,14 @@
 	</div>
 
 <div class="inset">
-	<h3>There are over 260 grit bins.</h3>
+	<div class="section-heading">There are over 260 grit bins.</div>
   <p>
     Use the salt in the grit bins provided by us to clear snow and ice from public roads and pavements. It's illegal and irresponsible to use this salt on your private property and driveways.
   </p>
 </div>
 
 	<div class="inset">
-		<h3>There are over 260 grit bins.</h3>
+		<div class="section-heading">There are over 260 grit bins.</div>
 		<p>
 			Use the salt in the grit bins provided by us to clear snow and ice from public roads and pavements…
 		</p>

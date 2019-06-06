@@ -50,8 +50,7 @@
       width: 100%;
     }
     padding: 0 $gutter*0.25;
-    h2 {
-      @include h4;
+    .section-heading {
       margin-top: 0;
       margin-bottom: $baseline*0.25;
     }
