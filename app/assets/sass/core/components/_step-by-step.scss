@@ -51,9 +51,10 @@
 			float: left;
 			width: calc(100% - #{$gutter*2});
 			.section-heading {
+				margin-bottom: 0;
 				@include media(mobile) {
-			    margin-top: 3px;
 			    margin-top: $baseline;
+			    margin-bottom: 0;
 			  }
 			}
 		}
