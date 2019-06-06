@@ -1,29 +1,52 @@
 .step-by-step {
-	float: left;
-	width: 100%;
-	position: relative;
+	overflow: hidden;
 	.step {
 		float: left;
-		width: $gutter*2;
-		span.number {
-			display: block;
-			border: $border-thick solid $grey-light;
-			border-radius: 100%;
-			text-align: center;
-			height: $gutter;
-			width: $gutter;
-			margin-top: $baseline*1.4;
+		width: 100%;
+		position: relative;
+		.step-number {
+			float: left;
+			width: $gutter*2;
+			.section-heading {
+				margin-bottom: 0;
+			}
+			span.number {
+				display: block;
+				border: $border-thick solid $grey-light;
+				font-size: ms(1);
+				background: $white;
+				border-radius: 100%;
+				text-align: center;
+				height: $gutter;
+				width: $gutter;
+				margin-top: $baseline*1.4;
+		    &.and {
+		    	border: none;
+		    	width: 100%;
+		    	margin-left: -10px;
+		    }
+			}
+			span.step-link {
+				border-left: $border-thick solid $grey-light;
+		    height: 100%;
+		    display: block;
+		    position: absolute;
+		    left: 17px;
+		  }
 		}
-		span.step-link {
-			border-left: $border-thick solid $grey-light;
-	    height: 100%;
-	    display: block;
-	    position: absolute;
-	    left: 17px;
-	  }
-	}
-	.toggle {
-		float: left;
-		width: calc(100% - #{$gutter*2});
+		&:last-child {
+			.step-number:after {
+	    	content: " ";
+	    	border-bottom: $border-thick solid $grey-light;
+	    	position: absolute;
+	    	left: 8px;
+	    	bottom: 0;
+	    	width: 21px;
+	    }
+    }
+		.toggle {
+			float: left;
+			width: calc(100% - #{$gutter*2});
+		}
 	}
 }
