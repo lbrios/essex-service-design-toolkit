@@ -58,5 +58,10 @@
 			  }
 			}
 		}
+		&.active {
+			.step-number span.step-link {
+				border-color: $black;
+			}
+		}
 	}
 }
