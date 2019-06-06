@@ -59,12 +59,12 @@ p {
 
 @mixin h2 {
   font-family: $stack;
-  font-size: ms(6);
+  font-size: ms(5);
   font-weight: $bold;
   line-height: $baseline*1.5;
   letter-spacing: -1.5px;
-  margin-top: $baseline;
-  margin-bottom: $baseline;
+  margin-top: $baseline*1.5;
+  margin-bottom: $baseline*0.5;
   text-transform: none;
   @include media(mobile) {
     font-size: ms(2);
