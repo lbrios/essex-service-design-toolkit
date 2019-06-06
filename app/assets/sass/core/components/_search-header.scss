@@ -30,8 +30,13 @@
         margin-top: 0;
         margin-bottom: 0;
         border-color: $white;
+        height: $form-height*0.75;
+        padding: $baseline*0.25;
+        &:focus {
+          padding: $baseline*0.25;
+        }
       }
-      label, input {
+      label {
         @include box-sizing(border-box);
         font-size: ms(0);
         padding: $baseline*0.25;
@@ -41,6 +46,9 @@
         left: 0;
         width: calc(100% - #{$form-height*0.75} - #{$border-thick});
         border: none;
+        input {
+          width: 100%;
+        }
       }      
       .fas.fa-search.search-icon-position {
         padding: $baseline*0.25;
