@@ -20,6 +20,9 @@
 				height: $gutter;
 				width: $gutter;
 				margin-top: $baseline*1.4;
+			  @include media(mobile) {
+			    margin-top: $baseline;
+			  }
 		    &.and {
 		    	border: none;
 		    	width: 100%;
@@ -47,6 +50,12 @@
 		.toggle {
 			float: left;
 			width: calc(100% - #{$gutter*2});
+			.section-heading {
+				@include media(mobile) {
+			    margin-top: 3px;
+			    margin-top: $baseline;
+			  }
+			}
 		}
 	}
 }
