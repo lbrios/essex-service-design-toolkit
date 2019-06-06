@@ -9,7 +9,7 @@
 
 <div class="signup-background" role="form">
   <div class="signup">
-    <h3 class="h2">
+    <h3 class="section-heading">
       Stay up to date 
     </h3>
     <p>Get the latest news and information about your council services</p>
@@ -29,7 +29,7 @@
 
     <div class="signup-background" role="form">
       <div class="signup">
-        <h3 class="h2">
+        <h3 class="section-heading">
           Stay up to date 
         </h3>
         <p>Get the latest news and information about your council services</p>

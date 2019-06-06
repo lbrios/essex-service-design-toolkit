@@ -2,7 +2,7 @@
   @media print {
     display: none;
   }
-  h3, p {
+  .section-heading, p {
     @include grid-column(1);
     @extend %grid-row;
   }
@@ -78,12 +78,12 @@
       padding-top: $baseline;
       padding-bottom: $baseline;
     }
-    h3 {
+    .section-heading {
       @include media(desktop) {
         font-weight: 400;
       }
     }
-    h3, p {
+    .section-heading, p {
       color: $white;
       margin-top: 0;
     }
