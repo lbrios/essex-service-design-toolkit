@@ -86,6 +86,7 @@
   <li><a href="components/side-nav">Side-nav</a></li>
   <li><a href="components/skip-link">Skip link</a></li>
   <li><a href="components/steps">Steps</a></li>
+  <li><a href="components/step-by-step">Step by step</a></li>
   <li><a href="components/table">Table</a></li>
 </ul>
 <h3>Page unique styles</h3>

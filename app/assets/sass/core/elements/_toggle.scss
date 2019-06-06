@@ -32,17 +32,5 @@ input[aria-expanded="true"] + label.show + label.hide {
 label.show, label.hide {
   @include p;
   cursor: pointer;
-  color: $link;
-  &:visited {
-    color: $visited;
-  }
-
-  &:hover {
-    color: $hover;
-    text-decoration: underline;
-  }
-
-  &:active {
-    color: $active;
-  }
+  color: $black
 }
