@@ -10,7 +10,7 @@
   @include media(mobile) {
     padding: $baseline*0.5 $gutter*0.25;
   }
-  h3 {
+  .section-heading {
     margin-top: 0;
   }
   p:last-child {

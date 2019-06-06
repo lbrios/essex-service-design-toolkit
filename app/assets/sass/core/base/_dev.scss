@@ -1,8 +1,12 @@
 // all styles are based on main class "markdown" for viewing purposes in core documentation
 .markdown {
   .breadcrumbs {
-    margin-left: -$gutter !important;
-    margin-right: -$gutter !important;
+    margin-left: -$gutter*2 !important;
+    margin-right: -$gutter*2 !important;
+    ol {
+      padding-left: 0;
+      padding-right: 0;
+    }
   }
   h1, h2, h3, h4 {
     span {

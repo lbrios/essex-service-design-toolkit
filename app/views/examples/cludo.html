@@ -1,13 +1,15 @@
 {% extends "essex_main_template.html" %}
 {% block content %}
+
+<div class="breadcrumbs">
+   <ol>
+      <li><a href="/docs/core/contents">Contents</a></li>
+      <li class="current">Cludo search</li>
+   </ol>
+</div>
+
 <main id="content">
   <div class="container">
-    <div class="breadcrumbs">
-       <ol>
-          <li><a href="/docs/core/contents">Contents</a></li>
-          <li class="current">Cludo search</li>
-       </ol>
-    </div>
     <div id="cludo-search-results">
       <div class="cludo-r">
         <aside class="side">
@@ -39,7 +41,7 @@
         </aside>
         <div class="main cludo">
           <section class="intro">
-            <h1 class="h3">Search</h1>
+            <h1 class="page-heading">Search</h1>
               {% block search %}
                 {% include "includes/search.html" %}
               {% endblock %}
