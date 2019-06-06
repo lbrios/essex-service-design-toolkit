@@ -1,10 +1,3 @@
-<div class="breadcrumbs">
-  <ol>
-    <li><a href="/docs/core/essex-design-system">Introduction</a></li>
-    <li><a href="/">Contents</a></li>
-  </ol>
-</div>
-
 <h1>Contents</h1>
 
 <h3>Website static page examples</h3>

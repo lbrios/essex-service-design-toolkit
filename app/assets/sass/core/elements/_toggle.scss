@@ -30,7 +30,7 @@ input[aria-expanded="true"] + label.show + label.hide {
 }
 
 label.show, label.hide {
-  @include smaller;
+  @include p;
   cursor: pointer;
   color: $link;
   &:visited {

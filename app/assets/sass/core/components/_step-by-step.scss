@@ -1,5 +1,8 @@
 .step-by-step {
 	overflow: hidden;
+	label.show, label.hide {
+		@include smaller;
+	}
 	.step {
 		float: left;
 		width: 100%;
