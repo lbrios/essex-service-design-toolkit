@@ -10,10 +10,10 @@
 <form action="/search" method="get" role="search" class="form">
   <div class="group search" role="search">
     <div class="search-input">
-      <label for="search">Search</label>
-      <input type="text" id="search" name="search">
-      <input type="submit" value="search" title="search" class="visually-hidden">
-      <button class="fas fa-search search-icon-position"></button>
+      <label for="search">Search
+        <input type="text" id="search" name="search" placeholder="Search essex.gov.uk">
+      </label>
+      <button class="fas fa-search search-icon-position" aria-label="search"></button>
     </div>
   </div>
 </form>
@@ -21,10 +21,10 @@
     <form action="/search" method="get" role="search" class="form">
       <div class="group search" role="search">
         <div class="search-input">
-          <label for="search">Search</label>
-          <input type="text" id="search" name="search">
-          <input type="submit" value="search" title="search" class="visually-hidden">
-          <button class="fas fa-search search-icon-position"></button>
+          <label for="search">Search
+            <input type="text" id="search" name="search" placeholder="Search essex.gov.uk">
+          </label>
+          <button class="fas fa-search search-icon-position" aria-label="search"></button>
         </div>
       </div>
     </form>
