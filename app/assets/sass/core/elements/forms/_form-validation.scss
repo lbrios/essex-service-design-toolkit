@@ -13,11 +13,13 @@
   }
 }
 // Use .form-control-error to add a red border to .form-control
-.form-control-error {
+.form-control-error,
+.input-validation-error {
   border: $border-thicker solid $error;
 }
 // Error messages should be red and bold
-.error-message {
+.error-message,
+.field-validation-error {
   font-weight: $bold;
   line-height: $baseline;
   color: $error;
