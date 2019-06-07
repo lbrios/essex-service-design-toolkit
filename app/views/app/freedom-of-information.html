@@ -80,8 +80,10 @@ function WebForm_OnSubmit() {
 </div> 
 <div class="group">
   <fieldset>
-    <legend>Refine your search</legend>
-    <div class="date-from"> 
+    <legend>Refine your search
+      <span class="form-hint">For example, 31 3 1980</span>
+    </legend>
+    <div class="date-from">
       <label for="from-date">Date from</label> 
       <input name="txtDateFrom" type="text" id="txtDateFrom" class="form-control">
       <span id="ValidateDateFrom" style="color:Red;font-weight:bold;font-size:small;display:none;">Please enter a valid date</span>
