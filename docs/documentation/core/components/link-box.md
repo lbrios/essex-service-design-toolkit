@@ -9,31 +9,25 @@
 
 <ul class="link-boxes">
   <li class="link-box">
-    <a href="#">
-      <div class="link-content">
-        <div class="section-heading">Link box</div>
-          <p>Link box copy explaining what content it contains
-          </p>
-      </div>
-    </a>
+    <div class="link-content">
+      <a href="#" class="sub-section-heading">Link box</a>
+        <p>Link box copy explaining what content it contains
+        </p>
+    </div>
   </li>
   <li class="link-box">
-    <a href="#">
-      <div class="link-content">
-        <div class="section-heading">Link box</div>
-          <p>Link box copy explaining what content it contains
-          </p>
-      </div>
-    </a>
+    <div class="link-content">
+      <a href="#" class="sub-section-heading">Link box</a>
+        <p>Link box copy explaining what content it contains
+        </p>
+    </div>
   </li>
   <li class="link-box">
-    <a href="#">
-      <div class="link-content">
-        <div class="section-heading">Link box</div>
-          <p>Link box copy explaining what content it contains
-          </p>
-      </div>
-    </a>
+    <div class="link-content">
+      <a href="#" class="sub-section-heading">Link box</a>
+        <p>Link box copy explaining what content it contains
+        </p>
+    </div>
   </li>
 </ul>
 
@@ -41,7 +35,7 @@
       <li class="link-box">
         <a href="#">
           <div class="link-content">
-            <div class="section-heading">Link box</div>
+            <div class="sub-section-heading">Link box</div>
               <p>Link box copy explaining what content it contains
               </p>
           </div>
@@ -50,7 +44,7 @@
       <li class="link-box">
         <a href="#">
           <div class="link-content">
-            <div class="section-heading">Link box</div>
+            <div class="sub-section-heading">Link box</div>
               <p>Link box copy explaining what content it contains
               </p>
           </div>
@@ -59,7 +53,7 @@
       <li class="link-box">
         <a href="#">
           <div class="link-content">
-            <div class="section-heading">Link box</div>
+            <div class="sub-section-heading">Link box</div>
               <p>Link box copy explaining what content it contains
               </p>
           </div>

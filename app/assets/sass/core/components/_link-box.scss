@@ -8,14 +8,31 @@ ul.link-boxes {
 }
 
 .link-boxes {
-  @extend %site-width-container;
   @extend %grid-row;
+  @include media(desktop) {
+    flex-wrap: wrap;
+    display: flex;
+  }
+  padding-left: 0;
   .link-box {
-    @include grid-column(4 / 12);
     margin-bottom: $baseline;
+    @include media(mobile) {
+      padding-left: $gutter;
+      padding-right: $gutter;
+    }
+    @include media(tablet) {
+      padding-left: $gutter;
+      padding-right: $gutter;
+    }
+    @include media(desktop) {
+      display: flex;
+      @include grid-column(4 / 12);
+    }
     .link-content {
-      border-bottom: solid $border-thin $grey-dark;
-      .section-heading {
+      background: $grey-lighter;
+      border-bottom: solid $border-thin $grey-light;
+      padding: $baseline*0.5;
+      .sub-section-heading {
       }
     }
   }

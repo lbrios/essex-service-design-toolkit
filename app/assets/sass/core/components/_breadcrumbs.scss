@@ -1,13 +1,15 @@
 .breadcrumbs {
-  @extend %grid-row;
+  @extend %site-width-container;
   @media print {
     display: none;
   }
-  margin-top: $baseline*0.5;
-  margin-bottom: $baseline*0.25;
+  margin-top: 0;
+  margin-bottom: 0;
   ol {
-    @include grid-column(1);
-    margin: 0;
+    @extend %grid-row;
+    @include grid-column(9 / 12);
+    margin-top: $baseline*0.5;
+    margin-bottom: $baseline*0.5;
   }
   li {
     @include small;
