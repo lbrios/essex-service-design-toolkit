@@ -80,16 +80,38 @@ function WebForm_OnSubmit() {
 </div> 
 <div class="group">
   <fieldset>
-    <legend>Refine your search</legend>
-    <div class="date-from"> 
+    <legend>Refine your search
+      <span class="form-hint">For example, 31 3 1980</span>
+    </legend>
+    <div class="date-from">
       <label for="from-date">Date from</label> 
-      <input name="txtDateFrom" type="text" id="txtDateFrom" class="form-control">
-      <span id="ValidateDateFrom" style="color:Red;font-weight:bold;font-size:small;display:none;">Please enter a valid date</span>
+      <div class="group day">
+        <label for="day">Day</label>
+        <input class="form-control" id="day" name="day" type="number">
+      </div>
+      <div class="group month">
+        <label for="month">Month</label>
+        <input class="form-control" id="month" name="month" type="number">
+      </div>
+      <div class="group year">
+        <label for="year">Year</label>
+        <input class="form-control" id="year" name="year" type="number">
+      </div>
     </div> 
     <div class="date-to"> 
       <label for="to-date">Date to</label> 
-      <input name="txtDateTo" type="text" id="txtDateTo" class="form-control">
-      <span id="ValidateDateTo" style="color:Red;font-weight:bold;font-size:small;display:none;">Please enter a valid date</span>
+      <div class="group day">
+        <label for="day">Day</label>
+        <input class="form-control" id="day" name="day" type="number">
+      </div>
+      <div class="group month">
+        <label for="month">Month</label>
+        <input class="form-control" id="month" name="month" type="number">
+      </div>
+      <div class="group year">
+        <label for="year">Year</label>
+        <input class="form-control" id="year" name="year" type="number">
+      </div>
     </div> 
   </fieldset> 
 </div> 
