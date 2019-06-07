@@ -1,70 +1,35 @@
 // Link box (used on topic pages)
 
 ul.link-boxes {
-  padding-left: 0;
+  list-style: none;
 }
 
 .link-boxes {
-  @include media(mobile) {
-    margin-top: 0;
-    margin-bottom: 0;
-  }
+  @extend %grid-row;
   @include media(desktop) {
     flex-wrap: wrap;
     display: flex;
   }
-  margin-left: 0;
-  display: inline-block;
-  margin-bottom: 0;
+  padding-left: 0;
   .link-box {
-    cursor: pointer;
     margin-bottom: $baseline;
-    display: block;
-    background-color: $grey-light;
-    border-bottom: solid $border-thin $grey-dark;
-    text-decoration: none;
-    padding-left: 0;
-    float: left;
-    width: 100%;
     @include media(mobile) {
-      margin-bottom: $baseline*0.5;
+      padding-left: $gutter;
+      padding-right: $gutter;
     }
-    a {
-      text-decoration: none;
-    }
-    a:focus {
-      background-color: $grey-light;
-      outline: $border-thick solid $focus-colour;
+    @include media(tablet) {
+      padding-left: $gutter;
+      padding-right: $gutter;
     }
     @include media(desktop) {
       display: flex;
-      float: left;
-      width: calc(33.33333% - #{$gutter*0.7});
-      margin-right: $gutter;
-      padding: 0;
-      &:last-child {
-        margin-right: 0;
-      }
+      @include grid-column(4 / 12);
     }
     .link-content {
-      @include box-sizing(border-box);
-      @include border-radius($border-radius);
+      background: $grey-lighter;
+      border-bottom: solid $border-thin $grey-light;
       padding: $baseline*0.5;
-      @include media(mobile) {
-        padding: $baseline*0.5;
-      }
-      @media print {
-        padding: 0;
-      }
-      .section-heading {
-        margin-top: 0;
-        text-decoration: underline;
-        letter-spacing: 0;
-      }
-      p {
-        flex: 1 0 auto;
-        margin-top: 0;
-        color: $text-colour;
+      .sub-section-heading {
       }
     }
   }
