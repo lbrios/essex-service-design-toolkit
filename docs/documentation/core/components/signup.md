@@ -8,7 +8,7 @@
 # Signup
 
 <div class="signup">
-  <h3>
+  <h3 class="section-heading">
     Get the latest news and information about your council services
   </h3>
   <form action="/search" method="get" role="search" class="form">
@@ -25,7 +25,7 @@
 </div>
 
     <div class="signup">
-      <h3>
+      <h3 class="section-heading">
         Get the latest news and information about your council services
       </h3>
       <form action="/search" method="get" role="search" class="form">

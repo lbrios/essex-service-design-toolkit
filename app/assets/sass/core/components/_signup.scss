@@ -80,6 +80,9 @@
     }
     .section-heading {
       @include media(desktop) {
+        font-size: ms(5);
+        font-weight: $bold;
+        line-height: $baseline*1.5;
         font-weight: 400;
       }
     }
