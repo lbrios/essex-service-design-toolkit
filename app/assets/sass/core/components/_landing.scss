@@ -46,9 +46,9 @@
 	  		margin-top: 0;
         margin-bottom: 0;
 	  	}
-	  	h3 {
-	  		@include h3;
-	  		margin-top: 0;
+	  	.sub-section-heading {
+	  		margin-top: $baseline*0.25;
+        margin-bottom: $baseline*0.25;
 	  	}
 	  	p:last-child {
 	  		padding-bottom: $baseline;
