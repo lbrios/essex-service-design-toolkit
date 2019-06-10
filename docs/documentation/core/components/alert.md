@@ -19,8 +19,7 @@
     <p>You may experience some issues with our website. Please bare with us while we resolve the issue.</a></p>
   </div>
   <div data-target="tab-one">
-    <input class="checkbox" id="hide-one" type="checkbox" aria-controls="tab-one" aria-expanded="false">
-    <label class="close" for="hide-one"><i class="fas fa-times"></i></label>
+    <label class="close" for="hide-one"><button type="button" id="hide-one" aria-label="Close alert box" aria-controls="tab-one" aria-expanded="false" class="checkbox"><i class="fas fa-times"></i></button></label>
   </div>
 </div>
 
