@@ -16,7 +16,7 @@
   </div>
   <div class="alert-text">
     <div class="section-heading">We are updating our system</div>
-    <p>You may experience some issues with our website. Please bare with us while we resolve the issue.</a></p>
+    <p>You may experience some issues with our website. Please bare with us while we resolve the issue.</p>
   </div>
   <div data-target="tab-one">
     <input class="checkbox" id="hide-one" type="checkbox" aria-controls="tab-one" aria-expanded="false">
@@ -30,7 +30,7 @@
       </div>
       <div class="alert-text">
         <div class="section-heading">We are updating our system</div>
-        <p>You may experience some issues with our website. Please bare with us while we resolve the issue.</a></p>
+        <p>You may experience some issues with our website. Please bare with us while we resolve the issue.</p>
       </div>
       <div data-target="tab-one">
         <input class="checkbox" id="hide-one" type="checkbox" aria-controls="tab-one" aria-expanded="false">
@@ -46,7 +46,7 @@
   </div>
   <div class="alert-text">
     <div class="section-heading">We are updating our system</div>
-    <p>We have been doing lots of research and you have helped us update this service.</a></p>
+    <p>We have been doing lots of research and you have helped us update this service.</p>
   </div>
   <div data-target="tab-two">
     <input class="checkbox" id="hide-two" type="checkbox" aria-controls="tab-two" aria-expanded="false">
@@ -60,7 +60,7 @@
       </div>
       <div class="alert-text">
         <div class="section-heading">We are updating our system</div>
-        <p>We have been doing lots of research and you have helped us update this service.</a></p>
+        <p>We have been doing lots of research and you have helped us update this service.</p>
       </div>
       <div data-target="tab-two">
         <input class="checkbox" id="hide-two" type="checkbox" aria-controls="tab-two" aria-expanded="false">
@@ -76,6 +76,7 @@
   </div>
   <div class="alert-text">
     <div class="section-heading">School closures</div>
+    <p>Some schools in Essex are closed due to severe weather. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
     <p>Some schools in Essex are closed due to severe weather. <a href="#">Check if your child's school is closed</a></p>
   </div>
   <div data-target="tab-three">
