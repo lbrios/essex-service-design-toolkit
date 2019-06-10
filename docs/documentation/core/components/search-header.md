@@ -16,10 +16,10 @@
       <form action="/search" method="get" role="search" class="form">
         <div class="group search" role="search">
           <div class="search-input">
-            <label for="search">Search</label>
-            <input type="text" id="search" name="search">
-            <input type="submit" value="search" title="search" class="visually-hidden">
-            <button class="fas fa-search search-icon-position"></button>
+            <label for="cludo-search-hero-form">Search
+              <input type="text" id="cludo-search-hero-form" name="search" placeholder="Search essex.gov.uk">
+            </label>
+            <button class="fas fa-search search-icon-position" aria-label="Searching essex.gov.uk button" aria-hidden="true"></button>
           </div>
         </div>
       </form>
@@ -36,10 +36,10 @@
           <form action="/search" method="get" role="search" class="form">
             <div class="group search" role="search">
               <div class="search-input">
-                <label for="search">Search</label>
-                <input type="text" id="search" name="search">
-                <input type="submit" value="search" title="search" class="visually-hidden">
-                <button class="fas fa-search search-icon-position"></button>
+                <label for="cludo-search-hero-form">Search
+                  <input type="text" id="cludo-search-hero-form" name="search" placeholder="Search essex.gov.uk">
+                </label>
+                <button class="fas fa-search search-icon-position" aria-label="Searching essex.gov.uk button" aria-hidden="true"></button>
               </div>
             </div>
           </form>

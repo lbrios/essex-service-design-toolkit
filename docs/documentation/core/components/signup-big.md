@@ -20,7 +20,9 @@
           <input type="text" id="email" name="email">
         </div>
         <div class="signup-button">
-          <input type="submit" class="button subscribe" value="Subscribe">
+          <label for="email">Submit your entered email address
+            <input type="submit" class="button subscribe" value="Subscribe">
+          </label>
         </div>
       </div>
     </form>
