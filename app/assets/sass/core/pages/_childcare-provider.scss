@@ -1,4 +1,23 @@
 #find-childcare-provider {
+	.map-formblock.ui-dialog-content.ui-widget-content {
+		h2 {
+			margin-top: 0;
+		}
+		label {
+			width: 100%;
+		}
+		input.fld_std {
+			float: left;
+			margin-left: 0;
+			width: 100%;
+		}
+	}
+	.ui-dialog-content.ui-widget-content {
+		ol {
+			margin-top: 10px;
+			margin-bottom: 10px;
+		}
+	}
 	#map-SearchFields h3 {
 		.ui-state-default,
 		.ui-widget-content.ui-state-default,
@@ -83,6 +102,8 @@
 		#map-searchButton-OfstedRef {
 			float: left !important;
 			margin: 0;
+			margin-bottom: $baseline*0.5;
+			margin-left: 3px;
 		}
 		.ui-state-default {
 			background: none;
@@ -261,6 +282,7 @@
 					}
 					#map-searchButton {
 						float: left !important;
+						margin-left: 3px;
 					}
 					#searchValue-Radius {
 						padding-top: 0;
@@ -418,6 +440,7 @@
 		#map-mappanel {
 			margin: 0;
 			border: none;
+			margin-bottom: $baseline*0.5;
 		}
 	}
 	#formhelperHelp {
@@ -438,6 +461,9 @@
 				}
 				&:visited {
 					color: $visited !important;
+				}
+				&:focus {
+					color: $black !important;
 				}
 			}
 		}
