@@ -10,82 +10,66 @@
 
 ## Error
 
-<div class="alert error js-hidden" id="tab-one" aria-hidden="true">
+<div class="alert error" id="tab-one">
   <div class="alert-icon">
     <i class="fas fa-exclamation-circle"></i>
   </div>
   <div class="alert-text">
-    <div class="section-heading">We are updating our system</div>
-    <p>You may experience some issues with our website. Please bare with us while we resolve the issue.</p>
+    <div class="section-heading">We are experiencing some issues</div>
+    <p>You may experience some issues with our website. Please bare with us while we resolve the issue.</a></p>
   </div>
-  <div data-target="tab-one">
-    <input class="checkbox" id="hide-one" type="checkbox" aria-controls="tab-one" aria-expanded="false">
-    <label class="close" for="hide-one"><i class="fas fa-times"></i></label>
-  </div>
+  <button class="text" type="button" onclick="toggle_visibility('tab-one');">Hide this message</button>
 </div>
 
-    <div class="alert error js-hidden" id="tab-one" aria-hidden="true">
+    <div class="alert error" id="tab-one">
       <div class="alert-icon">
         <i class="fas fa-exclamation-circle"></i>
       </div>
       <div class="alert-text">
-        <div class="section-heading">We are updating our system</div>
-        <p>You may experience some issues with our website. Please bare with us while we resolve the issue.</p>
+        <div class="section-heading">We are experiencing some issues</div>
+        <p>You may experience some issues with our website. Please bare with us while we resolve the issue.</a></p>
       </div>
-      <div data-target="tab-one">
-        <input class="checkbox" id="hide-one" type="checkbox" aria-controls="tab-one" aria-expanded="false">
-        <label class="close" for="hide-one"><i class="fas fa-times"></i></label>
-      </div>
+      <button class="text" type="button" onclick="toggle_visibility('tab-one');">Hide this message</button>
     </div>
 
 ## Information
 
-<div class="alert info js-hidden" id="tab-two" aria-hidden="true">
+<div class="alert info" id="tab-two">
   <div class="alert-icon">
     <i class="fas fa-info-circle"></i>
   </div>
   <div class="alert-text">
     <div class="section-heading">We are updating our system</div>
-    <p>We have been doing lots of research and you have helped us update this service.</p>
+    <p>We have been doing lots of research and you have helped us update this service.</a></p>
   </div>
-  <div data-target="tab-two">
-    <input class="checkbox" id="hide-two" type="checkbox" aria-controls="tab-two" aria-expanded="false">
-    <label class="close" for="hide-two"><i class="fas fa-times"></i></label>
-  </div>
+  <button class="text" type="button" onclick="toggle_visibility('tab-two');">Hide this message</button>
 </div>
 
-    <div class="alert info js-hidden" id="tab-two" aria-hidden="true">
+    <div class="alert info" id="tab-two">
       <div class="alert-icon">
         <i class="fas fa-info-circle"></i>
       </div>
       <div class="alert-text">
         <div class="section-heading">We are updating our system</div>
-        <p>We have been doing lots of research and you have helped us update this service.</p>
+        <p>We have been doing lots of research and you have helped us update this service.</a></p>
       </div>
-      <div data-target="tab-two">
-        <input class="checkbox" id="hide-two" type="checkbox" aria-controls="tab-two" aria-expanded="false">
-        <label class="close" for="hide-two"><i class="fas fa-times"></i></label>
-      </div>
+      <button class="text" type="button" onclick="toggle_visibility('tab-two');">Hide this message</button>
     </div>
 
 ## Warning
 
-<div class="alert warning js-hidden" id="tab-three" aria-hidden="true">
+<div class="alert warning" id="tab-three">
   <div class="alert-icon">
     <i class="fas fa-exclamation-triangle"></i>
   </div>
   <div class="alert-text">
     <div class="section-heading">School closures</div>
-    <p>Some schools in Essex are closed due to severe weather. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
     <p>Some schools in Essex are closed due to severe weather. <a href="#">Check if your child's school is closed</a></p>
   </div>
-  <div data-target="tab-three">
-    <input class="checkbox" id="hide-three" type="checkbox" aria-controls="tab-three" aria-expanded="false">
-    <label class="close" for="hide-three"><i class="fas fa-times"></i></label>
-  </div>
+  <button class="text" type="button" onclick="toggle_visibility('tab-three');">Hide this message</button>
 </div>
 
-    <div class="alert warning js-hidden" id="tab-three" aria-hidden="true">
+    <div class="alert warning" id="tab-three">
       <div class="alert-icon">
         <i class="fas fa-exclamation-triangle"></i>
       </div>
@@ -93,10 +77,7 @@
         <div class="section-heading">School closures</div>
         <p>Some schools in Essex are closed due to severe weather. <a href="#">Check if your child's school is closed</a></p>
       </div>
-      <div data-target="tab-three">
-        <input class="checkbox" id="hide-three" type="checkbox" aria-controls="tab-three" aria-expanded="false">
-        <label class="close" for="hide-three"><i class="fas fa-times"></i></label>
-      </div>
+      <button class="text" type="button" onclick="toggle_visibility('tab-three');">Hide this message</button>
     </div>
 
 

@@ -29,7 +29,8 @@ input[aria-expanded="true"] + label.show + label.hide {
   display: inline-block;
 }
 
-label.show, label.hide {
+
+label.show, label.hide{
   @include p;
   cursor: pointer;
   color: $black
