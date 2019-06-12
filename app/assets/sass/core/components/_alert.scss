@@ -61,7 +61,7 @@
       margin-bottom: 0;
     }
   }
-  label.close {
+  .close {
     position: absolute;
     top: $baseline*0.5;
     right: $baseline*0.5;
@@ -74,19 +74,25 @@
         color: $black;
       }
     }
+    &.message {
+      position: relative;
+      left: 0;
+      top: 0;
+      margin-top: $baseline*0.5;
+    }
   }
   .checkbox {
-    display: none;
+    display: block;
   }
 }
 
 
-// yuk!
-.alert.js-hidden {
-  display: table;
-  visibility: visible;
-}
+// // yuk!
+// .alert.js-hidden {
+//   display: table;
+//   visibility: visible;
+// }
 
-.alert[aria-hidden="false"] {
-  display: none;
-}
+// .alert[aria-hidden="false"] {
+//   display: none;
+// }
