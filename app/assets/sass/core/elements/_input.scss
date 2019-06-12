@@ -11,14 +11,3 @@ input {
   border-style: solid;
   border-color: $grey-dark;
 }
-.day, .month, .year {
-  @include box-sizing(border-box);
-  float: left;
-  width: 50px;
-  margin-right: 20px;
-  clear: none;
-}
-.year {
-  width: 100px;
-  margin-right: 0;
-}
