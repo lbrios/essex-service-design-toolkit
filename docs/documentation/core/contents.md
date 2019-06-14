@@ -8,6 +8,7 @@
   <li><a href="/examples/form">Form</a></li>
   <li><a href="/examples/information">Information</a></li>
   <li><a href="/examples/cludo">Cludo Search</a></li>
+  <li><a href="/examples/no-results">Cludo Search no results</a></li>
   <li><a href="/examples/topic-b">Alternative Topic page</a></li>
   <li><a href="/examples/step-by-step">Step by step page</a></li>
 </ul>

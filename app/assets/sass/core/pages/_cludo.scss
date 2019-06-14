@@ -2,14 +2,6 @@
   .search-filter-header {
     display: none;
   }
-  ul {
-    margin-left: 0;
-    padding-left: 0;
-    li {
-      list-style: none;
-      padding-left: 0;
-    }
-  }
   .search-filters ul a.active {
     background-color: transparent;
     color: $black;
