@@ -8,9 +8,15 @@
 # Logo
 
 <div class="logo-text">
-	<a href="/">Essex.gov.uk<span>Beta</span></a>
+	<a href="/">Essex.gov.uk</a>
 </div>
 
 	<div class="logo-text">
-		<a href="/">Essex.gov.uk<span>Beta</span></a>
+		<a href="/">Essex.gov.uk</a>
 	</div>
+
+<div class="logo">
+	<a href="/">Essex.gov.uk
+		<img src="/public/images/logo.svg">
+	</a>
+</div>
