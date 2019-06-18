@@ -19,8 +19,6 @@
         height: $form-height*0.75;
         @include grid-column(1 / 2);
         a.logo-text {
-          color: $white;
-          line-height: $form-height*0.75;
           @media print {
             color: $black;
             font-size: $small;
