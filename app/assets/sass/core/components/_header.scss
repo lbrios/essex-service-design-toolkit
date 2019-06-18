@@ -15,10 +15,10 @@
     }
     .nav {
     @extend %grid-row;
-      .logo-text {
+      .logo-text-wrap {
         height: $form-height*0.75;
         @include grid-column(1 / 2);
-        a {
+        a.logo-text {
           color: $white;
           line-height: $form-height*0.75;
           @media print {

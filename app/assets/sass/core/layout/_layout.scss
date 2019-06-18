@@ -101,14 +101,3 @@ main#content {
     @include grid-column(3 / 12);
   }
 }
-
-.content {
-  img {
-    margin-bottom: $baseline;
-    height: auto;
-    width: 100%;
-    @include media(mobile) {
-      width: 100%;
-    }
-  }
-}

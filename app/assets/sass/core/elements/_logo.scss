@@ -1,38 +1,40 @@
 // Logo
 // ==========================================================================
 
-.logo {
+.logo-wrap {
   display: inline-block;
-  img {
-    display: block;
+  a.logo {
+    float: left;
+    background-position: 0 0;
+    line-height: 0;
+    text-indent: -9999px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-decoration: none;
+    img {
+      visibility: hidden;
+      vertical-align: bottom;
+      height: initial;
+      margin: 0;
+    }
+    &.logotype {
+      background: url('/public/images/logotype.png') no-repeat;
+      background-size: $logo-b-width $logo-b-height;
+    }
+    &.seax {
+      background: url('/public/images/seax.png') no-repeat;
+      background-size: $seax-width $seax-height; 
+    }
   }
 }
 
-.logo-text {
+.logo-text-wrap {
   display: inline-block;
   margin-top: $baseline*0.5;
   margin-bottom: $baseline*0.5;
   @include media(mobile) {
     margin-top: $baseline*0.25;
     margin-bottom: $baseline*0.25;
-  }
-  a {
-    font-family: $stack-logo;
-    font-size: ms(4);
-    line-height: 1em;
-    color: $black;
-    text-transform: uppercase;
-    text-decoration: none;
-    &:hover {
-      text-decoration: underline;
-      span {
-        text-decoration: none;
-      }
-    }
-    &:focus {
-      background-color: $brand;
-      outline: $border-thick solid $focus-colour;
-    }
   }
   @media print {
     color: $black;
@@ -47,5 +49,31 @@
     text-transform: capitalize;
     color: $black;
     margin-left: $gutter*0.125;
+  }
+}
+
+a.logo-text, a.logo-text.seax {
+  font-family: $stack-logo;
+  font-size: ms(4);
+  line-height: 1em;
+  color: $white;
+  text-transform: uppercase;
+  text-decoration: none;
+  text-indent: 0;
+  &:hover {
+    text-decoration: underline;
+    span {
+      text-decoration: none;
+    }
+  }
+  &:focus {
+    background-color: $brand;
+    outline: $border-thick solid $focus-colour;
+  }
+  img {
+    visibility: hidden;
+    vertical-align: bottom;
+    display: initial;
+    margin: 0;
   }
 }

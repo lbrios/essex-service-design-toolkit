@@ -37,7 +37,12 @@
 	    @include grid-column(3 / 12);
 	    img {
 	    	float: left;
-	    	width: 100%;
+        margin-bottom: $baseline;
+        height: auto;
+        width: 100%;
+        @include media(mobile) {
+          width: 100%;
+        }
 	    }
 	  }
 	  .landing-text {
