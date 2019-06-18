@@ -10,8 +10,8 @@
 <header class="header-background" role="banner">
   <div class="header">
     <nav class="nav">
-      <div class="logo-text">
-        <a href="/">Essex.gov.uk</a>
+      <div class="logo-wrap">
+        <a href="/" class="logo-text">Essex.gov.uk</a>
       </div>
     </nav>
   </div>
@@ -20,20 +20,21 @@
     <header class="header-background" role="banner">
       <div class="header">
         <nav class="nav">
-          <div class="logo-text">
-            <a href="/">Essex.gov.uk</a>
+          <div class="logo-wrap">
+            <a href="/" class="logo-text">Essex.gov.uk</a>
           </div>
         </nav>
       </div>
     </header>
-
-## Header beta
 
 <header class="header-background" role="banner">
   <div class="header">
     <nav class="nav">
-      <div class="logo-text">
-        <a href="/">Essex.gov.uk<span>Beta</span></a>
+      <div class="logo-wrap">
+        <a href="/" class="logo-text seax">
+          <img src="/public/images/seax.png" width="36px" height="30px">
+          Essex.gov.uk
+        </a>
       </div>
     </nav>
   </div>
@@ -42,12 +43,17 @@
     <header class="header-background" role="banner">
       <div class="header">
         <nav class="nav">
-          <div class="logo-text">
-            <a href="/">Essex.gov.uk<span>Beta</span></a>
+          <div class="logo-wrap">
+            <a href="/" class="logo-text seax">
+              <img src="/public/images/seax.png" width="36px" height="30px">
+              Essex.gov.uk
+            </a>
           </div>
         </nav>
       </div>
     </header>
+
+
 
 
 ## Using the header

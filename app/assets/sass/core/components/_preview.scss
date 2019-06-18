@@ -64,9 +64,12 @@
     }
     img {
       margin-top: 0;
+      margin-bottom: $baseline;
+      height: auto;
       width: 100%;
       @include media(mobile) {
         margin-bottom: 0;
+        width: 100%;
       }
       @media print {
         display: none;
