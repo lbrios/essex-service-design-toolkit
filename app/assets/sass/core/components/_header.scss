@@ -15,7 +15,7 @@
     }
     .nav {
     @extend %grid-row;
-      .logo-text-wrap {
+      .logo-wrap {
         height: $form-height*0.75;
         @include grid-column(1 / 2);
         a.logo-text {

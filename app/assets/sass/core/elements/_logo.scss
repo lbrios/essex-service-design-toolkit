@@ -2,15 +2,7 @@
 // ==========================================================================
 
 .logo-wrap {
-  display: inline-block;
-  a.logo {
-    float: left;
-    background-position: 0 0;
-    line-height: 0;
-    text-indent: -9999px;
-    white-space: nowrap;
-    overflow: hidden;
-    text-decoration: none;
+  a {
     img {
       visibility: hidden;
       vertical-align: bottom;
@@ -18,17 +10,28 @@
       margin: 0;
     }
     &.logotype {
+      float: left;
+      background-position: 0 0;
+      line-height: 0;
+      text-indent: -9999px;
+      text-decoration: none;
       background: url('/public/images/logotype.png') no-repeat;
       background-size: $logo-b-width $logo-b-height;
-    }
-    &.seax {
-      background: url('/public/images/seax.png') no-repeat;
-      background-size: $seax-width $seax-height; 
+      border-bottom: $border-thin $brand solid;
+      margin-bottom: -4px;
+      &:hover {
+        text-indent: -9999px;
+        text-decoration: none;
+        border-bottom: $border-thin $white solid;
+      }
+      img {
+        padding-bottom: 4px;
+      }
     }
   }
 }
 
-.logo-text-wrap {
+.logo-wrap {
   display: inline-block;
   margin-top: $baseline*0.5;
   margin-bottom: $baseline*0.5;
@@ -52,7 +55,7 @@
   }
 }
 
-a.logo-text, a.logo-text.seax {
+a.logo-text {
   font-family: $stack-logo;
   font-size: ms(4);
   line-height: 1em;
@@ -61,18 +64,33 @@ a.logo-text, a.logo-text.seax {
   text-decoration: none;
   text-indent: 0;
   &:hover {
-    text-decoration: underline;
-    span {
-      text-decoration: none;
-    }
+    text-decoration: none;
+    border-bottom: $border-normal $white solid;
+  }
+  &:focus {
+    background-color: $brand;
+    outline: $border-thick solid $focus-colour;
+  }
+}
+
+a.logo-text.seax {
+  float: left;
+  background-position: 0 0;
+  line-height: 1;
+  background: url('/public/images/seax.png') no-repeat;
+  background-size: $seax-width $seax-height; 
+  border-bottom: $border-normal $brand solid;
+  margin-bottom: -6px;
+  padding-bottom: 6px;
+  &:hover {
+    text-decoration: none;
+    border-bottom: $border-normal $white solid;
   }
   &:focus {
     background-color: $brand;
     outline: $border-thick solid $focus-colour;
   }
   img {
-    visibility: hidden;
-    vertical-align: bottom;
     display: initial;
     margin: 0;
   }
