@@ -25,6 +25,11 @@
         text-decoration: none;
         border-bottom: $border-thin $white solid;
       }
+      &:focus {
+        background-color: $brand;
+        outline: $border-thick solid $focus-colour;
+        border-bottom: $border-thin $white solid;
+      }
       img {
         padding-bottom: 4px;
       }
@@ -71,6 +76,7 @@ a.logo-text {
   &:focus {
     background-color: $brand;
     outline: $border-thick solid $focus-colour;
+    border-bottom: $border-normal $white solid;
   }
 }
 
@@ -91,6 +97,7 @@ a.logo-text.seax {
   &:focus {
     background-color: $brand;
     outline: $border-thick solid $focus-colour;
+    border-bottom: $border-normal $white solid;
   }
   img {
     display: initial;
