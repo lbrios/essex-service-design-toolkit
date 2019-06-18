@@ -2,6 +2,12 @@
   .search-filter-header {
     display: none;
   }
+  .search-result-count {
+    @include default-type;
+    font-size: ms(2);
+    margin-top: 0;
+    margin-bottom: 0;
+  }
   .search-filters ul a.active {
     background-color: transparent;
     color: $black;

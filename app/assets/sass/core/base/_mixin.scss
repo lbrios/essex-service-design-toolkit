@@ -51,10 +51,11 @@
 
 @mixin default-type {
   font-family: $stack;
-  font-size: $body;
-  font-weight: $normal;
+  font-size: ms(0);
   line-height: $baseline;
+  font-weight: $normal;
   color: $body-text-colour;
+  letter-spacing: 0;
 }
 
 @mixin wrap {
