@@ -10,8 +10,11 @@
 <header class="header-background" role="banner">
   <div class="header">
     <nav class="nav">
-      <div class="logo-text">
-        <a href="/">Essex.gov.uk<span>Beta</span></a>
+      <div class="logo-wrap">
+        <a href="/" class="logo-text seax">
+          <img src="/public/images/seax.png" width="36px" height="30px">
+          Essex.gov.uk
+        </a>
       </div>
       <form action="/search" method="get" role="search" class="form">
         <div class="group search" role="search">
@@ -30,8 +33,11 @@
     <header class="header-background" role="banner">
       <div class="header">
         <nav class="nav">
-          <div class="logo-text">
-            <a href="/">Essex.gov.uk<span>Beta</span></a>
+          <div class="logo-wrap">
+            <a href="/" class="logo-text seax">
+              <img src="/public/images/seax.png" width="36px" height="30px">
+              Essex.gov.uk
+            </a>
           </div>
           <form action="/search" method="get" role="search" class="form">
             <div class="group search" role="search">
@@ -47,4 +53,3 @@
       </div>
     </header>
 
-## Using search header
