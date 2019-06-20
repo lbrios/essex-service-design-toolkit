@@ -101,3 +101,12 @@ main#content {
     @include grid-column(3 / 12);
   }
 }
+
+.news-page,
+.article-page {
+  img {
+    height: auto;
+    margin-bottom: $baseline;
+    width: 100%;
+  }
+}
