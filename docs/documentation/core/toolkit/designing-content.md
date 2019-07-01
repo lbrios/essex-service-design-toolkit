@@ -114,7 +114,7 @@ The average reading age of the UK is 9 years. Half of the UK workforce have a re
 
 For your content, [aim for a reading age of 9 to 11 years old](https://contentdesign.london/reading/specifying-a-reading-age-for-web-content/).
 
-Use [readability tools](/content/useful-tools/ "Useful tools") to help you write clear and concise content.
+Use [readability tools](useful-tools "Useful tools") to help you write clear and concise content.
 
 You don’t need to write everything about a topic. Write only what users need to know so they can complete a task. The more content you include, the harder it is for the user to read and find information.
 
@@ -147,7 +147,7 @@ Accessible information is information that people can understand.
 
 When we are designing content, we need to make sure the [content is accessible](https://www.gov.uk/guidance/content-design/planning-content#accessibity) to all users. We need to provide information in a friendly format that screen readers and other assistive technology can read.  
   
-Go to the [accessibility section](http://digitaltoolkit.essex.gov.uk/accessibility/) of this toolkit for tips on how to make content accessible.
+Go to the [accessibility section](accessibility) of this toolkit for tips on how to make content accessible.
 
 Write content in pairs
 ----------------------

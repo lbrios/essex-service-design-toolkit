@@ -54,4 +54,4 @@ If you want to view your traffic organized by which sites have linked to yours, 
 
 You can even click into individual referrals to see which specific web pages link back to your site. If you want to understand which specific pages of your site are being linked to, you can add a secondary dimension of “landing page” to the report. This will show you which external sites are sending traffic to each of your specific pages, and potentially offer you a source of new advertising partnerships with those referring websites.
 
-[Next: What are the most popular pages on my website](/google-analytics-guide/what-are-the-most-popular-pages-on-my-website/)
+[Next: What are the most popular pages on my website](what-are-the-most-popular-pages-on-my-website)

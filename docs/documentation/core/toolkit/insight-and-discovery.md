@@ -11,7 +11,7 @@ Find out as much as you can about how successful the existing products or servic
 *   Google Analytics data
 *   Online feedback
 *   Phone call volumes and anecdotal insight from the advisors
-*   [User testing](/user-need-and-user-behaviour/user-testing/ "User testing")
+*   [User testing](user-testing "User testing")
 
 Analysing multiple sources of data means that you have a rounded view of behaviour. It’s only when you do this that you start to see the whole picture which may be lost by just looking at web stats.
 

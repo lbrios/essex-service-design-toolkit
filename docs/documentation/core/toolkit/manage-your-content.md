@@ -10,7 +10,7 @@ Understand how people use your content
 
 You need to understand how people are using your content.
 
-[Google Analytics reports](http://digitaltoolkit.essex.gov.uk/google-analytics-guide/) can tell you:
+[Google Analytics reports](google-analytics-basics) can tell you:
 
 *   which pages people are going to
 *   where they are coming from
@@ -32,7 +32,7 @@ Do ongoing research
 
 User research shouldn’t stop after you publish your content.
 
-You should do [ongoing research](/user-need-and-user-behaviour/ "User need and user behaviour") to understand:
+You should do [ongoing research](contents "User need and user behaviour") to understand:
 
 *   your users needs
 *   how they interact with your content

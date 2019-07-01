@@ -9,7 +9,7 @@ In marketing, we have the concept of a purchase funnel. There are different stag
 *   Behavior is when users engage with your business
 *   Conversion is when a user becomes a customer and transacts with your business
 
-![](https://lh3.googleusercontent.com/dWu1SKVLPYKtn4F8yC-6rzZmt6MXi-Gz5ctQimLYh6dy2euozQe2duyiCgEg56_RW89a=w400-h280)
+![](/public/images/acquisition-behavior-conversion.png)
 
 In the offline world, this process can be hard to measure. But in the online world, we can measure many different aspects of the funnel using digital analytics. We can track what online behavior led to purchases and use that data to make informed decisions about how to reach new and existing customers.
 

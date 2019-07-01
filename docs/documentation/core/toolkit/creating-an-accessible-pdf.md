@@ -3,7 +3,7 @@ Creating an accessible PDF
 
 Most PDFs are created from an original Word document. If the Word document isn't accessible then the PDF won't be either.
 
-Example of an [accessible PDF](/media/576695/accessible-pdf.pdf "accessible-pdf.pdf") which has been created from an accessible Word document.
+Example of an [accessible PDF](/public/images/accessible-pdf.pdf "accessible-pdf.pdf") which has been created from an accessible Word document.
 
 [Microsoft guidance on checking the accessibility of a Word document](https://support.office.com/en-us/article/make-your-word-documents-accessible-to-people-with-disabilities-d9bf3683-87ac-47ea-b91a-78dcacb3c66d)
 
@@ -16,7 +16,7 @@ A significant number of people have a low reading age. If you are writing conten
 
 Professionals need content in Plain English too. They need to be able to find information quickly.
 
-Read the [guidance on writing accessible content](/content/designing-content/)
+Read the [guidance on writing accessible content](designing-content)
 
 ### Heading styles and formatting
 

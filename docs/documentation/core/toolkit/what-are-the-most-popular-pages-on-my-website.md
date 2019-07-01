@@ -29,4 +29,4 @@ The **“Exit Pages”** report under “Site Content” shows the pages where u
 
 The **“Events”** report tracks how users interact with specific elements of your website. For example, you can use this report to track when users click on a video player or a download link. Event tracking requires additional implementation beyond the Analytics tracking code snippet.
 
-[Next: Further reading](/google-analytics-guide/further-reading/)
+[Next: Further reading](google-analytics-further-reading)

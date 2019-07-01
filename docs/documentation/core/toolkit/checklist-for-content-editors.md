@@ -5,7 +5,7 @@ To meet WCAG 2.1 to level AA you must be able to answer YES or Not Applicable to
 
 Answering NO means that you are not meeting WCAG and your content will have barriers that will prevent some users, especially disabled users and older people from accessing it.
 
-The following is a checklist for content editors. You should also be aware there is also a [checklist for developers](/accessibility/support-for-developers/checklist-for-developers/ "Checklist for developers").
+The following is a checklist for content editors. You should also be aware there is also a [checklist for developers](checklist-for-developers "Checklist for developers").
 
 Text
 ----

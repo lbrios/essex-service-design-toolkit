@@ -16,4 +16,4 @@ If you have a piece of content that needs to be read before residents can access
 Things to think about:
 
 *   Content needs to be written appropriately whether it's in a PDF or on a web page. It won't be added to the website unless it follows the [Government Digital Service content standards](https://www.gov.uk/guidance/content-design/writing-for-gov-uk)
-*   If the content needs to be printed then you may need to add an accessible PDF even if you're uploading it as web pages. See [guidance on making documents accessible](/accessibility/accessible-documents/creating-an-accessible-pdf/ "Creating an accessible PDF")
+*   If the content needs to be printed then you may need to add an accessible PDF even if you're uploading it as web pages. See [guidance on making documents accessible](creating-an-accessible-pdf "Creating an accessible PDF")
