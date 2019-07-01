@@ -7,7 +7,7 @@ $modularscale: (
   font-size: ms(0);
   line-height: $baseline;
   margin-top: 0;
-  margin-bottom: $baseline;
+  margin-bottom: $baseline*0.5;
   color: $body-text-colour;
   text-transform: none;
 }

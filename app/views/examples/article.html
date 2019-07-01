@@ -1,0 +1,78 @@
+{% extends "essex_topic_template.html" %}
+
+{% block content %}
+
+<div class="breadcrumbs">
+  <ol>
+    <li><a href="/">Home</a></li>
+    <li><a href="#">Adult social care and health</a></li>
+    <li><a href="#">Disabilities and health conditions</a></li>
+    <li class="current"><a href="#">Living with a disability or health condition: Staying safe</a></li>
+  </ol>
+</div>
+
+
+<main id="content">
+  <div class="container">
+    <div class="main">
+      <section class="intro">
+        <h1>Living with a disability or health condition</h1>
+      </section>
+      <section class="intro">
+        <nav class="contents split-list" role="navigation" aria-label="pages-in-this-service">
+          <div class="heading"><h2>Contents</h2></div>
+          <ol class="list list-number" id="pages-in-this-service">
+            <li>Staying safe</li>
+            <li><a href="/living-with-a-disability-or-health-condition/work-and-learning">Work and learning</a></li>
+            <li><a href="/living-with-a-disability-or-health-condition/money-and-benefits">Money and benefits</a></li>
+            <li><a href="/living-with-a-disability-or-health-condition/sports-and-social-activities">Sports and social activities</a></li>
+            <li><a href="/living-with-a-disability-or-health-condition/housing-options">Housing options</a></li>
+            <li><a href="/living-with-a-disability-or-health-condition/preparing-for-adulthood-transition-from-childrens-to-adult-services">Preparing for adulthood (transition from children&#x27;s to adult services)</a></li>
+            <li><a href="/living-with-a-disability-or-health-condition/support-for-armed-forces-and-veterans">Support for armed forces and veterans </a></li>
+          </ol>
+        </nav>
+      </section>
+      <section class="content article-page">
+        <h2 id="staying-safe"> Staying safe</h2>
+        <p>Here's how you can help keep yourself, or someone you care about safe.</p>
+        <h3>Report abuse</h3>
+        <p>If you are concerned that you or someone you know may be a victim of abuse or neglect, you should <a href="#">report it</a>.</p>
+        <h3>Keep Safe scheme</h3>
+        <p>Many places in Essex run a Keep Safe scheme, where the venues display a yellow 'Keep Safe' sticker which means they will allow someone in need of help to make a telephone call from the venue.</p>
+        <p>The scheme is free to join if you are a vulnerable adult aged 16 or over.<br />
+        <a href="#">Request your Keep Safe membership pack</a>.</p>
+        <h3>Bullying, harassment and hate crime</h3>
+        <p>Stop Hate UK offer independent and confidential hate crime reporting services in Essex.</p>
+        <p>Whether you are a victim of hate crime, have witnessed an incident you believe to be a hate crime, or you are a third party to an incident that could be a hate crime, go to <a href="#">Stop Hate UK and report it.</a></p>
+        <p>You can find out more information on hate crime at:</p>
+        <ul>
+          <li><a href="#">Mencap</a></li>
+          <li><a href="#">Disability Rights UK</a></li>
+        </ul>
+        <h3>Safety in the home</h3>
+        <p>If you'd like more information on staying safe in your home, visit our section on <a href="#">Safety in the home</a>.</p>
+        <h3>Easy read</h3>
+        <p><a href="#">Staying safe</a> is a free guide published by the Foundation for people with learning difficulties</p>
+      </section>
+      <section class="function">
+        <nav class="pagination">
+          <ul>
+            <li class="next">
+              <a href="#">
+                <span class="pagination-item">
+                  <i class="fas fa-arrow-right"></i>Next
+                </span>
+                <span>Work and learning</span>
+              </a>
+            </li>
+          </ul>
+        </nav>
+        {% block printlink %}
+          {% include "includes/print-link.html" %}
+        {% endblock %}
+      </section>
+    </div>
+  </div>
+</main>
+
+{% endblock %}
