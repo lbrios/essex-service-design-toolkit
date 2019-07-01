@@ -35,8 +35,8 @@ Write in short sentences and short paragraphs, broken up with bullet points wher
 
 Before:
 
-![](/media/576687/what-to-do-with-faqs-eg-1.jpg?width=445.9644322845418&height=500)
+![](/public/images/what-to-do-with-faqs-eg-1.jpg?width=445.9644322845418&height=500)
 
 After:
 
-![](/media/576688/what-to-do-with-faqs-eg-2.jpg?width=500&height=379.85611510791363)
+![](/public/images/what-to-do-with-faqs-eg-2.jpg?width=500&height=379.85611510791363)

@@ -24,4 +24,4 @@ Setting up goals and campaign tracking
 *   [Google support - creating goals](https://support.google.com/analytics/answer/1032415?hl=en)
 *   [How to create a goal in Google analytics to track conversion](https://www.monsterinsights.com/how-to-create-a-goal-in-google-analytics-to-track-conversions/)
 
-[\>>> ECC Web Analytics Framework](/google-analytics-guide/ecc-web-analytics-framework/)
+[ECC Web Analytics Framework](/google-analytics-guide/ecc-web-analytics-framework/)

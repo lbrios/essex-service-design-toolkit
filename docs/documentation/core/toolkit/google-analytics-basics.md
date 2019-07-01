@@ -29,4 +29,4 @@ While collecting data from a website has been the focus so far, Google Analytics
 
 That’s right. This data is compiled into Analytics reports, which you can use to perform in-depth analysis to better understand your customers and their purchase journey. Then you can test out new solutions to improve your business.
 
-[\>>>>>> Next: How Google Analytics actually works](/google-analytics-guide/google-analytics-basics/how-google-analytics-actually-works/)
+[Next: How Google Analytics actually works](/google-analytics-guide/google-analytics-basics/how-google-analytics-actually-works/)

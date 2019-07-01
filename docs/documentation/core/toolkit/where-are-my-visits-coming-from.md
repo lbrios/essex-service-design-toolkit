@@ -10,11 +10,11 @@ To get a quick glimpse, go to ‘Acquisition’ – ‘Overview’. On this scre
 *   A graph showing the number of Conversions (this requires Goal Tracking to be setup, which I will cover in another article)
 *   A table showing Acquisition, Behaviour and Conversions for each channel
 
-![](/media/576675/where-are-my-visitors-coming-from.jpg?width=500&height=375)
+![](/public/images/where-are-my-visitors-coming-from.jpg?width=500&height=375)
 
 Now let's take a deeper look.
 
-![](/media/576676/acquisition-reports.jpg?width=0&height=0)![](/media/576676/acquisition-reports.jpg?width=500&height=230)
+![](/public/images/acquisition-reports.jpg?width=500&height=230)
 
 You can think of the medium as the mechanism that delivered users to your site. Some common examples of mediums are “organic,” “cpc,” “referral,” “email,” and “none.” Let’s look at these different types of mediums:
 
@@ -28,7 +28,7 @@ You can think of the medium as the mechanism that delivered users to your site. 
 
 Under “All Traffic” let’s look at the “Source/Medium” report in The Google Store Analytics account using the dates August 1, 2015 through August 31, 2015. This shows the sources and their respective mediums sending referrals, search engine traffic, and direct traffic to the site. Notice that the default sort is users.
 
-![](/media/576677/acquisition-reports-2.jpg?width=500&height=250)
+![](/public/images/acquisition-reports-2.jpg?width=500&height=250)
 
 To identify effective traffic sources, we can look at the source/medium combinations with the most users, but that doesn’t necessarily mean this was the best traffic. Ideally, traffic should be “high quality,” meaning that users who arrive from a source engage with the website or complete a conversion. A good indicator of traffic quality can be bounce rate.
 
@@ -36,7 +36,7 @@ Our top traffic source is Google organic search, which has a relatively low boun
 
 We can click into the comparison view and select the metric “bounce rate” to compare bounce rate for each source/medium combination to the site average. Sure enough, we can see that our YouTube traffic is bouncing at a much higher rate than the site average. The Google Store may want to investigate to make sure that YouTube traffic is landing on a page that’s valuable to those users.
 
-![](/media/576678/acquisition-reports-3.jpg?width=500&height=250)
+![](/public/images/acquisition-reports-3.jpg?width=500&height=250)
 
 If we want to see only the “organic” sources sending traffic to the site, we could type “organic” into the filter. You can see that Google referred more traffic than any other non-paid source and had a relatively low bounce rate compared to other sources. This means that users arriving from Google Organic search are landing on highly relevant pages.
 
@@ -54,4 +54,4 @@ If you want to view your traffic organized by which sites have linked to yours, 
 
 You can even click into individual referrals to see which specific web pages link back to your site. If you want to understand which specific pages of your site are being linked to, you can add a secondary dimension of “landing page” to the report. This will show you which external sites are sending traffic to each of your specific pages, and potentially offer you a source of new advertising partnerships with those referring websites.
 
-[\>>>> Next: What are the most popular pages on my website](/google-analytics-guide/what-are-the-most-popular-pages-on-my-website/)
+[Next: What are the most popular pages on my website](/google-analytics-guide/what-are-the-most-popular-pages-on-my-website/)

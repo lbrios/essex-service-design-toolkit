@@ -48,4 +48,4 @@ Questions and Feedback
 
 If you have any questions, feedback or issues, please contact christopher.babajide@essex.gov.uk
 
-[\>>>>> Next: Google analytics basics](/google-analytics-guide/google-analytics-basics/)
+[Next: Google analytics basics](/google-analytics-guide/google-analytics-basics/)

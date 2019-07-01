@@ -32,7 +32,7 @@ Avoid using large blocks of text as this is hard to read. Use headings and bulle
   
 Here’s an example:
 
-![](/media/576684/chesfs50-euchomedirs-carolinemccabe-my-documents-my-pictures-images-for-digital-toolkit-what-you-need-to-tell-us.jpg?width=500&height=500)
+![](/public/images/chesfs50-euchomedirs-carolinemccabe-my-documents-my-pictures-images-for-digital-toolkit-what-you-need-to-tell-us.jpg)
 
 ### Use active voice
 
@@ -95,7 +95,7 @@ People don’t read online, they scan, and they won’t stay for long, or look v
 
 Eye-tracking studies have shown people’s eyes skip over the page in an [F-shaped pattern](https://www.nngroup.com/articles/f-shaped-pattern-reading-web-content/):
 
-![three images showing heatmap pattern in an f shape](/media/576685/chesfs50-euchomedirs-carolinemccabe-my-documents-my-pictures-images-for-digital-toolkit-f-shape-pattern.jpg?width=500&height=222.3404255319149)
+![three images showing heatmap pattern in an f shape](/public/images/chesfs50-euchomedirs-carolinemccabe-my-documents-my-pictures-images-for-digital-toolkit-f-shape-pattern.jpg?width=500&height=222.3404255319149)
 
 You need to make it as easy as possible for users to find and read the content. This means designing content around the F-pattern by putting the content in a logical place and structure.
 
@@ -106,7 +106,7 @@ You can also use the [inverted pyramid](https://www.nngroup.com/articles/inverte
 For example:  
 Apply for a Blue Badge
 
-![](/media/576686/chesfs50-euchomedirs-carolinemccabe-my-documents-my-pictures-images-for-digital-toolkit-how-to-apply.jpg?width=500&height=482.0689655172414)
+![](/public/images/chesfs50-euchomedirs-carolinemccabe-my-documents-my-pictures-images-for-digital-toolkit-how-to-apply.jpg?width=500&height=482.0689655172414)
 
 ### Reading age
 

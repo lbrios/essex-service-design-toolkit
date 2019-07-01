@@ -19,6 +19,6 @@ Microsoft Word uses [Flesch-Kincaid score](https://support.office.com/en-gb/arti
 
 Go to: File > Options > Proofing > Settings
 
-![](/media/576692/chesfs50-euchomedirs-carolinemccabe-my-documents-my-pictures-images-for-digital-toolkit-flesch-kinkaid_1.jpg?width=500&height=408.15085158150856)
+![](/public/images/chesfs50-euchomedirs-carolinemccabe-my-documents-my-pictures-images-for-digital-toolkit-flesch-kinkaid_1.jpg?width=500&height=408.15085158150856)
 
-![](/media/576693/chesfs50-euchomedirs-carolinemccabe-my-documents-my-pictures-images-for-digital-toolkit-flesch-kinkaid_2jpg.jpg?width=500&height=107.1055381400209)
+![](/public/images/chesfs50-euchomedirs-carolinemccabe-my-documents-my-pictures-images-for-digital-toolkit-flesch-kinkaid_2jpg.jpg?width=500&height=107.1055381400209)
