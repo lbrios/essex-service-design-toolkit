@@ -1,7 +1,5 @@
 {% extends "essex_main_template_search_header.html" %}
-
 {% block content %}
-
 <main id="content">
   <div class="container">
     <div class="main only">
@@ -46,33 +44,14 @@
             </li>
           </ul>
         </div>
-      </section>
-      <section class="function">
-
-        <nav class="pagination">
-          <ul>
-            <li class="prev">
-              <a href="#">
-                <span class="pagination-item">
-                  <i class="fas fa-arrow-left"></i>Previous
-                </span>
-                <span>100 of 124</span>
-              </a>
-            </li>
-            <li class="next">
-              <a href="#">
-                <span class="pagination-item">
-                  <i class="fas fa-arrow-right"></i>Next
-                </span>
-                <span>100 of 124</span>
-              </a>
-            </li>
-          </ul>
-        </nav>
-
+        <!-- stockport code taken from live site -->
+        <div class="pagination-section grid-parent pagination-margin-bottom">
+            <div class="grid-parent grid-100 tablet-grid-100 mobile-grid-100 pagination-display">Showing 1 - 2 of 2 news articles</div>
+            <div class="grid-parent grid-100 tablet-grid-100 mobile-grid-100 pagination-page-numbers">
+            </div>
+        </div>
       </section>
     </div>
   </div>
 </main>
-
 {% endblock %}
