@@ -10,6 +10,11 @@
   <li><a href="/examples/start-page">Start page</a></li>
 </ul>
 
+<h3>Toolkit</h3>
+<ul>
+  <li><a href="toolkit/contents">Toolkit</a></li>
+</ul>
+
 <h3>Templates</h3>
 <ul>
   <li><a href="/templates/information">Information</a></li>
