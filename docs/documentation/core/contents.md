@@ -3,9 +3,10 @@
 <h3>Page examples</h3>
 <ul>
   <li><a href="/examples/index">Home page</a></li>
-  <li><a href="/examples/news-landing">News Landing</a></li>
   <li><a href="/examples/topic">Topic</a></li>
   <li><a href="/examples/article">Article</a></li>
+  <li><a href="/examples/news">News article</a></li>
+  <li><a href="/examples/news-landing">News landing page</a></li>
   <li><a href="/examples/start-page">Start page</a></li>
 </ul>
 
