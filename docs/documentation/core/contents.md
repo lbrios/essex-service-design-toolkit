@@ -1,29 +1,35 @@
 <h1>Contents</h1>
 
-<h3>Website static page examples</h3>
+<h3>Page examples</h3>
+<ul>
+  <li><a href="/examples/index">Main home page</a></li>
+  <li><a href="/examples/news-landing">News Landing</a></li>
+</ul>
+
+<h3>Templates</h3>
 <ul>
   <li><a href="/examples/index">Main home page</a></li>
   <li><a href="/examples/news-landing">News Landing</a></li>
   <li><a href="/examples/content-break">Content break</a></li>
-  <li><a href="/examples/form">Form</a></li>
-  <li><a href="/examples/information">Information</a></li>
-  <li><a href="/examples/cludo">Cludo Search</a></li>
-  <li><a href="/examples/no-results">Cludo Search no results</a></li>
-  <li><a href="/examples/topic-b">Alternative Topic page</a></li>
-  <li><a href="/examples/step-by-step">Step by step page</a></li>
+  <li><a href="/templates/start-page">Start page</a></li>
+  <li><a href="/templates/information">Information</a></li>
+  <li><a href="/templates/cludo">Cludo Search</a></li>
+  <li><a href="/templates/no-results">Cludo Search no results</a></li>
+  <li><a href="/templates/step-by-step">Step by step page</a></li>
 </ul>
 
-<h3>Apps static page examples</h3>
+<h3>Prototypes</h3>
 <ul>
-  <li><a href="/app/freedom-of-information">Freedom of Information Search</a></li>
-  <li><a href="/app/emergency-school-closures">Emergency School Closures</a></li>
-  <li><a href="/app/find-a-childcare-provider">Find a Childcare Provider form approach</a></li>
-  <li><a href="/app/find-a-childcare-provider-b">Find a Childcare Provider first tab</a></li>
-  <li><a href="/app/find-a-childcare-provider-c">Find a Childcare Provider second tab</a></li>
-  <li><a href="/app/catchment-area">Catchment Area</a></li>
-  <li><a href="/app/childcare-sufficiency">Childcare Sufficiency</a></li>
-  <li><a href="/app/schools-waiting-list">Schools Waiting List</a></li>
-  <li><a href="/app/search-for-an-inquest">Search for an Inquest</a></li>
+  <li><a href="/prototypes/website/topic-b">Alternative Topic page</a></li>
+  <li><a href="/prototypes/app/freedom-of-information">Freedom of Information Search</a></li>
+  <li><a href="/prototypes/app/emergency-school-closures">Emergency School Closures</a></li>
+  <li><a href="/prototypes/app/find-a-childcare-provider">Find a Childcare Provider form approach</a></li>
+  <li><a href="/prototypes/app/find-a-childcare-provider-b">Find a Childcare Provider first tab</a></li>
+  <li><a href="/prototypes/app/find-a-childcare-provider-c">Find a Childcare Provider second tab</a></li>
+  <li><a href="/prototypes/app/catchment-area">Catchment Area</a></li>
+  <li><a href="/prototypes/app/childcare-sufficiency">Childcare Sufficiency</a></li>
+  <li><a href="/prototypes/app/schools-waiting-list">Schools Waiting List</a></li>
+  <li><a href="/prototypes/app/search-for-an-inquest">Search for an Inquest</a></li>
 </ul>
 
 <h3>Design</h3>
