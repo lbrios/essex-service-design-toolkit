@@ -4,14 +4,13 @@
 <ul>
   <li><a href="/examples/index">Main home page</a></li>
   <li><a href="/examples/news-landing">News Landing</a></li>
+  <li><a href="/examples/topic">Topic</a></li>
+  <li><a href="/examples/article">Article</a></li>
+  <li><a href="/examples/start-page">Start page</a></li>
 </ul>
 
 <h3>Templates</h3>
 <ul>
-  <li><a href="/examples/index">Main home page</a></li>
-  <li><a href="/examples/news-landing">News Landing</a></li>
-  <li><a href="/examples/content-break">Content break</a></li>
-  <li><a href="/templates/start-page">Start page</a></li>
   <li><a href="/templates/information">Information</a></li>
   <li><a href="/templates/cludo">Cludo Search</a></li>
   <li><a href="/templates/no-results">Cludo Search no results</a></li>
