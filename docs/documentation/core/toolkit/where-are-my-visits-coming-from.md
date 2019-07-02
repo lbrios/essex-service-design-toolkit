@@ -1,5 +1,4 @@
-Where are my visits coming from?
-================================
+# Where are my visits coming from?
 
 Once you understand everything about the visits that are coming to your site, it is time to find out where those visits originated. This is one of the most important things you should be looking at on a regular basis, especially if you are investing in any form of online marketing.
 
@@ -42,13 +41,13 @@ If we want to see only the “organic” sources sending traffic to the site, we
 
 Now let’s compare the performance for all of our various Google marketing activities that generated traffic by changing the filter to “google.” We can now see that organic traffic was our biggest traffic source, followed by google/cpc, which represents paid search traffic using Google AdWords. This is a great way to add context to your analysis and understand which marketing activities are generating success for your business.
 
-#### Channels Report
+## Channels Report
 
 There are other ways to view which traffic sources bring the most engaged users to the site. Using the “Channels” report, we could view traffic by channel, which bundles the sources together under each medium. Traffic sources are automatically grouped into basic categories (or channels) like Organic, Social, Direct, Referral, Display, etc.
 
 Clicking into each channel will break out the individual sources for that channel. If you want to group your sources differently, you can create your own channel groupings in Google Analytics.
 
-#### Referrals Report
+## Referrals Report
 
 If you want to view your traffic organized by which sites have linked to yours, you can look at the “Referrals” report.
 

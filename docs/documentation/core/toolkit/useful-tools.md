@@ -1,8 +1,6 @@
-Useful tools
-============
+# Useful tools
 
-Readability tools
------------------
+## Readability tools
 
 You can use these tools to tell you how clear, concise and accessible your content is:
 
@@ -12,8 +10,7 @@ You can use these tools to tell you how clear, concise and accessible your conte
 
 Aim for a reading age of 9 to 11 years old.
 
-Check grammar and style in Word
--------------------------------
+## Check grammar and style in Word
 
 Microsoft Word uses [Flesch-Kincaid score](https://support.office.com/en-gb/article/Test-your-document-s-readability-85b4969e-e80a-4777-8dd3-f7fc3c8b3fd2#__toc342546555) to test your content’s readability.
 
