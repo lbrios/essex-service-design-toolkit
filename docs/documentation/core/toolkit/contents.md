@@ -1,4 +1,4 @@
-<h1>Contents</h1>
+<h1>Toolkit contents</h1>
 
 <h2>User need</h2>
 <p>Users come to our online services with a goal or need. They don't come to browse. They want to find, do and leave.</p>
@@ -29,14 +29,14 @@
 
 <h2>Google Analytics guide</h2>
 <ul>
-  <li><a href="login-and-training-overview">Login and training</a></li>
+  <li><a href="login-and-training-overview">Login and training overview</a></li>
   <p>Your login details to Google Analytics and and overview of the training</p>
   <li><a href="google-analytics-basics">Google analytics basics</a></li>
   <p>Why digital analytics, creating an account, google analytics setup</p>
   <p></p>
   <li><a href="finding-your-way-around">Finding your way around</a></li>
   <p>Going through the interface and what Google Analytics has to offer</p>
-  <li><a href="how-many-visits-am-I-getting">How many visits am I gettings?</a></li>
+  <li><a href="how-many-visits-am-I-getting">How many visits am I getting?</a></li>
   <p>Audience reports allow you to understand the characteristics of your users better</p>
   <li><a href="where-are-my-visits-coming-from">Where are my visits coming from?</a></li>
   <p>Acquisition reports gives you a better understanding of how your traffic sources are doing</p>
@@ -44,7 +44,7 @@
   <p>Behaviours reports let's you view your most popular pages and how they are performing</p>
   <li><a href="google-analytics-further-reading">Further reading</a></li>
   <p>More things for your day to day reporting needs</p>
-  <li><a href="ecc-web-analytics-framework">ECC Web Analytics</a></li>
+  <li><a href="ecc-web-analytics-framework">ECC Web Analytics Framework</a></li>
   <p>Please email to get a copy</p>
 </ul>
 
