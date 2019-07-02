@@ -1,3 +1,6 @@
+1.  [Toolkit contents](contents)
+2.  [What to do with FAQs](#)
+
 # What to do with FAQs
 
 Frequently asked questions (FAQs) don’t make good web content. The [Government Digital Service (GDS) discourages them](https://www.gov.uk/guidance/content-design/writing-for-gov-uk).  

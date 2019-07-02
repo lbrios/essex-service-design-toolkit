@@ -1,3 +1,6 @@
+1.  [Toolkit contents](contents)
+2.  [Tools for checking accessibility compliance](#)
+
 # Tools for checking accessibility compliance
 
 

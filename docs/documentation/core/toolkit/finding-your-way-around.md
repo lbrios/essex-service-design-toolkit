@@ -1,3 +1,6 @@
+1.  [Toolkit contents](contents)
+2.  [Finding your way around](#)
+
 # Finding your way around
 
 ## **Account/Property/View switcher**

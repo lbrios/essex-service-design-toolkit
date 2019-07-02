@@ -1,3 +1,6 @@
+1.  [Toolkit contents](contents)
+2.  [Further reading](#)
+
 # Further reading
 
 You could create a Google Academy account and go through all the advance training.

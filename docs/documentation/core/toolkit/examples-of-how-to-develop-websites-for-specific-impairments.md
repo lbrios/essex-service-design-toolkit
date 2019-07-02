@@ -1,3 +1,6 @@
+1.  [Toolkit contents](contents)
+2.  [Examples of how to develop websites for specific impairments](#)
+
 # Examples of how to develop websites for specific impairments
 
 The list below is taken from a series of accessibility posters developed by Home Office Digital. You can [view or download the posters](https://ukhomeoffice.github.io/accessibility-posters/posters/accessibility-posters.pdf "accessibility posters")  from GitHub.

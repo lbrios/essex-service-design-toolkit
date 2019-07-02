@@ -1,3 +1,6 @@
+1.  [Toolkit contents](contents)
+2.  [Why accessibility is important](#)
+
 # Why accessibility is important
 
 Making a website or mobile app accessible means making sure it can be used by as many people as possible.

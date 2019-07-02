@@ -1,3 +1,6 @@
+1.  [Toolkit contents](contents)
+2.  [Useful tools](#)
+
 # Useful tools
 
 ## Readability tools

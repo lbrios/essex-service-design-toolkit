@@ -1,3 +1,6 @@
+1.  [Toolkit contents](contents)
+2.  [Login and training overview](#)
+
 # Login and training overview
 
 ## Google Analytics Practice Account Login

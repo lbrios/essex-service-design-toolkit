@@ -1,3 +1,6 @@
+1.  [Toolkit contents](contents)
+2.  [Before starting a content project](#)
+
 # Before starting a content project
 
 Before planning your content project, you need to consider the following:

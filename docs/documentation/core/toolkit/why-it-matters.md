@@ -1,3 +1,6 @@
+1.  [Toolkit contents](contents)
+2.  [Why it matters](#)
+
 # Why it matters
 
 Services designed around users and their needs:

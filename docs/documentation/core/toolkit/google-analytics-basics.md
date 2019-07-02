@@ -1,3 +1,6 @@
+1.  [Toolkit contents](contents)
+2.  [Google analytics basics](#)
+
 # Google analytics basics
 
 ## Defining Digital Analytics

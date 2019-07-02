@@ -1,3 +1,6 @@
+1.  [Toolkit contents](contents)
+2.  [Training courses](#)
+
 # Training courses
 
 There are a number of training courses available. Some are free but others include a fee.  
