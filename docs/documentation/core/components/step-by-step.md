@@ -1,9 +1,5 @@
-<div class="breadcrumbs">
-  <ol>
-    <li><a href="/docs/core/contents">Contents</a></li>
-    <li><a href="#">Step by step</a></li>
-  </ol>
-</div>
+1.  [Contents](/docs/core/contents)
+2.  [Step by step](#)
 
 # Step by step
 

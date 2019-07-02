@@ -4,14 +4,10 @@
 @import "mixin";
 @import "modularscale/import";
 @import "base";
-
 @import "gds/import";
-@import "core/layout/import";
 
-@import "core/identity/import";
-@import "core/elements/import";
-@import "core/components/import";
-@import "core/pages/import";
-
-// dev styles will overwrite component/element styles to help view in markdown documentation
-@import "dev";
+@import "app/assets/sass/core/layout/import";
+@import "app/assets/sass/core/identity/import";
+@import "app/assets/sass/core/elements/import";
+@import "app/assets/sass/core/components/import";
+@import "app/assets/sass/core/pages/import";

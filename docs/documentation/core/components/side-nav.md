@@ -1,9 +1,5 @@
-<div class="breadcrumbs">
-  <ol>
-    <li><a href="/docs/core/contents">Contents</a></li>
-    <li><a href="#">Side-nav</a></li>
-  </ol>
-</div>
+1.  [Contents](/docs/core/contents)
+2.  [Side-nav](#)
 
 # Side-nav
 

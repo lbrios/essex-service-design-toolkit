@@ -1,9 +1,5 @@
-<div class="breadcrumbs">
-  <ol>
-    <li><a href="/docs/core/contents">Contents</a></li>
-    <li><a href="#">Print-link</a></li>
-  </ol>
-</div>
+1.  [Contents](/docs/core/contents)
+2.  [Print-link](#)
 
 # Print-link
 
