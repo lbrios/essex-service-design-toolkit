@@ -1,4 +1,10 @@
-# Contents
+# Essex Service Design System
+
+## Toolkit
+
+*   [Toolkit](toolkit/contents)
+
+## View
 
 ### Page examples
 
@@ -8,10 +14,6 @@
 *   [News article](/examples/news)
 *   [News landing page](/examples/news-landing)
 *   [Start page](/examples/start-page)
-
-### Toolkit
-
-*   [Toolkit](toolkit/contents)
 
 ### Templates
 
@@ -33,13 +35,15 @@
 *   [Schools Waiting List](/prototypes/app/schools-waiting-list)
 *   [Search for an Inquest](/prototypes/app/search-for-an-inquest)
 
-### Design
+## Design
 
 *   [Typography](/docs/core/typography)
 *   [Colour](/docs/core/colour)
 *   [Grid System](/docs/core/grid-system)
 
-### Development
+## Development
+
+### Code repositories
 
 *   [Github](https://github.com/essexcountycouncil)
 *   [Azure Devops](https://dev.azure.com/essexcountycouncil/essexdesignsystem)
@@ -85,6 +89,7 @@
 *   [Related](components/related)
 *   [Search](components/search)
 *   [Search header](components/search-header)
+*   [Search home](pages/search-home)
 *   [Signup](components/signup)
 *   [Signup-big](components/signup-big)
 *   [Side-nav](components/side-nav)
@@ -93,6 +98,10 @@
 *   [Step by step](components/step-by-step)
 *   [Table](components/table)
 
-### Page unique styles
+## Further reading
 
-*   [Search home](pages/search-home)
+### Component Based Design
+
+Component Based Design is the practice of splitting UI into smaller, more manageable parts with clear names. Each of these parts fall in one of six distinct groups listed below.
+
+A more detailed explaination of how we’re using Component Based Design can be found in this excellent [article over at Medium](https://medium.com/@wereheavyweight/how-were-using-component-based-design-5f9e3176babb)
