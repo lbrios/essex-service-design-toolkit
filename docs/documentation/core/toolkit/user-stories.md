@@ -1,3 +1,6 @@
+1.  [Toolkit contents](contents)
+2.  [User stories](#)
+
 # User stories
 
 User stories take the form of:

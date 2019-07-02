@@ -1,3 +1,6 @@
+1.  [Toolkit contents](contents)
+2.  [Where are my visits coming from?](#)
+
 # Where are my visits coming from?
 
 Once you understand everything about the visits that are coming to your site, it is time to find out where those visits originated. This is one of the most important things you should be looking at on a regular basis, especially if you are investing in any form of online marketing.

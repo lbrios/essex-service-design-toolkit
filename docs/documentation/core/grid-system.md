@@ -1,10 +1,5 @@
-<div class="breadcrumbs">
-  <ol>
-    <li><a href="/docs/core/contents">Contents</a></li>
-    <li><a href="#">Grid system</a></li>
-  </ol>
-</div>
-
+1.  [Contents](/docs/core/contents)
+2.  [Grid system](#)
 
 <h2 id="layout">Grid system</h2>
 <p>Our main grid uses the divisions below with a gutter of 60px.</p>

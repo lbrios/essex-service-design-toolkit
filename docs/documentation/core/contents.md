@@ -1,106 +1,107 @@
-<h1>Contents</h1>
+# Essex Service Design System
 
-<h3>Page examples</h3>
-<ul>
-  <li><a href="/examples/index">Home page</a></li>
-  <li><a href="/examples/topic">Topic</a></li>
-  <li><a href="/examples/article">Article</a></li>
-  <li><a href="/examples/news">News article</a></li>
-  <li><a href="/examples/news-landing">News landing page</a></li>
-  <li><a href="/examples/start-page">Start page</a></li>
-</ul>
+## Toolkit
 
-<h3>Toolkit</h3>
-<ul>
-  <li><a href="toolkit/contents">Toolkit</a></li>
-</ul>
+*   [Toolkit](toolkit/contents)
 
-<h3>Templates</h3>
-<ul>
-  <li><a href="/templates/information">Information</a></li>
-  <li><a href="/templates/cludo">Cludo Search</a></li>
-  <li><a href="/templates/no-results">Cludo Search no results</a></li>
-  <li><a href="/templates/step-by-step">Step by step page</a></li>
-</ul>
+## View
 
-<h3>Prototypes</h3>
-<ul>
-  <li><a href="/prototypes/website/topic-b">Alternative Topic page</a></li>
-  <li><a href="/prototypes/app/freedom-of-information">Freedom of Information Search</a></li>
-  <li><a href="/prototypes/app/emergency-school-closures">Emergency School Closures</a></li>
-  <li><a href="/prototypes/app/find-a-childcare-provider">Find a Childcare Provider form approach</a></li>
-  <li><a href="/prototypes/app/find-a-childcare-provider-b">Find a Childcare Provider first tab</a></li>
-  <li><a href="/prototypes/app/find-a-childcare-provider-c">Find a Childcare Provider second tab</a></li>
-  <li><a href="/prototypes/app/catchment-area">Catchment Area</a></li>
-  <li><a href="/prototypes/app/childcare-sufficiency">Childcare Sufficiency</a></li>
-  <li><a href="/prototypes/app/schools-waiting-list">Schools Waiting List</a></li>
-  <li><a href="/prototypes/app/search-for-an-inquest">Search for an Inquest</a></li>
-</ul>
+### Page examples
 
-<h3>Design</h3>
-<ul>
-  <li><a href="/docs/core/typography">Typography</a></li>
-  <li><a href="/docs/core/colour">Colour</a></li>
-  <li><a href="/docs/core/grid-system">Grid System</a></li>
-</ul>
+*   [Home page](/examples/index)
+*   [Topic](/examples/topic)
+*   [Article](/examples/article)
+*   [News article](/examples/news)
+*   [News landing page](/examples/news-landing)
+*   [Start page](/examples/start-page)
 
-<h3>Development</h3>
-<ul>
-  <li><a href="https://github.com/essexcountycouncil">Github</a></li>
-  <li><a href="https://dev.azure.com/essexcountycouncil/essexdesignsystem">Azure Devops</a></li>
-</ul>
+### Templates
 
-<h3>Elements</h3>
-<ul>
-  <li><a href="elements/back">Back</a></li>
-  <li><a href="elements/buttons">Buttons</a></li>
-  <li><a href="elements/checkbox">Checkbox</a></li>
-  <li><a href="elements/content-break">Content break</a></li>
-  <li><a href="elements/dropdown">Dropdown</a></li>
-  <li><a href="elements/form">Form</a></li>
-  <li><a href="elements/headings">Headings</a></li>
-  <li><a href="elements/icon">Icon</a></li>
-  <li><a href="elements/inputs">Inputs</a></li>
-  <li><a href="elements/list">List</a></li>
-  <li><a href="elements/logo">Logo</a></li>
-  <li><a href="elements/meta">Meta</a></li>
-  <li><a href="elements/nav">Nav</a></li>
-  <li><a href="elements/paragraph">Paragraph</a></li>
-  <li><a href="elements/print-link">Print-link</a></li>
-  <li><a href="elements/radio">Radio</a></li>
-  <li><a href="elements/social">Social</a></li>
-  <li><a href="elements/textarea">Textarea</a></li>
-  <li><a href="elements/validation">Validation</a></li>
-</ul>
-<h3>Components</h3>
-<ul>
-  <li><a href="components/alert">Alert</a></li>
-  <li><a href="components/breadcrumbs">Breadcrumbs</a></li>
-  <li><a href="components/browser-check">Browser check</a></li>
-  <li><a href="components/contents">Contents</a></li>
-  <li><a href="components/file-download">File download</a></li>
-  <li><a href="components/footer">Footer</a></li>
-  <li><a href="components/header">Header</a></li>
-  <li><a href="components/highlight-box">Highlight-box</a></li>
-  <li><a href="components/impact">Impact</a></li>
-  <li><a href="components/inset">Inset</a></li>
-  <li><a href="components/link-box">Link box</a></li>
-  <li><a href="components/pagination">Pagination</a></li>
-  <li><a href="components/phase-banner">Phase banner</a></li>
-  <li><a href="components/previews">Previews</a></li>
-  <li><a href="components/preview-list">Preview list</a></li>
-  <li><a href="components/related">Related</a></li>
-  <li><a href="components/search">Search</a></li>
-  <li><a href="components/search-header">Search header</a></li>
-  <li><a href="components/signup">Signup</a></li>
-  <li><a href="components/signup-big">Signup-big</a></li>
-  <li><a href="components/side-nav">Side-nav</a></li>
-  <li><a href="components/skip-link">Skip link</a></li>
-  <li><a href="components/steps">Steps</a></li>
-  <li><a href="components/step-by-step">Step by step</a></li>
-  <li><a href="components/table">Table</a></li>
-</ul>
-<h3>Page unique styles</h3>
-<ul>
-  <li><a href="pages/search-home">Search home</a></li>
-</ul>
+*   [Information](/templates/information)
+*   [Cludo Search](/templates/cludo)
+*   [Cludo Search no results](/templates/no-results)
+*   [Step by step page](/templates/step-by-step)
+
+### Prototypes
+
+*   [Alternative Topic page](/prototypes/website/topic-b)
+*   [Freedom of Information Search](/prototypes/app/freedom-of-information)
+*   [Emergency School Closures](/prototypes/app/emergency-school-closures)
+*   [Find a Childcare Provider form approach](/prototypes/app/find-a-childcare-provider)
+*   [Find a Childcare Provider first tab](/prototypes/app/find-a-childcare-provider-b)
+*   [Find a Childcare Provider second tab](/prototypes/app/find-a-childcare-provider-c)
+*   [Catchment Area](/prototypes/app/catchment-area)
+*   [Childcare Sufficiency](/prototypes/app/childcare-sufficiency)
+*   [Schools Waiting List](/prototypes/app/schools-waiting-list)
+*   [Search for an Inquest](/prototypes/app/search-for-an-inquest)
+
+## Design
+
+*   [Typography](/docs/core/typography)
+*   [Colour](/docs/core/colour)
+*   [Grid System](/docs/core/grid-system)
+
+## Development
+
+### Code repositories
+
+*   [Github](https://github.com/essexcountycouncil)
+*   [Azure Devops](https://dev.azure.com/essexcountycouncil/essexdesignsystem)
+
+### Elements
+
+*   [Back](elements/back)
+*   [Buttons](elements/buttons)
+*   [Checkbox](elements/checkbox)
+*   [Content break](elements/content-break)
+*   [Dropdown](elements/dropdown)
+*   [Headings](elements/headings)
+*   [Icon](elements/icon)
+*   [Inputs](elements/inputs)
+*   [List](elements/list)
+*   [Logo](elements/logo)
+*   [Meta](elements/meta)
+*   [Nav](elements/nav)
+*   [Paragraph](elements/paragraph)
+*   [Print-link](elements/print-link)
+*   [Radio](elements/radio)
+*   [Social](elements/social)
+*   [Textarea](elements/textarea)
+*   [Validation](elements/validation)
+
+### Components
+
+*   [Alert](components/alert)
+*   [Breadcrumbs](components/breadcrumbs)
+*   [Browser check](components/browser-check)
+*   [Contents](components/contents)
+*   [File download](components/file-download)
+*   [Footer](components/footer)
+*   [Header](components/header)
+*   [Highlight-box](components/highlight-box)
+*   [Impact](components/impact)
+*   [Inset](components/inset)
+*   [Link box](components/link-box)
+*   [Pagination](components/pagination)
+*   [Phase banner](components/phase-banner)
+*   [Previews](components/previews)
+*   [Preview list](components/preview-list)
+*   [Related](components/related)
+*   [Search](components/search)
+*   [Search header](components/search-header)
+*   [Search home](pages/search-home)
+*   [Signup](components/signup)
+*   [Signup-big](components/signup-big)
+*   [Side-nav](components/side-nav)
+*   [Skip link](components/skip-link)
+*   [Steps](components/steps)
+*   [Step by step](components/step-by-step)
+*   [Table](components/table)
+
+## Further reading
+
+### Component Based Design
+
+Component Based Design is the practice of splitting UI into smaller, more manageable parts with clear names. Each of these parts fall in one of six distinct groups listed below.
+
+A more detailed explaination of how we’re using Component Based Design can be found in this excellent [article over at Medium](https://medium.com/@wereheavyweight/how-were-using-component-based-design-5f9e3176babb)

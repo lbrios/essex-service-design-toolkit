@@ -1,3 +1,6 @@
+1.  [Toolkit contents](contents)
+2.  [Creating an accessible PDF](#)
+
 # Creating an accessible PDF
 
 Most PDFs are created from an original Word document. If the Word document isn't accessible then the PDF won't be either.

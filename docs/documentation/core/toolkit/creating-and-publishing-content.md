@@ -1,3 +1,6 @@
+1.  [Toolkit contents](contents)
+2.  [Creating and publishing content](#)
+
 # Creating and publishing content
 
 ## Before you start

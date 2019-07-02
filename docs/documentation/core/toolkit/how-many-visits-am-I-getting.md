@@ -1,3 +1,6 @@
+1.  [Toolkit contents](contents)
+2.  [How many visits am I getting?](#)
+
 # How many visits am I getting?
 
 The first thing you will want to know is how many visits you are getting. To get a quick look at this, go to ‘Audience’ – ‘Overview’. On this screen you will see:

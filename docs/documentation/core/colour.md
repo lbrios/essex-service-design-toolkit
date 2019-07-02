@@ -1,13 +1,9 @@
-<div class="breadcrumbs">
-  <ol>
-    <li><a href="/docs/core/contents">Contents</a></li>
-    <li><a href="#">Colour</a></li>
-  </ol>
-</div>
+1.  [Contents](/docs/core/contents)
+2.  [Colour](#)
 
-<h2 id="colour">Colour</h2>
+<h1>Colour</h1>
 <p>The colours used on essex.gov.uk are based on the ECC's colour palette. We've ensure the best use of Sass variables so any changes to the ECC colour palette can be quickly easily updated accross the whole wesbite.</p>
-<h4>WCAG 2.1 contrast complience</h4>
+<h2>WCAG 2.1 contrast complience</h2>
 <p>We should ensure colours are AAA or AA compliant especially when using background colours, e.g. $white used on darker colours and $text-colour used on lighter colours.</p>
 <p>We use http://accessible-colors.com/</p>
 

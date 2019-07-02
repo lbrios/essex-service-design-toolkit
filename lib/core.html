@@ -5,7 +5,7 @@
     {%include "includes/head.html" %}
   {% endblock %}
 
-  <body class="{% block body_classes %}{% endblock %}">
+  <body class="{% block body_classes %}{% endblock %}" id="design-system-docs">
     <script>document.body.className = ((document.body.className) ? document.body.className + ' js-enabled' : 'js-enabled');</script>
 
     {% block body_start %}{% endblock %}
@@ -14,7 +14,7 @@
       {% include "includes/header.html" %}
     {% endblock %}
 
-    {% block content %}    
+    {% block content %}  
     {% endblock %}
 
     {% block footer %}

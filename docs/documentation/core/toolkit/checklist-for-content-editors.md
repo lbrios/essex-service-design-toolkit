@@ -1,3 +1,6 @@
+1.  [Toolkit contents](contents)
+2.  [Checklist for content editors](#)
+
 # Checklist for content editors
 
 To meet WCAG 2.1 to level AA you must be able to answer YES or Not Applicable to all of the following questions.

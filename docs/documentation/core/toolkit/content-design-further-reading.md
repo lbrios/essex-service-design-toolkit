@@ -1,3 +1,6 @@
+1.  [Toolkit contents](contents)
+2.  [Content design further reading](#)
+
 # Content design further reading
 
 There’s lots of guidance on content design to have a look at.

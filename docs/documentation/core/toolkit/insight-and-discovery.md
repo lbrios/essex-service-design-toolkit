@@ -1,3 +1,6 @@
+1.  [Toolkit contents](contents)
+2.  [Insight and discovery](#)
+
 # Insight and discovery
 
 Before you do anything to change an existing service or create a new one you need to put some time into discovery and insight.

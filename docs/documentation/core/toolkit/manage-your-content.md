@@ -1,3 +1,6 @@
+1.  [Toolkit contents](contents)
+2.  [Manage your content](#)
+
 # Manage your content
 
 After you publish content, you need to check if your content is still meeting user needs and expectations.
