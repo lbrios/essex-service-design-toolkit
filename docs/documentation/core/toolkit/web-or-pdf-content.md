@@ -1,5 +1,4 @@
-Web or PDF content?
-===================
+# Web or PDF content?
 
 Before creating a document to be uploaded onto the website you need to ask if it should be a document at all.
 

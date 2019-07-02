@@ -1,5 +1,4 @@
-Why accessibility is important
-==============================
+# Why accessibility is important
 
 Making a website or mobile app accessible means making sure it can be used by as many people as possible.
 
@@ -16,8 +15,7 @@ People may not have a choice when using a public sector website or app, so it’
 
 Accessible websites are better for everyone. For example, they are faster and easier to use, and appear higher in search engines.
 
-Accessibility legislation
--------------------------
+## Accessibility legislation
 
 New regulations came into force for public sector bodies on 23 September 2018. This means that we now have a legal duty to make sure that our online services are accessible.
 

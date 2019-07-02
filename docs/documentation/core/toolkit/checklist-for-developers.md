@@ -1,5 +1,4 @@
-Checklist for developers
-========================
+# Checklist for developers
 
 To meet WCAG 2.1 to level AA you must be able to answer YES or Not Applicable to all of the following questions.
 
@@ -7,20 +6,17 @@ Answering NO means that you are not meeting WCAG and your content will have barr
 
 The following is a checklist for developers. You should also be aware there is also a [checklist for content editors](checklist-for-content-editors "Checklist for content editors").
 
-Text
-----
+## Text
 
 Does the website prevent duplicate page titles being created?
 
 Is there a format dropdown with pre-defined headings that can be applied to content?
 
-Audio
------
+## Audio
 
 Can users stop audio that auto plays?
 
-Structure
----------
+## Structure
 
 Is all content structure that is communicated visually available to assistive technologies? (Are headings formatted correctly with h1, h2 tags? Any other structural elements on the page missing tags, i.e tables, buttons, etc.)
 

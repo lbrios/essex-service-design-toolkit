@@ -1,8 +1,6 @@
-Testing tools
-=============
+# Testing tools
 
-Optimal Workshop
-----------------
+## Optimal Workshop
 
 [Optimal Workshop](https://www.optimalworkshop.com/) offers a suite of tools which can be used to test your product. These include:
 

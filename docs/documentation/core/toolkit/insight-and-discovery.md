@@ -1,10 +1,8 @@
-Insight and discovery
-=====================
+# Insight and discovery
 
 Before you do anything to change an existing service or create a new one you need to put some time into discovery and insight.
 
-Understanding existing products and services
---------------------------------------------
+## Understanding existing products and services
 
 Find out as much as you can about how successful the existing products or service is for users. Use the following to inform you:
 
