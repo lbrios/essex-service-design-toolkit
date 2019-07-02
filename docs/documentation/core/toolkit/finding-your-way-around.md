@@ -1,7 +1,6 @@
-Finding your way around
-=======================
+# Finding your way around
 
-#### **Account/Property/View switcher**
+## **Account/Property/View switcher**
 
 If you have multiple accounts, properties, or views set up, you can easily switch between them by clicking on the pulldown menu with the title of your View in the upper-left corner.
 
@@ -9,19 +8,19 @@ If you have multiple accounts, properties, or views set up, you can easily switc
 
 When you open up the account picker, you can select by account, property, or view. You can also search any of these by name. To close the Account picker, click anywhere on the screen outside of the picker.
 
-#### **Alert icon**
+## **Alert icon**
 
 Clicking the bell icon in the upper right shows you alerts about your Google Analytics properties and views.
 
 ![](/umbraco/nothing.jpg)![](/public/images/alert-icon.jpg?width=289&height=63)
 
-#### **Alert menu**
+## **Alert menu**
 
 Clicking the bell icon shows you a list of all of your alerts. This may include data that is not collecting properly or a setting that needs optimizing. To close the Alerts menu, click anywhere on the screen outside of the alerts.
 
 ![](/public/images/alert-menu.jpg?width=500&height=453.7953795379538)
 
-#### **Settings, feedback, and help**
+## **Settings, feedback, and help**
 
 At the top right of your Analytics view are several icons:
 
@@ -32,37 +31,37 @@ At the top right of your Analytics view are several icons:
 
 ![](/umbraco/nothing.jpg)![](/public/images/settings-feedback-help.jpg?width=227&height=61)
 
-#### **Search reports**
+## **Search reports**
 
 To find a particular report, you can type the name of the report in the search bar at the top of the left-hand navigation.
 
 ![](/umbraco/nothing.jpg)![](/public/images/search-reports.jpg?width=257&height=66)
 
-#### **Customization**
+## **Customization**
 
 The Customization section allows you to create custom reports, specific to your business.
 
 ![](/umbraco/nothing.jpg)![](/public/images/customization.jpg?width=258&height=54)
 
-#### **Left-hand navigation**
+## **Left-hand navigation**
 
 To navigate between reports, you’ll use the navigation on the left. Clicking on each of these sections will expose the reports that belong to each section.
 
 ![](/umbraco/nothing.jpg)![](/public/images/left-hand-navigation.jpg?width=258&height=385)
 
-#### **Real-Time Reports**
+## **Real-Time Reports**
 
 Real-Time reports let you look at live user behavior on your website including information like where your users are coming from and if they’re converting.
 
 ![](/umbraco/nothing.jpg)![](/public/images/real-time-reports.jpg?width=256&height=49)
 
-#### **Audience Reports**
+## **Audience Reports**
 
 Audience reports show you characteristics about your users like age and gender, where they’re from, their interests, how engaged they were, whether they’re new or returning users, and what technology they’re using.
 
 ![](/umbraco/nothing.jpg)![](/public/images/audience.jpg?width=257&height=53)
 
-#### **Acquisition Reports**
+## **Acquisition Reports**
 
 Acquisition reports show you which channels (such as advertising or marketing campaigns) brought users to your site. This could include different marketing channels such as:
 
@@ -74,25 +73,25 @@ Acquisition reports show you which channels (such as advertising or marketing ca
 
 ![](/umbraco/nothing.jpg)![](/public/images/acquisition.jpg?width=255&height=55)
 
-#### **Behavior Reports**
+## **Behavior Reports**
 
 Behavior reports show how people engaged on your site including which pages they viewed, and their landing and exit pages. With additional implementation, you can even track what your users searched for on your site and whether they interacted with specific elements.
 
 ![](/umbraco/nothing.jpg)![](/public/images/behaviour.jpg?width=256&height=61)
 
-#### **Conversion Reports**
+## **Conversion Reports**
 
 Conversion reports allow you to track website goals based on your business objectives.
 
 ![](/umbraco/nothing.jpg)![](/public/images/conversions.jpg?width=255&height=54)
 
-#### **Admin**
+## **Admin**
 
 The Admin section contains all of your Google Analytics settings such as user permissions, tracking code, view settings, and filters.
 
 ![](/umbraco/nothing.jpg)![](/public/images/admin.jpg?width=257&height=54)
 
-#### **Collapse left-hand navigation**
+## **Collapse left-hand navigation**
 
 Use this pointer to shrink the navigation and provide more space for your reports.
 

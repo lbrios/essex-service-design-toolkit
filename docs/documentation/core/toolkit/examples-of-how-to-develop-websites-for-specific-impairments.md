@@ -1,10 +1,8 @@
-Examples of how to develop websites for specific impairments
-============================================================
+# Examples of how to develop websites for specific impairments
 
 The list below is taken from a series of accessibility posters developed by Home Office Digital. You can [view or download the posters](https://ukhomeoffice.github.io/accessibility-posters/posters/accessibility-posters.pdf "accessibility posters")  from GitHub.
 
-Designing for users on the autistic spectrum
---------------------------------------------
+## Designing for users on the autistic spectrum
 
 ### Do
 
@@ -18,8 +16,7 @@ Designing for users on the autistic spectrum
 *   make buttons vague and unpredictable - for example, Click here
 *   build complex and cluttered layouts
 
-Designing for users of screen readers
--------------------------------------
+## Designing for users of screen readers
 
 ### Do
 
@@ -34,8 +31,7 @@ Designing for users of screen readers
 *   rely on text size and placement for structure
 *   force mouse or screen use
 
-Designing for users with low vision
------------------------------------
+## Designing for users with low vision
 
 ### Do
 
@@ -53,8 +49,7 @@ Designing for users with low vision
 *   spread content all over a page -and force user to scroll horizontally when text is magnified to 200%
 *   separate actions from their context
 
-Designing for users with physical or motor disabilities
--------------------------------------------------------
+## Designing for users with physical or motor disabilities
 
 ### Do
 
@@ -72,8 +67,7 @@ Designing for users with physical or motor disabilities
 *   have short time out windows
 *   tire users with lots of typing and scrolling
 
-Designing for users who are D/deaf or hard of hearing
------------------------------------------------------
+## Designing for users who are D/deaf or hard of hearing
 
 ### Do
 
@@ -83,8 +77,7 @@ Designing for users who are D/deaf or hard of hearing
 
 *   make complex layouts and menus
 
-Designing for users with dyslexia
----------------------------------
+## Designing for users with dyslexia
 
 ### Do
 

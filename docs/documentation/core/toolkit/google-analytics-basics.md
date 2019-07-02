@@ -1,7 +1,6 @@
-Google analytics basics
-=======================
+# Google analytics basics
 
-#### Defining Digital Analytics
+## Defining Digital Analytics
 
 In marketing, we have the concept of a purchase funnel. There are different stages within the funnel that describe customer interactions. A basic purchase funnel includes the following steps:
 
@@ -13,7 +12,7 @@ In marketing, we have the concept of a purchase funnel. There are different stag
 
 In the offline world, this process can be hard to measure. But in the online world, we can measure many different aspects of the funnel using digital analytics. We can track what online behavior led to purchases and use that data to make informed decisions about how to reach new and existing customers.
 
-#### Digital Analytics in Practice
+## Digital Analytics in Practice
 
 Think about an online store, such as any retail online store. It might have a goal to sell more t-shirts. Using digital analytics, the store could collect and analyze data from their online advertising campaigns to see which are most effective and expand those marketing efforts.
 

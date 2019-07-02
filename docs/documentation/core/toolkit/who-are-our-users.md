@@ -1,10 +1,8 @@
-Who are our users?
-==================
+# Who are our users?
 
 The user groups that we need to engage with vary depending on the products that we’re delivering.
 
-Essex County Council website
-----------------------------
+## Essex County Council website
 
 [essex.gov.uk](https://www.essex.gov.uk/Pages/Default.aspx) has a very diverse group of users:
 
@@ -21,8 +19,7 @@ Essex County Council website
 *   Users who may have conditions affecting mental health, sight, hearing or mobility
 *   Staff who are using it as an information tool such as Customer Services Advisors
 
-Young Essex Assembly
---------------------
+## Young Essex Assembly
 
 This is in contrast to a website like the [Young Essex Assembly](http://young-essex-assembly.org.uk) which has a much narrower group of users:
 
@@ -30,8 +27,7 @@ This is in contrast to a website like the [Young Essex Assembly](http://young-es
 *   Users that are more likely to be digitally literate and to favour phone over deskto
 *   Users who may have conditions affecting mental health, sight, hearing or mobility
 
-Identify your user group
-------------------------
+## Identify your user group
 
 It’s important to identify your user group early on.
 

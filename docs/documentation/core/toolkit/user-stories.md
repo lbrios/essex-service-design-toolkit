@@ -1,5 +1,4 @@
-User stories
-============
+# User stories
 
 User stories take the form of:
 

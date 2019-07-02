@@ -1,15 +1,12 @@
-Good content design
-===================
+# Good content design
 
-Start with the user
--------------------
+## Start with the user
 
 Good web content is designed around user needs. It’s what the user needs from your service and not what you want to tell them.
 
 Start by [learning who you are designing for](contents "User need and user behaviour").
 
-Designing good content
-----------------------
+## Designing good content
 
 Content should be:
 

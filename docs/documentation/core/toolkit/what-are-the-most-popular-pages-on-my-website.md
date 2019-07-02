@@ -1,5 +1,4 @@
-What are the most popular pages on my website?
-==============================================
+# What are the most popular pages on my website?
 
 The last and final thing you will want to see, when understanding Google Analytics, is which pages on your website are the most popular. To get a quick glimpse, go to ‘Behaviour’ – ‘Overview’. On this screen you will see:
 

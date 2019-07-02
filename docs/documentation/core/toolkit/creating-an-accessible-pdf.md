@@ -1,5 +1,4 @@
-Creating an accessible PDF
-==========================
+# Creating an accessible PDF
 
 Most PDFs are created from an original Word document. If the Word document isn't accessible then the PDF won't be either.
 
@@ -7,8 +6,7 @@ Example of an [accessible PDF](/public/images/accessible-pdf.pdf "accessible-pdf
 
 [Microsoft guidance on checking the accessibility of a Word document](https://support.office.com/en-us/article/make-your-word-documents-accessible-to-people-with-disabilities-d9bf3683-87ac-47ea-b91a-78dcacb3c66d)
 
-Guidelines for creating an accessible document
-----------------------------------------------
+## Guidelines for creating an accessible document
 
 ### Accessible content
 
@@ -57,8 +55,7 @@ Check all objects to make sure that they have been inserted as a single image wi
 
 For diagrams and charts you must ensure that the information the chart shows is available in written form, either in the body text or in alt text.
 
-Colour contrast
----------------
+### Colour contrast
 
 *   Colour should not be used as the only means of communicating information. It must be stated clearly elsewhere.
 *   Avoid using colours such as red and green to indicate that things are right or wrong. This is meaningless if you are colour blind.

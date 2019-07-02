@@ -1,9 +1,9 @@
-Designing content
-=================
+# Designing content
+
 
 Content needs to be clear and easy to understand so users can get the information they need quickly. Here’s guidance on designing and structuring good content.
 
-### Use plain English
+## Use plain English
 
 Write simply and clearly. Here’s an example:  
   
@@ -14,7 +14,7 @@ High-quality learning environments are a necessary precondition for facilitation
 After:  
 Children need good schools if they are to learn properly.
 
-### Use short sentences
+## Use short sentences
 
 Short sentences are easier to read and understand. Sentences [should be no more than 25 words](https://www.gov.uk/guidance/content-design/writing-for-gov-uk). Here’s an example:
 
@@ -26,7 +26,7 @@ After:
 
 If your child is not offered a place at your preferred school, you can appeal against the decision.
 
-### Use headings and bullets
+## Use headings and bullets
 
 Avoid using large blocks of text as this is hard to read. Use headings and bullet points to break them down.  
   
@@ -34,7 +34,7 @@ Here’s an example:
 
 ![](/public/images/chesfs50-euchomedirs-carolinemccabe-my-documents-my-pictures-images-for-digital-toolkit-what-you-need-to-tell-us.jpg)
 
-### Use active voice
+## Use active voice
 
 With active voice, the user does the action.
 
@@ -42,7 +42,7 @@ For example:
 
 Use ‘Essex County Council published the Essex Dementia Strategy', rather than 'The Essex Dementia Strategy was published by Essex County Council.’
 
-### Tone of voice
+## Tone of voice
 
 Our tone of voice should be consistent and informative. You should communicate information clearly and in simple language that everyone can understand.
 
@@ -54,7 +54,7 @@ For example:
   
 "If you are finding it difficult to look after yourself and manage everyday tasks, you can contact us to discuss your care and support needs. "
 
-### Avoid jargon
+## Avoid jargon
 
 Jargon is only understood by a particular group of people. Use words that people will understand.
 
@@ -62,7 +62,7 @@ For example:
 
 Use ‘Report a concern’ rather than ‘Safeguarding’.
 
-### Technical terms
+## Technical terms
 
 Technical terms are fine if users are familiar with them, but this isn’t always the case. Use both the technical term and a simpler version that users identify with.
 
@@ -70,13 +70,13 @@ For example:
 
 “We charge the following rates for care and support services at home, sometimes called non-residential or domiciliary care.”
 
-### Use verb forms, instead of noun forms
+## Use verb forms, instead of noun forms
 
 For example:
 
 Use ‘We will consider’ rather than ‘We will give consideration to’
 
-### Formatting links
+## Formatting links
 
 Make your link text active and descriptive.
 
@@ -87,11 +87,11 @@ For example:
 
 "Find out [how your carer can get support](https://eccwa-eccdnt-eun-essexwebapp.azurewebsites.net/financial-support-for-carers "Support for carers") so they can continue caring for you."
 
-### How users read online
+## How users read online
 
 People don’t read online, they scan, and they won’t stay for long, or look very far. Research shows that [users only have time to read 20% to 28%](https://www.nngroup.com/articles/how-little-do-users-read/) of the words on a web page during an average visit.
 
-### F-shaped pattern
+## F-shaped pattern
 
 Eye-tracking studies have shown people’s eyes skip over the page in an [F-shaped pattern](https://www.nngroup.com/articles/f-shaped-pattern-reading-web-content/):
 
@@ -99,7 +99,7 @@ Eye-tracking studies have shown people’s eyes skip over the page in an [F-shap
 
 You need to make it as easy as possible for users to find and read the content. This means designing content around the F-pattern by putting the content in a logical place and structure.
 
-### Inverted Pyramid
+## Inverted Pyramid
 
 You can also use the [inverted pyramid](https://www.nngroup.com/articles/inverted-pyramid/) writing style to structure your content. This means putting the information users need to complete a task as high up the page as possible and using clear language.  
   
@@ -108,7 +108,7 @@ Apply for a Blue Badge
 
 ![](/public/images/chesfs50-euchomedirs-carolinemccabe-my-documents-my-pictures-images-for-digital-toolkit-how-to-apply.jpg?width=500&height=482.0689655172414)
 
-### Reading age
+## Reading age
 
 The average reading age of the UK is 9 years. Half of the UK workforce have a reading age of 11.
 
@@ -118,8 +118,7 @@ Use [readability tools](useful-tools "Useful tools") to help you write clear and
 
 You don’t need to write everything about a topic. Write only what users need to know so they can complete a task. The more content you include, the harder it is for the user to read and find information.
 
-Optimise content for search
----------------------------
+## Optimise content for search
 
 We have evidence that most of our users use Google to search for content first, so it’s very important to use keywords in your content.
 
@@ -140,8 +139,7 @@ Blue Badge, disabled parking bays, mobility aids and accessible transport
 Meta description:  
 Transport, travel and mobility for people with a disability. Includes Blue Badge, accessible transport, disabled parking bays and mobility aids.
 
-Make content accessible
------------------------
+## Make content accessible
 
 Accessible information is information that people can understand.
 
@@ -149,8 +147,7 @@ When we are designing content, we need to make sure the [content is accessible](
   
 Go to the [accessibility section](accessibility) of this toolkit for tips on how to make content accessible.
 
-Write content in pairs
-----------------------
+## Write content in pairs
 
 You can work with subject matter experts, content owners and other content designers to [pair write content](https://gds.blog.gov.uk/2016/09/21/it-takes-2-how-we-use-pair-writing/). This means sitting together and taking it in turns to write clear and factual content.
 
