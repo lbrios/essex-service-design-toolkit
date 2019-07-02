@@ -81,15 +81,17 @@
 	    line-height: $baseline*0.75;
 	    white-space: pre;
 	    margin: $baseline 0;
+      display: inline-block;
+      width: 100%;
 	    code {
 	      @include wrap;
 	      @include box-sizing(border-box);
-	      width: 100%;
-	      display: inline-block;
 	      margin: 0 0 $baseline 0;
 	      padding: $baseline;
 	      border: $border-thin solid $grey-light;
 	      background-color: $grey-lighter;
+	      display: inline-block;
+	      width: 100%;
 	    }
 	  }
 	  .colour-swatch {
