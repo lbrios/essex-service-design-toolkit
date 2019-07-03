@@ -1,0 +1,18 @@
+a.external-link {
+  @include small;
+  display: inline-block;
+  @media print {
+    display: none;
+  }
+  margin-top: $baseline;
+  margin-bottom: $baseline;
+  cursor: pointer;
+  text-decoration: underline;
+  &:after {
+    @include font-awesome;
+    content: "\f35d";
+    margin-left: 2px;
+    display: inline-block;
+    width: $icon-width - 2px;
+  }
+}

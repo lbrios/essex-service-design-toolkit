@@ -55,6 +55,7 @@
 *   [Checkbox](elements/checkbox)
 *   [Content break](elements/content-break)
 *   [Dropdown](elements/dropdown)
+*   [External link](elements/external-link)
 *   [Headings](elements/headings)
 *   [Icon](elements/icon)
 *   [Inputs](elements/inputs)
