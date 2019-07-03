@@ -11,7 +11,7 @@ If clicking this link <a href="https://www.google.com" rel="external" class="ext
 
 	<a href="#" rel="external" class="external-link">your browser tab is replaced<span class="visually-hidden">Replacing your browser tab with an external website</span></a>
 
-If clicking this link you will <a href="/public/images/test-pdf-file.pdf" rel="external" class="external-file-link">download or open a file (PDF)<span class="visually-hidden">Clicking this will download or open a PDF</span></a>.
+If clicking this link you will <a href="/public/images/test-pdf-file.pdf" rel="external" class="external-file-link">download or open a file (PDF)<span class="visually-hidden">Clicking this will download or open a PDF</span></a> from this website.
 
 	<a href="/public/images/test-pdf-file.pdf" rel="external" class="external-file-link">download or open a file (PDF)<span class="visually-hidden">Clicking this will download or open a PDF</span></a>.
 

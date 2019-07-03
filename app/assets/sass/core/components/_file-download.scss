@@ -1,6 +1,6 @@
 .file-download {
   a.file-link {
-    display: block;
+    display: inline-block;
     @media print {
       display: none;
     }
