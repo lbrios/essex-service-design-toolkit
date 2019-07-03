@@ -3,6 +3,10 @@
 
 # Icon
 
+<i class="fas fa-external-link-alt"></i>
+
+	<i class="fas fa-external-link-alt"></i>
+
 <i class="fas fa-exclamation-triangle"></i>
 
 	<i class="fas fa-exclamation-triangle"></i>

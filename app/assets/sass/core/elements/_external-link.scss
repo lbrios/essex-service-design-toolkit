@@ -1,11 +1,10 @@
-a.external-link {
+a.external-link,
+a.external-file-link {
   @include small;
   display: inline-block;
   @media print {
     display: none;
   }
-  margin-top: $baseline;
-  margin-bottom: $baseline;
   cursor: pointer;
   text-decoration: underline;
   &:after {
@@ -14,5 +13,12 @@ a.external-link {
     margin-left: 2px;
     display: inline-block;
     width: $icon-width - 2px;
+  }
+}
+
+a.external-file-link {
+  &:after {
+    content: "\f15c";
+    font-weight: 400;
   }
 }
