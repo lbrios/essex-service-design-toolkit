@@ -65,6 +65,9 @@
 		.toggle {
 			float: left;
 			width: calc(100% - #{$gutter*2});
+			label {
+				color: $brand;
+			}
 			.section-heading {
 				margin-bottom: 0;
 				@include media(mobile) {
@@ -77,6 +80,28 @@
 			.step-number span.step-link {
 				border-color: $black;
 			}
+		}
+		.preview-list ul {
+			list-style-type: disc;
+		  @include media(mobile) {
+		    font-size: ms(-1);
+		  }
+		  list-style-position: outside;
+		  padding-left:10px;
+		  margin-left: 20px;
+		  margin-top: $baseline;
+		  margin-bottom: $baseline;
+		  li {
+		    padding-left: 10px;
+		    margin-bottom: 0;
+		    line-height: $baseline;
+		    a {
+		    	font-weight: $regular;
+		    }
+		  }
+		  &.no-bullets li {
+		    list-style: none;
+		  }
 		}
 	}
 }
