@@ -1,4 +1,4 @@
-1.  [Toolkit contents](/contents)
+1.  [Toolkit contents](/docs/core/contents)
 2.  [User need](#)
 
 # User need
