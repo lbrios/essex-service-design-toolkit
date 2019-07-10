@@ -1,5 +1,6 @@
-1.  [Toolkit contents](contents)
-2.  [Useful tools](#)
+1.  [Toolkit contents](/docs/core/contents)
+2.  [Content](content)
+3.  [Useful tools](#)
 
 # Useful tools
 
