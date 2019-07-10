@@ -1,5 +1,5 @@
 1.  [Toolkit contents](/docs/core/contents)
-2.  [Content design](#)
+2.  [Content](#)
 
 # Content
 
