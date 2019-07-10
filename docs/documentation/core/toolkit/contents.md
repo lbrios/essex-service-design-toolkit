@@ -3,16 +3,13 @@
 
 # Toolkit
 
-## Google Analytics guide
+Our toolkit offers advice and guidance on creating, managing and measuring content.
 
-*   [Login and training overview](login-and-training-overview)
-*   [Google analytics basics](google-analytics-basics)
-*   [Finding your way around](finding-your-way-around)
-*   [How many visits am I getting?](how-many-visits-am-I-getting)
-*   [Where are my visits coming from?](where-are-my-visits-coming-from)
-*   [What are the most popular pages on my website?](what-are-the-most-popular-pages-on-my-website)
-*   [Further reading](google-analytics-further-reading)
-*   [ECC Web Analytics Framework](ecc-web-analytics-framework)
+Contents:
+*   Accessibility
+*   [Content](content)
+*   [User need](user-need)
+*   [Google Analytics](google-analytics)
 
 ## Accessibility
 
