@@ -1,5 +1,6 @@
-1.  [Toolkit contents](contents)
-2.  [Content design further reading](#)
+1.  [Toolkit contents](/docs/core/contents)
+2.  [Content](content)
+3.  [Content design further reading](#)
 
 # Content design further reading
 
