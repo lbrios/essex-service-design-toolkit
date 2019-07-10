@@ -1,5 +1,6 @@
-1.  [Toolkit contents](contents)
-2.  [Manage your content](#)
+1.  [Toolkit contents](/docs/core/contents)
+2.  [Content](content)
+3.  [Manage your content](#)
 
 # Manage your content
 
