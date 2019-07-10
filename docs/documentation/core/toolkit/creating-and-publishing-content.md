@@ -1,5 +1,6 @@
-1.  [Toolkit contents](contents)
-2.  [Creating and publishing content](#)
+1.  [Toolkit contents](/docs/core/contents)
+2.  [Content](content)
+3.  [Creating and publishing content](#)
 
 # Creating and publishing content
 
