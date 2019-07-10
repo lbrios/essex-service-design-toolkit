@@ -1,5 +1,6 @@
-1.  [Toolkit contents](contents)
-2.  [Before starting a content project](#)
+1.  [Toolkit contents](/docs/core/contents)
+2.  [Content](content)
+3.  [Before starting a content project](#)
 
 # Before starting a content project
 
