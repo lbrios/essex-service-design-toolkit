@@ -1,5 +1,6 @@
-1.  [Toolkit contents](contents)
-2.  [User stories](#)
+1.  [Home](/docs/core/contents)
+2.  [User need](/docs/core/users/user-need)
+3.  [User stories](#)
 
 # User stories
 
