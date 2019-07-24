@@ -1,5 +1,6 @@
-1.  [Toolkit contents](contents)
-2.  [Creating an accessible PDF](#)
+1.  [Home](/docs/core/contents)
+2.  [Accessibility](/docs/core/accessibility/overview)
+3.  [Creating an accessible PDF](#)
 
 # Creating an accessible PDF
 
