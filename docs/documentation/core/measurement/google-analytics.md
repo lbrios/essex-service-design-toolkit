@@ -1,4 +1,4 @@
-1.  [Toolkit contents](/docs/core/contents)
+1.  [Home](/docs/core/contents)
 2.  [Google Analytics](#)
 
 # Google Analytics guide
