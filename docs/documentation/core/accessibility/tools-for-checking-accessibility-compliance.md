@@ -1,5 +1,6 @@
-1.  [Toolkit contents](contents)
-2.  [Tools for checking accessibility compliance](#)
+1.  [Home](/docs/core/contents)
+2.  [Accessibility](/docs/core/accessibility/overview)
+3.  [Tools for checking accessibility compliance](#)
 
 # Tools for checking accessibility compliance
 
