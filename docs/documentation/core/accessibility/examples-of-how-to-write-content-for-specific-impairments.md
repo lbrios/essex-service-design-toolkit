@@ -1,5 +1,6 @@
-1.  [Toolkit contents](contents)
-2.  [Examples of how to write content for specific impairments](#)
+1.  [Home](/docs/core/contents)
+2.  [Accessibility](/docs/core/accessibility/overview)
+3.  [Examples of how to write content for specific impairments](#)
 
 # Examples of how to write content for specific impairments
 
