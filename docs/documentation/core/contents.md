@@ -11,8 +11,8 @@ Includes guidance and tools to help plan, deliver and publish content.
 ## [Accessibility](/docs/core/accessibility/overview)
 Includes best practice guidance on how to make content accessible to users.
 
-## [User needs and research](/docs/core/users/overview)
-Includes guidance on how to undersatnd the needs of users and how to test content meets user needs through research.
+## [User needs and research](/docs/core/users/user-need)
+Includes guidance on how to undersatnd the needs of users and how to carry out user research.
 
 ## [Design and development](/docs/core/design/overview)
 Includes the styles and common components we use for essex.gov.uk.
@@ -25,10 +25,3 @@ Includes guidance on using web analytics and how to measure the performance of c
 ## Digital project guidance
 
 ## Roadmap
-
-## Toolkit
-
-*   [Toolkit](toolkit/contents)
-*   [Accessibility](toolkit/accessibility)
-*   [User need](toolkit/user-need)
-*   [Google Analytics](google-analytics)
