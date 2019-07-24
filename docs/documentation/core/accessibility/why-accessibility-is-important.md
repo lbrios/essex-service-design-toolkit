@@ -1,5 +1,6 @@
-1.  [Toolkit contents](contents)
-2.  [Why accessibility is important](#)
+1.  [Home](/docs/core/contents)
+2.  [Accessibility](/docs/core/accessibility/overview)
+3.  [Why accessibility is important](#)
 
 # Why accessibility is important
 
