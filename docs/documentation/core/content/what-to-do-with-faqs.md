@@ -1,5 +1,5 @@
-1.  [Toolkit contents](/docs/core/contents)
-2.  [Content](content)
+1.  [Home](/docs/core/contents)
+2.  [Content](/docs/core/content/overview)
 3.  [What to do with FAQs](#)
 
 # What to do with FAQs
