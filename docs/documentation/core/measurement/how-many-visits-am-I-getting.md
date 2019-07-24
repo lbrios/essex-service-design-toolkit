@@ -1,5 +1,6 @@
-1.  [Toolkit contents](contents)
-2.  [How many visits am I getting?](#)
+1.  [Home](/docs/core/contents)
+2.  [Measurement](/docs/core/contents/measurement/overview)
+3.  [How many visits am I getting?](#)
 
 # How many visits am I getting?
 
