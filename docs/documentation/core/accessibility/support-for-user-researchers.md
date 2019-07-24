@@ -1,5 +1,6 @@
-1.  [Toolkit contents](contents)
-2.  [Support for user researchers](#)
+1.  [Home](/docs/core/contents)
+2.  [Accessibility](/docs/core/accessibility/overview)
+3.  [Support for user researchers](#)
 
 # Support for user researchers
 
