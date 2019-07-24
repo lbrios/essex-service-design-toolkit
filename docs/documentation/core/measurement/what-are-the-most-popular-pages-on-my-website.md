@@ -1,5 +1,6 @@
-1.  [Toolkit contents](contents)
-2.  [What are the most popular pages on my website?](#)
+1.  [Home](/docs/core/contents)
+2.  [Measurement](/docs/core/contents/measurement/overview)
+3.  [What are the most popular pages on my website?](#)
 
 # What are the most popular pages on my website?
 
