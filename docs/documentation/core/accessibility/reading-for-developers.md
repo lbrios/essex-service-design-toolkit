@@ -1,5 +1,6 @@
-1.  [Toolkit contents](contents)
-2.  [Reading for developers](#)
+1.  [Home](/docs/core/contents)
+2.  [Accessibility](/docs/core/accessibility/overview)
+3.  [Reading for developers](#)
 
 # Reading for developers
 
