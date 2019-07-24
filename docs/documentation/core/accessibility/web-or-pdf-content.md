@@ -1,5 +1,6 @@
-1.  [Toolkit contents](contents)
-2.  [Web or PDF content?](#)
+1.  [Home](/docs/core/contents)
+2.  [Accessibility](/docs/core/accessibility/overview)
+3.  [Web or PDF content?](#)
 
 # Web or PDF content?
 
