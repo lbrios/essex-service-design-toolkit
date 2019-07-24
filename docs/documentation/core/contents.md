@@ -4,20 +4,20 @@ The Essex Design System is a collection of guides and resources to help deliver 
 
 This Design System is in constant development. If you have any questions about the Design System please email [service.design@essex.gov.uk](mailto:service.design@essex.gov.uk)
 
-## [Content](/content/overview.md)
+## [Content](/docs/core/content/overview.md)
 
 Includes guidance and tools to help plan, deliver and publish content.
 
-## [Accessibility](/accessibility/overview.md)
+## [Accessibility](/docs/core/accessibility/overview.md)
 Includes best practice guidance on how to make content accessible to users.
 
-## [User needs and research](/users/overview.md)
+## [User needs and research](/docs/core/users/overview.md)
 Includes guidance on how to undersatnd the needs of users and how to test content meets user needs through research.
 
-## [Design and development](/design/overview.md)
+## [Design and development](/docs/core/design/overview.md)
 Includes the styles and common components we use for essex.gov.uk.
 
-## [Measurement](/measurement/overview.md)
+## [Measurement](/docs/core/measurement/overview.md)
 Includes guidance on using web analytics and how to measure the performance of content. 
 
 ## Service patterns
