@@ -1,5 +1,6 @@
-1.  [Toolkit contents](contents)
-2.  [Login and training overview](#)
+1.  [Home](/docs/core/contents)
+2.  [Measurement](/docs/core/contents/measurement/overview)
+3.  [Login and training overview](#)
 
 # Login and training overview
 
