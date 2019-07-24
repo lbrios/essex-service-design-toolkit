@@ -4,7 +4,7 @@ The Essex Design System is a collection of guides and resources to help deliver 
 
 This Design System is in constant development. If you have any questions about the Design System please email [service.design@essex.gov.uk](mailto:service.design@essex.gov.uk)
 
-## [Content](/docs/core/content/overview.md)
+## [Content](/content/overview)
 
 Includes guidance and tools to help plan, deliver and publish content.
 
