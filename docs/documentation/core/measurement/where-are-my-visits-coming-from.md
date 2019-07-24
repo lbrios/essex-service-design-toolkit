@@ -1,5 +1,6 @@
-1.  [Toolkit contents](contents)
-2.  [Where are my visits coming from?](#)
+1.  [Home](/docs/core/contents)
+2.  [Measurement](/docs/core/contents/measurement/overview)
+3.  [Where are my visits coming from?](#)
 
 # Where are my visits coming from?
 
