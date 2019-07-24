@@ -1,5 +1,5 @@
 1.  [Home](/docs/core/contents)
-2.  [Content](/docs/core/content)
+2.  [Content](/docs/core/content/overview)
 3.  [Before starting a content project](#)
 
 # Before starting a content project
