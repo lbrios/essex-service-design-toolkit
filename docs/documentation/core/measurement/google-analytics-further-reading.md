@@ -1,5 +1,6 @@
-1.  [Toolkit contents](contents)
-2.  [Further reading](#)
+1.  [Home](/docs/core/contents)
+2.  [Measurement](/docs/core/contents/measurement/overview)
+3.  [Further reading](#)
 
 # Further reading
 
