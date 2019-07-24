@@ -1,5 +1,6 @@
-1.  [Toolkit contents](contents)
-2.  [Checklist for developers](#)
+1.  [Home](/docs/core/contents)
+2.  [Accessibility](/docs/core/accessibility/overview)
+3.  [Checklist for developers](#)
 
 # Checklist for developers
 
