@@ -1,5 +1,5 @@
 1.  [Home](/docs/core/contents)
-2.  [Measurement](/docs/core/contents/measurement/overview)
+2.  [Measurement](/docs/core/measurement/overview)
 3.  [ECC Web Analytics Framework](#)
 
 # ECC Web Analytics Framework
