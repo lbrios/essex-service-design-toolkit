@@ -1,5 +1,6 @@
-1.  [Toolkit contents](contents)
-2.  [Finding your way around](#)
+1.  [Home](/docs/core/contents)
+2.  [Measurement](/docs/core/contents/measurement/overview)
+3.  [Finding your way around](#)
 
 # Finding your way around
 
