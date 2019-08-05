@@ -29,6 +29,15 @@ ul.link-boxes {
       background: $grey-lighter;
       border-bottom: solid $border-thin $grey-light;
       padding: $baseline*0.5;
+      @include media(mobile) {
+        width: auto;
+      }
+      @include media(tablet) {
+        width: auto;
+      }
+      @include media(desktop) {
+        width: 100%;
+      }
       .sub-section-heading {
       }
     }
