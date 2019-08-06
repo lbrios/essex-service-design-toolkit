@@ -2,51 +2,55 @@ var express = require('express')
 var router = express.Router()
 
 // Route index page
+// router.get('/', function (req, res) {
+//   res.render('index')
+// })
+
 router.get('/', function (req, res) {
-  res.render('index')
+  res.redirect('/docs/core/contents')
 })
 
 // Route new page, with title copy
 
 // Care Cost Calculator Flow
 
-router.get('/typeOfCare', function (req, res) {
-  var option = req.query.typeOfCare
-  if (option === 'dom') {
-    res.redirect('app/care-contribution-calculator/your-home')
-  }
-  else {
-    res.render('app/care-contribution-calculator/savings-and-investments')
-  }
-})
+// router.get('/typeOfCare', function (req, res) {
+//   var option = req.query.typeOfCare
+//   if (option === 'dom') {
+//     res.redirect('app/care-contribution-calculator/your-home')
+//   }
+//   else {
+//     res.render('app/care-contribution-calculator/savings-and-investments')
+//   }
+// })
 
-router.get('/savingsAndInvestment', function (req, res) {
-    res.redirect('app/care-contribution-calculator/pensions')
-})
+// router.get('/savingsAndInvestment', function (req, res) {
+//     res.redirect('app/care-contribution-calculator/pensions')
+// })
 
-router.get('/yourHome', function (req, res) {
-    res.redirect('app/care-contribution-calculator/pensions')
-})
+// router.get('/yourHome', function (req, res) {
+//     res.redirect('app/care-contribution-calculator/pensions')
+// })
 
-router.get('/pensions', function (req, res) {
-    res.redirect('app/care-contribution-calculator/rental-income')
-})
+// router.get('/pensions', function (req, res) {
+//     res.redirect('app/care-contribution-calculator/rental-income')
+// })
 
-router.get('/rentalIncome', function (req, res) {
-    res.redirect('app/care-contribution-calculator/benefits')
-})
+// router.get('/rentalIncome', function (req, res) {
+//     res.redirect('app/care-contribution-calculator/benefits')
+// })
 
-router.get('/benefits', function (req, res) {
-    res.redirect('app/care-contribution-calculator/other-income')
-})
+// router.get('/benefits', function (req, res) {
+//     res.redirect('app/care-contribution-calculator/other-income')
+// })
 
-router.get('/otherIncome', function (req, res) {
-    res.redirect('app/care-contribution-calculator/personal-allowance')
-})
+// router.get('/otherIncome', function (req, res) {
+//     res.redirect('app/care-contribution-calculator/personal-allowance')
+// })
 
-router.get('/personalAllowance', function (req, res) {
-    res.redirect('app/care-contribution-calculator/results')
-})
+// router.get('/personalAllowance', function (req, res) {
+//     res.redirect('app/care-contribution-calculator/results')
+// })
 
 
 
