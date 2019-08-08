@@ -1,12 +1,13 @@
-1.  [Contents](/docs/core/contents)
+1.  [Contents](/docs/core/design/overview)
 2.  [Signup](#)
 
 # Signup
 
-<div class="signup">
+<div class="signup" role="form">
   <h3 class="section-heading">
-    Get the latest news and information about your council services
+    Stay up to date 
   </h3>
+  <p>Get the latest news and information about your council services</p>
   <form action="/search" method="get" role="search" class="form">
     <div class="group">
       <div class="signup-input">
@@ -20,10 +21,11 @@
   </form>
 </div>
 
-    <div class="signup">
+    <div class="signup" role="form">
       <h3 class="section-heading">
-        Get the latest news and information about your council services
+        Stay up to date 
       </h3>
+      <p>Get the latest news and information about your council services</p>
       <form action="/search" method="get" role="search" class="form">
         <div class="group">
           <div class="signup-input">

@@ -53,15 +53,23 @@
       }
       .signup-button {
         @include grid-column(4 / 12);
+        position: relative;
         input.button.subscribe {
           @include more;
+          // width: calc(100% - #{$gutter*2});
           border: $border-normal $brand solid;
+          // position: absolute;
+          // top: 0;
           &:hover {
             border: $border-normal $brand-hover-darken solid;
             color: $white;
             background-color: $brand-hover-darken;
           }                    
         }
+        // label {
+        //   margin-top: 0;
+        //   margin-bottom: 0;
+        // }
       }
     }
   }
@@ -103,7 +111,6 @@
         .signup-button {
           input.button.subscribe {
             color: $white;
-            background-color: transparent;
             border: $border-normal $white solid;
             @include media(mobile) {
               margin-bottom: 0;
