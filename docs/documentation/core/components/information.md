@@ -1,4 +1,4 @@
-1.  [Contents](/docs/core/contents)
+1.  [Contents](/docs/core/design/overview)
 2.  [Information alert](#)
 
 # Information alert

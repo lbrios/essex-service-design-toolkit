@@ -1,4 +1,4 @@
-1.  [Contents](/docs/core/contents)
+1.  [Contents](/docs/core/design/overview)
 2.  [Logo](#)
 
 # Logo
@@ -30,7 +30,7 @@
 ## Logotype text with seax image
 
 <div class="logo-wrap">
-	<a href="/" class="logo-text seax" alt="Essex logo">
+	<a href="/" class="logo-text seax">
 		<img src="/public/images/seax.png" width="36px" height="30px" alt="Essex logo">
 		Essex.gov.uk
 	</a>
