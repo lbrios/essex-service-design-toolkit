@@ -7,7 +7,7 @@
   <div class="header">
     <nav class="nav">
       <div class="logo-wrap">
-        <a href="/" class="logo-text">Essex.gov.uk</a>
+        <a href="/" class="logo-text" alt="Essex logo">Essex.gov.uk</a>
       </div>
     </nav>
   </div>
@@ -17,7 +17,7 @@
       <div class="header">
         <nav class="nav">
           <div class="logo-wrap">
-            <a href="/" class="logo-text">Essex.gov.uk</a>
+            <a href="/" class="logo-text" alt="Essex logo">Essex.gov.uk</a>
           </div>
         </nav>
       </div>
@@ -28,7 +28,7 @@
     <nav class="nav">
       <div class="logo-wrap">
         <a href="/" class="logo-text seax">
-          <img src="/public/images/seax.png" width="36px" height="30px">
+          <img src="/public/images/seax.png" width="36px" height="30px" alt="Essex logo">
           Essex.gov.uk
         </a>
       </div>
@@ -41,15 +41,13 @@
         <nav class="nav">
           <div class="logo-wrap">
             <a href="/" class="logo-text seax">
-              <img src="/public/images/seax.png" width="36px" height="30px">
+              <img src="/public/images/seax.png" width="36px" height="30px" alt="Essex logo">
               Essex.gov.uk
             </a>
           </div>
         </nav>
       </div>
     </header>
-
-
 
 
 ## Using the header
