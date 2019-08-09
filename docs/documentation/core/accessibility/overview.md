@@ -9,7 +9,7 @@
 ## Accessible documents
 
 *   [Web or PDF content?](web-or-pdf-content)
-*   [Creating an accessibile PDF](creating-an-accessible-pdf)
+*   [Creating an accessible PDF](creating-an-accessible-pdf)
 
 ## Support for content editors
 

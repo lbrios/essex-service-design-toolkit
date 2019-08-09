@@ -3,9 +3,8 @@
 
 # Content standards
 
-Includes guidance and tools to help plan, deliver and publish content.
-
 ## Content strategy
+How we plan, deliver and publish content at Essex County Council
 
 ## Content guidelines
 
@@ -19,11 +18,11 @@ Includes guidance and tools to help plan, deliver and publish content.
 *   [Further reading](content-design-further-reading)
 *   [Training courses](training-courses)
 
-## [User needs and research](/docs/core/users/user-need)
-Includes guidance on how to undersatnd the needs of users and how to carry out user research.
+## [User needs](/docs/core/users/user-need)
+Includes guidance on how to undersatnd the needs of users
 
 ## [Accessibility](/docs/core/accessibility/overview)
-Includes best practice guidance on how to make content accessible to users.
+Includes best practice guidance on how to make content accessible to users
 
 ## [Measurement](/docs/core/measurement/overview)
-Includes guidance on using web analytics and how to measure the performance of content.
+Includes guidance on using web analytics and how to measure the performance of content
