@@ -1,4 +1,4 @@
-1.  [Contents](/docs/core/contents)
+1.  [Contents](/docs/core/design/overview)
 2.  [Signup](#)
 
 # Big signup
@@ -15,10 +15,8 @@
           <label for="email">Enter your email address</label>
           <input type="text" id="email" name="email">
         </div>
-        <div class="signup-button">
-          <label for="email">Submit your entered email address
-            <input type="submit" class="button subscribe" value="Subscribe">
-          </label>
+        <div class="signup-button" id="submitYourEmailAddress">
+          <input type="submit" class="button subscribe" value="Subscribe" aria-labelledby="submitYourEmailAddress">
         </div>
       </div>
     </form>
@@ -37,8 +35,8 @@
               <label for="email">Enter your email address</label>
               <input type="text" id="email" name="email">
             </div>
-            <div class="signup-button">
-              <input type="submit" class="button subscribe" value="Subscribe">
+            <div class="signup-button" id="submitYourEmailAddress">
+              <input type="submit" class="button subscribe" value="Subscribe" aria-labelledby="submitYourEmailAddress">
             </div>
           </div>
         </form>
