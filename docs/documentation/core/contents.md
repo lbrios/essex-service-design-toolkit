@@ -1,27 +1,16 @@
-# Essex Design System
+# Service Design Toolkit
 
-The Essex Design System is a collection of guides and resources to help deliver clear content and design based on the needs of our users.
+The Service Design Toolkit is a collection of best practice tools and guidance to help design and deliver high quality, consistent and cost effective services.
 
-This Design System is in constant development. If you have any questions about the Design System please email [service.design@essex.gov.uk](mailto:service.design@essex.gov.uk)
+This toolkit is in constant development. If you have any questions please email [service.design@essex.gov.uk](mailto:service.design@essex.gov.uk)
 
-## [Content](/docs/core/content/overview)
+## Common service patterns
 
-Includes guidance and tools to help plan, deliver and publish content.
+Guidance on how we understand, design, optimise and build services
 
-## [Accessibility](/docs/core/accessibility/overview)
-Includes best practice guidance on how to make content accessible to users.
+## [Content standard](/docs/core/content/overview)
 
-## [User needs and research](/docs/core/users/user-need)
-Includes guidance on how to undersatnd the needs of users and how to carry out user research.
+Includes guidance and tools to help plan, deliver and publish content
 
-## [Design and development](/docs/core/design/overview)
-Includes the styles and common components we use for essex.gov.uk.
-
-## [Measurement](/docs/core/measurement/overview)
-Includes guidance on using web analytics and how to measure the performance of content. 
-
-## Service patterns
-
-## Digital project guidance
-
-## Roadmap
+## [Design system](/docs/core/design/overview)
+Includes the styles and common components we use for essex.gov.uk
