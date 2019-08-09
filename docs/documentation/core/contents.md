@@ -8,7 +8,7 @@ This toolkit is in constant development. If you have any questions please email 
 
 Guidance on how we understand, design, optimise and build services
 
-## [Content standard](/docs/core/content/overview)
+## [Content standards](/docs/core/content/overview)
 
 Includes guidance and tools to help plan, deliver and publish content
 
