@@ -10,11 +10,11 @@
   }
   &.campaign {
     background-image: file-url("/img/impact.jpg");
-    @include media(mobile) {
-      background: none !important;
-      .overlay {
-        background: none;
-      }
-    }
+    // @include media(mobile) {
+    //   background: none !important;
+    //   .overlay {
+    //     background: none;
+    //   }
+    // }
   }
 }

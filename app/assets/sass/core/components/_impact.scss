@@ -1,9 +1,6 @@
 .impact {
   position: relative;
   margin-bottom: $baseline*1.5;
-  @include media(mobile) {
-    margin-bottom: 0;
-  }
   .hero {
     @include media(tablet) {
       background-position-x: center;
@@ -36,8 +33,9 @@
     margin: $gutter;
     padding: $gutter !important;
     @include media(mobile) {
-      padding: 0 !important;
-      margin: 0;
+      width: 66%;
+      padding: $gutter*0.5 !important;
+      margin: $gutter*0.5;
     }
     .overlay-content {
       @include media(mobile) {
@@ -45,17 +43,18 @@
         .content-heading {
           display: block;
           padding: $baseline $gutter*0.5;
-          background: $highlight-box;
+          margin-top: 0;
           margin-bottom: $baseline*0.5;
-          a {
-            color: $white;
+          @include media(mobile) {
+            padding: 0;
           }
         }
         p {
           padding-left: 0;
           padding-right: 0;
-          padding-bottom: $baseline;
-          border-bottom: $border-normal $link solid;
+          padding: 0;
+          // padding-bottom: $baseline;
+          // border-bottom: $border-normal $link solid;
         }
       }
       h2, h3 {
@@ -75,7 +74,7 @@
       margin-top: 0;
       margin-bottom: 0;
       .overlay-content {
-        h2, h2 a, p {
+        h2, h2 a, p, .content-heading {
           color: $black;
           text-decoration: none;
           width: 100%;
@@ -84,7 +83,7 @@
           padding-left: 0;
           padding-right: 0;
         }
-        h2 {
+        h2, .content-heading {
           margin-top: 0;
         }
       }
