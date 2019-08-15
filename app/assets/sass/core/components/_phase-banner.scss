@@ -2,12 +2,12 @@
 .phase-banner-background {
   background-color: $white;
   border-bottom: $border-thin $grey-light solid;
+  @media print {
+    display: none;
+  }
   .phase-banner {
     @extend %site-width-container;
     @extend %contain-floats;
-    @media print {
-      display: none;
-    }
     padding-top: $baseline*0.25;
     padding-bottom: $baseline*0.25;
     .phase-content {
