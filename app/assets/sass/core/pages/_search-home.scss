@@ -1,5 +1,8 @@
 .search-background {
   background-image: file-url("/img/hero.jpg");
+  @media print {
+    background-image: none;
+  }
   background-repeat:  no-repeat;
   background-size: cover;
   background-position-x: 0;
@@ -17,6 +20,9 @@
   position: relative;
   .overlay {
     background: $overlay-brand;
+    @media print {
+      background: none;
+    }
   }
   .search-container {
     @extend %site-width-container;
@@ -32,6 +38,10 @@
     @include media(desktop) {
       padding-top: $baseline*3;
       padding-bottom: $baseline*3;
+    }
+    @media print {
+      padding-top: $baseline;
+      padding-bottom: $baseline;
     }
     .greeting, .search-input {
       @extend %grid-row;

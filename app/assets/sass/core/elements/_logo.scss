@@ -90,6 +90,10 @@ a.logo-text.seax {
   margin-top: 4px;
   margin-bottom: -6px;
   padding-bottom: 6px;
+  @media print {
+    background-image: none;
+    border-bottom: $border-normal $white solid;
+  }
   &:hover {
     text-decoration: none;
     border-bottom: $border-normal $white solid;
@@ -102,5 +106,8 @@ a.logo-text.seax {
   img {
     display: inline-block;
     margin: 0;
+    @media print {
+      display: none;
+    }
   }
 }

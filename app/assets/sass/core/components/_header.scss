@@ -4,6 +4,7 @@
   position: relative;
   z-index: 20;
   @media print {
+    background-color: $white;
     height: auto;
     @include box-shadow(none);
   }
