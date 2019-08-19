@@ -3,7 +3,7 @@
 
 # Footer
 
-<footer class="footer-container" role="contentinfo">
+<footer class="footer-container">
   <div class="footer-top">
     <div class="footer">
       <div class="nav">
@@ -25,7 +25,7 @@
       </div>
     </div>
   </div>
-  <div class="footer-bottom">
+  <div class="footer-bottom" role="contentinfo">
     <div class="footer">
       <ul class="credits">
         <li class="copyright">© Essex County Council 2019</li>
