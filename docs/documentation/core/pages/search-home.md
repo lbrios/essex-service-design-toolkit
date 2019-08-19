@@ -9,7 +9,7 @@
     <div class="greeting">
       <h1>Welcome to Essex</h1>
     </div>
-    <form action="/search" method="get" role="search" class="form">
+    <form action="/search" method="get" class="form">
       <div class="group search" role="search">
         <div class="search-input">
           <label for="search">Search
@@ -28,7 +28,7 @@
         <div class="greeting">
           <h1>Welcome to Essex</h1>
         </div>
-        <form action="/search" method="get" role="search" class="form">
+        <form action="/search" method="get" class="form">
           <div class="group search" role="search">
             <div class="search-input">
               <label for="search">Search

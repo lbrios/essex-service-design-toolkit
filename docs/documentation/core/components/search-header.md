@@ -3,7 +3,7 @@
 
 # Search-header
 
-<header class="header-background" role="banner">
+<header class="header-background">
   <div class="header">
     <nav class="nav">
       <div class="logo-wrap">
@@ -11,7 +11,7 @@
           <img src="/public/images/logotype.png" width="225px" height="30px" alt="Essex logo">
         </a>
       </div>
-      <form action="/search" method="get" role="search" class="form">
+      <form action="/search" method="get" class="form">
         <div class="group search" role="search">
           <div class="search-input">
             <label for="cludo-search-hero-form">Search
@@ -25,7 +25,7 @@
   </div>
 </header>
 
-    <header class="header-background" role="banner">
+    <header class="header-background">
       <div class="header">
         <nav class="nav">
           <div class="logo-wrap">
@@ -33,7 +33,7 @@
               <img src="/public/images/logotype.png" width="225px" height="30px" alt="Essex logo">
             </a>
           </div>
-          <form action="/search" method="get" role="search" class="form">
+          <form action="/search" method="get" class="form">
             <div class="group search" role="search">
               <div class="search-input">
                 <label for="cludo-search-hero-form">Search
