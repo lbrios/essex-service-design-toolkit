@@ -4,7 +4,7 @@
 # Header
 
 <header class="header-background">
-  <div class="header" role="banner">
+  <div class="header">
     <nav class="nav">
       <div class="logo-wrap">
         <a href="/" class="logo-text" alt="Essex logo">Essex.gov.uk</a>
@@ -14,7 +14,7 @@
 </header>
 
     <header class="header-background">
-      <div class="header" role="banner">
+      <div class="header">
         <nav class="nav">
           <div class="logo-wrap">
             <a href="/" class="logo-text" alt="Essex logo">Essex.gov.uk</a>
@@ -24,7 +24,7 @@
     </header>
 
 <header class="header-background">
-  <div class="header" role="banner">
+  <div class="header">
     <nav class="nav">
       <div class="logo-wrap">
         <a href="/" class="logo-text seax">
@@ -37,7 +37,7 @@
 </header>
 
     <header class="header-background">
-      <div class="header" role="banner">
+      <div class="header">
         <nav class="nav">
           <div class="logo-wrap">
             <a href="/" class="logo-text seax">

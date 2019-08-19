@@ -3,19 +3,20 @@
 
 # Breadcrumbs
 
-<nav class="breadcrumbs">
+<nav class="breadcrumbs" aria-label="breadcrumbs">
   <ol>
     <li><a href="/">Home</a></li>
     <li><a href="adult-social-care">Adult Social Care</a></li>
   </ol>
 </nav>
 
-    <div class="breadcrumbs">
+    <nav class="breadcrumbs" aria-label="breadcrumbs">
       <ol>
         <li><a href="/">Home</a></li>
         <li><a href="adult-social-care">Adult Social Care</a></li>
       </ol>
-    </div>
+    </nav>
+
 
 ## Breadcrumbs
 
