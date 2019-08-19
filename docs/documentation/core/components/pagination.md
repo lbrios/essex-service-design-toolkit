@@ -3,14 +3,14 @@
 
 # Pagination
 
-<nav class="pagination">
+<nav class="pagination" aria-label="pagination">
   <ul>
     <li class="prev">
       <a href="#">
         <span class="pagination-item">
           <i class="fas fa-arrow-left"></i>Previous
         </span>
-        <span>Personal budget</span>
+        <span>Paying for care and support</span>
       </a>
     </li>
     <li class="next">
@@ -24,14 +24,14 @@
   </ul>
 </nav>
 
-    <nav class="pagination">
+    <nav Fclass="pagination" aria-label="pagination">
       <ul>
         <li class="prev">
           <a href="#">
             <span class="pagination-item">
               <i class="fas fa-arrow-left"></i>Previous
             </span>
-            <span>Personal budget</span>
+            <span>Paying for care and support</span>
           </a>
         </li>
         <li class="next">

@@ -3,7 +3,7 @@
 
 # Footer
 
-<footer class="footer-container">
+<footer class="footer-container" role="contentinfo">
   <div class="footer-top">
     <div class="footer">
       <nav class="nav">
@@ -35,7 +35,7 @@
   </div>
 </footer>
 
-    <footer class="footer-container">
+    <footer class="footer-container" role="contentinfo">
       <div class="footer-top">
         <div class="footer">
           <nav class="nav">
