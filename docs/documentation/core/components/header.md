@@ -3,8 +3,8 @@
 
 # Header
 
-<header class="header-background" role="banner">
-  <div class="header">
+<header class="header-background">
+  <div class="header" role="banner">
     <nav class="nav">
       <div class="logo-wrap">
         <a href="/" class="logo-text" alt="Essex logo">Essex.gov.uk</a>
@@ -13,8 +13,8 @@
   </div>
 </header>
 
-    <header class="header-background" role="banner">
-      <div class="header">
+    <header class="header-background">
+      <div class="header" role="banner">
         <nav class="nav">
           <div class="logo-wrap">
             <a href="/" class="logo-text" alt="Essex logo">Essex.gov.uk</a>
@@ -23,12 +23,12 @@
       </div>
     </header>
 
-<header class="header-background" role="banner">
-  <div class="header">
+<header class="header-background">
+  <div class="header" role="banner">
     <nav class="nav">
       <div class="logo-wrap">
         <a href="/" class="logo-text seax">
-          <img src="/public/images/seax.png" width="36px" height="30px" alt="Essex logo">
+          <img src="/public/images/seax.png" width="36" height="30" alt="Essex logo">
           Essex.gov.uk
         </a>
       </div>
@@ -36,12 +36,12 @@
   </div>
 </header>
 
-    <header class="header-background" role="banner">
-      <div class="header">
+    <header class="header-background">
+      <div class="header" role="banner">
         <nav class="nav">
           <div class="logo-wrap">
             <a href="/" class="logo-text seax">
-              <img src="/public/images/seax.png" width="36px" height="30px" alt="Essex logo">
+              <img src="/public/images/seax.png" width="36" height="30" alt="Essex logo">
               Essex.gov.uk
             </a>
           </div>

@@ -1,5 +1,6 @@
 .header-background {
   background-color: $brand;
+  border-bottom: $border-thin solid $brand4;
   height: auto;
   position: relative;
   z-index: 20;
