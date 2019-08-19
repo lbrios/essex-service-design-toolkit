@@ -24,7 +24,7 @@
   </ul>
 </nav>
 
-    <nav Fclass="pagination" aria-label="pagination">
+    <nav class="pagination" aria-label="pagination">
       <ul>
         <li class="prev">
           <a href="#">
