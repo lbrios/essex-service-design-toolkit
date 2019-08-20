@@ -55,6 +55,7 @@
 *   [Checkbox](/docs/core/elements/checkbox)
 *   [Content break](/docs/core/elements/content-break)
 *   [Dropdown](/docs/core/elements/dropdown)
+*		[Embed](/docs/core/elements/embed)
 *   [External link](/docs/core/elements/external-link)
 *   [Headings](/docs/core/elements/headings)
 *   [Icon](/docs/core/elements/icon)
