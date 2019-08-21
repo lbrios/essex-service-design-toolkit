@@ -9,7 +9,7 @@
       Stay up to date 
     </h3>
     <p>Get the latest news and information about your council services</p>
-    <form action="/search" method="get" role="search" class="form">
+    <form action="/search" method="get" class="form">
       <div class="group">
         <div class="signup-input">
           <label for="email">Enter your email address</label>
@@ -29,7 +29,7 @@
           Stay up to date 
         </h3>
         <p>Get the latest news and information about your council services</p>
-        <form action="/search" method="get" role="search" class="form">
+        <form action="/search" method="get" class="form">
           <div class="group">
             <div class="signup-input">
               <label for="email">Enter your email address</label>
