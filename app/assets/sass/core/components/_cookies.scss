@@ -1,60 +1,83 @@
-.cookies {
-  @media print {
-    display: none;
-  }
-  background-color: $black;
-  padding: $baseline*0.75 $gutter*0.25;
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  p {
-    color: $white;
-    display: inline;
-    @include media(mobile) {
-      display: block;
-    }
-    a {
-      color: $white;
-    }
-  }
-  .button {
-    float: right;
-    @include media(mobile) {
-      float: none;
-    }
-    border-color: $white;
-    background-color: $white;
-    color: $text-colour;
-  }
-}
-
 // http://silktide.com/cookieconsent
-
-// link within cookies
-a.cc_more_info {
-  color: $white;
-  &:hover {
-    color: $white-on-black-hover;
-  }
-}
 
 // button
 
 a.cc-btn {
   @include button;
   background-color: $white !important;
-  border-color: $white !important;
+  border-color: $black !important;
   color: $black !important;
   &:hover {
-    background-color: $white-on-black-hover !important;
-    border-color: $white-on-black-hover !important;
-    color: $black !important;
+    background-color: $white !important;
+    border-color: $grey-dark !important;
+    color: $grey-dark !important;
+  }
+  &:focus {
+    outline: $border-thick solid $focus-colour !important;
   }
 }
 
 // banner 
 
-.cc-banner {
-  background-color: $link !important;
+.cc-banner, .cc-revoke, .cc-window {
+  box-sizing: content-box !important;
+  opacity: 1;
+  transition: opacity 0s ease !important;
+  z-index: 50 !important;
+  @include media(mobile) {
+    padding: $baseline*0.5 $gutter !important;
+    position: relative !important;
+  }
+  @include media(tablet) {
+    padding: $baseline*0.75 $gutter !important;
+  }
+  @include media(desktop) {
+    padding: $baseline*0.75 $gutter*2 !important;
+  }
+  margin-left: auto !important;
+  margin-right: auto !important;
+  position: relative !important;
+  background-color: $white !important;
+  color: $body-text-colour !important;
+  width: auto !important;
+  max-width: $site-width !important;
+  .cc-message {
+    float: left !important;
+    @include media(mobile) {
+      @include smaller;
+    }
+  }
+  .cc-link {
+    color: $link !important;
+    text-decoration: underline !important;
+    opacity: 1 !important;
+    &:hover {
+      color: $hover !important;
+      text-decoration: underline !important;
+    }
+    &:focus {
+      color: $black !important;
+      outline: $border-thick solid $focus-colour !important;
+    }
+  }
+  &.cc-invisible {
+    display: none;
+  }
 }
+
+// .cc-window {
+//   box-sizing: content-box !important;
+//   opacity: 1;
+//   transition: opacity 0s ease !important;
+//   z-index: 50 !important;
+// }
+
+// .cc-revoke, .cc-window {
+//   position: relative !important;
+//   @include media(mobile) {
+//     padding: $baseline*0.5 $gutter !important;
+//   }
+//   &.cc-invisible {
+//     display: none;
+//   }
+// }
