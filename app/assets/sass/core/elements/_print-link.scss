@@ -15,4 +15,16 @@ a.print-link {
     display: inline-block;
     width: $icon-width - 2px;
   }
+  &:link {
+    color: $link;
+  }
+  &:visited {
+    color: $visited;
+  }
+  &:hover {
+    color: $hover;
+  }
+  &:active {
+    color: $active;
+  }
 }

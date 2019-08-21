@@ -3,14 +3,14 @@
 
 # Search-home
 
-<div class="search-background" role="search">
+<div class="search-background">
   <div class="overlay"></div>
   <div class="search-container">
     <div class="greeting">
       <h1>Welcome to Essex</h1>
     </div>
-    <form action="/search" method="get" role="search" class="form">
-      <div class="group search" role="search">
+    <form action="/search" method="get" class="form" role="search">
+      <div class="group search">
         <div class="search-input">
           <label for="search">Search
             <input type="text" id="search" name="search" placeholder="Search essex.gov.uk">
@@ -22,14 +22,14 @@
   </div>
 </div>
 
-    <div class="search-background" role="search">
+    <div class="search-background">
       <div class="overlay"></div>
       <div class="search-container">
         <div class="greeting">
           <h1>Welcome to Essex</h1>
         </div>
-        <form action="/search" method="get" role="search" class="form">
-          <div class="group search" role="search">
+        <form action="/search" method="get" class="form" role="search">
+          <div class="group search">
             <div class="search-input">
               <label for="search">Search
                 <input type="text" id="search" name="search" placeholder="Search essex.gov.uk">

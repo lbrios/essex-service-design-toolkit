@@ -6,7 +6,7 @@
 <footer class="footer-container" role="contentinfo">
   <div class="footer-top">
     <div class="footer">
-      <div class="nav">
+      <nav class="nav">
         <ul class="nav-links">
           <li><a href="https://www.essex.gov.uk/topic/about-essexgovuk">About essex.gov.uk</a></li><li>
             <a href="https://www.essex.gov.uk/accessibility">Accessibility</a></li><li>
@@ -22,7 +22,7 @@
             <a href="http://www.youtube.com/user/EssexCountyCouncil"><i class="fab fa-youtube"></i><span>Youtube</span></a></li><li>
             <a href="https://www.flickr.com/photos/essexcc/"><i class="fab fa-flickr"></i><span>Flickr</span></a></li>
         </ul>
-      </div>
+      </nav>
     </div>
   </div>
   <div class="footer-bottom">
@@ -38,7 +38,7 @@
     <footer class="footer-container" role="contentinfo">
       <div class="footer-top">
         <div class="footer">
-          <div class="nav">
+          <nav class="nav">
             <ul class="nav-links">
               <li><a href="https://www.essex.gov.uk/topic/about-essexgovuk">About essex.gov.uk</a></li><li>
                 <a href="https://www.essex.gov.uk/accessibility">Accessibility</a></li><li>
@@ -54,7 +54,7 @@
                 <a href="http://www.youtube.com/user/EssexCountyCouncil"><i class="fab fa-youtube"></i><span>Youtube</span></a></li><li>
                 <a href="https://www.flickr.com/photos/essexcc/"><i class="fab fa-flickr"></i><span>Flickr</span></a></li>
             </ul>
-          </div>
+          </nav>
         </div>
       </div>
       <div class="footer-bottom">
