@@ -10,4 +10,17 @@ input {
   border-width: $border-normal;
   border-style: solid;
   border-color: $grey-dark;
+  &::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  font-size: ms(0);
+  color: $text-colour;
+  opacity: 1; /* Firefox */
+  }
+  &:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    font-size: ms(0);
+    color: $text-colour;
+  }
+  &::-ms-input-placeholder { /* Microsoft Edge */
+    font-size: ms(0);
+    color: $text-colour;
+  }
 }

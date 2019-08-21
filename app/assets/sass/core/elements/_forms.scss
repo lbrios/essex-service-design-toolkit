@@ -99,12 +99,6 @@ select:focus::-ms-value {
   margin-top: $gutter-half;
   margin-bottom: $gutter-half;
   padding: $gutter*0.5;
-  // @include media(tablet) {
-  //   border: $border-thicker solid $error;
-  //   margin-top: $gutter;
-  //   margin-bottom: $gutter;
-  //   padding: $gutter-two-thirds $gutter-half $gutter-half;
-  // }
   @include ie-lte(6) {
     zoom: 1;
   }
@@ -156,21 +150,17 @@ input[type=number] {
   .form-group {
     float: left;
     width: 50px;
-
     margin-right: 20px;
     margin-bottom: 0;
     clear: none;
-
     label {
       display: block;
       padding-bottom: 2px;
     }
-
     input {
       width: 100%;
     }
   }
-
   .form-group-year {
     width: 70px;
   }

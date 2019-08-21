@@ -12,10 +12,10 @@
     <div class="group">
       <div class="signup-input">
         <label for="email">Enter your email address</label>
-        <input type="text" id="email" name="email">
+        <input type="text" id="email" name="email" autocomplete="off">
       </div>
       <div class="signup-button">
-        <input type="submit" class="button subscribe" value="Subscribe">
+        <button type="submit" class="button subscribe">Subscribe</button>
       </div>
     </div>
   </form>
@@ -30,10 +30,10 @@
         <div class="group">
           <div class="signup-input">
             <label for="email">Enter your email address</label>
-            <input type="text" id="email" name="email">
+            <input type="text" id="email" name="email" autocomplete="off">
           </div>
           <div class="signup-button">
-            <input type="submit" class="button subscribe" value="Subscribe">
+            <button type="submit" class="button subscribe">Subscribe</button>
           </div>
         </div>
       </form>
