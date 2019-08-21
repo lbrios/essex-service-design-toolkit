@@ -22,7 +22,7 @@
       }
     }
     label {
-      $color: $body-text-colour;
+      color: $body-text-colour;
       font-size: ms(1);
       z-index: 0;
       margin-right: 0;
@@ -50,7 +50,7 @@
       }
     }
     input:-webkit-autofill {
-      -webkit-box-shadow: 0 0 0px 1000px $white inset
+      -webkit-box-shadow: 0 0 0px 1000px $white inset;
     }
     .fas.fa-search.search-icon-position {
       @include box-sizing(border-box);

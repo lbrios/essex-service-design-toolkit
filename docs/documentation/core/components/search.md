@@ -7,7 +7,7 @@
   <div class="group search" role="search">
     <div class="search-input">
       <label for="cludo-search-hero-form">Search
-        <input type="text" id="cludo-search-hero-form" name="search" placeholder="Search essex.gov.uk">
+        <input type="text" id="cludo-search-hero-form" name="search" placeholder="Search essex.gov.uk" autocomplete="off">
       </label>
       <button class="fas fa-search search-icon-position" aria-label="Searching essex.gov.uk button"></button>
     </div>
@@ -18,7 +18,7 @@
       <div class="group search" role="search">
         <div class="search-input">
           <label for="cludo-search-hero-form">Search
-            <input type="text" id="cludo-search-hero-form" name="search" placeholder="Search essex.gov.uk">
+            <input type="text" id="cludo-search-hero-form" name="search" placeholder="Search essex.gov.uk" autocomplete="off">
           </label>
           <button class="fas fa-search search-icon-position" aria-label="Searching essex.gov.uk button"></button>
         </div>
