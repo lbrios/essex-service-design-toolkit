@@ -7,8 +7,9 @@
   <div class="header">
     <nav class="nav">
       <div class="logo-wrap">
-        <a href="/" class="logotype">Essex.gov.uk
-          <img src="/public/images/logotype.png" width="225px" height="30px" alt="Essex logo">
+        <a href="/" class="logo-text seax">
+          <img src="/public/images/seax.png" width="36" height="30" alt="Essex logo">
+          Essex.gov.uk
         </a>
       </div>
       <form action="/search" method="get" class="form">
@@ -29,8 +30,9 @@
       <div class="header">
         <nav class="nav">
           <div class="logo-wrap">
-            <a href="/" class="logotype">Essex.gov.uk
-              <img src="/public/images/logotype.png" width="225px" height="30px" alt="Essex logo">
+            <a href="/" class="logo-text seax">
+              <img src="/public/images/seax.png" width="36" height="30" alt="Essex logo">
+              Essex.gov.uk
             </a>
           </div>
           <form action="/search" method="get" class="form">
