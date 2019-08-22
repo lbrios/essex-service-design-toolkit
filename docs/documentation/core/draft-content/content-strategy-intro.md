@@ -1,10 +1,10 @@
 # Content strategy: introduction
 
 Contents:
-- [Introduction](introduction)
-- [Aim](aim)
-- [Scope](scope)
-- [Our core values](our-core-values)
+- [Introduction](#introduction)
+- [Aim](#aim)
+- [Scope](#scope)
+- [Our core values](#our-core-values)
 
 ## Introduction
 
