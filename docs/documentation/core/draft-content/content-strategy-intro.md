@@ -1,3 +1,6 @@
+1.  [Content strategy](/docs/core/draft-content/content-strategy)
+2.  [Introduction](#)
+
 # Content strategy: introduction
 
 Contents:
@@ -9,6 +12,7 @@ Contents:
 ## Introduction
 
 Different departments across the organisation create content and publish it through a variety of platforms, including essex.gov.uk, a number of microsites, the intranet, social media, blogging platforms, email marketing and offline communications, such as letters, leaflets and policy documents.   
+
 This presents challenges with:
 - users struggling to find what they are looking for 
 - poor user experience between different websites and platforms 
@@ -19,7 +23,7 @@ This presents challenges with:
 
 Users want clear, relevant content that helps them achieve their goal.
 
-In addition to this, there is a lack of clarity within the organisation on what good content is and how to make it accessible to everyone.    Common problems include:
+In addition to this, there is a lack of clarity within the organisation on what good content is and how to make it accessible to everyone. Common problems include:
 - writing for the organisation, not the user
 - writing in a confusing and complicated way instead of using plain English
 - using jargon that people don’t understand
@@ -28,6 +32,7 @@ In addition to this, there is a lack of clarity within the organisation on what 
 ## Aim
 
 The aim of this strategy is to help the organisation understand the importance of good  content and how it reduces barriers for users accessing services.
+
 It should also help our content designers and editors to:
 - have the confidence and autonomy to deliver good quality content based on user needs
 - work efficiently using a clear workflow that covers the lifecycle of content
@@ -51,7 +56,7 @@ This strategy covers:
 - interactive media including videos, gifs,  charts and graphs  
 - applications and plug-ins owned by Essex County Council or used as part of our digital products
 
-## Our core  values
+## Our core values
 
 We will deliver clear, user-focused content that can easily be accessed and understood by our users when they need it.
 
@@ -63,4 +68,4 @@ We will achieve this by making sure our content is:
 - **authoritative** - we will only deliver content that reflects the services we offer and our expertise
 - **based on data and research** - we will test our content with real users, listen to feedback and iterate to improve
 
-[Next section > Content delivery](#)
+[Next section > Content delivery](content-strategy-delivery)
