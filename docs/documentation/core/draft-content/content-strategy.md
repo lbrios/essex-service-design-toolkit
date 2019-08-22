@@ -5,20 +5,20 @@ This strategy gives the Communications and Marketing, and Service Design teams a
 
 It gives content designers and editors a framework for planning, creating and measuring content. 
 
-## Introduction
+## [Introduction](content-strategy-intro)
 Includes the aim and scope of the strategy and outlines our core values
 
-## Content delivery
+## [Content delivery](content-strategy-delivery)
 Includes what we publish and don't publish, how we design good content and how we learn and iterate
 
-## Content formats and measurement
-Includes how to measure success and failure of specific content formats
-
-## Workflow
+## [Workflow](content-strategy-workflow)
 Includes the content lifecycle, showing how content goes from inception to publication, to iteration
 
-## Governance
+## [Governance](content-strategy-governance)
 Includes the roles and responsibilities of people involved in the content lifecycle and who is accountable for content
+
+## [Content formats and measurement](content-strategy-formats)
+Includes how to measure success and failure of specific content formats
 
 ## Related documents and resources
 Other guidance that should be considered alongside our content strategy are:
