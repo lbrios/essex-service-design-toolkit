@@ -6,7 +6,7 @@
 Contents:
 - [Start with the user](#start-with-the-user)
 - [What we publish](#what-we-publish)
-- [What we don’t publish](#what-we-don’t-publish)
+- [What we don’t publish](#what-we-don-t-publish)
 - [Designing good content](#designing-good-content)
 - [Designing for accessibility](#designing-for-accessibility)
 - [Optimising content for search](#optimising-content-for-search)
