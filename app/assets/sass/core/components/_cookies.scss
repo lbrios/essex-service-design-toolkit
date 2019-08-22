@@ -20,6 +20,8 @@ a.cc-btn {
 // banner 
 
 .cc-banner, .cc-revoke, .cc-window {
+  // float: left !important;
+  display: block !important;
   box-sizing: content-box !important;
   opacity: 1;
   transition: opacity 0s ease !important;
@@ -42,15 +44,29 @@ a.cc-btn {
   width: auto !important;
   max-width: $site-width !important;
   .cc-message {
+    flex: none !important;
     float: left !important;
+    margin-right: $gutter !important;
+    width: auto !important;
     @include media(mobile) {
       @include smaller;
+      line-height: 1.6153846rem !important;
+      margin-bottom: $baseline*0.25 !important;
+    }
+    @include media(tablet) {
+      line-height: $baseline !important;
+      margin-bottom: $baseline*0.75 !important;
+    }
+    @include media(tablet) {
+      line-height: $baseline*1.5 !important;
+      margin-bottom: 0 !important;
     }
   }
   .cc-link {
     color: $link !important;
     text-decoration: underline !important;
     opacity: 1 !important;
+    padding: 0 !important;
     &:hover {
       color: $hover !important;
       text-decoration: underline !important;
@@ -65,19 +81,6 @@ a.cc-btn {
   }
 }
 
-// .cc-window {
-//   box-sizing: content-box !important;
-//   opacity: 1;
-//   transition: opacity 0s ease !important;
-//   z-index: 50 !important;
-// }
-
-// .cc-revoke, .cc-window {
-//   position: relative !important;
-//   @include media(mobile) {
-//     padding: $baseline*0.5 $gutter !important;
-//   }
-//   &.cc-invisible {
-//     display: none;
-//   }
-// }
+.cc-compliance {
+  display: inline-block !important;
+}
