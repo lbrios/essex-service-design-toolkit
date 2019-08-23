@@ -1,5 +1,5 @@
 1. [Home](/docs/core/contents)
-2. [Content](content/overview)
+2. [Content](/docs/core/content/overview)
 3. [Content guidelines](#)
 
 # Content guidelines
