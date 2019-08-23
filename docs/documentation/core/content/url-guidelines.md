@@ -48,7 +48,7 @@ Short URLs, also known as vanity URLs, are unique, short links that redirect use
 
 Short URLs be used for marketing purposes such as campaigns that require a unique campaign identity or have a need for users to remember a web link. They are often used on:
 
-* printed material likeposters or leaflets
+* printed material like posters or leaflets
 * videos
 * audio (such as radio, podcasts or an automated contact centre message)
 
@@ -80,7 +80,7 @@ Short URLs should:
 
 A redirect sends users and search engines to a different URL from the one originally requested. 
 
-They are used to prevent boken links.
+They are used to prevent broken links.
 
 ### When to use a redirect
 
