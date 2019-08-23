@@ -3,7 +3,7 @@
 
 # Content standards
 
-## [Content strategy](/strategy/overview)
+## [Content strategy](strategy/overview)
 How we plan, deliver and publish content at Essex County Council
 
 ## Content guidelines
