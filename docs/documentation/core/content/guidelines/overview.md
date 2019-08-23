@@ -8,16 +8,16 @@ Use our practical 'how to' guides to help with writing and designing content.
 
 ## Planning, writing and managing content
 
-*   [Designing content](content/designing-content)
-*   [What to do with FAQs](what-to-do-with-faqs)
-*   [Creating and publishing content](creating-and-publishing-content)
-*   [Manage your content](manage-your-content)
+*   [Designing content](/docs/core/content/designing-content)
+*   [What to do with FAQs](/docs/core/content/what-to-do-with-faqs)
+*   [Creating and publishing content](/docs/core/content/creating-and-publishing-content)
+*   [Manage your content](/docs/core/content/manage-your-content)
 *   URL guidelines - to follow
 *   Images - to follow
 *   Using website alerts - to follow
 
 ## Training and resources
 
-*   [Useful tools](useful-tools)
-*   [Further reading](content-design-further-reading)
-*   [Training courses](training-courses)
+*   [Useful tools](/docs/core/content/useful-tools)
+*   [Further reading](/docs/core/content/content-design-further-reading)
+*   [Training courses](/docs/core/content/training-courses)
