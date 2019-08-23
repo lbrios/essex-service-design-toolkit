@@ -13,7 +13,7 @@
       <div class="group">
         <div class="signup-input">
           <label for="email">Enter your email address</label>
-          <input type="text" id="email" name="email" autocomplete="off">
+          <input type="text" id="email" name="email" autocomplete="off" placeholder="Enter your email address">
         </div>
         <div class="signup-button" id="submitYourEmailAddress">
           <button type="submit" class="button subscribe">Subscribe</button>
@@ -33,7 +33,7 @@
           <div class="group">
             <div class="signup-input">
               <label for="email">Enter your email address</label>
-              <input type="text" id="email" name="email" autocomplete="off">
+              <input type="text" id="email" name="email" autocomplete="off" placeholder="Enter your email address">
             </div>
             <div class="signup-button" id="submitYourEmailAddress">
               <button type="submit" class="button subscribe">Subscribe</button>

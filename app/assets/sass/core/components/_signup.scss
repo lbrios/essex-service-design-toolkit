@@ -13,6 +13,7 @@
       margin-bottom: 0;
       label {
         color: $body-text-colour;
+        background: $white;
         z-index: 0;
         margin-right: 0;
       }
@@ -29,6 +30,7 @@
           line-height: $baseline;
         }
         label {
+          position: relative;
           margin-top: 0;
           margin-bottom: 0;
         }
@@ -36,8 +38,9 @@
           text-transform: none;
           position: absolute;
           top: 0;
+          left: 0;
           height: $form-height;
-          width: calc(100% - #{$gutter*2});
+          width: 100%;
           @include media(mobile) {
             left: $gutter*0.5;
             width: calc(100% - #{$gutter});
