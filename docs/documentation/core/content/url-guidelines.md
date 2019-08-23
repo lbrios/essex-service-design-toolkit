@@ -9,7 +9,7 @@
 URLs should:
 
 * be simple, clear and easy to read
-* use lower case letetrs only
+* use lower case letters only
 * use dashes to separate words
 * be SEO friendly - this means they should contain keywords so they rank highly in search engines
 
@@ -80,7 +80,7 @@ Short URLs should:
 
 A redirect sends users and search engines to a different URL from the one originally requested. 
 
-They are used to prvent boken links.
+They are used to prevent boken links.
 
 ### When to use a redirect
 
