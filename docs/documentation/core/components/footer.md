@@ -3,26 +3,26 @@
 
 # Footer
 
-<footer class="footer-container" role="contentinfo">
+<footer id="main-footer" class="footer-container" role="contentinfo">
   <div class="footer-top">
     <div class="footer">
-      <nav class="nav">
+      <div class="nav">
         <ul class="nav-links">
           <li><a href="https://www.essex.gov.uk/topic/about-essexgovuk">About essex.gov.uk</a></li><li>
             <a href="https://www.essex.gov.uk/accessibility">Accessibility</a></li><li>
             <a href="https://www.essex.gov.uk/cookies">Cookies</a></li><li>
             <a href="https://www.essex.gov.uk/terms-conditions">Terms and conditions</a></li><li>
             <a href="https://www.essex.gov.uk/privacy-and-data-protection">Privacy and data protection</a></li><li>
-            <a href="https://www.essex.gov.uk/topic/contact-us">Contact us</a></li>
+            <a href="/topic/contact-us">Contact us</a></li>
         </ul>
         <ul class="social">
           <li>
-            <a href="https://www.facebook.com/essexcountycouncil"><i class="fab fa-facebook-f"></i><span>Facebook</span></a></li><li>
-            <a href="https://twitter.com/essex_cc"><i class="fab fa-twitter"></i><span>Twitter</span></a></li><li>
-            <a href="http://www.youtube.com/user/EssexCountyCouncil"><i class="fab fa-youtube"></i><span>Youtube</span></a></li><li>
-            <a href="https://www.flickr.com/photos/essexcc/"><i class="fab fa-flickr"></i><span>Flickr</span></a></li>
+            <a href="https://www.facebook.com/essexcountycouncil"><span class="fab fa-facebook-f"></span><span>Facebook</span></a></li><li>
+            <a href="https://twitter.com/essex_cc"><span class="fab fa-twitter"></span><span>Twitter</span></a></li><li>
+            <a href="http://www.youtube.com/user/EssexCountyCouncil"><span class="fab fa-youtube"></span><span>Youtube</span></a></li><li>
+            <a href="https://www.flickr.com/photos/essexcc/"><span class="fab fa-flickr"></span><span>Flickr</span></a></li>
         </ul>
-      </nav>
+      </div>
     </div>
   </div>
   <div class="footer-bottom">
@@ -35,26 +35,26 @@
   </div>
 </footer>
 
-    <footer class="footer-container" role="contentinfo">
+    <footer id="main-footer" class="footer-container" role="contentinfo">
       <div class="footer-top">
         <div class="footer">
-          <nav class="nav">
+          <div class="nav">
             <ul class="nav-links">
               <li><a href="https://www.essex.gov.uk/topic/about-essexgovuk">About essex.gov.uk</a></li><li>
                 <a href="https://www.essex.gov.uk/accessibility">Accessibility</a></li><li>
                 <a href="https://www.essex.gov.uk/cookies">Cookies</a></li><li>
                 <a href="https://www.essex.gov.uk/terms-conditions">Terms and conditions</a></li><li>
                 <a href="https://www.essex.gov.uk/privacy-and-data-protection">Privacy and data protection</a></li><li>
-                <a href="https://www.essex.gov.uk/topic/contact-us">Contact us</a></li>
+                <a href="/topic/contact-us">Contact us</a></li>
             </ul>
             <ul class="social">
               <li>
-                <a href="https://www.facebook.com/essexcountycouncil"><i class="fab fa-facebook-f"></i><span>Facebook</span></a></li><li>
-                <a href="https://twitter.com/essex_cc"><i class="fab fa-twitter"></i><span>Twitter</span></a></li><li>
-                <a href="http://www.youtube.com/user/EssexCountyCouncil"><i class="fab fa-youtube"></i><span>Youtube</span></a></li><li>
-                <a href="https://www.flickr.com/photos/essexcc/"><i class="fab fa-flickr"></i><span>Flickr</span></a></li>
+                <a href="https://www.facebook.com/essexcountycouncil"><span class="fab fa-facebook-f"></span><span>Facebook</span></a></li><li>
+                <a href="https://twitter.com/essex_cc"><span class="fab fa-twitter"></span><span>Twitter</span></a></li><li>
+                <a href="http://www.youtube.com/user/EssexCountyCouncil"><span class="fab fa-youtube"></span><span>Youtube</span></a></li><li>
+                <a href="https://www.flickr.com/photos/essexcc/"><span class="fab fa-flickr"></span><span>Flickr</span></a></li>
             </ul>
-          </nav>
+          </div>
         </div>
       </div>
       <div class="footer-bottom">

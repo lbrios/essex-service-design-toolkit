@@ -3,65 +3,65 @@
 
 # Icon
 
-<i class="fas fa-external-link-alt"></i>
+<span class="fas fa-external-link-alt"></span>
 
-	<i class="fas fa-external-link-alt"></i>
+	<span class="fas fa-external-link-alt"></span>
 
-<i class="fas fa-exclamation-triangle"></i>
+<span class="fas fa-exclamation-triangle"></span>
 
-	<i class="fas fa-exclamation-triangle"></i>
+	<span class="fas fa-exclamation-triangle"></span>
 
-<i class="fas fa-exclamation-circle"></i>
+<span class="fas fa-exclamation-circle"></span>
 	
-	<i class="fas fa-exclamation-circle"></i>
+	<span class="fas fa-exclamation-circle"></span>
 
-<i class="fas fa-info-circle"></i>
+<span class="fas fa-info-circle"></span>
 
-	<i class="fas fa-info-circle"></i>
+	<span class="fas fa-info-circle"></span>
 
-<i class="fas fa-search"></i>
+<span class="fas fa-search"></span>
 
-	<i class="fas fa-search"></i>
+	<span class="fas fa-search"></span>
 
-<i class="fas fa-print"></i>
+<span class="fas fa-print"></span>
 
-	<i class="fas fa-print"></i>
+	<span class="fas fa-print"></span>
 
-<i class="far fa-file-alt"></i>
+<span class="far fa-file-alt"></span>
 
-	<i class="far fa-file-alt"></i>
+	<span class="far fa-file-alt"></span>
 
-<i class="fab fa-facebook-f"></i>
+<span class="fab fa-facebook-f"></span>
 
-	<i class="fab fa-facebook-f"></i>
+	<span class="fab fa-facebook-f"></span>
 
-<i class="fab fa-twitter"></i>
+<span class="fab fa-twitter"></span>
 
-	<i class="fab fa-twitter"></i>
+	<span class="fab fa-twitter"></span>
 
-<i class="fab fa-youtube"></i>
+<span class="fab fa-youtube"></span>
 
-	<i class="fab fa-youtube"></i>
+	<span class="fab fa-youtube"></span>
 
-<i class="fab fa-instagram"></i>
+<span class="fab fa-instagram"></span>
 
-	<i class="fab fa-instagram"></i>
+	<span class="fab fa-instagram"></span>
 
-<i class="fab fa-linkedin"></i>
+<span class="fab fa-linkedin"></span>
 
-	<i class="fab fa-linkedin"></i>
+	<span class="fab fa-linkedin"></span>
 
-<i class="fab fa-flickr"></i>
+<span class="fab fa-flickr"></span>
 
-	<i class="fab fa-flickr"></i>
+	<span class="fab fa-flickr"></span>
 
-<i class="fas fa-times"></i>
+<span class="fas fa-times"></span>
 
-	<i class="fas fa-times"></i>
+	<span class="fas fa-times"></span>
 
-<i class="fas fa-external-link-alt"></i>
+<span class="fas fa-external-link-alt"></span>
 
-		<i class="fas fa-external-link-alt"></i>
+		<span class="fas fa-external-link-alt"></span>
 
 ## Using icons
 
