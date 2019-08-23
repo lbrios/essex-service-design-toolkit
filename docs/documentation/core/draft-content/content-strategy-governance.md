@@ -7,7 +7,7 @@ This section sets out the roles and responsibilities of people involved in the c
 
 Contents:
 - [Content designers and editors](#content-designers-and-editors)
-- [Content owners and subject matter experts (SMEs)](#content-owners-and-subject-matter-experts-(smes))
+- [Content owners and subject matter experts](#content-owners-and-subject-matter-experts)
 - [Tech Services Design Board](#tech-services-design-board)
 
 ## Content designers and editors
@@ -18,11 +18,11 @@ Content designers and editors are responsible for:
 - choosing the best format for content based on user needs
 - publishing content to a high standard
 
-## Content owners and subject matter experts (SMEs)
+## Content owners and subject matter experts
 
 Content owners should hold a senior position, such as head of service. They have overall responsibility for the service offer and are therefore accountable for its content.
 
-Subject matter experts should work in the service area and have an in-depth knowledge of how the service operates.
+Subject matter experts (SMEs) should work in the service area and have an in-depth knowledge of how the service operates.
 
 They can be the same person or the content owner can assign an SME in their team to work with content designers and editors to:
 - establish user needs
