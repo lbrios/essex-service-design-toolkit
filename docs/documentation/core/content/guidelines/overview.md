@@ -12,7 +12,7 @@ Use our practical 'how to' guides to help with writing and designing content.
 *   [What to do with FAQs](/docs/core/content/what-to-do-with-faqs)
 *   [Creating and publishing content](/docs/core/content/creating-and-publishing-content)
 *   [Manage your content](/docs/core/content/manage-your-content)
-*   URL guidelines - to follow
+*   [URL guidelines](/docs/core/content/url-guidelines) 
 *   Images - to follow
 *   Using website alerts - to follow
 
