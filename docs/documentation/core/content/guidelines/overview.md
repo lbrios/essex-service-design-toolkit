@@ -8,7 +8,7 @@ Use our practical 'how to' guides to help with writing and designing content.
 
 ## Planning, writing and managing content
 
-*   [Designing content](designing-content)
+*   [Designing content](content/designing-content)
 *   [What to do with FAQs](what-to-do-with-faqs)
 *   [Creating and publishing content](creating-and-publishing-content)
 *   [Manage your content](manage-your-content)
