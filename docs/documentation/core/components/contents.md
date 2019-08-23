@@ -3,7 +3,7 @@
 
 # Contents
 
-<nav class="contents" role="navigation" aria-label="pages-in-this-service">
+<nav class="contents" aria-label="pages-in-this-service">
   <div class="heading">
     <h2>Contents</h2>
   </div>
@@ -21,7 +21,7 @@
   </ol>
 </nav>
 
-    <nav class="contents" role="navigation" aria-label="pages-in-this-service">
+    <nav class="contents" aria-label="pages-in-this-service">
       <div class="heading">
         <h2>Contents</h2>
       </div>
