@@ -54,11 +54,11 @@ Short URLs be used for marketing purposes such as campaigns that require a uniqu
 
 They should be clear and easy for people to remember.
 
-### When not to use short URL
+### When not to use a short URL
 
 Short URLs shouldn't be used for:
 
-* the majority of of URLS - there must be a marketing purpose
+* the majority of URLS - there must be a marketing purpose
 * instances where the original URL is already fit for purpose, for example [www.essex.gov.uk/dementia](www.essex.gov.uk/dementia) is the original page URL
 * external websites that are not owned by Essex County Council
 
