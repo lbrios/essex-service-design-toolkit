@@ -2,42 +2,6 @@
 // ==========================================================================
 
 .logo-wrap {
-  a {
-    img {
-      visibility: hidden;
-      vertical-align: bottom;
-      height: initial;
-      margin: 0;
-    }
-    &.logotype {
-      float: left;
-      background-position: 0 0;
-      line-height: 0;
-      text-indent: -9999px;
-      text-decoration: none;
-      background: url('/public/images/logotype.png') no-repeat;
-      background-size: $logo-b-width $logo-b-height;
-      border-bottom: $border-thin $brand solid;
-      margin-top: 3px;
-      margin-bottom: -4px;
-      &:hover {
-        text-indent: -9999px;
-        text-decoration: none;
-        border-bottom: $border-thin $white solid;
-      }
-      &:focus {
-        background-color: $brand;
-        outline: $border-thick solid $focus-colour;
-        border-bottom: $border-thin $white solid;
-      }
-      img {
-        padding-bottom: 4px;
-      }
-    }
-  }
-}
-
-.logo-wrap {
   display: inline-block;
   margin-top: $baseline*0.5;
   margin-bottom: $baseline*0.5;
