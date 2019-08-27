@@ -5,15 +5,15 @@
 
 Press tab to view Skip link working and the skip link.
 
-<div id="skiplink-container">
+<div id="skiplink-container" role="region" aria-label="skiplink">
   <div>
-    <a href="#content" class="skiplink">Skip to main content</a>
+    <a href="#content" class="skiplink" id="skiplink">Skip to main content</a>
   </div>
 </div>
 
-	<div id="skiplink-container">
+	<div id="skiplink-container" role="region" aria-label="skiplink">
 	  <div>
-	    <a href="#content" class="skiplink">Skip to main content</a>
+	    <a href="#content" class="skiplink" id="skiplink">Skip to main content</a>
 	  </div>
 	</div>
 
