@@ -14,16 +14,8 @@
       {% include "includes/skip-link.html" %}
     {% endblock %}
 
-    {% block browsercheck %}
-      {% include "includes/browser-check.html" %}
-    {% endblock %}
-
     {% block header %}
       {% include "includes/search-header.html" %}
-    {% endblock %}
-
-    {% block phasebanner %}
-      {% include "includes/phase-banner.html" %}
     {% endblock %}
 
     {% block content %}{% endblock %}
@@ -31,8 +23,6 @@
     {% block footer %}
       {% include "includes/footer.html" %}
     {% endblock %}
-
-    <script src="{{ asset_path }}javascripts/govuk-template.js?0.18.3" type="text/javascript"></script>
 
     {% block scripts %} 
       {% include "includes/scripts.html" %} 
