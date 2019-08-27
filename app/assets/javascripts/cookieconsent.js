@@ -287,10 +287,10 @@
                 content: {
                     header: "Cookies used on the website!",
                     message: "This website uses cookies to ensure you get the best experience on our website.",
-                    dismiss: "Got it!",
+                    dismiss: "Accept cookies",
                     allow: "Allow cookies",
                     deny: "Decline",
-                    link: "Learn more",
+                    link: "Learn about cookies",
                     href: "https://cookiesandyou.com",
                     close: "&#x274c;",
                     target: "_blank",
@@ -299,11 +299,11 @@
                 elements: {
                     header: '<span class="cc-header">{{header}}</span>&nbsp;',
                     message: '<span id="cookieconsent:desc" class="cc-message">{{message}}</span>',
-                    messagelink: '<span id="cookieconsent:desc" class="cc-message">{{message}} <a aria-label="learn more about cookies" role=button tabindex="0" class="cc-link" href="{{href}}" rel="noopener noreferrer nofollow" target="{{target}}">{{link}}</a></span>',
-                    dismiss: '<a aria-label="dismiss cookie message" role=button tabindex="0" class="cc-btn cc-dismiss">{{dismiss}}</a>',
+                    messagelink: '<span id="cookieconsent:desc" class="cc-message">{{message}} <a aria-label="learn about cookies" role=button tabindex="0" class="cc-link" href="{{href}}" rel="noopener noreferrer nofollow" target="{{target}}">{{link}}</a></span>',
+                    dismiss: '<a aria-label="accept cookies" role=button tabindex="0" class="cc-btn cc-dismiss">{{dismiss}}</a>',
                     allow: '<a aria-label="allow cookies" role=button tabindex="0"  class="cc-btn cc-allow">{{allow}}</a>',
                     deny: '<a aria-label="deny cookies" role=button tabindex="0" class="cc-btn cc-deny">{{deny}}</a>',
-                    link: '<a aria-label="learn more about cookies" role=button tabindex="0" class="cc-link" href="{{href}}" rel="noopener noreferrer nofollow" target="{{target}}">{{link}}</a>',
+                    link: '<a aria-label="learn about cookies" role=button tabindex="0" class="cc-link" href="{{href}}" rel="noopener noreferrer nofollow" target="{{target}}">{{link}}</a>',
                     close: '<span aria-label="dismiss cookie message" role=button tabindex="0" class="cc-close">{{close}}</span>'
                 },
                 window: '<section role="dialog" aria-live="polite" aria-label="cookieconsent" aria-describedby="cookieconsent:desc" class="cc-window {{classes}}"><!--googleoff: all-->{{children}}<!--googleon: all--></section>',
