@@ -5,9 +5,7 @@
 
 <section class="signup-background" aria-label="Subscribe to email">
   <div class="signup">
-    <h3 class="section-heading">
-      Stay up to date 
-    </h3>
+    <h3 class="section-heading">Stay up to date</h3>
     <p>Get the latest news and information about your council services</p>
     <form action="/search" method="get" class="form">
       <div class="group">
@@ -26,9 +24,7 @@
 
     <section class="signup-background" aria-label="Subscribe to email">
       <div class="signup">
-        <h3 class="section-heading">
-          Stay up to date 
-        </h3>
+        <h3 class="section-heading">Stay up to date</h3>
         <p>Get the latest news and information about your council services</p>
         <form action="/search" method="get" class="form">
           <div class="group">
