@@ -3,43 +3,43 @@
 
 # Search-home
 
-<div class="search-background">
+<section class="search-background" aria-label="Search essex.gov.uk">
   <div class="overlay"></div>
   <div class="search-container">
     <div class="greeting">
-      <h1>Welcome to Essex</h1>
+      <h1 class="page-heading">Welcome to Essex</h1>
     </div>
-    <form action="/search" method="get" class="form" role="search">
+    <form action="/search" method="get" class="form" role="search" aria-label="Search essex.gov.uk">
       <div class="group search">
         <div class="search-input">
-          <label for="search">Search
-            <input type="text" id="search" name="search" placeholder="Search essex.gov.uk">
+          <label for="cludo-search-hero-form">Search essex.gov.uk
+            <input type="text" id="cludo-search-hero-form" name="search" placeholder="Search essex.gov.uk" autocomplete="off">
           </label>
-          <button class="fas fa-search search-icon-position" aria-label="search"></button>
+          <button class="fas fa-search search-icon-position" aria-label="Search button"></button>
         </div>
       </div>
     </form>
   </div>
-</div>
+</section>
 
-    <div class="search-background">
+    <section class="search-background" aria-label="Search essex.gov.uk">
       <div class="overlay"></div>
       <div class="search-container">
         <div class="greeting">
-          <h1>Welcome to Essex</h1>
+          <h1 class="page-heading">Welcome to Essex</h1>
         </div>
-        <form action="/search" method="get" class="form" role="search">
+        <form action="/search" method="get" class="form" role="search" aria-label="Search essex.gov.uk">
           <div class="group search">
             <div class="search-input">
-              <label for="search">Search
-                <input type="text" id="search" name="search" placeholder="Search essex.gov.uk">
+              <label for="cludo-search-hero-form">Search essex.gov.uk
+                <input type="text" id="cludo-search-hero-form" name="search" placeholder="Search essex.gov.uk" autocomplete="off">
               </label>
-              <button class="fas fa-search search-icon-position" aria-label="search"></button>
+              <button class="fas fa-search search-icon-position" aria-label="Search button"></button>
             </div>
           </div>
         </form>
       </div>
-    </div>
+    </section>
 
 ## Using search-home
 
