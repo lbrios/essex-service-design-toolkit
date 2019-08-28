@@ -7,7 +7,7 @@
   <div class="heading">
     <h2>Contents</h2>
   </div>
-  <ol id="pages-in-this-service">
+  <ol class="list list-number" id="pages-in-this-service">
     <li>Paying for care and support</li>
     <li><a href="#">Financial assessment </a></li>
     <li><a href="#">Personal budget</a></li>
@@ -25,7 +25,7 @@
       <div class="heading">
         <h2>Contents</h2>
       </div>
-      <ol id="pages-in-this-service">
+      <ol class="list list-number" id="pages-in-this-service">
         <li>Paying for care and support</li>
         <li><a href="#">Financial assessment </a></li>
         <li><a href="#">Personal budget</a></li>
