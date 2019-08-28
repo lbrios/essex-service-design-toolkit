@@ -5,119 +5,119 @@
 
 <div class="previews">
   <div class="preview">
-    <h2 class="sub-section-heading"><a href="#">Preview heading</a></h2>
+    <h3 class="sub-section-heading"><a href="#">Preview heading</a></h3>
     <p>Preview copy explaining what content it contains</p>
   </div>
   <div class="preview">
-    <h2 class="sub-section-heading"><a href="#">Preview heading</a></h2>
+    <h3 class="sub-section-heading"><a href="#">Preview heading</a></h3>
     <p>Preview copy explaining what content it contains</p>
   </div>
   <div class="preview">
-    <h2 class="sub-section-heading"><a href="#">Preview heading</a></h2>
+    <h3 class="sub-section-heading"><a href="#">Preview heading</a></h3>
     <p>Preview copy explaining what content it contains</p>
   </div>
 </div>
 <div class="previews">
   <div class="preview">
-    <h2 class="sub-section-heading"><a href="#">Preview heading</a></h2>
+    <h3 class="sub-section-heading"><a href="#">Preview heading</a></h3>
     <p>Preview copy explaining what content it contains</p>
   </div>
   <div class="preview">
-    <h2 class="sub-section-heading"><a href="#">Preview heading</a></h2>
+    <h3 class="sub-section-heading"><a href="#">Preview heading</a></h3>
     <p>Preview copy explaining what content it contains</p>
   </div>
 </div>
 
     <div class="previews">
       <div class="preview">
-        <h2 class="sub-section-heading"><a href="#">Preview heading</a></h2>
+        <h3 class="sub-section-heading"><a href="#">Preview heading</a></h3>
         <p>Preview copy explaining what content it contains</p>
       </div>
       <div class="preview">
-        <h2 class="sub-section-heading"><a href="#">Preview heading</a></h2>
+        <h3 class="sub-section-heading"><a href="#">Preview heading</a></h3>
         <p>Preview copy explaining what content it contains</p>
       </div>
       <div class="preview">
-        <h2 class="sub-section-heading"><a href="#">Preview heading</a></h2>
+        <h3 class="sub-section-heading"><a href="#">Preview heading</a></h3>
         <p>Preview copy explaining what content it contains</p>
       </div>
     </div>
     <div class="previews">
       <div class="preview">
-        <h2 class="sub-section-heading"><a href="#">Preview heading</a></h2>
+        <h3 class="sub-section-heading"><a href="#">Preview heading</a></h3>
         <p>Preview copy explaining what content it contains</p>
       </div>
       <div class="preview">
-        <h2 class="sub-section-heading"><a href="#">Preview heading</a></h2>
+        <h3 class="sub-section-heading"><a href="#">Preview heading</a></h3>
         <p>Preview copy explaining what content it contains</p>
       </div>
     </div>
 
-<div class="previews">
+<div class="previews news">
   <div class="preview">
     <img src="/public/images/news.jpg" alt="Image description">
-    <h2 class="sub-section-heading"><a href="#">Preview heading with image above</a></h2>
+    <h3 class="sub-section-heading"><a href="#">Preview heading with image above</a></h3>
     <p>Preview copy explaining what content it contains.</p>
     <p class="meta">3 October 2018</p>
   </div>
   <div class="preview">
     <img src="/public/images/news.jpg" alt="Image description">
-    <h2 class="sub-section-heading"><a href="#">Preview heading with image above</a></h2>
+    <h3 class="sub-section-heading"><a href="#">Preview heading with image above</a></h3>
     <p>Preview copy explaining what content it contains.</p>
     <p class="meta">3 October 2018</p>
   </div>
   <div class="preview">
     <img src="/public/images/news.jpg" alt="Image description">
-    <h2 class="sub-section-heading"><a href="#">Preview heading with image above</a></h2>
+    <h3 class="sub-section-heading"><a href="#">Preview heading with image above</a></h3>
     <p>Preview copy explaining what content it contains.</p>
     <p class="meta">3 October 2018</p>
   </div>
 </div>
-<div class="previews">
+<div class="previews news">
   <div class="preview">
     <img src="/public/images/news.jpg" alt="Image description">
-    <h2 class="sub-section-heading"><a href="#">Preview heading with image above</a></h2>
+    <h3 class="sub-section-heading"><a href="#">Preview heading with image above</a></h3>
     <p>Preview copy explaining what content it contains.</p>
     <p class="meta">3 October 2018</p>
   </div>
   <div class="preview">
     <img src="/public/images/news.jpg" alt="Image description">
-    <h2 class="sub-section-heading"><a href="#">Preview heading with image above</a></h2>
+    <h3 class="sub-section-heading"><a href="#">Preview heading with image above</a></h3>
     <p>Preview copy explaining what content it contains.</p>
     <p class="meta">3 October 2018</p>
   </div>
 </div>
 
-    <div class="previews">
+    <div class="previews news">
       <div class="preview">
         <img src="/public/images/news.jpg" alt="Image description">
-        <h2 class="sub-section-heading"><a href="#">Preview heading with image above</a></h2>
+        <h3 class="sub-section-heading"><a href="#">Preview heading with image above</a></h3>
         <p>Preview copy explaining what content it contains.</p>
         <p class="meta">3 October 2018</p>
       </div>
       <div class="preview">
         <img src="/public/images/news.jpg" alt="Image description">
-        <h2 class="sub-section-heading"><a href="#">Preview heading with image above</a></h2>
+        <h3 class="sub-section-heading"><a href="#">Preview heading with image above</a></h3>
         <p>Preview copy explaining what content it contains.</p>
         <p class="meta">3 October 2018</p>
       </div>
       <div class="preview">
         <img src="/public/images/news.jpg" alt="Image description">
-        <h2 class="sub-section-heading"><a href="#">Preview heading with image above</a></h2>
+        <h3 class="sub-section-heading"><a href="#">Preview heading with image above</a></h3>
         <p>Preview copy explaining what content it contains.</p>
         <p class="meta">3 October 2018</p>
       </div>
     </div>
-    <div class="previews">
+    <div class="previews news">
       <div class="preview">
         <img src="/public/images/news.jpg" alt="Image description">
-        <h2 class="sub-section-heading"><a href="#">Preview heading with image above</a></h2>
+        <h3 class="sub-section-heading"><a href="#">Preview heading with image above</a></h3>
         <p>Preview copy explaining what content it contains.</p>
         <p class="meta">3 October 2018</p>
       </div>
       <div class="preview">
         <img src="/public/images/news.jpg" alt="Image description">
-        <h2 class="sub-section-heading"><a href="#">Preview heading with image above</a></h2>
+        <h3 class="sub-section-heading"><a href="#">Preview heading with image above</a></h3>
         <p>Preview copy explaining what content it contains.</p>
         <p class="meta">3 October 2018</p>
       </div>
