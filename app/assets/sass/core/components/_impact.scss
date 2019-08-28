@@ -38,12 +38,14 @@
       margin: $gutter*0.5;
     }
     .overlay-content {
+      .content-heading {
+        margin-top: 0;
+      }
       @include media(mobile) {
         padding: 0;
         .content-heading {
           display: block;
           padding: $baseline $gutter*0.5;
-          margin-top: 0;
           margin-bottom: $baseline*0.5;
           @include media(mobile) {
             padding: 0;
@@ -53,8 +55,6 @@
           padding-left: 0;
           padding-right: 0;
           padding: 0;
-          // padding-bottom: $baseline;
-          // border-bottom: $border-normal $link solid;
         }
       }
       h2, h3 {
