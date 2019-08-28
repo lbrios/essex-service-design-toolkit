@@ -84,3 +84,7 @@ Icons shouldn't be used:
   <li>instead of an image</li>
   <li>to hide a function, such as a button</li>
 </ul>
+
+Our Icons are provided by Fontawesome. Fontawesome code is using `<i></i>`, but you can use also `<span></span>` instead, and we recommened that.
+
+
