@@ -26,9 +26,9 @@
           {% include "includes/previews-news.html" %}
         {% endblock %}
 
-        <div class="more-background">
-          <a href="examples/news-landing" class="button more">More news</a>
-        </div>
+        {% block more %}
+          {% include "includes/more.html" %}
+        {% endblock %}
       </section>
       
     </div>
