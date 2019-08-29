@@ -1,6 +1,12 @@
 .signup {
+  margin-top: $baseline;
   @media print {
     display: none;
+  }
+  .section-heading {
+    @include media(desktop) {
+      @include h2;
+    }
   }
   .section-heading, p {
     @include grid-column(1);
@@ -84,10 +90,8 @@
     }
     .section-heading {
       @include media(desktop) {
-        font-size: ms(5);
-        font-weight: $bold;
-        line-height: $baseline*1.5;
-        font-weight: 400;
+        @include h2;
+        font-weight: $normal;
       }
     }
     .section-heading, p {
