@@ -4,9 +4,7 @@
 # Contents
 
 <nav class="contents" aria-label="pages-in-this-service">
-  <div class="heading">
-    <h2>Contents</h2>
-  </div>
+  <div class="heading"><h2>Contents</h2></div>
   <ol class="list list-number" id="pages-in-this-service">
     <li>Paying for care and support</li>
     <li><a href="#">Financial assessment </a></li>
@@ -22,9 +20,7 @@
 </nav>
 
     <nav class="contents" aria-label="pages-in-this-service">
-      <div class="heading">
-        <h2>Contents</h2>
-      </div>
+      <div class="heading"><h2>Contents</h2></div>
       <ol class="list list-number" id="pages-in-this-service">
         <li>Paying for care and support</li>
         <li><a href="#">Financial assessment </a></li>
