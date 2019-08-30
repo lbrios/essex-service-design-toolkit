@@ -68,6 +68,8 @@ a.logo-text.seax {
     border-bottom: $border-normal $white solid;
   }
   img {
+    vertical-align: bottom;
+    height: initial;
     display: inline-block;
     margin: 0;
     @media print {

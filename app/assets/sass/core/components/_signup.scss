@@ -8,10 +8,6 @@
       @include h2;
     }
   }
-  .section-heading, p {
-    @include grid-column(1);
-    @extend %grid-row;
-  }
   .form {
     @extend %grid-row;
     margin-bottom: $baseline*0.5;
@@ -22,6 +18,12 @@
         background: $white;
         z-index: 0;
         margin-right: 0;
+      }
+      .signup-input, .signup-button {
+        @include media(mobile) {
+          padding-left: $gutter;
+          padding-right: $gutter;
+        }
       }
       .signup-input {
         position: relative;
@@ -47,14 +49,6 @@
           left: 0;
           height: $form-height;
           width: 100%;
-          @include media(mobile) {
-            left: $gutter*0.5;
-            width: calc(100% - #{$gutter});
-            &:focus {
-              left: $gutter*0.5;
-              width: calc(100% - #{$gutter});
-            }
-          }
         }
         input:-webkit-autofill {
           -webkit-box-shadow: 0 0 0px 1000px $white inset;
@@ -95,6 +89,19 @@
       }
     }
     .section-heading, p {
+      @extend %grid-row;
+      @include media(mobile) {
+        padding-left: $gutter*0.5;
+        padding-right: $gutter*0.5;
+      }
+      @include media(tablet) {
+        padding-left: $gutter*0.5;
+        padding-right: $gutter*0.5;
+      }
+      @include media(desktop) {
+        padding-left: $gutter;
+        padding-right: $gutter;
+      }
       color: $white;
       margin-top: 0;
     }
