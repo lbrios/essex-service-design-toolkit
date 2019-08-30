@@ -24,14 +24,6 @@ ul.link-boxes {
   .link-box {
     padding-left: 0;
     margin-bottom: $baseline;
-    // @include media(mobile) {
-    //   padding-left: $gutter;
-    //   padding-right: $gutter;
-    // }
-    // @include media(tablet) {
-    //   padding-left: $gutter;
-    //   padding-right: $gutter;
-    // }
     @include media(desktop) {
       display: flex;
       @include grid-column(4 / 12);
