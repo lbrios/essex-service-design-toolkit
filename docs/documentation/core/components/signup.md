@@ -3,41 +3,39 @@
 
 # Signup
 
-<div class="signup" role="form">
-  <h3 class="section-heading">
-    Stay up to date 
-  </h3>
+<section class="signup" role="form" aria-label="Subscribe to email">
+  <h2 class="section-heading">Stay up to date</h2>
   <p>Get the latest news and information about your council services</p>
   <form action="/search" method="get" class="form">
     <div class="group">
       <div class="signup-input">
-        <label for="email">Enter your email address</label>
-        <input type="text" id="email" name="email" autocomplete="off">
+        <label for="email">Enter your email address
+          <input type="text" id="email" name="email" autocomplete="off" placeholder="Enter your email address">
+        </label>
       </div>
-      <div class="signup-button">
+      <div class="signup-button" id="submitYourEmailAddress">
         <button type="submit" class="button subscribe">Subscribe</button>
       </div>
     </div>
   </form>
-</div>
+</section>
 
-    <div class="signup" role="form">
-      <h3 class="section-heading">
-        Stay up to date 
-      </h3>
+    <section class="signup" role="form" aria-label="Subscribe to email">
+      <h2 class="section-heading">Stay up to date</h2>
       <p>Get the latest news and information about your council services</p>
       <form action="/search" method="get" class="form">
         <div class="group">
           <div class="signup-input">
-            <label for="email">Enter your email address</label>
-            <input type="text" id="email" name="email" autocomplete="off">
+            <label for="email">Enter your email address
+              <input type="text" id="email" name="email" autocomplete="off" placeholder="Enter your email address">
+            </label>
           </div>
-          <div class="signup-button">
+          <div class="signup-button" id="submitYourEmailAddress">
             <button type="submit" class="button subscribe">Subscribe</button>
           </div>
         </div>
       </form>
-    </div>
+    </section>
 
 ## Using signup
 

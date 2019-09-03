@@ -8,7 +8,7 @@
     <li class="prev">
       <a href="#">
         <span class="pagination-item">
-          <i class="fas fa-arrow-left"></i>Previous
+          <span class="fas fa-arrow-left"></span>Previous
         </span>
         <span>Paying for care and support</span>
       </a>
@@ -16,7 +16,7 @@
     <li class="next">
       <a href="#">
         <span class="pagination-item">
-          <i class="fas fa-arrow-right"></i>Next
+          <span class="fas fa-arrow-right"></span>Next
         </span>
         <span>Personal budget</span>
       </a>
@@ -29,7 +29,7 @@
         <li class="prev">
           <a href="#">
             <span class="pagination-item">
-              <i class="fas fa-arrow-left"></i>Previous
+              <span class="fas fa-arrow-left"></span>Previous
             </span>
             <span>Paying for care and support</span>
           </a>
@@ -37,7 +37,7 @@
         <li class="next">
           <a href="#">
             <span class="pagination-item">
-              <i class="fas fa-arrow-right"></i>Next
+              <span class="fas fa-arrow-right"></span>Next
             </span>
             <span>Personal budget</span>
           </a>

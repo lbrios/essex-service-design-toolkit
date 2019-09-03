@@ -27,4 +27,7 @@ a.print-link {
   &:active {
     color: $active;
   }
+  &:focus {
+    color: $black;
+  }
 }

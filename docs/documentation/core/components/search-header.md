@@ -5,46 +5,46 @@
 
 <header class="header-background">
   <div class="header">
-    <nav class="nav">
+    <div class="nav">
       <div class="logo-wrap">
         <a href="/" class="logo-text seax">
           <img src="/public/images/seax.png" width="36" height="30" alt="Essex logo">
           Essex.gov.uk
         </a>
       </div>
-      <form action="/search" method="get" class="form">
-        <div class="group search" role="search">
+      <form action="/search" method="get" class="form" role="search" aria-label="Search essex.gov.uk">
+        <div class="group search">
           <div class="search-input">
-            <label for="cludo-search-hero-form">Search
-              <input type="text" id="cludo-search-hero-form" name="search" placeholder="Search essex.gov.uk">
+            <label for="cludo-search-hero-form">Search essex.gov.uk
+              <input type="text" id="cludo-search-hero-form" name="search" placeholder="Search essex.gov.uk" autocomplete="off">
             </label>
-            <button class="fas fa-search search-icon-position" aria-label="Searching essex.gov.uk button" aria-hidden="true"></button>
+            <button class="fas fa-search search-icon-position" aria-label="Search button"></button>
           </div>
         </div>
       </form>
-    </nav>
+    </div>
   </div>
 </header>
 
     <header class="header-background">
       <div class="header">
-        <nav class="nav">
+        <div class="nav">
           <div class="logo-wrap">
             <a href="/" class="logo-text seax">
               <img src="/public/images/seax.png" width="36" height="30" alt="Essex logo">
               Essex.gov.uk
             </a>
           </div>
-          <form action="/search" method="get" class="form">
-            <div class="group search" role="search">
+          <form action="/search" method="get" class="form" role="search" aria-label="Search essex.gov.uk">
+            <div class="group search">
               <div class="search-input">
-                <label for="cludo-search-hero-form">Search
-                  <input type="text" id="cludo-search-hero-form" name="search" placeholder="Search essex.gov.uk">
+                <label for="cludo-search-hero-form">Search essex.gov.uk
+                  <input type="text" id="cludo-search-hero-form" name="search" placeholder="Search essex.gov.uk" autocomplete="off">
                 </label>
-                <button class="fas fa-search search-icon-position" aria-label="Searching essex.gov.uk button" aria-hidden="true"></button>
+                <button class="fas fa-search search-icon-position" aria-label="Search button"></button>
               </div>
             </div>
           </form>
-        </nav>
+        </div>
       </div>
     </header>

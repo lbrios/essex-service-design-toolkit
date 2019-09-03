@@ -7,22 +7,19 @@
   <li class="link-box">
     <div class="link-content">
       <a href="#" class="sub-section-heading">Link box</a>
-        <p>Link box copy explaining what content it contains
-        </p>
+        <p>Link box copy explaining what content it contains</p>
     </div>
   </li>
   <li class="link-box">
     <div class="link-content">
       <a href="#" class="sub-section-heading">Link box</a>
-        <p>Link box copy explaining what content it contains
-        </p>
+        <p>Link box copy explaining what content it contains</p>
     </div>
   </li>
   <li class="link-box">
     <div class="link-content">
       <a href="#" class="sub-section-heading">Link box</a>
-        <p>Link box copy explaining what content it contains
-        </p>
+        <p>Link box copy explaining what content it contains</p>
     </div>
   </li>
 </ul>
@@ -31,22 +28,19 @@
       <li class="link-box">
         <div class="link-content">
           <a href="#" class="sub-section-heading">Link box</a>
-            <p>Link box copy explaining what content it contains
-            </p>
+            <p>Link box copy explaining what content it contains</p>
         </div>
       </li>
       <li class="link-box">
         <div class="link-content">
           <a href="#" class="sub-section-heading">Link box</a>
-            <p>Link box copy explaining what content it contains
-            </p>
+            <p>Link box copy explaining what content it contains</p>
         </div>
       </li>
       <li class="link-box">
         <div class="link-content">
           <a href="#" class="sub-section-heading">Link box</a>
-            <p>Link box copy explaining what content it contains
-            </p>
+            <p>Link box copy explaining what content it contains</p>
         </div>
       </li>
     </ul>

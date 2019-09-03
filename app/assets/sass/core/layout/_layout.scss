@@ -36,8 +36,8 @@
     margin-right: (-$gutter);
   }
   @include media(tablet) {
-    margin-left: (-$gutter);
-    margin-right: (-$gutter);
+    margin-left: (-$gutter*0.5);
+    margin-right: (-$gutter*0.5);
   }
   @include media(desktop) {
     margin-left: (-$gutter);

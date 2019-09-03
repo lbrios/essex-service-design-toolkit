@@ -8,7 +8,7 @@
 
 <div class="alert error" id="tab-one">
   <div class="alert-icon">
-    <i class="fas fa-exclamation-circle"></i>
+    <span class="fas fa-exclamation-circle"></span>
   </div>
   <div class="alert-text">
     <div class="section-heading">We are experiencing some issues</div>
@@ -19,7 +19,7 @@
 
     <div class="alert error" id="tab-one">
       <div class="alert-icon">
-        <i class="fas fa-exclamation-circle"></i>
+        <span class="fas fa-exclamation-circle"></span>
       </div>
       <div class="alert-text">
         <div class="section-heading">We are experiencing some issues</div>
@@ -32,7 +32,7 @@
 
 <div class="alert info" id="tab-two">
   <div class="alert-icon">
-    <i class="fas fa-info-circle"></i>
+    <span class="fas fa-info-circle"></span>
   </div>
   <div class="alert-text">
     <div class="section-heading">We are updating our system</div>
@@ -43,7 +43,7 @@
 
     <div class="alert info" id="tab-two">
       <div class="alert-icon">
-        <i class="fas fa-info-circle"></i>
+        <span class="fas fa-info-circle"></span>
       </div>
       <div class="alert-text">
         <div class="section-heading">We are updating our system</div>
@@ -56,7 +56,7 @@
 
 <div class="alert warning" id="tab-three">
   <div class="alert-icon">
-    <i class="fas fa-exclamation-triangle"></i>
+    <span class="fas fa-exclamation-triangle"></span>
   </div>
   <div class="alert-text">
     <div class="section-heading">School closures</div>
@@ -67,7 +67,7 @@
 
     <div class="alert warning" id="tab-three">
       <div class="alert-icon">
-        <i class="fas fa-exclamation-triangle"></i>
+        <span class="fas fa-exclamation-triangle"></span>
       </div>
       <div class="alert-text">
         <div class="section-heading">School closures</div>

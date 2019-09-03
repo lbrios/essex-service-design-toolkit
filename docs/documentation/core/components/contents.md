@@ -3,11 +3,9 @@
 
 # Contents
 
-<nav class="contents" role="navigation" aria-label="pages-in-this-service">
-  <div class="heading">
-    <h2>Contents</h2>
-  </div>
-  <ol id="pages-in-this-service">
+<nav class="contents" aria-label="pages-in-this-service">
+  <div class="heading"><h2>Contents</h2></div>
+  <ol class="list list-number" id="pages-in-this-service">
     <li>Paying for care and support</li>
     <li><a href="#">Financial assessment </a></li>
     <li><a href="#">Personal budget</a></li>
@@ -21,11 +19,9 @@
   </ol>
 </nav>
 
-    <nav class="contents" role="navigation" aria-label="pages-in-this-service">
-      <div class="heading">
-        <h2>Contents</h2>
-      </div>
-      <ol id="pages-in-this-service">
+    <nav class="contents" aria-label="pages-in-this-service">
+      <div class="heading"><h2>Contents</h2></div>
+      <ol class="list list-number" id="pages-in-this-service">
         <li>Paying for care and support</li>
         <li><a href="#">Financial assessment </a></li>
         <li><a href="#">Personal budget</a></li>

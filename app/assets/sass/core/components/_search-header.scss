@@ -38,6 +38,7 @@
       }
       label {
         @include box-sizing(border-box);
+        color: $white;
         font-size: ms(0);
         padding: $baseline*0.25;
         line-height: $baseline;

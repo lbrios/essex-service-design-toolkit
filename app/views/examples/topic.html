@@ -1,26 +1,19 @@
 {% extends "essex_topic_template.html" %}
-
 {% block content %}
-
 <nav class="breadcrumbs" aria-label="breadcrumbs">
   <ol>
     <li><a href="/">Home</a></li>
     <li><a href="#">Social care and health</a></li>
   </ol>
 </nav>
-
 <main id="content">
   <div class="container">
     <div class="main only">
-      <section class="intro">
+      <section class="content">
         <h1>Social care and health</h1>
-
         {% block linkbox %}
           {% include "includes/link-box.html" %}
         {% endblock %}
-      </section>
-
-      <section class="content">
         <div class="preview-list">
           <ul>
             <li>
@@ -35,25 +28,30 @@
                 <a href="#">Advocacy</a>
                 <p>Find out why you may need an advocate, and whom to contact for advocacy services in Essex</p>
             </li>
+            <li>
+                <a href="#">Autism</a>
+                <p>Information to people of all ages affected by autism, either for themselves, a family member or a friend.</p>
+            </li>
           </ul>
-          <div class="js-hidden" id="tab-one" aria-hidden="true">
-            <ul>
-              <li>
-                  <a href="#">Autism</a>
-                  <p>Information to people of all ages affected by autism, either for themselves, a family member or a friend.</p>
-              </li>
-            </ul>
-          </div>
-          <div data-target="tab-one">
-            <input class="checkbox" id="toggle-one" type="checkbox" aria-controls="tab-one" aria-expanded="false">
-            <label class="show" for="toggle-one">Show</label>
-            <label class="hide" for="toggle-one">Hide</label>
-          </div>
+        </div>
+        <div class="signup" role="form" aria-label="Subscribe to email">
+          <h2 class="section-heading">Stay up to date</h2>
+          <p>Get the latest news and information about your council services</p>
+          <form action="/search" method="get" class="form">
+            <div class="group">
+              <div class="signup-input">
+                <label for="email">Enter your email address
+                  <input type="text" id="email" name="email" autocomplete="off" placeholder="Enter your email address">
+                </label>
+              </div>
+              <div class="signup-button" id="submitYourEmailAddress">
+                <button type="submit" class="button subscribe">Subscribe</button>
+              </div>
+            </div>
+          </form>
         </div>
       </section>
-
     </div>
   </div>
 </main>
-
 {% endblock %}
