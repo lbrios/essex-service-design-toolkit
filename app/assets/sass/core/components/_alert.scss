@@ -1,3 +1,23 @@
+
+.article-alert .alert {
+  float: left;
+  @include media(mobile) {
+    margin-left: $gutter*0.5;
+    margin-right: $gutter*0.5;
+    width: calc(100% - #{$gutter});
+  }
+  @include media(tablet) {
+    margin-left: $gutter*0.5;
+    margin-right: $gutter*0.5;
+    width: calc(100% - #{$gutter});
+  }
+  @include media(desktop) {
+    margin-left: $gutter;
+    margin-right: $gutter;
+    width: calc(100% - #{$gutter*2});
+  }
+}
+
 .alert {
   @media print {
     display: none !important;
