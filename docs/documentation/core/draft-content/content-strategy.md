@@ -5,7 +5,7 @@ This strategy gives the Communications and Marketing, and Service Design teams a
 
 It gives content designers and editors a framework for planning, creating and measuring content. 
 
-## [Introduction](content-strategy-intro)
+## [Purpose of the content strategy](content-strategy-intro)
 Includes the aim and scope of the strategy and outlines our core values
 
 ## [Content delivery](content-strategy-delivery)
@@ -22,10 +22,10 @@ Includes how to measure success and failure of specific content formats
 
 ## Related documents and resources
 Other guidance that should be considered alongside our content strategy are:
-- Accessibility guidance
-- Brand guidelines  
+- [Accessibility guidance](/docs/core/accessibility/overview)
+- Brand guidelines - being updated
+- [Content guidelines](/docs/core/content/guidelines/overview)
 - [Communications and marketing strategy (on essex.gov.uk)](https://www.essex.gov.uk/communications-and-marketing-strategy)
 - GDPR policy
-- Tone of voice
-- Image guidelines 
-- Social media strategy
+- Tone of voice - being updated
+- Social media strategy - being created
