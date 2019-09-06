@@ -15,10 +15,7 @@ Contents:
 ## Start with the user
 Good content is designed around user needs. It’s what the user needs from your service and not what you want to tell them. 
 
-Learn more about user needs including:
-- why it matters
-- who our users are
-- how to write user stories
+Learn more about [user needs](/docs/core/users/user-need).
 
 ## What we publish
 
@@ -31,11 +28,11 @@ We will only publish content that:
 We don’t publish:
 - content that doesn’t have a clear user need or isn’t something we have a statutory obligation to publish
 - general advice that other organisations or charities could provide, for example [pregnancy advice from the NHS](https://www.nhs.uk/conditions/pregnancy-and-baby/) 
-- frequently asked questions (FAQs)
+- [frequently asked questions (FAQs)](/docs/core/content/what-to-do-with-faqs)
 - anything that belongs to another organisation or has already been published on our site or another such as [how to set up a business on GOV.UK](https://www.gov.uk/set-up-business)
 - legislation that’s on [legislation.gov.uk](http://www.legislation.gov.uk/)
 - content that is in draft form, except consultations
-- PDFs, Word or Excel documents that don’t meet accessibility criteria
+- PDFs, Word or Excel documents that don’t meet [accessibility criteria](/docs/core/accessibility/overview)
 - web pages with links to everything you might want to know about x topic, such as ‘web portals’
 
 ## Designing good content
@@ -72,7 +69,7 @@ We also design and structure good content by:
 - avoiding duplication  
 - not using bold, italics and underline
 
-See detailed examples of how to design and structure content.
+See our guidance on [designing and structuring content](/docs/core/content/designing-content).
 
 ## Designing for accessibility
 
@@ -82,17 +79,15 @@ We also design content in an accessible way so that it can be used and understoo
 - cognitive impairments or learning disabilities	
 - deafness or impaired hearing
 
-Find out more about designing and checking content for accessibility.
+See our guidance on [making content accessible](/docs/core/accessibility/overview).
 
 ## Optimising content for search
 
-We have evidence that most of our users search for content on Google, so it’s important to use keywords in your content.
+We know that most of our users come to our websites through searching on Google. Keywords are the common terms people use when searching for information, so it’s important to use the same keywords in your content.
 
-This includes adding keywords in the title, teaser text, meta description and body of content.
+Optimising your content for search will help users find it easily and quickly.
 
-It’s also important to use the same terms that your audience use to search. This helps them find your content easily and quickly. [Google Trends](https://trends.google.com/trends/?geo=GB) is a good tool to find out what people search for. 
-
-See our guidance on optimising content for search.
+See our guidance on [optimising content for search](#) - LINK TO BE ADDED.
 
 ## Learning and iterating  
 
