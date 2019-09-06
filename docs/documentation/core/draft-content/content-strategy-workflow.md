@@ -127,30 +127,30 @@ Before content is unpublished you should:
 
 Content owners and subject matter experts should also remove any reference to the content from other publications such as documents, emails, marketing material and other websites. 
 
-    <div class="step-by-step">
-      <div class="step">
-        <div class="step-number">
-          <span class="section-heading number">1</span>
-          <span class="step-link"></span>
-        </div>
-        <div class="toggle">
-          <div data-target="tab-one">
-            <h3 class="section-heading">Step</h3>
-            <input class="checkbox" id="toggle-one" type="checkbox">
-            <label class="show" for="toggle-one">Show</label>
-            <label class="hide" for="toggle-one">Hide</label>
-          </div>
-          <div class="js-hidden preview-list" id="tab-one">
-            <ul>
-              <li><a href="#">Lorem ipsum dolor sit amet.</a></li>
-              <li><a href="#">Lorem ipsum dolor sit amet.</a></li>
-              <li><a href="#">Lorem ipsum dolor sit amet.</a></li>
-              <li><a href="#">Lorem ipsum dolor sit amet.</a></li>
-              <li><a href="#">Lorem ipsum dolor sit amet.</a><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-              tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p></li>
-            </ul>
-          </div>
-        </div>
+<div class="step-by-step">
+  <div class="step">
+    <div class="step-number">
+      <span class="section-heading number">1</span>
+      <span class="step-link"></span>
+    </div>
+    <div class="toggle">
+      <div data-target="tab-one">
+        <h3 class="section-heading">Step</h3>
+        <input class="checkbox" id="toggle-one" type="checkbox">
+        <label class="show" for="toggle-one">Show</label>
+        <label class="hide" for="toggle-one">Hide</label>
       </div>
+      <div class="js-hidden preview-list" id="tab-one">
+        <ul>
+          <li><a href="#">Lorem ipsum dolor sit amet.</a></li>
+          <li><a href="#">Lorem ipsum dolor sit amet.</a></li>
+          <li><a href="#">Lorem ipsum dolor sit amet.</a></li>
+          <li><a href="#">Lorem ipsum dolor sit amet.</a></li>
+          <li><a href="#">Lorem ipsum dolor sit amet.</a><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p></li>
+        </ul>
+      </div>
+    </div>
+  </div>
 
 [Next section > Governance](content-strategy-governance)
