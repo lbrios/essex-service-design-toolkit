@@ -46,6 +46,179 @@ Don’t go ahead if:
 
 ## Content lifecycle
 
+<div class="step-by-step">
+  <div class="step">
+    <div class="step-number">
+      <span class="section-heading number">1</span>
+      <span class="step-link"></span>
+    </div>
+    <div class="toggle">
+      <div data-target="tab-one">
+        <h3 class="section-heading">Discovery and planning</h3>
+        <input class="checkbox" id="toggle-one" type="checkbox">
+        <label class="show" for="toggle-one">Show</label>
+        <label class="hide" for="toggle-one">Hide</label>
+      </div>
+      <div class="js-hidden preview-list" id="tab-one">
+        <p>The goals for the discovery and planning phase are to understand:</p>
+          <ul>
+            <li>who the users are</li>
+            <li>what they want to achieve</li>
+          </ul>
+        <p>A typical content discovery includes:</p>
+        <ul>
+          <li>gathering data and research - this can include auditing existing content, gathering user feedback and website analytics, researching keywords and reviewing customer contact with the service</li>
+          <li>a kick-off meeting with relevant content owners and subject matter experts to understand their service, the challenges they face and understand if there are legislative requirements and technical dependencies for the content</li>
+          <li>testing existing content if possible - this will help to understand the user journey and highlight what might need to change</li>
+          <li>writing and validating user needs based on the information gathered</li>
+        </ul>
+      </div>
+    </div>
+    
+   <div class="step">
+    <div class="step-number">
+      <span class="section-heading number">2</span>
+      <span class="step-link"></span>
+    </div>
+    <div class="toggle">
+      <div data-target="tab-two">
+        <h3 class="section-heading">Design and create</h3>
+        <input class="checkbox" id="toggle-two" type="checkbox">
+        <label class="show" for="toggle-two">Show</label>
+        <label class="hide" for="toggle-two">Hide</label>
+      </div>
+      <div class="js-hidden preview-list" id="tab-two">
+        <p>After your discovery phase, you can start to design and write content. The goal for the design phase is to have a prototype that can be tested with users.</p>
+        <p>A typical content design phase includes:</p>
+        <ul>
+          <li>writing the content based on what you know from the discovery - you can pair write  with another content designer, the content owner or the subject matter expert</li>
+          <li>choosing the right platform and format for the content, based on the user needs</li>
+          <li>prototyping the content  so it can be tested with users and shown to stakeholders</li>
+        </ul>
+      </div>
+    </div>
+    
+   <div class="step">
+    <div class="step-number">
+      <span class="section-heading number">3</span>
+      <span class="step-link"></span>
+    </div>
+    <div class="toggle">
+      <div data-target="tab-three">
+        <h3 class="section-heading">Step</h3>
+        <input class="checkbox" id="toggle-three" type="checkbox">
+        <label class="show" for="toggle-three">Show</label>
+        <label class="hide" for="toggle-three">Hide</label>
+      </div>
+      <div class="js-hidden preview-list" id="tab-three">
+        <ul>
+          <li><a href="#">Lorem ipsum dolor sit amet.</a></li>
+          <li><a href="#">Lorem ipsum dolor sit amet.</a></li>
+          <li><a href="#">Lorem ipsum dolor sit amet.</a></li>
+          <li><a href="#">Lorem ipsum dolor sit amet.</a></li>
+          <li><a href="#">Lorem ipsum dolor sit amet.</a><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p></li>
+        </ul>
+      </div>
+    </div>
+  
+  <div class="step">
+    <div class="step-number">
+      <span class="section-heading number">4</span>
+      <span class="step-link"></span>
+    </div>
+    <div class="toggle">
+      <div data-target="tab-four">
+        <h3 class="section-heading">Step</h3>
+        <input class="checkbox" id="toggle-four" type="checkbox">
+        <label class="show" for="toggle-four">Show</label>
+        <label class="hide" for="toggle-four">Hide</label>
+      </div>
+      <div class="js-hidden preview-list" id="tab-four">
+        <ul>
+          <li><a href="#">Lorem ipsum dolor sit amet.</a></li>
+          <li><a href="#">Lorem ipsum dolor sit amet.</a></li>
+          <li><a href="#">Lorem ipsum dolor sit amet.</a></li>
+          <li><a href="#">Lorem ipsum dolor sit amet.</a></li>
+          <li><a href="#">Lorem ipsum dolor sit amet.</a><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p></li>
+        </ul>
+      </div>
+    </div>
+  
+   <div class="step">
+    <div class="step-number">
+      <span class="section-heading number">5</span>
+      <span class="step-link"></span>
+    </div>
+    <div class="toggle">
+      <div data-target="tab-five">
+        <h3 class="section-heading">Step</h3>
+        <input class="checkbox" id="toggle-five" type="checkbox">
+        <label class="show" for="toggle-five">Show</label>
+        <label class="hide" for="toggle-five">Hide</label>
+      </div>
+      <div class="js-hidden preview-list" id="tab-five">
+        <ul>
+          <li><a href="#">Lorem ipsum dolor sit amet.</a></li>
+          <li><a href="#">Lorem ipsum dolor sit amet.</a></li>
+          <li><a href="#">Lorem ipsum dolor sit amet.</a></li>
+          <li><a href="#">Lorem ipsum dolor sit amet.</a></li>
+          <li><a href="#">Lorem ipsum dolor sit amet.</a><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p></li>
+        </ul>
+      </div>
+    </div>
+  
+   <div class="step">
+    <div class="step-number">
+      <span class="section-heading number">6</span>
+      <span class="step-link"></span>
+    </div>
+    <div class="toggle">
+      <div data-target="tab-six">
+        <h3 class="section-heading">Step</h3>
+        <input class="checkbox" id="toggle-six" type="checkbox">
+        <label class="show" for="toggle-six">Show</label>
+        <label class="hide" for="toggle-six">Hide</label>
+      </div>
+      <div class="js-hidden preview-list" id="tab-six">
+        <ul>
+          <li><a href="#">Lorem ipsum dolor sit amet.</a></li>
+          <li><a href="#">Lorem ipsum dolor sit amet.</a></li>
+          <li><a href="#">Lorem ipsum dolor sit amet.</a></li>
+          <li><a href="#">Lorem ipsum dolor sit amet.</a></li>
+          <li><a href="#">Lorem ipsum dolor sit amet.</a><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p></li>
+        </ul>
+      </div>
+    </div>
+  
+   <div class="step">
+    <div class="step-number">
+      <span class="section-heading number">7</span>
+      <span class="step-link"></span>
+    </div>
+    <div class="toggle">
+      <div data-target="tab-seven">
+        <h3 class="section-heading">Step</h3>
+        <input class="checkbox" id="toggle-seven" type="checkbox">
+        <label class="show" for="toggle-seven">Show</label>
+        <label class="hide" for="toggle-seven">Hide</label>
+      </div>
+      <div class="js-hidden preview-list" id="tab-seven">
+        <ul>
+          <li><a href="#">Lorem ipsum dolor sit amet.</a></li>
+          <li><a href="#">Lorem ipsum dolor sit amet.</a></li>
+          <li><a href="#">Lorem ipsum dolor sit amet.</a></li>
+          <li><a href="#">Lorem ipsum dolor sit amet.</a></li>
+          <li><a href="#">Lorem ipsum dolor sit amet.</a><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p></li>
+        </ul>
+      </div>
+  </div>
+ </div>
+
 ### 1. Discovery and planning
 
 The goals for the discovery and planning phase are to understand:
@@ -126,31 +299,5 @@ Before content is unpublished you should:
 -	plan and create a redirect for the content so users don’t experience broken links
 
 Content owners and subject matter experts should also remove any reference to the content from other publications such as documents, emails, marketing material and other websites. 
-
-<div class="step-by-step">
-  <div class="step">
-    <div class="step-number">
-      <span class="section-heading number">1</span>
-      <span class="step-link"></span>
-    </div>
-    <div class="toggle">
-      <div data-target="tab-one">
-        <h3 class="section-heading">Step</h3>
-        <input class="checkbox" id="toggle-one" type="checkbox">
-        <label class="show" for="toggle-one">Show</label>
-        <label class="hide" for="toggle-one">Hide</label>
-      </div>
-      <div class="js-hidden preview-list" id="tab-one">
-        <ul>
-          <li><a href="#">Lorem ipsum dolor sit amet.</a></li>
-          <li><a href="#">Lorem ipsum dolor sit amet.</a></li>
-          <li><a href="#">Lorem ipsum dolor sit amet.</a></li>
-          <li><a href="#">Lorem ipsum dolor sit amet.</a></li>
-          <li><a href="#">Lorem ipsum dolor sit amet.</a><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p></li>
-        </ul>
-      </div>
-    </div>
-  </div>
 
 [Next section > Governance](content-strategy-governance)
