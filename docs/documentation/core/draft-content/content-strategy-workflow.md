@@ -3,8 +3,6 @@
 
 # Workflow
 
-The content lifecycle shows how content goes from inception to publication, to iteration
-
 Contents:
 - [Managing content requests](#managing-content-requests)
 - [Before starting a content project](#before-starting-a-content-project)
@@ -45,6 +43,8 @@ Don’t go ahead if:
 -	it’s not our job to publish it
 
 ## Content lifecycle
+
+The content lifecycle shows how content goes from inception to publication, to iteration.
 
 <div class="step-by-step">
   <div class="step">
@@ -230,5 +230,6 @@ Don’t go ahead if:
     </div>
   </div>
 </div>
+
 
 [Next section > Governance](content-strategy-governance)
