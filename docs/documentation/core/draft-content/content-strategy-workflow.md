@@ -16,11 +16,11 @@ Updates to existing content can be made immediately at the Content team’s disc
 - out of date - such as prices, dates, opening hours and contact details
 - an error - including spelling mistakes and broken links
 
-These updates must meet our content guidelines but don’t need to follow the content lifecycle.
+These updates must meet our [content guidelines](content-strategy-delivery) but don’t need to follow the content lifecycle.
 
-Requests for new content or significant changes to existing content should follow the content lifecycle. 
+Requests for new content or significant changes to existing content should follow the [content lifecycle](#content-lifecycle). 
 
-Requests for microsites or new technical functionality should go to the Tech Services Design Board.
+Requests for microsites or new technical functionality should go to the Tech Services Design Board (LINK TO BE ADDED).
 
 ## Before starting a content project 
 
