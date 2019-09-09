@@ -224,5 +224,4 @@ Don’t go ahead if:
   </div>
 </div>
 
-
 [Next section > Governance](content-strategy-governance)
