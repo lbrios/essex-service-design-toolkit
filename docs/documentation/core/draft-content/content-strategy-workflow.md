@@ -52,7 +52,7 @@ Don’t go ahead if:
       <span class="section-heading number">1</span>
       <span class="step-link"></span>
     </div>
-    <div class="toggle">
+   <div class="toggle">
       <div data-target="tab-one">
         <h3 class="section-heading">Discovery and planning</h3>
         <input class="checkbox" id="toggle-one" type="checkbox">
@@ -74,8 +74,9 @@ Don’t go ahead if:
         </ul>
       </div>
     </div>
+  </div>
     
-   <div class="step">
+  <div class="step">
     <div class="step-number">
       <span class="section-heading number">2</span>
       <span class="step-link"></span>
@@ -97,8 +98,9 @@ Don’t go ahead if:
         </ul>
       </div>
     </div>
+  </div>
     
-   <div class="step">
+  <div class="step">
     <div class="step-number">
       <span class="section-heading number">3</span>
       <span class="step-link"></span>
@@ -116,6 +118,7 @@ Don’t go ahead if:
         <p>You can iterate your content based on the peer review and have it peer reviewed more than once if you feel it’s helpful.</p>
       </div>
     </div>
+  </div>
   
   <div class="step">
     <div class="step-number">
@@ -141,6 +144,7 @@ Don’t go ahead if:
         <p>Content designers have the skills and authority to write, design and structure content based on our style, tone and user needs.</p>
       </div>
     </div>
+  </div>
   
    <div class="step">
     <div class="step-number">
@@ -169,8 +173,9 @@ Don’t go ahead if:
         <p>They should also make sure any print materials, emails and other publications contain up to date links for this content.</p>
       </div>
     </div>
+  </div>
   
-   <div class="step">
+  <div class="step">
     <div class="step-number">
       <span class="section-heading number">6</span>
       <span class="step-link"></span>
@@ -193,8 +198,9 @@ Don’t go ahead if:
         </ul>
       </div>
     </div>
+  </div>
   
-   <div class="step">
+  <div class="step">
     <div class="step-number">
       <span class="section-heading number">7</span>
       <span class="step-link"></span>
@@ -221,6 +227,7 @@ Don’t go ahead if:
         </ul>
         <p>Content owners and subject matter experts should also remove any reference to the content from other publications such as documents, emails, marketing material and other websites.</p>
       </div>
+    </div>
   </div>
 </div>
 
