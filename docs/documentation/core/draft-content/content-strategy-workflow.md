@@ -105,20 +105,15 @@ Don’t go ahead if:
     </div>
     <div class="toggle">
       <div data-target="tab-three">
-        <h3 class="section-heading">Step</h3>
+        <h3 class="section-heading">Peer review</h3>
         <input class="checkbox" id="toggle-three" type="checkbox">
         <label class="show" for="toggle-three">Show</label>
         <label class="hide" for="toggle-three">Hide</label>
       </div>
       <div class="js-hidden preview-list" id="tab-three">
-        <ul>
-          <li><a href="#">Lorem ipsum dolor sit amet.</a></li>
-          <li><a href="#">Lorem ipsum dolor sit amet.</a></li>
-          <li><a href="#">Lorem ipsum dolor sit amet.</a></li>
-          <li><a href="#">Lorem ipsum dolor sit amet.</a></li>
-          <li><a href="#">Lorem ipsum dolor sit amet.</a><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p></li>
-        </ul>
+        <p>When your content has been drafted, ask another content designer to read your content and provide feedback. This is called ‘peer review’.</p>
+        <p>Content should be peer reviewed against our style guide and the user needs.</p>
+        <p>You can iterate your content based on the peer review and have it peer reviewed more than once if you feel it’s helpful.</p>
       </div>
     </div>
   
@@ -129,20 +124,21 @@ Don’t go ahead if:
     </div>
     <div class="toggle">
       <div data-target="tab-four">
-        <h3 class="section-heading">Step</h3>
+        <h3 class="section-heading">Fact check</h3>
         <input class="checkbox" id="toggle-four" type="checkbox">
         <label class="show" for="toggle-four">Show</label>
         <label class="hide" for="toggle-four">Hide</label>
       </div>
       <div class="js-hidden preview-list" id="tab-four">
+        <p>The goal of fact checking is to have content ready for publication.</p>
+        <p>This can be done by the:</p>
         <ul>
-          <li><a href="#">Lorem ipsum dolor sit amet.</a></li>
-          <li><a href="#">Lorem ipsum dolor sit amet.</a></li>
-          <li><a href="#">Lorem ipsum dolor sit amet.</a></li>
-          <li><a href="#">Lorem ipsum dolor sit amet.</a></li>
-          <li><a href="#">Lorem ipsum dolor sit amet.</a><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p></li>
+          <li>content owner</li>
+          <li>subject matter expert</li>
+          <li>legal team if necessary</li>
         </ul>
+        <p>It is the responsibility of the content owner or subject matter expert to fact check the content to ensure it’s accurate for publishing but they are not responsible for writing the content.</p>
+        <p>Content designers have the skills and authority to write, design and structure content based on our style, tone and user needs.</p>
       </div>
     </div>
   
@@ -153,20 +149,24 @@ Don’t go ahead if:
     </div>
     <div class="toggle">
       <div data-target="tab-five">
-        <h3 class="section-heading">Step</h3>
+        <h3 class="section-heading">Publish and promote</h3>
         <input class="checkbox" id="toggle-five" type="checkbox">
         <label class="show" for="toggle-five">Show</label>
         <label class="hide" for="toggle-five">Hide</label>
       </div>
       <div class="js-hidden preview-list" id="tab-five">
+        <p>When it’s been agreed that the content is factually correct, it can be published then promoted.</p>
+        <p>It’s a good idea to ask someone else, such as another content designer, to check the content when it’s live. They should check:</p>
         <ul>
-          <li><a href="#">Lorem ipsum dolor sit amet.</a></li>
-          <li><a href="#">Lorem ipsum dolor sit amet.</a></li>
-          <li><a href="#">Lorem ipsum dolor sit amet.</a></li>
-          <li><a href="#">Lorem ipsum dolor sit amet.</a></li>
-          <li><a href="#">Lorem ipsum dolor sit amet.</a><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p></li>
+          <li>spelling</li>
+          <li>links</li>
+          <li>breadcrumbs</li>
+          <li>the meta description</li>
+          <li>navigation</li>
+          <li>images are displaying correctly</li>
         </ul>
+        <p>Content owners and subject matter experts are responsible for promoting the content. This could be done by the service area or with input from other teams such as Communications.</p>
+        <p>They should also make sure any print materials, emails and other publications contain up to date links for this content.</p>
       </div>
     </div>
   
@@ -177,19 +177,19 @@ Don’t go ahead if:
     </div>
     <div class="toggle">
       <div data-target="tab-six">
-        <h3 class="section-heading">Step</h3>
+        <h3 class="section-heading">Monitor, evaluate and iterate</h3>
         <input class="checkbox" id="toggle-six" type="checkbox">
         <label class="show" for="toggle-six">Show</label>
         <label class="hide" for="toggle-six">Hide</label>
       </div>
       <div class="js-hidden preview-list" id="tab-six">
+        <p>The goal is to always deliver the best content we can. That’s why it’s important to iterate content based on data and user feedback.</p>
+        <p>Content designers and stakeholders should agree:</p>
         <ul>
-          <li><a href="#">Lorem ipsum dolor sit amet.</a></li>
-          <li><a href="#">Lorem ipsum dolor sit amet.</a></li>
-          <li><a href="#">Lorem ipsum dolor sit amet.</a></li>
-          <li><a href="#">Lorem ipsum dolor sit amet.</a></li>
-          <li><a href="#">Lorem ipsum dolor sit amet.</a><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p></li>
+          <li>how often to review the content - this includes looking at data and user feedback</li>
+          <li>who is responsible for reviewing the content</li>
+          <li>who is responsible for iterating and updating the content</li>
+          <li>when the content needs to unpublished and archived</li>
         </ul>
       </div>
     </div>
@@ -201,20 +201,25 @@ Don’t go ahead if:
     </div>
     <div class="toggle">
       <div data-target="tab-seven">
-        <h3 class="section-heading">Step</h3>
+        <h3 class="section-heading">Unpublish and archive</h3>
         <input class="checkbox" id="toggle-seven" type="checkbox">
         <label class="show" for="toggle-seven">Show</label>
         <label class="hide" for="toggle-seven">Hide</label>
       </div>
       <div class="js-hidden preview-list" id="tab-seven">
+        <p>Content should be unpublished when:</p>
         <ul>
-          <li><a href="#">Lorem ipsum dolor sit amet.</a></li>
-          <li><a href="#">Lorem ipsum dolor sit amet.</a></li>
-          <li><a href="#">Lorem ipsum dolor sit amet.</a></li>
-          <li><a href="#">Lorem ipsum dolor sit amet.</a></li>
-          <li><a href="#">Lorem ipsum dolor sit amet.</a><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p></li>
+          <li>it no longer fulfils a user need</li>
+          <li>it’s out of date</li>
+          <li>the service is no longer offered</li>
         </ul>
+        <p>Before content is unpublished you should:</p>
+         <ul>
+          <li>get agreement from the content owner</li>
+          <li>check if there are short URLs linking to the content - if there are, these should be removed or redirected</li>
+          <li>plan and create a redirect for the content so users don’t experience broken links</li>
+        </ul>
+        <p>Content owners and subject matter experts should also remove any reference to the content from other publications such as documents, emails, marketing material and other websites.</p>
       </div>
   </div>
  </div>
