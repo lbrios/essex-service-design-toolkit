@@ -8,6 +8,50 @@
   <body class="{% block body_classes %}{% endblock %}" id="design-system-docs">
     <script>document.body.className = ((document.body.className) ? document.body.className + ' js-enabled' : 'js-enabled');</script>
 
+    <script type="text/javascript" src="https://customer.cludo.com/scripts/bundles/search-script.min.js"></script>
+
+    <script>
+
+    var CludoSearch;
+
+    (function () {
+
+        var cludoSettings = {
+
+            customerId: 2222,
+
+            engineId: 10581,
+
+            searchUrl: 'https://essex-service-design-toolkit.herokuapp.com/search',
+
+            language: 'en',
+
+            searchInputs: ['cludo-search-form'],
+
+            template: 'InlineBasic',
+
+            hideSearchFilters: true,
+
+            focusOnResultsAfterSearch: true,
+
+            type: 'inline'
+
+        };
+
+        CludoSearch = new Cludo(cludoSettings);
+
+        CludoSearch.init();
+
+    })();
+
+    </script>
+
+    <!--[if lte IE 9]>
+
+        <script src="https://api.cludo.com/scripts/xdomain.js" slave="https://api.cludo.com/proxy.html" type="text/javascript"></script>
+
+    <![endif]-->
+
     {% block body_start %}{% endblock %}
 
     {% block header %}
