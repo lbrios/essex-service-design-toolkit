@@ -5,11 +5,18 @@
   }
   margin-top: 0;
   margin-bottom: 0;
+  @include media(mobile) {
+    margin-left: -$gutter*0.5;
+    margin-right: -$gutter*0.5;
+  }
   ol {
     @extend %grid-row;
-    @include grid-column(9 / 12);
     margin-top: $baseline*0.5;
     margin-bottom: $baseline*0.5;
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 0;
+    padding-right: 0;
   }
   li {
     @include small;
@@ -18,9 +25,9 @@
     padding-left: 0.9em;
     margin-bottom: 0;
     float: left;
-    background-image: url("/icon/separator.png");
+    background-image: file-url("/icon/separator.png");
     @include device-pixel-ratio() {
-      background-image: url("icon/separator-2x.png");
+      background-image: file-url("icon/separator-2x.png");
       background-size: 6px 11px;
     }
     background-position: 0% 50%;
