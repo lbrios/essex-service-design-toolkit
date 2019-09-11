@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Static fallback</title>
+    <link href="/app/assets/css/cludo-search-default.css" media="screen" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+    <!--[if lte IE 8]><link href="/public/stylesheets/application-ie8.css" rel="stylesheet" type="text/css" /><![endif]-->
+    <!--[if gt IE 8]><!--><link href="/public/stylesheets/application.css" media="screen" rel="stylesheet" type="text/css" /><!--<![endif]-->
+    <link href="/public/stylesheets/application.css" media="screen" rel="stylesheet" type="text/css" />
+    <!--  <link href="https://raw.githubusercontent.com/essexcountycouncil/essex-design-system/core/application.css" media="screen" rel="stylesheet" type="text/css" /> -->
+    <link href="/public/stylesheets/application-print.css" media="print" rel="stylesheet" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="apple-touch-icon-precomposed" sizes="57x57" href="/public/images/favicon/apple-touch-icon-57x57.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="/public/images/favicon/apple-touch-icon-114x114.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="/public/images/favicon/apple-touch-icon-72x72.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/public/images/favicon/apple-touch-icon-144x144.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="60x60" href="/public/images/favicon/apple-touch-icon-60x60.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="120x120" href="/public/images/favicon/apple-touch-icon-120x120.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="76x76" href="/public/images/favicon/apple-touch-icon-76x76.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="/public/images/favicon/apple-touch-icon-152x152.png" />
+    <link rel="icon" type="image/png" href="/public/images/favicon/favicon-196x196.png" sizes="196x196" />
+    <link rel="icon" type="image/png" href="/public/images/favicon/favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/png" href="/public/images/favicon/favicon-32x32.png" sizes="32x32" />
+    <link rel="icon" type="image/png" href="/public/images/favicon/favicon-16x16.png" sizes="16x16" />
+    <link rel="icon" type="image/png" href="/public/images/favicon/favicon-128.png" sizes="128x128" />
+    <meta name="application-name" content="&nbsp;"/>
+    <meta name="msapplication-TileColor" content="#FFFFFF" />
+    <meta name="msapplication-TileImage" content="mstile-144x144.png" />
+    <meta name="msapplication-square70x70logo" content="mstile-70x70.png" />
+    <meta name="msapplication-square150x150logo" content="mstile-150x150.png" />
+    <meta name="msapplication-wide310x150logo" content="mstile-310x150.png" />
+    <meta name="msapplication-square310x310logo" content="mstile-310x310.png" />
+    <script src="/public/javascripts/cookieconsent.js"></script>
+    <script>
+      window.addEventListener("load", function(){
+        window.cookieconsent.initialise({
+          content: {
+            message: "This website uses cookies to ensure you get the best experience on our website.",
+            href: "/cookies",
+            dismiss: "Accept cookies"
+          },
+          position: "top"
+        })
+      });
+      </script>
+  </head>
+  <body class="{% block body_classes %}{% endblock %}">
+    <script>document.body.className = ((document.body.className) ? document.body.className + ' js-enabled' : 'js-enabled');</script>
+    <div id="skiplink-container" role="region" aria-label="skiplink">
+      <div>
+        <a href="#content" class="skiplink" id="skiplink">Skip to main content</a>
+      </div>
+    </div>
+    <header class="header-background">
+      <div class="header">
+        <div class="nav">
+          <div class="logo-wrap">
+            <a href="/" class="logo-text seax">
+              <img src="/public/images/seax.png" width="36" height="30" alt="Essex logo">
+              Essex.gov.uk
+            </a>
+          </div>
+        </div>
+      </div>
+    </header>
+    <section class="search-background" aria-label="Search essex.gov.uk">
+      <div class="overlay"></div>
+      <div class="search-container">
+        <div class="greeting">
+          <h1 class="page-heading">Welcome to Essex</h1>
+        </div>
+        <form action="/search" method="get" class="form" role="search" aria-label="Search essex.gov.uk">
+          <div class="group search">
+            <div class="search-input">
+              <label for="cludo-search-hero-form">Search essex.gov.uk
+                <input type="text" id="cludo-search-hero-form" name="search" placeholder="Search essex.gov.uk" autocomplete="off">
+              </label>
+              <button class="fas fa-search search-icon-position" aria-label="Search button"></button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </section>
+    <main id="content">
+      <div class="container">
+        <div class="main only">
+          <section class="content" aria-label="Essex County Council Services">
+            <h2 class="content-heading">Essex County Council Services</h1>
+            <div class="previews">
+              <div class="preview">
+                <h3 class="sub-section-heading"><a href="topic">Social care and health</a></h3>
+                <p>Includes children, young people and families and adult social care</p>
+              </div>
+              <div class="preview">
+                <h3 class="sub-section-heading"><a href="#">Schools and learning</a></h3>
+                <p>Includes admissions, early learning and childcare, post-16 options and adult learning</p>
+              </div>
+              <div class="preview">
+                <h3 class="sub-section-heading"><a href="#">Jobs and apprenticeships</a></h3>
+                <p>Includes applying for a job, volunteering and apprenticeships</p>
+              </div>
+            </div>
+            <div class="previews">
+              <div class="preview">
+                <h3 class="sub-section-heading"><a href="#">Births, ceremonies and deaths</a></h3>
+                <p>Includes weddings, civil partnerships, births and deaths</p>
+              </div>
+              <div class="preview">
+                <h3 class="sub-section-heading"><a href="#">Libraries</a></h3>
+                <p>Includes how to join a library, library events and local history</p>
+              </div>
+              <div class="preview">
+                <h3 class="sub-section-heading"><a href="#">Roads, streets and transport</a></h3>
+                <p>Includes report a problem, travel updates, transport and parking</p>
+              </div>
+            </div>
+            <div class="previews">
+              <div class="preview">
+                <h3 class="sub-section-heading"><a href="#">Recycling, planning and land</a></h3>
+                <p>Includes recycling centres, planning applications and wildlife conservation areas</p>
+              </div>
+              <div class="preview">
+                <h3 class="sub-section-heading"><a href="#">Business</a></h3>
+                <p>Support for business, supply the council, licences, trading standards advice and traded services</p>
+              </div>
+              <div class="preview">
+                <h3 class="sub-section-heading"><a href="#">Running the council</a></h3>
+                <p>Includes find your councillor, council tax, how decisions are made and the council is run</p>
+              </div>
+            </div>
+            <div class="previews">
+              <div class="preview">
+                <h3 class="sub-section-heading"><a href="#">Leisure, culture and local heritage</a></h3>
+                <p>Includes places to go, cultural events and activities, historical records and building conservation</p>
+              </div>
+            </div>
+            <div class="impact">
+              <div class="hero campaign">
+                <div class="overlay"></div>
+                <div class="overlay-box">
+                  <div class="overlay-content">
+                    <div class="content-heading"><a href="#">Get out more at our Country Parks</a></div>
+                    <p>Whether you’re out for a walk or run to improve your fitness or want to take the family on an outdoor adventure, discover many ways to get out more at our Country Parks.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
+      </div>
+    </main>
+    <footer id="main-footer" class="footer-container">
+      <div class="footer-top">
+        <div class="footer">
+          <div class="nav">
+            <ul class="nav-links">
+              <li><a href="https://www.essex.gov.uk/topic/about-essexgovuk">About essex.gov.uk</a></li><li>
+                <a href="https://www.essex.gov.uk/accessibility">Accessibility</a></li><li>
+                <a href="https://www.essex.gov.uk/cookies">Cookies</a></li><li>
+                <a href="https://www.essex.gov.uk/terms-conditions">Terms and conditions</a></li><li>
+                <a href="https://www.essex.gov.uk/privacy-and-data-protection">Privacy and data protection</a></li><li>
+                <a href="/topic/contact-us">Contact us</a></li>
+            </ul>
+            <ul class="social">
+              <li>
+                <a href="https://www.facebook.com/essexcountycouncil"><span class="fab fa-facebook-f"></span><span>Facebook</span></a></li><li>
+                <a href="https://twitter.com/essex_cc"><span class="fab fa-twitter"></span><span>Twitter</span></a></li><li>
+                <a href="http://www.youtube.com/user/EssexCountyCouncil"><span class="fab fa-youtube"></span><span>Youtube</span></a></li><li>
+                <a href="https://www.flickr.com/photos/essexcc/"><span class="fab fa-flickr"></span><span>Flickr</span></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <div class="footer">
+          <ul class="credits">
+            <li class="copyright">© Essex County Council 2019</li>
+            <li class="design-link"><a href="https://servicedesign.blog.essex.gov.uk/">Built by the Service Design Team</a></li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+    <script src="{{ asset_path }}javascripts/govuk-template.js?0.18.3" type="text/javascript"></script>
+        <!-- Javascript -->
+    <!--[if lte IE 8]><script src="/public/javascripts/bind.js"></script><![endif]-->
+    <script src="/public/javascripts/details.polyfill.js"></script>
+    <script src="/public/javascripts/jquery-1.11.3.js"></script>
+    <script src="/public/javascripts/govuk/shim-links-with-button-role.js"></script>
+    <script src="/public/javascripts/govuk/show-hide-content.js"></script>
+    <script src="/public/javascripts/application.js"></script>
+    <script src="/public/javascripts/close.js"></script>
+    <script>if (typeof window.GOVUK === 'undefined') document.body.className = document.body.className.replace('js-enabled', '');</script>
+  </body>
+</html>
