@@ -31,6 +31,12 @@
 *   [Schools Waiting List](/prototypes/app/schools-waiting-list)
 *   [Search for an Inquest](/prototypes/app/search-for-an-inquest)
 
+### Static pages
+
+*		[Home page](/static/index)
+*		[Topic landing page](/static/topic-landing)
+*		[Topic page](/static/topic)
+
 ### Achieve Forms Components and Elements
 
 *		[Achieve Forms](https://achieve-forms.herokuapp.com)
