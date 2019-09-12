@@ -12,5 +12,8 @@ Guidance on how we understand, design, optimise and build services
 
 Includes guidance and tools to help plan, deliver and publish content
 
+## [Accessibility](/docs/core/accessibility/overview)
+Includes best practice guidance on how to make content accessible to users
+
 ## [Design system](/docs/core/design/overview)
 Includes the styles and common components we use for essex.gov.uk

@@ -37,3 +37,5 @@ Content owners and subject matter experts are responsible for ensuring their con
 ## Tech Services Design Board
 
 Content to be added
+
+[Next section > Content formats and measurement](content-strategy-formats)

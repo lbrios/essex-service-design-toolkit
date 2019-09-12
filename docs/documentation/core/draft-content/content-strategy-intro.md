@@ -1,7 +1,7 @@
 1.  [Content strategy](/docs/core/draft-content/content-strategy)
-2.  [Introduction](#)
+2.  [Purpose](#)
 
-# Content strategy: introduction
+# Purpose of the content strategy
 
 Contents:
 - [Introduction](#introduction)

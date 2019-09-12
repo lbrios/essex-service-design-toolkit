@@ -3,8 +3,6 @@
 
 # Workflow
 
-The content lifecycle shows how content goes from inception to publication, to iteration
-
 Contents:
 - [Managing content requests](#managing-content-requests)
 - [Before starting a content project](#before-starting-a-content-project)
@@ -18,11 +16,11 @@ Updates to existing content can be made immediately at the Content team’s disc
 - out of date - such as prices, dates, opening hours and contact details
 - an error - including spelling mistakes and broken links
 
-These updates must meet our content guidelines but don’t need to follow the content lifecycle.
+These updates must meet our [content guidelines](content-strategy-delivery) but don’t need to follow the content lifecycle.
 
-Requests for new content or significant changes to existing content should follow the content lifecycle. 
+Requests for new content or significant changes to existing content should follow the [content lifecycle](#content-lifecycle). 
 
-Requests for microsites or new technical functionality should go to the Tech Services Design Board.
+Requests for microsites or new technical functionality should go to the Tech Services Design Board (LINK TO BE ADDED).
 
 ## Before starting a content project 
 
@@ -46,85 +44,192 @@ Don’t go ahead if:
 
 ## Content lifecycle
 
-### 1. Discovery and planning
+The content lifecycle shows how content goes from inception to publication, to iteration.
 
-The goals for the discovery and planning phase are to understand:
-- who the users are 
-- what they want to achieve
+<div class="step-by-step">
+  <div class="step">
+    <div class="step-number">
+      <span class="section-heading number">1</span>
+      <span class="step-link"></span>
+    </div>
+   <div class="toggle">
+      <div data-target="tab-one">
+        <h3 class="section-heading">Discovery and planning</h3>
+        <input class="checkbox" id="toggle-one" type="checkbox">
+        <label class="show" for="toggle-one">Show</label>
+        <label class="hide" for="toggle-one">Hide</label>
+      </div>
+      <div class="js-hidden preview-list" id="tab-one">
+        <p>The goals for the discovery and planning phase are to understand:</p>
+          <ul>
+            <li>who the users are</li>
+            <li>what they want to achieve</li>
+          </ul>
+        <p>A typical content discovery includes:</p>
+        <ul>
+          <li>gathering data and research - this can include auditing existing content, gathering user feedback and website analytics, researching keywords and reviewing customer contact with the service</li>
+          <li>a kick-off meeting with relevant content owners and subject matter experts to understand their service, the challenges they face and understand if there are legislative requirements and technical dependencies for the content</li>
+          <li>testing existing content if possible - this will help to understand the user journey and highlight what might need to change</li>
+          <li>writing and validating user needs based on the information gathered</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+    
+  <div class="step">
+    <div class="step-number">
+      <span class="section-heading number">2</span>
+      <span class="step-link"></span>
+    </div>
+    <div class="toggle">
+      <div data-target="tab-two">
+        <h3 class="section-heading">Design and create</h3>
+        <input class="checkbox" id="toggle-two" type="checkbox">
+        <label class="show" for="toggle-two">Show</label>
+        <label class="hide" for="toggle-two">Hide</label>
+      </div>
+      <div class="js-hidden preview-list" id="tab-two">
+        <p>After your discovery phase, you can start to design and write content. The goal for the design phase is to have a prototype that can be tested with users.</p>
+        <p>A typical content design phase includes:</p>
+        <ul>
+          <li>writing the content based on what you know from the discovery - you can pair write  with another content designer, the content owner or the subject matter expert</li>
+          <li>choosing the right platform and format for the content, based on the user needs</li>
+          <li>prototyping the content  so it can be tested with users and shown to stakeholders</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+    
+  <div class="step">
+    <div class="step-number">
+      <span class="section-heading number">3</span>
+      <span class="step-link"></span>
+    </div>
+    <div class="toggle">
+      <div data-target="tab-three">
+        <h3 class="section-heading">Peer review</h3>
+        <input class="checkbox" id="toggle-three" type="checkbox">
+        <label class="show" for="toggle-three">Show</label>
+        <label class="hide" for="toggle-three">Hide</label>
+      </div>
+      <div class="js-hidden preview-list" id="tab-three">
+        <p>When your content has been drafted, ask another content designer to read your content and provide feedback. This is called ‘peer review’.</p>
+        <p>Content should be peer reviewed against our style guide and the user needs.</p>
+        <p>You can iterate your content based on the peer review and have it peer reviewed more than once if you feel it’s helpful.</p>
+      </div>
+    </div>
+  </div>
+  
+  <div class="step">
+    <div class="step-number">
+      <span class="section-heading number">4</span>
+      <span class="step-link"></span>
+    </div>
+    <div class="toggle">
+      <div data-target="tab-four">
+        <h3 class="section-heading">Fact check</h3>
+        <input class="checkbox" id="toggle-four" type="checkbox">
+        <label class="show" for="toggle-four">Show</label>
+        <label class="hide" for="toggle-four">Hide</label>
+      </div>
+      <div class="js-hidden preview-list" id="tab-four">
+        <p>The goal of fact checking is to have content ready for publication.</p>
+        <p>This can be done by the:</p>
+        <ul>
+          <li>content owner</li>
+          <li>subject matter expert</li>
+          <li>legal team if necessary</li>
+        </ul>
+        <p>It is the responsibility of the content owner or subject matter expert to fact check the content to ensure it’s accurate for publishing but they are not responsible for writing the content.</p>
+        <p>Content designers have the skills and authority to write, design and structure content based on our style, tone and user needs.</p>
+      </div>
+    </div>
+  </div>
+  
+   <div class="step">
+    <div class="step-number">
+      <span class="section-heading number">5</span>
+      <span class="step-link"></span>
+    </div>
+    <div class="toggle">
+      <div data-target="tab-five">
+        <h3 class="section-heading">Publish and promote</h3>
+        <input class="checkbox" id="toggle-five" type="checkbox">
+        <label class="show" for="toggle-five">Show</label>
+        <label class="hide" for="toggle-five">Hide</label>
+      </div>
+      <div class="js-hidden preview-list" id="tab-five">
+        <p>When it’s been agreed that the content is factually correct, it can be published then promoted.</p>
+        <p>It’s a good idea to ask someone else, such as another content designer, to check the content when it’s live. They should check:</p>
+        <ul>
+          <li>spelling</li>
+          <li>links</li>
+          <li>breadcrumbs</li>
+          <li>the meta description</li>
+          <li>navigation</li>
+          <li>images are displaying correctly</li>
+        </ul>
+        <p>Content owners and subject matter experts are responsible for promoting the content. This could be done by the service area or with input from other teams such as Communications.</p>
+        <p>They should also make sure any print materials, emails and other publications contain up to date links for this content.</p>
+      </div>
+    </div>
+  </div>
+  
+  <div class="step">
+    <div class="step-number">
+      <span class="section-heading number">6</span>
+      <span class="step-link"></span>
+    </div>
+    <div class="toggle">
+      <div data-target="tab-six">
+        <h3 class="section-heading">Monitor, evaluate and iterate</h3>
+        <input class="checkbox" id="toggle-six" type="checkbox">
+        <label class="show" for="toggle-six">Show</label>
+        <label class="hide" for="toggle-six">Hide</label>
+      </div>
+      <div class="js-hidden preview-list" id="tab-six">
+        <p>The goal is to always deliver the best content we can. That’s why it’s important to iterate content based on data and user feedback.</p>
+        <p>Content designers and stakeholders should agree:</p>
+        <ul>
+          <li>how often to review the content - this includes looking at data and user feedback</li>
+          <li>who is responsible for reviewing the content</li>
+          <li>who is responsible for iterating and updating the content</li>
+          <li>when the content needs to unpublished and archived</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  
+  <div class="step">
+    <div class="step-number">
+      <span class="section-heading number">7</span>
+      <span class="step-link"></span>
+    </div>
+    <div class="toggle">
+      <div data-target="tab-seven">
+        <h3 class="section-heading">Unpublish and archive</h3>
+        <input class="checkbox" id="toggle-seven" type="checkbox">
+        <label class="show" for="toggle-seven">Show</label>
+        <label class="hide" for="toggle-seven">Hide</label>
+      </div>
+      <div class="js-hidden preview-list" id="tab-seven">
+        <p>Content should be unpublished when:</p>
+        <ul>
+          <li>it no longer fulfils a user need</li>
+          <li>it’s out of date</li>
+          <li>the service is no longer offered</li>
+        </ul>
+        <p>Before content is unpublished you should:</p>
+         <ul>
+          <li>get agreement from the content owner</li>
+          <li>check if there are short URLs linking to the content - if there are, these should be removed or redirected</li>
+          <li>plan and create a redirect for the content so users don’t experience broken links</li>
+        </ul>
+        <p>Content owners and subject matter experts should also remove any reference to the content from other publications such as documents, emails, marketing material and other websites.</p>
+      </div>
+    </div>
+  </div>
+</div>
 
-A typical content discovery includes:
-- gathering data and research - this can include auditing existing content, gathering user feedback and website analytics, researching keywords and reviewing customer contact with the service
-- a kick-off meeting with relevant content owners and subject matter experts to understand their service, the challenges they face and understand if there are legislative requirements and technical dependencies for the content
-- testing existing content if possible - this will help to understand the user journey and highlight what might need to change
-- writing and validating user needs based on the information gathered
-
-### 2. Design and create
-
-After your discovery phase, you can start to design and write content. The goal for the design phase is to have a prototype that can be tested with users. 
-
-A typical content design phase includes:
-- writing the content based on what you know from the discovery - you can pair write  with another content designer, the content owner or the subject matter expert
-- choosing the right platform and format for the content, based on the user needs
-- prototyping the content  so it can be tested with users and shown to stakeholders
-
-### 3. Peer review
-When your content has been drafted, ask another content designer to read your content and provide feedback. This is called ‘peer review’.
-
-Content should be peer reviewed against our style guide and the user needs.
-
-You can iterate your content based on the peer review and have it peer reviewed more than once if you feel it’s helpful.
-
-### 4. Fact check  
-
-The goal of fact checking is to have content ready for publication.
-
-This can be done by the:
-- content owner
-- subject matter expert
-- legal team if necessary
-
-It is the responsibility of the content owner or subject matter expert to fact check the content to ensure it’s accurate for publishing but they are not responsible for writing the content. 
-
-Content designers have the skills and authority to write, design and structure content based on our style, tone and user needs.
-
-### 5. Publish and promote
-
-When it’s been agreed that the content is factually correct, it can be published then promoted.
-
-It’s a good idea to ask someone else, such as another content designer, to check the content when it’s live. They should check:
-- spelling 
-- links
-- breadcrumbs
-- the meta description
-- navigation
-- images are displaying correctly
-
-Content owners and subject matter experts are responsible for promoting the content. This could be done by the service area or with input from other teams such as Communications.
-
-They should also make sure any print materials, emails and other publications contain up to date links for this content.
-
-### 6. Monitor, evaluate and iterate
-
-The goal is to always deliver the best content we can. That’s why it’s important to iterate content based on data and user feedback.
-
-Content designers and stakeholders should agree:
-- how often to review the content - this includes looking at data and user feedback
-- who is responsible for reviewing the content?
-- who is responsible for iterating and updating the content?
--	when the content needs to unpublished and archived
-
-### 7. Unpublish and archive
-
-Content should be unpublished when:
--	it no longer fulfils a user need
--	it’s out of date
--	the service is no longer offered
-
-Before content is unpublished you should: 
--	get agreement from the content owner
--	check if there are short URLs linking to the content - if there are, these should be removed or redirected
--	plan and create a redirect for the content so users don’t experience broken links
-
-Content owners and subject matter experts should also remove any reference to the content from other publications such as documents, emails, marketing material and other websites. 
 
 [Next section > Governance](content-strategy-governance)
