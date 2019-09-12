@@ -70,4 +70,69 @@ KPIs: TBC
 
 Review period: TBC – external comms to decide
 
+[Example of a news article](/examples/news)
 
+## Video
+
+Purpose: to encourage users to access a service or provide users with a visual explanation of how a process works.   
+
+Success is: 
+ - high levels of engagement such as views and clicks
+ - positive user comments
+
+Failure is: 
+ - low levels of engagement based on views and average length of time viewed
+ - low volume of clicks on promoted link
+ - negative user comments
+
+KPIs: TBC
+
+Review period: every 12 months
+
+## Social media
+See the Social Media Strategy (currently being developed) for measurement and performance indicators for our social media channels.
+
+## Blogs
+
+Purpose: for us to talk about work happening in the council, promote services, and share successes and things that we’ve learnt. Blogs create an opportunity to have an open discussion with users.
+
+Success is:
+ - high level of engagement with blog post
+ - average time spent on page is comparable to the average reading time of page
+ - user clicks on call to action
+
+Failure is: low engagement rate based on call to action clicks and scroll depth
+
+KPIs: TBC
+
+Review period: every 12 months
+
+## Email communications (broadcast, not personal)
+
+Purpose: to inform users about topics they have chosen to subscribe to.
+
+Success is: 
+ - high levels of engagement based on open rates and click rates
+ - new subscribers
+ - GDPR compliance
+
+Failure is: 
+ - a low level of engagement such as low open rate and no click throughs
+ - poor housekeeping of subscriber list
+
+KPIs: 60% engagement rate
+
+Review period: every 3 months
+
+## Short URLs 
+Purpose: to provide services with a shorter URL that can be used for marketing purposes. Short URLs should also contain campaign tracking codes so success can be measured from different channels.
+
+Success is: high engagement rate with short URL
+
+Failure is: low engagement rate with short URL
+
+KPIs: TBC
+
+Review period: every 3 to 6 months depending on the length of campaign
+
+See our [guidance on short URLs](/docs/core/content/url-guidelines)
