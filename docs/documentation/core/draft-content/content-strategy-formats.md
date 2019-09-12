@@ -9,6 +9,16 @@ These are suggested measurements that can be used by content designers and edito
 
 They should be used alongside other types of measurement such as user feedback to get a full picture of how content is performing.
 
+Contents:
+ - [Website topic page](#website-topic-page)
+ - [Website information page](#website-information-page)
+ - [Online form or transaction](#online-form-or-transaction)
+ - [News article - online](#news-article---online)
+ - [Video](#video)
+ - [Blogs](#blogs)
+ - [Email communications](#email-communications)
+ - [Short URLs](#short-urls)
+
 ## Website topic page
 
 Purpose: to help users navigate a service area or topic and direct them to more detailed information or a transaction. We would expect there to be an onward journey from this page.
@@ -56,7 +66,7 @@ KPIs: 90% completion
 
 Review period: every 3 to 6 months depending on volume
 
-## News article (online)
+## News article - online
 
 Purpose: to provide users with relevant, timely and engaging news about the council based on what users are interested in. 
 
@@ -107,9 +117,9 @@ KPIs: TBC
 
 Review period: every 12 months
 
-## Email communications (broadcast, not personal)
+## Email communications
 
-Purpose: to inform users about topics they have chosen to subscribe to.
+Purpose: to inform users about topics they have chosen to subscribe to. For broadcast, not personal emails.
 
 Success is: 
  - high levels of engagement based on open rates and click rates
