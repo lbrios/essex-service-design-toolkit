@@ -13,7 +13,7 @@ Contents:
  - [Website topic page](#website-topic-page)
  - [Website information page](#website-information-page)
  - [Online form or transaction](#online-form-or-transaction)
- - [News article - online](#news-article---online)
+ - [News article - online](#news-article-online)
  - [Video](#video)
  - [Blogs](#blogs)
  - [Email communications](#email-communications)
