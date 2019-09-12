@@ -15,6 +15,7 @@ Contents:
  - [Online form or transaction](#online-form-or-transaction)
  - [News article - online](#news-article-online)
  - [Video](#video)
+ - [Social media](#social-media)
  - [Blogs](#blogs)
  - [Email communications](#email-communications)
  - [Short URLs](#short-urls)
