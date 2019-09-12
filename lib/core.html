@@ -8,10 +8,14 @@
   <body class="{% block body_classes %}{% endblock %}" id="design-system-docs">
     <script>document.body.className = ((document.body.className) ? document.body.className + ' js-enabled' : 'js-enabled');</script>
 
+    {% block cludo %}
+        {% include "includes/cludo-scripts.html" %}
+    {% endblock %}
+
     {% block body_start %}{% endblock %}
 
     {% block header %}
-      {% include "includes/header.html" %}
+      {% include "includes/search-header.html" %}
     {% endblock %}
 
     {% block content %}
