@@ -52,3 +52,16 @@ Include links to internal pages where you have to, for example, a school closure
 ## What alerts look like
 
 This is specific essex.gov.uk. Other websites or microsites will have their own way of adding alerts but the same principles of when and when not to use them apply.
+
+<div class="alert error" id="tab-one">
+  <div class="alert-icon">
+    <span class="fas fa-exclamation-circle"></span>
+  </div>
+  <div class="alert-text">
+    <div class="section-heading">We are experiencing some issues</div>
+    <p>You may experience some issues with our website. Please bare with us while we resolve the issue.</a></p>
+  </div>
+  <button class="text" type="button" onclick="toggle_visibility('tab-one');">Hide this message</button>
+</div>
+
+    
