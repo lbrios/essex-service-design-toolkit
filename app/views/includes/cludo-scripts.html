@@ -5,13 +5,14 @@ var CludoSearch;
     var cludoSettings = {
         customerId: 2222,
         engineId: 10581,
-        searchUrl: 'https://essex-service-design-toolkit.herokuapp.com',
+        searchUrl: '/search-results',
         language: 'en',
-        searchInputs: ['cludo-search-form'],
+        searchInputs: ['cludo-search'],
         template: 'InlineBasic',
         hideSearchFilters: true,
         focusOnResultsAfterSearch: true,
-        type: 'inline'
+        type: 'inline',
+        hideSearchFilters: true
     };
     CludoSearch = new Cludo(cludoSettings);
     CludoSearch.init();
