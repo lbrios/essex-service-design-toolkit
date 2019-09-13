@@ -53,6 +53,8 @@ Include links to internal pages where you have to, for example, a school closure
 
 This is specific essex.gov.uk. Other websites or microsites will have their own way of adding alerts but the same principles of when and when not to use them apply.
 
+This is an example of an error alert.
+
 <div class="alert error" id="tab-one">
   <div class="alert-icon">
     <span class="fas fa-exclamation-circle"></span>
@@ -64,4 +66,31 @@ This is specific essex.gov.uk. Other websites or microsites will have their own 
   <button class="text" type="button" onclick="toggle_visibility('tab-one');">Hide this message</button>
 </div>
 
-    
+This is an example of an information alert.
+
+<div class="alert info" id="tab-two">
+  <div class="alert-icon">
+    <span class="fas fa-info-circle"></span>
+  </div>
+  <div class="alert-text">
+    <div class="section-heading">We are updating our system</div>
+    <p>We have been doing lots of research and you have helped us update this service.</a></p>
+  </div>
+  <button class="text" type="button" onclick="toggle_visibility('tab-two');">Hide this message</button>
+</div>
+
+This is an example of a warning alert.
+
+<div class="alert warning" id="tab-three">
+  <div class="alert-icon">
+    <span class="fas fa-exclamation-triangle"></span>
+  </div>
+  <div class="alert-text">
+    <div class="section-heading">School closures</div>
+    <p>Some schools in Essex are closed due to severe weather. <a href="#">Check if your child's school is closed</a></p>
+  </div>
+  <button class="text" type="button" onclick="toggle_visibility('tab-three');">Hide this message</button>
+</div>
+
+
+ 
