@@ -49,7 +49,7 @@ Failure is:
  - higher time spent on page compared to the average reading time
  - low volume of clicks on call to action
  
-KPIs: TBC
+KPIs: average time spent on page is comparable to the average reading time of page
 
 Review period: every 6 to 12 months depending on volume
 
@@ -59,11 +59,13 @@ Review period: every 6 to 12 months depending on volume
 
 Purpose: to guide a user through a transactional service so that they can achieve the relevant outcome. There should be supporting information and guidance if needed.
 
+Success and failure of forms should be measured after users have completed any pre-screening or eligibility questions.
+
 Success is: a completed transaction
 
-Failure is: high drop off before completion 
+Failure is: high drop off before completion
 
-KPIs: 90% completion
+KPIs: 90% completion of form or transaction (excluding pre-screening and eligibility questions)
 
 Review period: every 3 to 6 months depending on volume
 
@@ -110,13 +112,16 @@ Purpose: for us to talk about work happening in the council, promote services, a
 Success is:
  - high level of engagement with blog post
  - average time spent on page is comparable to the average reading time of page
- - user clicks on call to action
+ - user clicks on call to action if applicable
+ - positive user comments (if enabled on the blog)
 
-Failure is: low engagement rate based on call to action clicks and scroll depth
+Failure is: 
+ - low level of engagement based on call to action clicks and scroll depth
+ - average time spent on page is significantly lower than the average reading time of page
 
-KPIs: TBC
+KPIs: time spent on page is comparable to the average reading time of page
 
-Review period: every 12 months
+Review period: every 3 months
 
 ## Email communications
 
@@ -125,11 +130,10 @@ Purpose: to inform users about topics they have chosen to subscribe to. For broa
 Success is: 
  - high levels of engagement based on open rates and click rates
  - new subscribers
- - GDPR compliance
 
 Failure is: 
- - a low level of engagement such as low open rate and no click throughs
- - poor housekeeping of subscriber list
+ - a low level of engagement based on low open rate and click rates
+ - high level of unsubscribers
 
 KPIs: 60% engagement rate
 
@@ -142,7 +146,7 @@ Success is: high engagement rate with short URL
 
 Failure is: low engagement rate with short URL
 
-KPIs: TBC
+KPIs: should be determined by the Marketing team based on the individual campaign and the short URL's usage
 
 Review period: every 3 to 6 months depending on the length of campaign
 
