@@ -51,7 +51,7 @@ Include links to internal pages where you have to, for example, a school closure
 
 ## What alerts look like
 
-This is specific essex.gov.uk. Other websites or microsites will have their own way of adding alerts but the same principles of when and when not to use them apply.
+This is specific to essex.gov.uk. Other websites or microsites will have their own way of adding alerts but the same principles of when and when not to use them apply.
 
 This is an example of an error alert.
 
