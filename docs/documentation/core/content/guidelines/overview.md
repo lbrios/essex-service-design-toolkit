@@ -14,7 +14,7 @@ Use our practical 'how to' guides to help with writing and designing content.
 *   [Manage your content](/docs/core/content/manage-your-content)
 *   [URL guidelines](/docs/core/content/url-guidelines) 
 *   Images - to follow
-*   Using website alerts - to follow
+*   [Using website alerts](/docs/core/content/using-website-alerts)
 
 ## Training and resources
 
