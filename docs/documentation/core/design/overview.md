@@ -34,9 +34,9 @@
 ### Static pages
 
 *		[Home page](https://essex-static-website.herokuapp.com/)
-*		[Topic page](https://essex-static-website.herokuapp.com/topic)
-*		[Contact us page](https://essex-static-website.herokuapp.com/contact-us)
-*		[404 page](https://essex-static-website.herokuapp.com/404)
+*		[Topic page](https://essex-static-website.herokuapp.com/topic.html)
+*		[Contact us page](https://essex-static-website.herokuapp.com/contact-us.html)
+*		[404 page](https://essex-static-website.herokuapp.com/404.html)
 
 ### Achieve Forms Components and Elements
 
