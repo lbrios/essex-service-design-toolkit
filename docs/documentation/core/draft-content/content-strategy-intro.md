@@ -21,13 +21,15 @@ This presents challenges with:
 - understanding the role of content 
 - understanding who is responsible for content 
 
-Users want clear, relevant content that helps them achieve their goal.
-
 In addition to this, there is a lack of clarity within the organisation on what good content is and how to make it accessible to everyone. Common problems include:
 - writing for the organisation, not the user
 - writing in a confusing and complicated way instead of using plain English
 - using jargon that people don’t understand
 - not writing inclusively for people with disabilities or low literacy
+
+Users want clear, relevant content that helps them achieve their goal.
+
+As set out in our [organisation strategy](https://www.essex.gov.uk/plans-and-strategies), we want to 'transform the council to achieve more with less'. Part of this is to 'reimagine how residents' needs can be met in a digital world'. By designing good content, based on the needs of users, we can help them quickly and easily access information and the services we offer.
 
 ## Aim
 
