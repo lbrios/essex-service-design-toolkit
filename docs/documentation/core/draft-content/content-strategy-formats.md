@@ -33,7 +33,10 @@ Failure: a long time spent on page
 
 KPIs: less than 30 seconds spent on page
 
-Review period: every 6 to 12 months depending on volume
+Review period:
+ - 3 months for very high volume content
+	- 6 months for high to average volume content
+ - 12 months for low volume content
 
 [Example of a website topic page](/examples/topic)
 
@@ -51,7 +54,10 @@ Failure is:
  
 KPIs: average time spent on page is comparable to the average reading time of page
 
-Review period: every 6 to 12 months depending on volume
+Review period:
+ - 3 months for very high volume content
+	- 6 months for high to average volume content
+ - 12 months for low volume content
 
 [Example of a website information page](/examples/article)
 
@@ -67,7 +73,10 @@ Failure is: high drop off before completion
 
 KPIs: 90% completion of form or transaction (excluding pre-screening and eligibility questions)
 
-Review period: every 3 to 6 months depending on volume
+Review period:
+ - 3 months for very high volume content
+	- 6 months for high to average volume content
+ - 12 months for low volume content
 
 ## News article - online
 
@@ -98,9 +107,9 @@ Failure is:
  - low volume of clicks on promoted link
  - negative user comments
 
-KPIs: TBC
+KPIs: should be determined by the Marketing team based on the individual campaign and the video's usage
 
-Review period: every 12 months
+Review period: every 3 to 6 months depending on the length of campaign
 
 ## Social media
 See the Social Media Strategy (currently being developed) for measurement and performance indicators for our social media channels.
