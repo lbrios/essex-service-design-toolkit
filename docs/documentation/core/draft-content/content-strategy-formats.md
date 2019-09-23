@@ -35,7 +35,7 @@ KPIs: less than 30 seconds spent on page
 
 Review period:
  - 3 months for very high volume content
-	- 6 months for high to average volume content
+ - 6 months for high to average volume content
  - 12 months for low volume content
 
 [Example of a website topic page](/examples/topic)
@@ -56,7 +56,7 @@ KPIs: average time spent on page is comparable to the average reading time of pa
 
 Review period:
  - 3 months for very high volume content
-	- 6 months for high to average volume content
+ - 6 months for high to average volume content
  - 12 months for low volume content
 
 [Example of a website information page](/examples/article)
@@ -75,7 +75,7 @@ KPIs: 90% completion of form or transaction (excluding pre-screening and eligibi
 
 Review period:
  - 3 months for very high volume content
-	- 6 months for high to average volume content
+ - 6 months for high to average volume content
  - 12 months for low volume content
 
 ## News article - online
