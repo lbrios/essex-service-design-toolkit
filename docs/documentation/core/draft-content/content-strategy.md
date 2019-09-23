@@ -26,6 +26,5 @@ Other guidance that should be considered alongside our content strategy are:
 - Brand guidelines - being updated
 - [Content guidelines](/docs/core/content/guidelines/overview)
 - [Communications and marketing strategy (on essex.gov.uk)](https://www.essex.gov.uk/communications-and-marketing-strategy)
-- GDPR policy
 - Tone of voice - being updated
 - Social media strategy - being created
