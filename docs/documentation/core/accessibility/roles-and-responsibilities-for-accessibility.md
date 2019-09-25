@@ -68,9 +68,9 @@ Siteimprove has guidance on:
 WebAIM has guidance on [accessible images](https://webaim.org/techniques/images/).
 
 Guidance on using images on social media is available including:
-- [making images accessible on Twitter](https://help.twitter.com/en/using-twitter/picture-descriptions)
-- [adding alternative text on Instagram](https://help.instagram.com/503708446705527)
-- [adding alternative text on Facebook](https://www.facebook.com/help/214124458607871)
+- [Twitter: making images accessible](https://help.twitter.com/en/using-twitter/picture-descriptions)
+- [Instagram: adding alternative text](https://help.instagram.com/503708446705527)
+- [Facebook: adding alternative text](https://www.facebook.com/help/214124458607871)
 
 ### Content types: text Headings
 
