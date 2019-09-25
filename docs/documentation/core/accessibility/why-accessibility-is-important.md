@@ -23,14 +23,3 @@ Watch this [2 minute video from the Government Digital Service on what accessibi
 
 Watch this [3 minute video from AbilityNet about what accessibility means](https://www.youtube.com/watch?time_continue=1&v=cY8zxPiSyug).
 
-## Accessibility legislation
-
-New regulations came into force for public sector bodies on 23 September 2018. This means that we now have a legal duty to make sure that our online services are accessible.
-
-The Government Digital Service has guidance which explains the 3 compliance deadlines and exemptions:
-
-*   a new website, published on or after 23 September 2018, must be accessible by 23 September 2019
-*   an existing website must be accessible by 23 September 2020
-*   a mobile app must be accessible by 23 September 2021
-
-Read GOV.UK guidance on [understanding new accessibility requirements for public sector bodies](https://www.gov.uk/guidance/accessibility-requirements-for-public-sector-websites-and-apps#procuring-an-accessible-website-or-app)
