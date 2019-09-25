@@ -16,6 +16,7 @@ The following guidance is for specific roles:
 - [content designer](#content-designer)
 - [developers](#developers)
 - [product owners and delivery managers](#product-owners-and-delivery-managers)
+- [working in an agile team](#agile-phases)
 
 ## User researcher
 
@@ -107,15 +108,62 @@ A consultation with a broad audience should be made as accessible as possible us
 
 GDS has a [blog post which gives accessibility advice for creating a consultation](https://gds.blog.gov.uk/2018/09/13/accessibility-advice-when-creating-a-uk-government-consultation/).
 
+### More guidance
+Content designers and editors may also find the following guidance useful:
+- [checklist for content editors](checklist-for-content-editors)
+- [examples of how to write content for specific impairments](examples-of-how-to-write-content-for-specific-impairments)
+
 ## Developers
 
 Add content.
+
+### Support for developers
+
+More support for developers is available including:
+-   [reading for developers](reading-for-developers)
+-   [checklist for developers](checklist-for-developers)
 
 ## Product owners and Delivery managers 
 
 Embedding accessibility in your project.
 
 See [section 5 of the GOV.UK Service Manual: make sure everyone can use the service](https://www.gov.uk/service-manual/service-standard/point-5-make-sure-everyone-can-use-the-service).  
+
+## Agile phases
+
+Everyone involved plays a part in developing an accessible experience for the user. 
+
+You need to consider accessibility throughout the agile phases. 
+
+### Discovery
+
+The GOV.UK Service Manual explains [how the discovery phase works](https://www.gov.uk/service-manual/agile-delivery/how-the-discovery-phase-works).
+
+GOV.UK also has guidance on [understanding disabilities and impairements](https://www.gov.uk/government/publications/understanding-disabilities-and-impairments-user-profiles).
+
+### Alpha
+
+The GOV.UK Service Manual explains [how the alpha phase works](https://www.gov.uk/service-manual/agile-delivery/how-the-alpha-phase-works).
+
+GOV.UK also has guidance on:
+- [understanding WCAG 2.1](https://www.gov.uk/service-manual/helping-people-to-use-your-service/understanding-wcag)
+- [how to get an accessibility audit before moving into public beta phase](https://www.gov.uk/service-manual/helping-people-to-use-your-service/testing-for-accessibility#getting-an-accessibility-audit)
+
+### Beta
+
+The GOV.UK Service Manual explains [how the beta phase works](https://www.gov.uk/service-manual/agile-delivery/how-the-beta-phase-works). It also gives guidance on:
+- [testing for accessibility](https://www.gov.uk/service-manual/helping-people-to-use-your-service/testing-for-accessibility)
+- [making your service more inclusive](https://www.gov.uk/service-manual/design/making-your-service-more-inclusive)
+
+### Live
+
+The GOV.UK Service Manual explains [how the live phase works](https://www.gov.uk/service-manual/agile-delivery/how-the-live-phase-works).
+
+### Procurement
+
+GDS advises that procurement teams refer to the following guidance:
+- [accessible ICT procurement kit](http://mandate376.standards.eu/)
+- [make things accessible](https://www.gov.uk/guidance/make-things-accessible)
 
 
 
