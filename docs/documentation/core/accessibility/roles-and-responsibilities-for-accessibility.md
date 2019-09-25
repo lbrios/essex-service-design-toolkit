@@ -36,15 +36,17 @@ GDS have developed personas which identify the range of challenges faced by user
 - [Saleem: profoundly deaf user](https://www.gov.uk/government/publications/understanding-disabilities-and-impairments-user-profiles/saleem-profoundly-deaf-user)
 - [Simone: dyslexic user](https://www.gov.uk/government/publications/understanding-disabilities-and-impairments-user-profiles/simone-dyslexic-user)
 
-Further reading:
+### Testing
+
+There are a number of assistive technologies which can be bought or downloaded for free. These help to identify issues early on. GOV.UK has guidance on [testing with assistive technologies](https://www.gov.uk/service-manual/technology/testing-with-assistive-technologies).
+
+### Support for user researchers
+
+See what [support is available for user reserachers](support-for-user-researchers).
 
 Read the [‘accessibility and me’ blog post](https://accessibility.blog.gov.uk/category/accessibility-and-me/) which has interviews with people with access needs.
 
 The [Web Accessibility Initiative](https://www.w3.org/WAI/people-use-web/user-stories/) also has stories of people with disabilities using the web which highlight the effect of accessibility barriers.
-
-### Testing
-
-There are a number of assistive technologies which can be bought or downloaded for free. These help to identify issues early on. GOV.UK has guidance on [testing with assistive technologies](https://www.gov.uk/service-manual/technology/testing-with-assistive-technologies).
 
 ## Content designer
 
