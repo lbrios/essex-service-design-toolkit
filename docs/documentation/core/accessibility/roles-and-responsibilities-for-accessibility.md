@@ -62,6 +62,13 @@ Siteimprove has guidance on:
 - [the importance of Alt Tags](https://support.siteimprove.com/hc/en-gb/articles/114094069371-The-importance-of-Alt-Tags)
 - [image Alt text best practices](https://support.siteimprove.com/hc/en-gb/articles/115000013031-Accessibility-Image-Alt-text-best-practices)
 
+WebAIM has guidance on [accessible images](https://webaim.org/techniques/images/).
+
+Guidance on using images on social media is available including:
+- [making images accessible on Twitter](https://help.twitter.com/en/using-twitter/picture-descriptions)
+- [adding alternative text on Instagram](https://help.instagram.com/503708446705527)
+- [adding alternative text on Facebook](https://www.facebook.com/help/214124458607871)
+
 ### Content types: text Headings
 
 Content should always be structured on a web page or in a document. This means that it should always have a title which is a heading 1 or h1 in the code.
