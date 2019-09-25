@@ -108,7 +108,7 @@ A consultation with a broad audience should be made as accessible as possible us
 
 GDS has a [blog post which gives accessibility advice for creating a consultation](https://gds.blog.gov.uk/2018/09/13/accessibility-advice-when-creating-a-uk-government-consultation/).
 
-### More guidance
+### Support for content designers and editors
 Content designers and editors may also find the following guidance useful:
 - [checklist for content editors](checklist-for-content-editors)
 - [examples of how to write content for specific impairments](examples-of-how-to-write-content-for-specific-impairments)
