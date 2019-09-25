@@ -101,7 +101,7 @@ If you’re using images with copyright restrictions, make sure you give the app
 
 If you’re using photographs of people, make sure you have their consent before using them.
 
-Contact the Communications and Marketing Content Team for advice on using images and copyright. Email them at <picture.desk@essex.gov.uk.> 
+Contact the Communications and Marketing Content Team for advice on using images and copyright. Email them at <picture.desk@essex.gov.uk>.
 
 
 
