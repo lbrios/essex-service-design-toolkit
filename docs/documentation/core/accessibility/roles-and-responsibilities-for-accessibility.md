@@ -21,11 +21,11 @@ The following guidance is for specific roles:
 
 The user research role is an important one as they help to identify accessibility issues by testing with disabled users. 
 
-See Government Digital Service(GDS) [guidance on including users with disabilities](https://www.gov.uk/service-manual/user-research/find-user-research-participants).
+See Government Digital Service (GDS) [guidance on including users with disabilities](https://www.gov.uk/service-manual/user-research/find-user-research-participants).
 
 It’s important to understand the challenges faced by users with specific disabilities or impairments. 
 
-GDS have developed personas which identify the range of challenges faced by users. The profiles include:
+GDS have developed personas which identify the range of challenges faced by users. See the profiles:
 
 - [Ashleigh: partially sighted screenreader user](https://www.gov.uk/government/publications/understanding-disabilities-and-impairments-user-profiles/ashleigh-partially-sighted-screenreader-user)
 - [Christopher: user with rheumatoid arthritis](https://www.gov.uk/government/publications/understanding-disabilities-and-impairments-user-profiles/christopher-user-with-rheumatoid-arthritis)
@@ -47,7 +47,7 @@ There are a number of assistive technologies which can be bought or downloaded f
 
 ## Content designer
 
-Watch the 3.5 minute video from GDS on [ways to make your content more accessible](https://www.youtube.com/watch?v=lYZJKr8CX_U&list=PL5tovFCB3CsD_7_yeY1n6W4rxYkIupUln&index=6).
+Watch a 3.5 minute video from GDS on [ways to make your content more accessible](https://www.youtube.com/watch?v=lYZJKr8CX_U&list=PL5tovFCB3CsD_7_yeY1n6W4rxYkIupUln&index=6).
 
 ### Writing content for specific impairments
 
