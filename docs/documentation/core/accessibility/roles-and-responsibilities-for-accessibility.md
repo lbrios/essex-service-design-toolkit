@@ -64,9 +64,9 @@ Siteimprove has guidance on:
 
 ### Content types: text Headings
 
-Content should always be structured on a web page or in a document. This means that it should always have a title which is a heading 1 or <h1> in the code.
+Content should always be structured on a web page or in a document. This means that it should always have a title which is a heading 1 or h1 in the code.
 
-Anything more than a couple of paragraphs probably needs to have sub-headings. This helps the user to scan the content to find what they need. These sub-headings are heading 2 or <h2> in the code.
+Anything more than a couple of paragraphs probably needs to have sub-headings. This helps the user to scan the content to find what they need. These sub-headings are heading 2 or h2 in the code.
 
 See our [guidance on designing good content](/docs/core/content/designing-content).
 
