@@ -3,13 +3,21 @@
 
 # Accessibility
 
-*   [Why accessibility is important](why-accessibility-is-important)
-*   [Tools for checking accessibility compliance](tools-for-checking-accessibility-compliance)
+*   [Why digital accessibility is important](why-accessibility-is-important)
+*   [What the law says](what-the-law-says)
+
+## Roles and responsibilities for accessibility 
+
+*   [What each roles does in a service team to make sure content is accessible to everyone](roles-and-responsibilities-for-accessibility) 
 
 ## Accessible documents
 
 *   [Web or PDF content?](web-or-pdf-content)
 *   [Creating an accessible PDF](creating-an-accessible-pdf)
+
+## Accessibility testing tools
+
+*   [Tools for checking accessibility compliance](tools-for-checking-accessibility-compliance)
 
 ## Support for content editors
 
