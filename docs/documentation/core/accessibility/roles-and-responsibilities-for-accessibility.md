@@ -52,7 +52,7 @@ Watch a 3.5 minute video from GDS on [ways to make your content more accessible]
 
 ### Writing content for specific impairments
 
-See our guidance on [how to write content for specific impairements](/docs/core/accessibility/examples-of-how-to-write-content-for-specific-impairments.
+See our guidance on [how to write content for specific impairements](/docs/core/accessibility/examples-of-how-to-write-content-for-specific-impairments).
 
 ### Content types: images on websites
 
@@ -131,7 +131,7 @@ See [section 5 of the GOV.UK Service Manual: make sure everyone can use the serv
 
 ## Agile phases
 
-Everyone involved plays a part in developing an accessible experience for the user. 
+Everyone in an agile team plays a part in developing an accessible experience for the user. 
 
 You need to consider accessibility throughout the agile phases. 
 
