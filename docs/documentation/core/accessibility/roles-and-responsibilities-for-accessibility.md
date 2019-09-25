@@ -15,7 +15,7 @@ The following guidance is for specific roles:
 - [user researcher](#user-researcher)
 - [content designer](#content-designer)
 - [developers](#developers)
-- [product owners and delivery managers](#product-owners-and-delivery managers)
+- [product owners and delivery managers](#product-owners-and-delivery-managers)
 
 ## User researcher
 
