@@ -21,7 +21,7 @@ Watch this [4.5 minute video from Citizen’s Online about making technology wor
 GOV.UK has more guidance on:
 
 * [understanding new accessibility requirements for public sector bodies](https://www.gov.uk/guidance/accessibility-requirements-for-public-sector-websites-and-apps)
-* [making your website or app accessible and publish an accessibility statement]9https://www.gov.uk/guidance/make-your-website-or-app-accessible-and-publish-an-accessibility-statement)
+* [making your website or app accessible and publish an accessibility statement](https://www.gov.uk/guidance/make-your-website-or-app-accessible-and-publish-an-accessibility-statement)
 
 Find out more about how you can make your website accessible from the [Government accessibility blog](https://accessibility.blog.gov.uk/). 
 
