@@ -2,7 +2,7 @@
 2.  [Accessibility](#)
 
 # Accessibility
-We have a responsibility to make sure our digital products are accessible to everyone, including people who have a disability or an impairement.
+We have a responsibility to make sure our online services (made up of websites, apps, forms and online documents) are accessible to everyone. This includes people who have a permanent or temporary disability or impairment.
 
 Find out more about:
 *   [why digital accessibility is important](why-accessibility-is-important)
