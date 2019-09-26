@@ -16,7 +16,7 @@ Find out what [each role does in a service team to make sure content is accessib
 
 See our guidance on creating accessible content including:
 *   [why web content is better than a PDF](web-or-pdf-content)
-*   [creating an accessible PDF](creating-an-accessible-pdf)
+*   [creating an accessible PDF](#)
 
 ## Accessibility testing tools
 
