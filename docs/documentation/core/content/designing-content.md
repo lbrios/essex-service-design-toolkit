@@ -130,18 +130,7 @@ This includes adding keywords in the title, teaser text, meta description and bo
   
 It’s also important to use the same terms that your audience use to search. This helps them find your content easily and quickly.
 
-For example, people search almost equally for ‘parking tickets’ and ‘paying fines’, so you would need to include one of these in the title and one in the teaser text or meta description.
-
-Here’s an example of a topic page.
-
-Title:  
-Accessible transport and mobility
-
-Teaser text:  
-Blue Badge, disabled parking bays, mobility aids and accessible transport
-
-Meta description:  
-Transport, travel and mobility for people with a disability. Includes Blue Badge, accessible transport, disabled parking bays and mobility aids.
+See our guidance on [optimising your cpntent for search](optimise-your-content-for-search)
 
 ## Make content accessible
 
