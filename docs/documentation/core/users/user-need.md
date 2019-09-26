@@ -7,11 +7,13 @@ Users come to our online services with a goal or need. They don't come to browse
 
 We need to understand this need and make sure that users can find what they want quickly and easily.
 
-Read: [Start by learning user needs, gov.uk Service Manual](https://www.gov.uk/service-manual/user-research/start-by-learning-user-needs)
+Read: [Start by learning user needs, GOV.UK Service Manual](https://www.gov.uk/service-manual/user-research/start-by-learning-user-needs)
 
-*   [Why it matters](why-it-matters)
-*   [Who are our users?](who-are-our-users)
-*   [Insight and discovery](insight-and-discovery)
-*   [User stories](user-stories)
-*   [User testing](user-testing)
-*   [Testing tools](testing-tools)
+Find out more about:
+
+*   [why it matters](why-it-matters)
+*   [who are our users?](who-are-our-users)
+*   [insight and discovery](insight-and-discovery)
+*   [user stories](user-stories)
+*   [user testing](user-testing)
+*   [testing tools](testing-tools)
