@@ -20,7 +20,7 @@ See the [user needs section](user-need) of this toolkit for more why user needs 
 
 Keywords are what people use on search engines. 
 
-Use the same terms and language that people use. This helps them find your content easily and quickly.
+Use the same terms and language that your users use to search. This helps them find your content easily and quickly.
 
 Use keywords in the URL, title, teaser text, meta description and body content. 
 
