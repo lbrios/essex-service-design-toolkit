@@ -207,7 +207,7 @@ Add the main keywords.
 
 Here’s an example: 
 
-![An example of what document properties in Microsoft Word look like.](/docs/documentation/core/content/images/Document_properties_in_Word.jpg).
+![](/docs/documentation/core/content/images/Document_properties_in_Word.jpg).
 
 Microsoft has guidance on [adding document properties](https://support.office.com/en-us/article/view-or-change-the-properties-for-an-office-file-21d604c2-481e-4379-8e54-1dd4622c6b75).
 
