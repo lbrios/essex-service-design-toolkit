@@ -112,7 +112,9 @@ Microsoft has guidance on [how to add bulleted and numbered lists](https://suppo
 
 ### Links
 
-All links within a document should have an appropriate link text. Use a meaningful and descriptive link text to help people using screen readers to identify what they are. For example, use Essex County Council instead of [https://www.essex.gov.uk/Pages/Default.aspx](https://www.essex.gov.uk/Pages/Default.aspx). Screen readers will read out the full web address and it won't make sense to the user.
+All links within a document should have an appropriate link text. Use a meaningful and descriptive link text to help people using screen readers to identify what they are. 
+
+For example, use Essex County Council instead of [https://www.essex.gov.uk/Pages/Default.aspx](https://www.essex.gov.uk/Pages/Default.aspx). Screen readers will read out the full web address and it won't make sense to the user.
 
 Don’t use ‘click here’ as your link text. People with visual impairment can tell their screen readers to pick out only links in a document. If your document uses a lot of ‘click here’, then that is all the user will hear and it won’t make sense to them. 
 
@@ -138,7 +140,7 @@ You can also watch their video on [improving accessibility with alt text](https:
 
 Charts and graphs must have a text description in the body text and alt text.
 
-Add labels to your chart to help colour blind users identify what they represent.
+Add labels to your charts and graphs to help colour blind users identify what they represent.
 
 If you have to use colours in your charts, use different line styles, text in graphs or different shades of colour to improve accessibility for colour blind users.
 
@@ -168,12 +170,6 @@ Tables must have a header row that tells you what’s in the columns. Put the da
 Screen readers need to be able to identify which cells are part of the header row and which cells contain data.
 
 Check that the tabbing order is correct and is in a logical order.
-
-#### How to insert tables
-
-Use ‘Insert table’ to add a table.
-
-Then go to ‘Table properties’ to set the header row and check the option ‘Repeat as header at the top of each page’
 
 #### Alternative text (alt text) for tables
 
@@ -211,7 +207,7 @@ Add the main keywords.
 
 Here’s an example: 
 
-![An example of what document properties in Microsoft Word look like.](Document_properties_in_Word.jpg)
+![An example of what document properties in Microsoft Word look like.](/docs/documentation/core/content/images/Document_properties_in_Word.jpg).
 
 Microsoft has guidance on [adding document properties](https://support.office.com/en-us/article/view-or-change-the-properties-for-an-office-file-21d604c2-481e-4379-8e54-1dd4622c6b75).
 
