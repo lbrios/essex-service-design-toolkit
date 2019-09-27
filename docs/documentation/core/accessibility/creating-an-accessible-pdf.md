@@ -14,8 +14,6 @@ To create an accessible PDF, you need to make your original document accessible 
 
 Most PDFs start off as Word documents. Here’s guidance to make your Word document accessible. 
 
-Use the [Essex County Council accessible Word template - INSERT LINK](#) with this guidance.
-
 You can also apply the same accessibility features to other formats like Excel spreadsheets or PowerPoint slides.
 
 ## Keep it simple and clear
@@ -59,9 +57,7 @@ Always use heading styles in this order. If you miss a Heading 2 and only use He
 
 Don’t use bold formatting as screen readers won’t identify them as headings.
 
-Write descriptive headings. Include keywords that users are looking for. See our guidance on optimising content for search.
-
-Use the [Essex County Council accessible Word template - INSERT LINK](#) to ensure you are applying the correct heading styles.
+Write descriptive headings. Include keywords that users are looking for. See our guidance on [optimising content for search](optimise-your-content-for-search).
 
 Microsoft has guidance on [adding headings and subheadings](https://support.office.com/en-ie/article/add-a-heading-3eb8b917-56dc-4a17-891a-a026b2c790f2).
 
@@ -71,7 +67,7 @@ Format your document well so people with low vision, cognitive or learning diffi
 
 Use left justification for text and not fully justified. 
 
-Use the same font throughout like Arial and use text size of 12 point or higher.
+Use the same font throughout, like Arial, and use text size of 12 point or higher.
 
 White space makes information easier to read. Make sure there’s sufficient space between paragraphs and at either side of the page.
 
@@ -128,7 +124,7 @@ Watch Microsoft’s video on [how you can improve accessibility with alt text](h
 
 Images should have descriptive alt text that describes the meaning of an image.  Keep the alt text brief but concise. 
 
-Screen readers will read out the alt text and it helps people with visual impairments. understand pictures they can’t see. 
+Screen readers will read out the alt text and it helps people with visual impairments understand pictures they can’t see. 
 
 See our guidance on [using images](using-images).
 
@@ -149,6 +145,7 @@ See our guidance on [using charts and graphs as images](using-images).
 Watch Microsoft’s video on [creating accessible charts in Excel](https://support.office.com/en-us/article/video-create-more-accessible-charts-in-excel-19e81ce7-88af-4a3f-a4ef-a26c344527b3). You can create accessible Excel charts in Word, and you can also apply the same accessibility features.
 
 ### Diagrams and inserted objects
+
 Add objects, such as pictures, shapes, SmartArt graphics, as single images and not as separate component parts.
 
 Add alt text to objects to help people with visual impairments understand what they mean.
@@ -205,7 +202,7 @@ Always use Essex County Council as the author.
 
 Add the main keywords.
 
-Here’s an example: 
+Here’s an example: INSERT IMAGE
 
 ![](/docs/documentation/core/content/images/Document_properties_in_Word.jpg).
 
@@ -222,6 +219,7 @@ The Accessibility Checker will identify any issues in your document and suggests
 Microsoft has guidance on [checking the accessibility of a Word document](https://support.office.com/en-us/article/create-accessible-pdfs-064625e0-56ea-4e16-ad71-3aa33bb4b7ed). 
 
 ## Converting to a PDF
+
 After running the Accessibility Checker on your document, you can save it as an accessible PDF. This preserves the accessibility features of your original document.
 
 Don’t print to PDF as your document will lose all the accessibility features.
