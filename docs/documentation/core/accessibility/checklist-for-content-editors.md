@@ -8,7 +8,7 @@ To meet [Web Content Accessibility Guidelines (WCAG) 2.1](https://www.w3.org/TR/
 
 Answering 'no' means that you are not meeting WCAG and your content will have barriers that will prevent some users, especially disabled users and older people from accessing it.
 
-The following is a checklist for content editors. You should also be aware there is also a [checklist for developers](checklist-for-developers "Checklist for developers").
+The following is a checklist for content editors. There's also a [checklist for developers](checklist-for-developers "Checklist for developers").
 
 ## Text
 
