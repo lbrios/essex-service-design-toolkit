@@ -4,7 +4,7 @@
 
 # Roles and responsibilities for accessibility
 
-Everyone that is involved in commissioning or delivering digital products for Essex County Council shares has responsibility to make sure that they are accessible to all.
+Everyone that is involved in commissioning or delivering digital products for Essex County Council shares responsibility to make sure that they are accessible to all.
 
 The Government Digital Service Standards make it clear that we should:
 - [understand users and their needs](https://www.gov.uk/service-manual/service-standard/point-1-understand-user-needs)
@@ -13,7 +13,7 @@ The Government Digital Service Standards make it clear that we should:
 
 The following guidance is for specific roles:
 - [user researcher](#user-researcher)
-- [content designer](#content-designer)
+- [content designer or editor](#content-designer)
 - [developers](#developers)
 - [product owners and delivery managers](#product-owners-and-delivery-managers)
 - [working in an agile team](#agile-phases)
@@ -21,7 +21,7 @@ The following guidance is for specific roles:
 
 ## User researcher
 
-The user research role is an important one as they help to identify accessibility issues by testing with disabled users. 
+The user researcher role is an important one as they help to identify accessibility issues by testing with disabled users. 
 
 See Government Digital Service (GDS) [guidance on including users with disabilities](https://www.gov.uk/service-manual/user-research/find-user-research-participants).
 
@@ -57,11 +57,11 @@ See our [checklist for content designers and editors](checklist-for-content-edit
 
 ### Writing content for specific impairments
 
-See our guidance on [how to write content for specific impairements](/docs/core/accessibility/examples-of-how-to-write-content-for-specific-impairments).
+See our guidance on [how to write content for specific impairments](/docs/core/accessibility/examples-of-how-to-write-content-for-specific-impairments).
 
 ### Content types: images on websites
 
-See our [guidance on using images on websites](#)
+See our [guidance on using images on websites](using-images).
 
 Siteimprove has guidance on:
 
@@ -145,7 +145,7 @@ You need to consider accessibility throughout the agile phases.
 
 The GOV.UK Service Manual explains [how the discovery phase works](https://www.gov.uk/service-manual/agile-delivery/how-the-discovery-phase-works).
 
-GOV.UK also has guidance on [understanding disabilities and impairements](https://www.gov.uk/government/publications/understanding-disabilities-and-impairments-user-profiles).
+GOV.UK also has guidance on [understanding disabilities and impaiments](https://www.gov.uk/government/publications/understanding-disabilities-and-impairments-user-profiles).
 
 ### Alpha
 
