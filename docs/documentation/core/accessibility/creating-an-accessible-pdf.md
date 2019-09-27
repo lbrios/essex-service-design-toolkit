@@ -16,6 +16,10 @@ Most PDFs start off as Word documents. Here’s guidance to make your Word docum
 
 You can also apply the same accessibility features to other formats like Excel spreadsheets or PowerPoint slides.
 
+## Design good content
+
+Design accessible web content so everyone can use it. 
+
 ## Keep it simple and clear
 
 Use simple language that people can read and understand quickly. 
@@ -24,11 +28,7 @@ Writing in plain English and using short sentences makes your document accessibl
 
 Professionals need content in plain English too. They need to be able to find information quickly.
 
-See our [guidance on writing accessible content](designing-content).
-
-## Design good content
-
-Design accessible web content so everyone can use it. 
+See our [guidance on writing accessible content](/docs/core/content/designing-content).
 
 ### Heading styles         
 
@@ -114,7 +114,7 @@ For example, use Essex County Council instead of [https://www.essex.gov.uk/Pages
 
 Don’t use ‘click here’ as your link text. People with visual impairment can tell their screen readers to pick out only links in a document. If your document uses a lot of ‘click here’, then that is all the user will hear and it won’t make sense to them. 
 
-Read our guidance on [formatting links](designing-content).
+Read our guidance on [formatting links](/docs/core/content/designing-content).
 
 GOV.UK has guidance on [writing link text](https://www.gov.uk/guidance/content-design/links)
 
@@ -126,7 +126,7 @@ Images should have descriptive alt text that describes the meaning of an image. 
 
 Screen readers will read out the alt text and it helps people with visual impairments understand pictures they can’t see. 
 
-See our guidance on [using images](using-images).
+See our guidance on [using images](/docs/core/content/using-images).
 
 Microsoft has guidance on [adding alt text to images](https://support.office.com/en-us/article/add-alternative-text-to-a-shape-picture-chart-smartart-graphic-or-other-object-44989b2a-903c-4d9a-b742-6a75b451c669).
 
@@ -140,7 +140,7 @@ Add labels to your charts and graphs to help colour blind users identify what th
 
 If you have to use colours in your charts, use different line styles, text in graphs or different shades of colour to improve accessibility for colour blind users.
 
-See our guidance on [using charts and graphs as images](using-images).
+See our guidance on [using charts and graphs as images](/docs/core/content/using-images).
 
 Watch Microsoft’s video on [creating accessible charts in Excel](https://support.office.com/en-us/article/video-create-more-accessible-charts-in-excel-19e81ce7-88af-4a3f-a4ef-a26c344527b3). You can create accessible Excel charts in Word, and you can also apply the same accessibility features.
 
@@ -203,8 +203,6 @@ Always use Essex County Council as the author.
 Add the main keywords.
 
 Here’s an example: INSERT IMAGE
-
-![](/docs/documentation/core/content/images/Document_properties_in_Word.jpg).
 
 Microsoft has guidance on [adding document properties](https://support.office.com/en-us/article/view-or-change-the-properties-for-an-office-file-21d604c2-481e-4379-8e54-1dd4622c6b75).
 
