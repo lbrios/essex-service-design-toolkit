@@ -32,11 +32,9 @@ If your child is not offered a place at your preferred school, you can appeal ag
 
 ## Use headings and bullets
 
-Avoid using large blocks of text as this is hard to read. Use headings and bullet points to break them down.  
+Avoid using large blocks of text as this is hard to read. Use headings, subheadings and bullet points to break them down.  
   
-Here’s an example:
-
-![](/public/images/chesfs50-euchomedirs-carolinemccabe-my-documents-my-pictures-images-for-digital-toolkit-what-you-need-to-tell-us.jpg)
+See our [guidance on creating accessible content - INSERT LINK](#) for more on using headings and bulleted lists.
 
 ## Use active voice
 
@@ -89,7 +87,7 @@ Don't use 'Click here' or 'Read more'.
 For example:  
 "See the [statutory guidance on disability-related expenditure on GOV.UK](https://www.gov.uk/government/publications/care-act-statutory-guidance/care-and-support-statutory-guidance#disability-related-expenditure "GOV.UK guidance on disability-related expenditure") for more information."
 
-"Find out [how your carer can get support](https://eccwa-eccdnt-eun-essexwebapp.azurewebsites.net/financial-support-for-carers "Support for carers") so they can continue caring for you."
+"Find out [how your carer can get support](https://www.essex.gov.uk/financial-support-for-carers "Support for carers") so they can continue caring for you."
 
 ## How users read online
 
@@ -107,10 +105,7 @@ You need to make it as easy as possible for users to find and read the content. 
 
 You can also use the [inverted pyramid](https://www.nngroup.com/articles/inverted-pyramid/) writing style to structure your content. This means putting the information users need to complete a task as high up the page as possible and using clear language.  
   
-For example:  
-Apply for a Blue Badge
-
-![](/public/images/chesfs50-euchomedirs-carolinemccabe-my-documents-my-pictures-images-for-digital-toolkit-how-to-apply.jpg?width=500&height=482.0689655172414)
+For example, see [apply for a Blue Badge](https://www.essex.gov.uk/blue-badge/apply-for-a-blue-badge). 
 
 ## Reading age
 
@@ -130,18 +125,7 @@ This includes adding keywords in the title, teaser text, meta description and bo
   
 It’s also important to use the same terms that your audience use to search. This helps them find your content easily and quickly.
 
-For example, people search almost equally for ‘parking tickets’ and ‘paying fines’, so you would need to include one of these in the title and one in the teaser text or meta description.
-
-Here’s an example of a topic page.
-
-Title:  
-Accessible transport and mobility
-
-Teaser text:  
-Blue Badge, disabled parking bays, mobility aids and accessible transport
-
-Meta description:  
-Transport, travel and mobility for people with a disability. Includes Blue Badge, accessible transport, disabled parking bays and mobility aids.
+See our guidance on [optimising your content for search](optimise-your-content-for-search)
 
 ## Make content accessible
 
@@ -149,7 +133,7 @@ Accessible information is information that people can understand.
 
 When we are designing content, we need to make sure the [content is accessible](https://www.gov.uk/guidance/content-design/planning-content#accessibity) to all users. We need to provide information in a friendly format that screen readers and other assistive technology can read.  
   
-Go to the [accessibility section](accessibility) of this toolkit for tips on how to make content accessible.
+See the [accessibility section](accessibility) of this toolkit for guidance on how to make your content accessible.
 
 ## Write content in pairs
 
