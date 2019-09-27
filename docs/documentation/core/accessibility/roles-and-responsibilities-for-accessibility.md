@@ -100,8 +100,8 @@ Dig inclusion has guidance on [what makes a video accessible](https://diginclusi
 Provide content on a web page rather than as a PDF. If this isn’t possible then the following should be done as a minimum:
 - write in plain English
 - tag headings and other parts of the document properly, so screen readers can understand the page structure
-- make sure we include alt text alongside non-decorative images, so people who cannot see them understand what they’re there for
-- avoid using tables, except when we’re presenting data
+- make sure you include alt text alongside non-decorative images, so people who cannot see them understand what they’re there for
+- avoid using tables, except when you're presenting data
 
 See our guidance on [creating accessible documents](creating-an-accessible-pdf).
 
