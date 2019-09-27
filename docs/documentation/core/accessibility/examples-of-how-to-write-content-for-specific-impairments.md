@@ -39,7 +39,7 @@ The list below is taken from a series of accessibility posters which have been d
 ### Do
 
 *   use a combination of colour, shapes and text
-*   follow a linear, logical layout -and ensure text flows and is visible when text is magnified to 200%
+*   follow a linear, logical layout and ensure text flows and is visible when text is magnified to 200%
 *   put buttons and notifications in context
 
 ### Don't
@@ -49,7 +49,7 @@ The list below is taken from a series of accessibility posters which have been d
 *   spread content all over a page -and force user to scroll horizontally when text is magnified to 200%
 *   separate actions from their context
 
-## Designing for users who are D/deaf or hard of hearing
+## Designing for users who are deaf or hard of hearing
 
 ### Do
 
