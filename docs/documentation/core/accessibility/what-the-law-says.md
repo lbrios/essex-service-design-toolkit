@@ -14,7 +14,7 @@ The Government Digital Service (GDS) has guidance which explains the 3 complianc
 
 GDS has also provided the following guidance on:
 - [understanding new accessibility requirements for public sector bodies](https://www.gov.uk/guidance/accessibility-requirements-for-public-sector-websites-and-apps#procuring-an-accessible-website-or-app)
-- [making your website or app accessible and publish an accessibility statement](https://www.gov.uk/guidance/make-your-website-or-app-accessible-and-publish-an-accessibility-statement)
+- [making your website or app accessible and publishing an accessibility statement](https://www.gov.uk/guidance/make-your-website-or-app-accessible-and-publish-an-accessibility-statement)
 
 Watch this [2.5 minute video from GDS on the 4 principles of accessibility](https://www.youtube.com/watch?v=hs8sykCaf3E&list=PL5tovFCB3CsD_7_yeY1n6W4rxYkIupUln&index=2).
 
