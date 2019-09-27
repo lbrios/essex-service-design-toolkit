@@ -236,7 +236,7 @@ GOV.UK also has guidance on [how to check a PDF for accessibility](https://www.g
 
 ## Related guidance
 
-Web Accessibility in mind (WebAIM) has guidance on [creating Accessible documents in Word](https://webaim.org/techniques/word/).
+Web Accessibility in mind (WebAIM) has guidance on [creating accessible documents in Word](https://webaim.org/techniques/word/).
 
 
 
