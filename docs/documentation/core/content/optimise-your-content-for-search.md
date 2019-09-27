@@ -20,7 +20,7 @@ See the [user needs section](user-need) of this toolkit for more why user needs 
 
 Keywords are what people use on search engines. 
 
-Use the same terms and language that your users use to search. This helps them find your content easily and quickly.
+Use the same terms and language that people use. This helps them find your content easily and quickly.
 
 Use keywords in the URL, title, teaser text, meta description and body content. 
 
@@ -38,7 +38,7 @@ See our [URL guidance](url-guidelines).
 
 Put the main keyword in the page title. This is the most important on-page SEO. 
 
-The page title is Heading 1. It’s one of the first things a user sees in a search engine’s search results page. It’s important to use a good descriptive title that includes the main keyword.
+The page title is Heading 1. It’s one of the first things a user sees in a search engine’s results page. It’s important to use a good descriptive title that includes the main keyword.
 
 Here’s an example of a title, teaser text and meta description:
  
@@ -65,7 +65,7 @@ Use headings and subheadings. They help search engines understand what you’re 
 
 Apply heading styles correctly. Use subheadings to structure your content. Use them in order, for example Heading 2 is after Heading 1, Heading 2 is followed by Heading 3. 
 
-See [creating accessible document - INSERT LINK](#) for guidance on applying heading styles.
+See [creating accessible document](creating-an-accessible-pdf) for guidance on applying heading styles.
 
 See our [guidance on using images](using-images).
 
@@ -73,7 +73,7 @@ See our [guidance on using images](using-images).
 
 Use Google Analytics to help you find out what your users are searching for when looking for your content including:
 
--	external search terms that users used to lead them to a page from Google or other search engines
+-	external search terms that led users to a page from Google or other search engines
 -	internal search terms that users used while on Essex.gov.uk or other sites
 
 See the [measurement section](/measurement/overview) of this toolkit for more guidance on using Google Analytics.
