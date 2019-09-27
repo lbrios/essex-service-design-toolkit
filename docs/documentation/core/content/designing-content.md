@@ -34,7 +34,7 @@ If your child is not offered a place at your preferred school, you can appeal ag
 
 Avoid using large blocks of text as this is hard to read. Use headings, subheadings and bullet points to break them down.  
   
-See our [guidance on creating accessible content - INSERT LINK](#) for more on using headings and bulleted lists.
+See our guidance on [creating accessible content](creating-an-accessible-pdf) for more on using headings and bulleted lists.
 
 ## Use active voice
 
@@ -133,7 +133,7 @@ Accessible information is information that people can understand.
 
 When we are designing content, we need to make sure the [content is accessible](https://www.gov.uk/guidance/content-design/planning-content#accessibity) to all users. We need to provide information in a friendly format that screen readers and other assistive technology can read.  
   
-See the [accessibility section](accessibility) of this toolkit for guidance on how to make your content accessible.
+See the [accessibility section](/docs/core/accessibility/overview) of this toolkit for guidance on how to make your content accessible.
 
 ## Write content in pairs
 
