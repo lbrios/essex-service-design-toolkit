@@ -10,7 +10,7 @@ The Government Digital Service (GDS) has guidance which explains the 3 complianc
 
 -   a new website, published on or after 23 September 2018, must be accessible by 23 September 2019
 -   an existing website must be accessible by 23 September 2020
--   a mobile app must be accessible by 23 September 2021
+-   a mobile app must be accessible by 23 June 2021
 
 GDS has also provided the following guidance on:
 - [understanding new accessibility requirements for public sector bodies](https://www.gov.uk/guidance/accessibility-requirements-for-public-sector-websites-and-apps#procuring-an-accessible-website-or-app)
