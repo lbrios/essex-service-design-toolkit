@@ -17,6 +17,7 @@ The following guidance is for specific roles:
 - [developers](#developers)
 - [product owners and delivery managers](#product-owners-and-delivery-managers)
 - [working in an agile team](#agile-phases)
+- [procurement](#procurement)
 
 ## User researcher
 
@@ -51,6 +52,8 @@ The [Web Accessibility Initiative](https://www.w3.org/WAI/people-use-web/user-st
 ## Content designer
 
 Watch a 3.5 minute video from GDS on [ways to make your content more accessible](https://www.youtube.com/watch?v=lYZJKr8CX_U&list=PL5tovFCB3CsD_7_yeY1n6W4rxYkIupUln&index=6).
+
+See our [checklist for content designers and editors](checklist-for-content-editors) for more guidance.
 
 ### Writing content for specific impairments
 
@@ -100,7 +103,7 @@ Provide content on a web page rather than as a PDF. If this isn’t possible the
 - make sure we include alt text alongside non-decorative images, so people who cannot see them understand what they’re there for
 - avoid using tables, except when we’re presenting data
 
-See our guidance on [creating accessible documents - TO ADD](#).
+See our guidance on [creating accessible documents](creating-an-accessible-pdf).
 
 GDS has a blog on [why content should be published in HTML and not PDF](https://gds.blog.gov.uk/2018/07/16/why-gov-uk-content-should-be-published-in-html-and-not-pdf/).
 
@@ -110,20 +113,21 @@ A consultation with a broad audience should be made as accessible as possible us
 
 GDS has a [blog post which gives accessibility advice for creating a consultation](https://gds.blog.gov.uk/2018/09/13/accessibility-advice-when-creating-a-uk-government-consultation/).
 
-### Support for content designers and editors
-Content designers and editors may also find the following guidance useful:
-- [checklist for content editors](checklist-for-content-editors)
-- [examples of how to write content for specific impairments](examples-of-how-to-write-content-for-specific-impairments)
-
 ## Developers
 
-Add content.
+GDS has guidance for developers including:
 
-### Support for developers
+*   [Accessibility for developers: An introduction](https://www.gov.uk/service-manual/technology/accessibility-for-developers-an-introduction)
+*   [HTML: a good basis for accessibility](https://developer.mozilla.org/en-US/docs/Learn/Accessibility/HTML)  \- a Mozilla guide on using HTML to improve accessibility
+*   [WAI-ARIA basics](https://developer.mozilla.org/en-US/docs/Learn/Accessibility/WAI-ARIA_basics)  \- a Mozilla guide on using WAI-ARIA to improve accessibility
+*   [Page structure concepts](https://www.w3.org/WAI/tutorials/page-structure/)  \- a W3 tutorial on using HTML and WAI-ARIA to improve navigation and orientation
+*   [Forms concepts](https://www.w3.org/WAI/tutorials/forms/)  \- a W3 tutorial on making accessible forms
+*   [Tables concepts](https://www.w3.org/WAI/tutorials/tables/)  \- a W3 tutorial on making accessible tables
+*   [Writing CSS with accessibility in mind](https://medium.com/@matuzo/writing-css-with-accessibility-in-mind-8514a0007939)  \- using CSS to improve accessibility
+*   [Writing JavaScript with accessibility in mind](https://medium.com/@matuzo/writing-javascript-with-accessibility-in-mind-a1f6a5f467b9)  \- using JavaScript to improve accessibility
+*   [WCAG 2 quick start guide](https://aduggin.github.io/wcag/), developed in the GDS accessibility community
 
-More support for developers is available including:
--   [reading for developers](reading-for-developers)
--   [checklist for developers](checklist-for-developers)
+See our [checklist for developers](checklist-for-developers) for more guidance.
 
 ## Product owners and Delivery managers 
 
@@ -161,7 +165,7 @@ The GOV.UK Service Manual explains [how the beta phase works](https://www.gov.uk
 
 The GOV.UK Service Manual explains [how the live phase works](https://www.gov.uk/service-manual/agile-delivery/how-the-live-phase-works).
 
-### Procurement
+## Procurement
 
 GDS advises that procurement teams refer to the following guidance:
 - [accessible ICT procurement kit](http://mandate376.standards.eu/)
