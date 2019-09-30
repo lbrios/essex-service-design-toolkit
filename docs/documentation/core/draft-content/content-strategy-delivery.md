@@ -87,7 +87,7 @@ We know that most of our users come to our websites through searching on Google.
 
 Optimising your content for search will help users find it easily and quickly.
 
-See our guidance on [optimising content for search](#) - CONTENT TO BE ADDED.
+See our guidance on [optimising content for search](/docs/core/content/optimise-your-content-for-search) 
 
 ## Learning and iterating  
 
