@@ -23,7 +23,7 @@ The following guidance is for specific roles:
 
 The user researcher role is an important one as they help to identify accessibility issues by testing with disabled users. 
 
-See Government Digital Service (GDS) [guidance on including users with disabilities](https://www.gov.uk/service-manual/user-research/find-user-research-participants).
+See [Government Digital Service (GDS) guidance on including users with disabilities](https://www.gov.uk/service-manual/user-research/find-user-research-participants).
 
 It’s important to understand the challenges faced by users with specific disabilities or impairments. 
 
@@ -43,7 +43,7 @@ There are a number of assistive technologies which can be bought or downloaded f
 
 ### Support for user researchers
 
-See what [support is available for user reserachers](support-for-user-researchers).
+See what [support is available for user researchers](/docs/core/accessibility/support-for-user-researchers).
 
 Read the [‘accessibility and me’ blog post](https://accessibility.blog.gov.uk/category/accessibility-and-me/) which has interviews with people with access needs.
 
@@ -61,7 +61,7 @@ See our guidance on [how to write content for specific impairments](/docs/core/a
 
 ### Content types: images on websites
 
-See our [guidance on using images on websites](using-images).
+See our [guidance on using images on websites](/docs/core/content/using-images).
 
 Siteimprove has guidance on:
 
@@ -103,7 +103,7 @@ Provide content on a web page rather than as a PDF. If this isn’t possible the
 - make sure you include alt text alongside non-decorative images, so people who cannot see them understand what they’re there for
 - avoid using tables, except when you're presenting data
 
-See our guidance on [creating accessible documents](creating-an-accessible-pdf).
+See our guidance on [creating accessible documents](/docs/core/accessibility/creating-an-accessible-pdf).
 
 GDS has a blog on [why content should be published in HTML and not PDF](https://gds.blog.gov.uk/2018/07/16/why-gov-uk-content-should-be-published-in-html-and-not-pdf/).
 
@@ -127,7 +127,7 @@ GDS has guidance for developers including:
 *   [Writing JavaScript with accessibility in mind](https://medium.com/@matuzo/writing-javascript-with-accessibility-in-mind-a1f6a5f467b9)  \- using JavaScript to improve accessibility
 *   [WCAG 2 quick start guide](https://aduggin.github.io/wcag/), developed in the GDS accessibility community
 
-See our [checklist for developers](checklist-for-developers) for more guidance.
+See our [checklist for developers](/docs/core/accessibility/checklist-for-developers) for more guidance.
 
 ## Product owners and Delivery managers 
 
