@@ -36,7 +36,7 @@ Alt text: Nominations open for the 2020 Essex Teaching Awards
 
 Don’t repeat the surrounding text like the title of a news story or guidance it relates to. 
 
-See [create accessible documents for more guidance - ADD LINK](#).
+See [create accessible documents for more guidance](/docs/core/accessibility/creating-an-accessible-pdf).
 
 ### Text on images
 
