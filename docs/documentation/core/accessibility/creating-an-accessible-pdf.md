@@ -202,7 +202,9 @@ Always use Essex County Council as the author.
 
 Add the main keywords.
 
-Here’s an example: INSERT IMAGE
+Here’s an example: 
+
+![](/public/images/Example_document_properties_in_Word.png)
 
 Microsoft has guidance on [adding document properties](https://support.office.com/en-us/article/view-or-change-the-properties-for-an-office-file-21d604c2-481e-4379-8e54-1dd4622c6b75).
 
