@@ -14,15 +14,15 @@ This is a tool which checks all aspects of a website's compliance with good prac
 *   accessibility
 *   search engine optimisation
 
-If you manage the content for one of Essex County Council's websites or you develop websites in Tech Services then please email [service.design@essex.gov.uk](mailto:mailtto:service.design@essex.gov.uk "email service design team")
+If you manage the content for one of Essex County Council's websites or you develop websites in Tech Services, please email [service.design@essex.gov.uk](mailto:mailtto:service.design@essex.gov.uk "email service design team")
 
-We are working with SiteImprove to develop a training package to support staff responsible for developing or maintaining websites.
+We are working with Siteimprove to develop a training package to support staff responsible for developing or maintaining websites.
 
 ## Wave accessibility checker
 
 This is a free tool which will assess the accessibility of single pages. You just need to add the web address of the page that you're interested in.
 
-[Explore Wave accessibility checker](http://wave.webaim.org/ "Explore Wave accessibility checker")
+Use the [Explore Wave accessibility checker](http://wave.webaim.org/ "Explore Wave accessibility checker").
 
 ## Reading age
 
@@ -32,7 +32,7 @@ GOV.UK recommends [writing for a reading age of 9](https://www.gov.uk/guidance/c
 
 You can check the accessibility of the colour contrast, using this free tool from WebAim. You will need to have the Hexadecimal colour codes handy.
 
-[WebAim colour contrast checker](https://webaim.org/resources/contrastchecker/ "WebAim colour contrast checker")
+Use the [WebAim colour contrast checker](https://webaim.org/resources/contrastchecker/ "WebAim colour contrast checker").
 
 ## Free assistive technology tools
 
