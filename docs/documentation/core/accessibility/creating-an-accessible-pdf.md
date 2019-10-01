@@ -8,13 +8,13 @@
 
 Short pieces of content should be published as web pages if:
 
-* it meets a clear user need
-* users need to read it to access a service
-* it's between 1 to 5 pages long 
+* they meet a clear user need
+* users need to read them to access a service
+* they're between 1 and 5 pages long 
 
 Content must follow the [Government Digital Service (GDS) content standards](https://www.gov.uk/guidance/content-design/writing-for-gov-uk).
 
-If there is longer content and a user need for a PDF publication, you need to ensure it meets accessibility standards so everyone can access it including people that use assistive technologies.
+For longer pieces of content, you can use a pdf if there is a user need. But you need to ensure it meets accessibility standards so everyone can access it including people that use assistive technologies.
 
 ## Make your original document accessible
 
@@ -63,7 +63,7 @@ The heading structure should look like this:
 
 Always use heading styles in this order. If you miss a Heading 2 and only use Heading 3 and Heading 4, then a screen reader will see the page as missing a Heading 2.
 
-Don’t use bold formatting as screen readers won’t identify them as headings.
+Don’t use bold formatting to identify headings as screen readers won’t recognise this..
 
 Write descriptive headings. Include keywords that users are looking for. See our guidance on [optimising content for search](optimise-your-content-for-search).
 
@@ -124,7 +124,7 @@ Don’t use ‘click here’ as your link text. People with visual impairment ca
 
 Read our guidance on [formatting links](/docs/core/content/designing-content).
 
-GOV.UK has guidance on [writing link text](https://www.gov.uk/guidance/content-design/links)
+GOV.UK has guidance on [writing link text](https://www.gov.uk/guidance/content-design/links).
 
 Watch Microsoft’s video on [how you can improve accessibility with alt text](https://support.office.com/en-us/article/video-improve-accessibility-with-alt-text-9c57ee44-bb48-40e3-aad4-7647fc1dba51?ui=en-US&rs=en-US&ad=US).
 
@@ -202,7 +202,7 @@ If there are shaded cells or table headers, you need to check that the contrast 
 
 Add document properties, known as metadata, to your document. This includes the document title, author, subject, keyword and language. 
 
-Screen readers reads out the document properties to identify content in documents. 
+Screen readers read out the document properties to identify content in documents. 
 
 Use the full title of the document.
 
@@ -222,7 +222,7 @@ You can check if your document is accessible while you’re working on it or bef
 
 You can use the Accessibility Checker feature available on most Microsoft Office products including Word, Excel and PowerPoint.
 
-The Accessibility Checker will identify any issues in your document and suggests how you can fix them. 
+The Accessibility Checker will identify any issues in your document and suggest how you can fix them. 
 
 Microsoft has guidance on [checking the accessibility of a Word document](https://support.office.com/en-us/article/create-accessible-pdfs-064625e0-56ea-4e16-ad71-3aa33bb4b7ed). 
 
