@@ -122,8 +122,6 @@ Read our guidance on [formatting links](/docs/core/content/designing-content).
 
 GOV.UK has guidance on [writing link text](https://www.gov.uk/guidance/content-design/links).
 
-Watch Microsoft’s video on [how you can improve accessibility with alt text](https://support.office.com/en-us/article/video-improve-accessibility-with-alt-text-9c57ee44-bb48-40e3-aad4-7647fc1dba51?ui=en-US&rs=en-US&ad=US).
-
 ### Alternative text (alt text) for images
 
 Images should have descriptive alt text that describes the meaning of an image.  Keep the alt text brief but concise. 
