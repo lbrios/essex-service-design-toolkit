@@ -14,9 +14,18 @@ Find out what [each role does in a service team to make sure content is accessib
 
 ## Accessible documents
 
-See our guidance on creating accessible content including:
-*   [why web content is better than a PDF](web-or-pdf-content)
-*   [creating an accessible PDF](creating-an-accessible-pdf)
+We have a significant number of PDFs across our web estate. They are not the best solution because:
+
+*	assistive technologies such as screen readers find it much easier to read content on a webpage than a PDF
+*	the content can't be searched by Google or the website search
+*	they are not designed to be read on mobile devices
+*	they can quickly become out of date with broken links
+
+It’s not possible or relevant to change all of our existing PDFs to web content. The legislation is clear that PDFs or other documents published before 23 September 2018 are exempt unless users need them in order to use a service.
+
+The accessibility project is creating a list of these priority PDFs and will be working with services directly to change the content into web pages or online forms.
+
+What the legislation does say is that all new PDFs which are created should be accessible. Read our guidance on [creating an accessible PDF](creating-an-accessible-pdf)
 
 ## Accessibility testing tools
 
