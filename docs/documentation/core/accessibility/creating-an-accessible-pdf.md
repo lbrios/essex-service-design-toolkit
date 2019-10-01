@@ -99,7 +99,7 @@ For screen readers to identify lists in a document correctly, you must add lists
 
 Use a bulleted list for unordered lists. For example:
 
-Adding a bulleted list properly means people using screen readers knows:
+Adding a bulleted list properly means people using screen readers know:
 - where the list starts and ends
 - how many items are listed
 - what list item the user is on
