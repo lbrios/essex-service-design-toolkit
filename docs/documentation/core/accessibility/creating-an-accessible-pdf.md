@@ -65,7 +65,7 @@ Always use heading styles in this order. If you miss a Heading 2 and only use He
 
 Don’t use bold formatting to identify headings as screen readers won’t recognise this..
 
-Write descriptive headings. Include keywords that users are looking for. See our guidance on [optimising content for search](optimise-your-content-for-search).
+Write descriptive headings. Include keywords that users are looking for. See our guidance on [optimising content for search](/docs/core/content/optimise-your-content-for-search).
 
 Microsoft has guidance on [adding headings and subheadings](https://support.office.com/en-ie/article/add-a-heading-3eb8b917-56dc-4a17-891a-a026b2c790f2).
 
