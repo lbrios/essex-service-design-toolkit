@@ -24,11 +24,7 @@ Most PDFs start off as Word documents. Here’s guidance to make your Word docum
 
 You can also apply the same accessibility features to other formats like Excel spreadsheets or PowerPoint slides.
 
-## Design good content
-
-Design accessible web content so everyone can use it. 
-
-## Keep it simple and clear
+### Keep it simple and clear
 
 Use simple language that people can read and understand quickly. 
 
