@@ -4,9 +4,17 @@
 
 # Creating an accessible PDF
 
-Only use PDFs by exception because they’re not accessible. Assistive technologies such as screen readers and search engines find it much [easier to read content on a webpage than a PDF](web-or-pdf-content).
+## Before you start
 
-If there is a user need for a PDF publication, you need to ensure it meets accessibility standards so everyone can access it including people that use assistive technologies.
+Short pieces of content should be published as web pages if:
+
+* it meets a clear user need
+* users need to read it to access a service
+* it's between 1 to 5 pages long 
+
+Content must follow the [Government Digital Service (GDS) content standards](https://www.gov.uk/guidance/content-design/writing-for-gov-uk).
+
+If there is longer content and a user need for a PDF publication, you need to ensure it meets accessibility standards so everyone can access it including people that use assistive technologies.
 
 ## Make your original document accessible
 
