@@ -18,7 +18,7 @@ For longer pieces of content, you can use a pdf if there is a user need. But you
 
 ## Make your original document accessible
 
-To create an accessible PDF, you need to make your original document accessible before converting it to a PDF. 
+To create an accessible PDF, you need to make your original document accessible before converting it. 
 
 Most PDFs start off as Word documents. Here’s guidance to make your Word document accessible. 
 
