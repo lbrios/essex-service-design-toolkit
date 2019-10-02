@@ -1,0 +1,15 @@
+<header class="header-background">
+  <div class="header">
+    <div class="nav">
+      <div class="logo-wrap">
+        <a href="/" class="logo-text seax">
+          <img src="/public/images/seax.png" width="36" height="30" alt="Essex logo">
+          Essex.gov.uk
+        </a>
+      </div>
+      {% block search %}
+        {% include "includes/search.html" %}
+      {% endblock %}
+    </div>
+  </div>
+</header>

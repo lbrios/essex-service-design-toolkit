@@ -1,0 +1,53 @@
+{% extends "essex_topic_template.html" %}
+{% block content %}
+<nav class="breadcrumbs" aria-label="breadcrumbs">
+  <ol>
+    <li><a href="/">Home</a></li>
+    <li><a href="#">Committees</a></li>
+  </ol>
+</nav>
+<main id="content">
+  <div class="container">
+    <div class="main article-alert">
+      <section class="content article-page">
+        <h1>Committees</h1>
+        <p>Essex County Council is structured to allow the elected councillors to make decisions effectively, with a degree of oversight that, in addition to public scrutiny, ensures the decisions are made fairly and in the best interest of the people of the county.</p>
+        <p>The Council, as a political decision-making body, can be divided into four main areas:</p>
+        <ul>
+          <li><a href="#">The Council</a></li>
+          <li><a href="#">The Cabinet</a></li>
+          <li><a href="#">Standing Committees</a></li>
+          <li><a href="#">Overview and Scrutiny Committees</a></li>
+        </ul>
+        <p>Set out below is a list of all of the Committees. If you click on the meeting you are interested in you will find information about the membership and meetings. By selecting the date of the meeting you can find out more information including the agenda, reports and minutes. Details of Overview and Scrutiny Committees can be found at the foot of this page.</p>
+        <p>A Calendar of Meetings can be found on the menu on the left hand side of this page.</p>
+        <p>Scrutiny reports may be found on the menu on the left hand side of the page under Public Documents along with the Overview and Scrutiny Handbook and  guidance.</p>
+        <p>Development and Regulation Committee Protocols can be found here</p>
+        <h2>Essex County Council</h2>
+        <h3>Audit, Governance and Standards Committee</h3>
+        <p>This committee was formed on 11 October 2017 as an amalgamation of the Audit Committee and the Standards Committee. For all the agenda and papers of those previous committees, please go to 'Committees No Longer Active'. (on the left hand menu)</p>
+        <ul>
+          <li>Standards Sub-Committee</li>
+        </ul>
+        <h3>Cabinet</h3>
+        <p>Comprises the Leader of the Council and nine Cabinet Members (appointed by the Leader) and is responsible for exercising all Executive Functions</p>
+        <h3>Committee to consider applications to undertake certain duties by Members and foreign travel by Officers</h3>
+        <p>Determines whether certain categories of duty to be undertaken by a member of the Council should be considered as approved for the purposes of the Member Allowance Scheme. The Committee also approves expenditure on foreign travel by officers.</p>
+        <h3>Committee to Determine the Terms and Conditions of Employment of Chief and Deputy Chief Officers</h3>
+        <p>Responsible for various issues relating to the employment of Chief and Deputy Chief Officers, including appointment and dismissal, appeals against dismissal, terms of conditions of employment and performance pay. Can also delegate to the Chief Executive or her nominee authority to deal with particular appointments and dismissals.</p>
+        <ul>
+          <li>Appeals Sub-Committee</li>
+          <li>Appointments Sub-Committee</li>
+        </ul>
+        <h3>Corporate Parenting Panel</h3>
+        <h3>Development and Regulation Committee</h3>
+        <p>Considers planning applications in respect of minerals and waste, County Council development and Village Green status</p>
+        <p>etc…</p>
+        {% block printlink %}
+          {% include "includes/print-link.html" %}
+        {% endblock %}
+      </section>
+    </div>
+  </div>
+</main>
+{% endblock %}

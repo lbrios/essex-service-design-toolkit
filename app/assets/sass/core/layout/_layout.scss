@@ -1,0 +1,112 @@
+%site-width-container {
+  @include media(mobile) {
+    padding-left: $outer-grid-margin*1.5;
+    padding-right: $outer-grid-margin*1.5;
+    // background: blue;
+  }
+  @include media(tablet) {
+    padding-left: $outer-grid-margin*1.5;
+    padding-right: $outer-grid-margin*1.5;
+    // background: red;
+  }
+  @include media(desktop) {
+    padding-left: $outer-grid-margin*2;
+    padding-right: $outer-grid-margin*2;
+    // background: green;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: $site-width;
+  }
+}
+
+%outdent-to-full-width {
+  margin-left: -$gutter-half;
+  margin-right: -$gutter-half;
+
+  @include media(tablet) {
+    margin-left: -$gutter;
+    margin-right: -$gutter;
+  }
+}
+
+%grid-row {
+  @extend %contain-floats;
+  @include media(mobile) {
+    margin-left: (-$gutter);
+    margin-right: (-$gutter);
+  }
+  @include media(tablet) {
+    margin-left: (-$gutter*0.5);
+    margin-right: (-$gutter*0.5);
+  }
+  @include media(desktop) {
+    margin-left: (-$gutter);
+    margin-right: (-$gutter);
+  }
+}
+
+@media screen and (-ms-high-contrast: active), screen and (-ms-high-contrast: none) {
+  .container{
+    margin: 0 auto $baseline*2 auto;
+    max-width: $site-width + $gutter;
+  }
+}
+
+@media print {
+  .container, #content, .main {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    max-width: 100%;
+    float: none;
+  }
+}
+
+// defined as default in print settings
+@page {
+  margin: 1cm 0.5cm 1.5cm 0.5cm;
+}
+
+main#content {
+  background: $white;
+  padding-bottom: $baseline;
+  .container {
+    @extend %site-width-container;
+    outline: none;
+    .main {
+      @extend %grid-row;
+      .content, .intro, .function {
+        @include grid-column(9 / 12);
+      }
+      &.only {
+        .content, .intro, .function {
+          @include grid-column(1);
+        }
+      }
+    }
+  }
+}
+
+.side {
+  margin-top: $baseline*2.5;
+  @media screen and (-ms-high-contrast: active), screen and (-ms-high-contrast: none) {
+  }
+  @include media(mobile) {
+    @include grid-column(1);
+  }
+  @include media(tablet) {
+    @include grid-column(1);
+  }
+  @include media(desktop) {
+    @include grid-column(3 / 12);
+  }
+}
+
+.news-page,
+.article-page {
+  img {
+    height: auto;
+    margin-bottom: $baseline;
+    width: 100%;
+  }
+}

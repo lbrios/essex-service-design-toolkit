@@ -1,0 +1,18 @@
+{% extends "essex_main_template.html" %}
+{% block content %}
+{% block search %}
+  {% include "includes/search-home.html" %}
+{% endblock %}
+<main id="content">
+  <div class="container">
+    <div class="main only">
+      <section class="content" aria-label="Essex County Council Services">
+        <h1 class="content-heading">Essex County Council</h1>
+        {% block previews %}
+          {% include "includes/previews.html" %}
+        {% endblock %}
+      </section>
+    </div>
+  </div>
+</main>
+{% endblock %}
