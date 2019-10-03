@@ -1,0 +1,77 @@
+{% extends "essex_main_template_search_header.html" %}
+
+{% block content %}
+
+<nav class="breadcrumbs" aria-label="breadcrumbs">
+  <ol>
+    <li><a href="/docs/core/contents">Contents</a></li>
+    <li>Chelmsford Grammar Schools</li>
+  </ol>
+</nav>
+
+<main id="content">
+  <div class="container">
+    <div class="main" id="grammer-school-checker">
+      <section class="intro">               
+        <h1>Chelmsford Grammar Schools</h1>
+      </section>
+      <section class="content">
+      	<p>Check if an address is within 12.5 miles of <strong>King Edward VI Grammar School</strong> or <strong>Chelmsford County High School for Girls</strong>.<p>
+        <p>Please ensure you read all of the information on the page once results are displayed.</p>
+        <div class="search" role="search">
+          <div class="search-input">
+            <form action="/search" method="get" class="form">
+              <div class="group search">
+                <div class="search-input">
+                  <label>Postcode</label>
+                  <input type="text" id="schools-search" name="priority-admission-search" aria-label="Chelmsford Grammar School Search">
+                </div>
+              </div>
+              <div class="group">
+                <label for="sorting" class="form-hint">Please select your address</label>
+                <select class="form-control" id="sorting" name="sorting">
+                  <option>88, High Street, Saffron Walden, CB10 1EA</option>
+                  <option>90, High Street, Saffron Walden, CB10 1EA</option>
+                  <option>Flat 1, 92, High Street, Saffron Walden, CB10 1EA</option>
+                  <option>Flat 2, 92, High Street, Saffron Walden, CB10 1EA</option>
+                  <option>94, High Street, Saffron Walden, CB10 1EA</option>
+                  <option>94a, High Street, Saffron Walden, CB10 1EA</option>
+                  <option>Duke Of York, , 96, High Street, Saffron Walden, CB10 1EA</option>
+                  <option>98, High Street, Saffron Walden, CB10 1EA</option>
+                  <option>99, High Street, Saffron Walden, CB10 1EA</option>
+                  <option>100, High Street, Saffron Walden, CB10 1EA</option>
+                </select>
+              </div>
+            </form>
+          </div>
+        </div>
+      </section>
+      <section class="content">
+        <ul class="search-results">    
+          <li>
+            <ul class="data">
+              <li><h2 class="h4"><a href="#">King Edward VI Grammar School</a></h2></li>
+              <li><span>Address</span>Broomfield Road, Chelmsford, CM1 3SX</li>
+              <li><span>Within 12.5 miles?</span>No</li>
+            </ul>
+            <ul class="data">
+              <li><h2 class="h4"><a href="#">Chelmsford County High School for Girls</a></h2></li>
+              <li><span>Address</span>Broomfield Road, Chelmsford, CM1 1RW</li>
+              <li><span>Within 12.5 miles?</span>No</li>
+            </ul>
+          </li>
+        </ul>
+
+        <h3 class="h4">Disclaimer</h3>
+        <p>The above results are for information only. Living within the 12.5 mile areas does not guarantee a place at the schools. Likewise, living outside of the areas does not prevent you from applying. You should check the schools' admission policies for further details and criteria.</p>
+        <p>All information returned is based upon the Essex County Council administrative area only.</p>
+        <p>The information provided through this tool is solely in relation to school admissions and does not relate to the provision of home to school transport. All school transport applications will be considered under the Council's home to school transport policy.</p>
+      </section>
+      <section class="function">
+        <a href="javascript:window.print()" class="print-link">Print this page</a>
+      </section>
+    </div>
+  </div>
+</main>
+
+{% endblock %}

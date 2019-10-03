@@ -1,0 +1,70 @@
+{% extends "essex_main_template_search_header.html" %}
+
+{% block content %}
+
+<nav class="breadcrumbs" aria-label="breadcrumbs">
+  <ol>
+    <li><a href="/docs/core/contents">Contents</a></li>
+    <li>Care Contribution calculator</li>
+  </ol>
+</nav>
+
+<main id="content">
+  <div class="container">
+    <div class="main">
+      <section class="content">
+      	<h1>Care Contribution calculator</h1>
+
+      	<form class="form" action="/typeOfCare" method="get">
+				  <div class="group">
+				    <fieldset>
+				      <legend>What type of care do you need?</legend>
+				      <div class="multiple-choice">
+				        <input id="selection-one" type="radio" name="radio" value="yes">
+				        <label for="selection-one">Care at home, sometimes called non-residential or domicillary care</label>
+				      </div>
+				      <div class="multiple-choice">
+				        <input id="selection-two" type="radio" name="radio" value="no">
+				        <label for="selection-two">Care in a residential or nursing home</label>
+				      </div>
+				      <div class="panel js-hidden" id="radio-selection">
+				          This panel is shown if selecting last radio
+				      </div>
+				    </fieldset>
+				  </div>
+				  <input type="submit" class="button" value="Continue">
+				</form>
+			</section>
+	  </div>
+
+  </div>
+</main>
+
+<!-- 
+
+// question heading
+
+form.form .group legend
+form.achieveform .fieldInput.content
+
+
+// radio input styles
+
+form.form .group .multiple-choice input
+form.achieveform .radio-wrapper input
+
+
+// radio label styles
+
+form.form .group .multiple-choice label
+form.achieveform .radio-wrapper label
+
+
+// next button
+
+form.form input.button
+form.form button.btn.btn-af.pull-right.nextbutton 
+
+-->
+
+{% endblock %}

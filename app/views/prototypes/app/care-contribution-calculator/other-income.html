@@ -1,0 +1,110 @@
+{% extends "care_cost_calculator_template.html" %}
+
+
+{% block content %}
+
+<main id="content">
+	<div class="container">
+		<nav class="breadcrumbs" aria-label="breadcrumbs">
+			<ol>
+				<li><a href="/docs/core/contents">Contents</a></li>
+				<li>Care Contribution calculator </li>
+			</ol>
+		</nav>
+
+
+		<div id="page" class="row render">
+			<section class="content">
+
+            <section class="achieveforms-container render col-xs-12 col-sm-12" data-category-id="AF-Category-9f573cda-96c9-4570-96c6-e0ae1f5bba6a" data-form-id="AF-Form-bdc4618e-083d-49f2-a60a-58b8c7ad6116" style="display: block;">
+                <span data-name="statictext6" data-type="staticText" class="col-xs-11 col-sm-11 fieldInput content staticText non-input "><h1>Other income</h1></span>
+                <div class="form-error-wrapper AF-Form-bdc4618e-083d-49f2-a60a-58b8c7ad6116 col-xs-11 col-sm-11"></div>
+                <header class="formHeader render row af-row">
+                    <h1 class="formName"><span class="_formName">Care contribution calculator</span></h1>
+                    <p class="formDescription"><span class="_formDescription"></span></p>
+                </header>
+                <form action="/otherIncome" class="achieveform row af-row" method="post" enctype="multipart/form-data" id="AF-Form-bdc4618e-083d-49f2-a60a-58b8c7ad6116" data-name="Care contribution calculator" data-uri="" data-id="AF-Form-bdc4618e-083d-49f2-a60a-58b8c7ad6116" data-must-be-valid="" data-submission-api="/form/submit/" data-section-length="9" title="">
+                    <section class="sectionsHead navbar-default render ">
+                        <div class="sections-toggle-wrapper visible-xs"><span class="active-section-name">Other income</span>
+                            <button type="button" class="navbar-toggle sections-toggle" data-toggle="collapse" data-target=".sectionsHeadInner.sections-head-AF-Form-bdc4618e-083d-49f2-a60a-58b8c7ad6116"><i class="fa fa-caret-down"></i></button>
+                        </div>
+                        <ul class="nav nav-tabs sectionsHeadInner collapse sections-head-AF-Form-bdc4618e-083d-49f2-a60a-58b8c7ad6116">
+                            <li data-name="Type of care" class="sectionNameWrapper valid"><a data-url="Type-of-care.html" class="sectionNameTab ">Type of care</a></li>
+                            <li data-name="Your home" class="sectionNameWrapper valid" style="opacity: 1;"><a class="sectionNameTab ">Your home</a></li>
+                            <li data-name="Savings and investments" class="sectionNameWrapper valid" style="opacity: 1;"><a class="sectionNameTab ">Savings and investments</a></li>
+                            <li data-name="Pensions" class="sectionNameWrapper invalid" style="opacity: 1;"><a class="sectionNameTab ">Pensions</a></li>
+                            <li data-name="Rental income" class="sectionNameWrapper invalid" style="opacity: 1;"><a class="sectionNameTab ">Rental income</a></li>
+                            <li data-name="Benefits" class="sectionNameWrapper invalid" style="opacity: 1;"><a class="sectionNameTab ">Benefits</a></li>
+                            <li data-name="Other income" class="sectionNameWrapper active invalid"><a data-url="Other-income.html" class="sectionNameTab conditional " data-display-condition="{txt_SavingsAndInvestmentSectionPass} contains &#39;true&#39;">Other income</a></li>
+                            <li data-name="Personal allowance" class="sectionNameWrapper invalid" style="opacity: 1;"><a class="sectionNameTab ">Personal allowance</a></li>
+                            <li data-name="Results" class="sectionNameWrapper valid" style="opacity: 1;"><a class="sectionNameTab ">Results</a></li>
+                        </ul>
+                    </section>
+                    <section class="all-sections col-xs-12 AF-col-xs-fluid col-sm-12">
+                        <section class="fields render" data-section-name="Other income " aria-label="Other income">
+                            <div class="section-name-hidden" tabindex="0">Other income</div>
+                            <div class="field" data-field-name="rad_AnyOtherIncome" data-field-type="radio">
+                                <div class="fieldContent">
+                                    <label for="rad_AnyOtherIncome" class="col-xs-11 col-sm-4   fieldName alignLeft   "><span class="_fieldName">Do you have any other income?</span><span class="mandatory"> *</span> </label>
+                                    <div class="af-block col-xs-1 col-sm-1 hidden-sm hidden-md hidden-lg"></div>
+                                    <fieldset name="rad_AnyOtherIncome" id="rad_AnyOtherIncome" data-name="rad_AnyOtherIncome" data-type="radio" role="radiogroup" aria-label="Do you have any other income?" class="col-xs-11 col-sm-7     required alignLeft fieldInput selectInput radio horizontal valid" required="true" data-select-condition="{&#39;num_OtherIncomeEstimate&#39;:[&#39;yes&#39;],&#39;statictext4&#39;:[&#39;yes&#39;]}" data-mandatory-message="You must tell us if you have any other income">
+                                        <legend class="hidden">Do you have any other income?</legend><span class="radio-wrapper"> <input type="radio" id="rad_AnyOtherIncome-0-AF-Field-18494aa5-a979-4879-b1d7-32b8d5de2fd5-e9892134f8" name="rad_AnyOtherIncome" value="yes" required="true" class="radio2 " autocomplete="off"><label class="radio-label " for="rad_AnyOtherIncome-0-AF-Field-18494aa5-a979-4879-b1d7-32b8d5de2fd5-e9892134f8">Yes</label></span><span class="radio-wrapper">  <input type="radio" id="rad_AnyOtherIncome-1-AF-Field-18494aa5-a979-4879-b1d7-32b8d5de2fd5-e9892134f8" name="rad_AnyOtherIncome" value="no" required="true" class="radio2 " autocomplete="off"><label class="radio-label " for="rad_AnyOtherIncome-1-AF-Field-18494aa5-a979-4879-b1d7-32b8d5de2fd5-e9892134f8">No</label></span></fieldset>
+                                    <div class="screen-reader-error" aria-live="polite" aria-atomic="true"></div><i class="icon-valid fa fa-check " title="Field is valid"><span class="sr-only">Field is valid</span></i></div>
+                            </div>
+                            <div class="field" data-field-name="statictext4" data-field-type="staticText" style="display: block; opacity: 1;">
+                                <div class="fieldContent"> <span data-name="statictext4" data-type="staticText" class="col-xs-11 col-sm-11 fieldInput content staticText non-input "><p>Don’t include:</p>
+<ul>
+<li>earnings from work</li>
+</ul>
+<p>Do include:</p>
+<ul>
+<li>maintenance payments for an adult (not a child)</li>
+<li>income from a trust</li>
+</ul></span>
+                                    <div class="screen-reader-error" aria-live="polite" aria-atomic="true"></div>
+                                </div>
+                            </div>
+                            <div class="field" data-field-name="num_OtherIncomeEstimate" data-field-type="number" style="display: block; opacity: 1;">
+                                <div class="fieldContent">
+                                    <label for="num_OtherIncomeEstimate" class="col-xs-11 col-sm-4   fieldName alignLeft    "><span class="_fieldName">Estimate the total amount of other income that you receive weekly</span><span class="mandatory"> *</span> </label>
+                                    <div class="af-block col-xs-1 col-sm-1 hidden-sm hidden-md hidden-lg"></div>
+                                    <div class="prefix-suffix-mode col-xs-11 col-sm-7 clearfix">
+                                        <div class="input-group"><span class="prefix-wrapper input-group-addon alignLeft  error"><span value="£" class="prefix alignLeft">£</span></span>
+                                            <input name="num_OtherIncomeEstimate" id="num_OtherIncomeEstimate" data-name="num_OtherIncomeEstimate" data-type="number" type="number" pattern="[1-9]" min="0" required="true" step="any" class="form-control hasPrefix alignLeft fieldInput number  error" data-mandatory-message="You must provide the total amount of other income that you receive weekly" data-min-message="Please input _min_value_ or more" data-max-message="Please input _max_value_ or less" autocomplete="off">
+                                        </div>
+                                    </div><span class="help-img-wrapper col-xs-1 col-sm-1 alignLeft  number-help-wrapper"><i class="help-img fa fa-question-circle number-help"></i></span>
+                                    <div class="help-text is-hidden col-xs-11 col-sm-7 col-sm-offset-4 pull-left alignLeft"><i class="fa fa-info-circle info-icon"></i><span>You can only enter numbers</span></div>
+                                    <div class="screen-reader-error" aria-live="polite" aria-atomic="true"></div>
+                                </div>
+                            </div>
+                            <div class="field" data-field-name="num_OtherIncomeValue" data-field-type="number" style="padding-top: 0px;">
+                                <div class="fieldContent">
+                                    <label for="num_OtherIncomeValue" class="col-xs-11 col-sm-4   fieldName alignLeft   " style="display: none;"><span class="_fieldName" style="display: none;">Other income value</span> </label>
+                                    <div class="af-block col-xs-1 col-sm-1 hidden-sm hidden-md hidden-lg" style="display: none;"></div>
+                                    <div class="prefix-suffix-mode col-xs-11 col-sm-7 clearfix" style="display: none;">
+                                        <div class="input-group" style="display: none;"><span class="prefix-wrapper input-group-addon alignLeft readonly" style="display: none;"><span value="£" class="prefix alignLeft" style="display: none;">£</span></span>
+                                            <input name="num_OtherIncomeValue" id="num_OtherIncomeValue" data-name="num_OtherIncomeValue" data-type="number" type="number" readonly="true" decimal="2" step="any" class="form-control hasPrefix alignLeft fieldInput number " data-hidden="true" data-default-value="if({num_OtherIncomeEstimate} is &#39;&#39;, 0, {num_OtherIncomeEstimate})" data-mandatory-message="This field is required" data-min-message="Please input _min_value_ or more" data-max-message="Please input _max_value_ or less" tabindex="-1" autocomplete="off" style="display: none;">
+                                        </div>
+                                    </div>
+                                    <div class="screen-reader-error" aria-live="polite" aria-atomic="true" style="display: none;"></div>
+                                </div>
+                            </div>
+                        </section>
+                    </section>
+                    <br class="clear">
+                    <div class="fillinButtons-wrapper col-xs-11 col-sm-11">
+                        <div class="fillinButtons">
+                            <button class="btn btn-af previousbutton pull-left" type="button"><i class="fa fa-chevron-left"></i> <span class="previousText">Previous</span></button>
+                            <button class="btn btn-af cancelbutton pull-left" type="button"><i class="fa fa-times"></i><span class="cancelText">Cancel</span></button>
+                            <button class="btn btn-af nextbutton pull-right" type="submit"><span class="nextText">Next</span><i class="fa fa-chevron-right"></i></button>
+                        </div>
+                    </div>
+                </form>
+            </section>
+
+			</section>
+		</div>
+	</div>
+</main>
+
+{% endblock %}

@@ -1,0 +1,149 @@
+{% extends "care_cost_calculator_template.html" %}
+
+
+{% block content %}
+
+<main id="content">
+	<div class="container">
+		<nav class="breadcrumbs" aria-label="breadcrumbs">
+			<ol>
+				<li><a href="/docs/core/contents">Contents</a></li>
+				<li>Care Contribution calculator </li>
+			</ol>
+		</nav>
+
+
+		<div id="page" class="row render">
+			<section class="content">
+
+        <section class="achieveforms-container render col-xs-12 col-sm-12" data-category-id="AF-Category-9f573cda-96c9-4570-96c6-e0ae1f5bba6a" data-form-id="AF-Form-bdc4618e-083d-49f2-a60a-58b8c7ad6116" style="display: block;">
+          <span data-name="statictext6" data-type="staticText" class="col-xs-11 col-sm-11 fieldInput content staticText non-input "><h1>Results</h1></span>
+          <div class="form-error-wrapper AF-Form-bdc4618e-083d-49f2-a60a-58b8c7ad6116 col-xs-11 col-sm-11"></div>
+          <header class="formHeader render row af-row">
+            <h1 class="formName"><span class="_formName">Care contribution calculator</span></h1>
+            <p class="formDescription"><span class="_formDescription"></span></p>
+          </header>
+          <form class="achieveform row af-row" method="post" enctype="multipart/form-data" id="AF-Form-bdc4618e-083d-49f2-a60a-58b8c7ad6116" data-name="Care contribution calculator" data-uri="" data-id="AF-Form-bdc4618e-083d-49f2-a60a-58b8c7ad6116" data-must-be-valid="" data-submission-api="/form/submit/" data-section-length="9" title="">
+            <section class="sectionsHead navbar-default render ">
+              <div class="sections-toggle-wrapper visible-xs"><span class="active-section-name">Results</span>
+                <button type="button" class="navbar-toggle sections-toggle" data-toggle="collapse" data-target=".sectionsHeadInner.sections-head-AF-Form-bdc4618e-083d-49f2-a60a-58b8c7ad6116"><i class="fa fa-caret-down"></i></button>
+              </div>
+              <ul class="nav nav-tabs sectionsHeadInner collapse sections-head-AF-Form-bdc4618e-083d-49f2-a60a-58b8c7ad6116">
+                <li data-name="Type of care" class="sectionNameWrapper valid"><a data-url="Type-of-care.html" class="sectionNameTab ">Type of care</a></li>
+                <li data-name="Your home" class="sectionNameWrapper"></li>
+                <li data-name="Savings and investments" class="sectionNameWrapper valid" style="opacity: 1;"><a class="sectionNameTab ">Savings and investments</a></li>
+                <li data-name="Pensions" class="sectionNameWrapper invalid" style="opacity: 1;"><a class="sectionNameTab ">Pensions</a></li>
+                <li data-name="Rental income" class="sectionNameWrapper invalid" style="opacity: 1;"><a class="sectionNameTab ">Rental income</a></li>
+                <li data-name="Benefits" class="sectionNameWrapper invalid" style="opacity: 1;"><a class="sectionNameTab ">Benefits</a></li>
+                <li data-name="Other income" class="sectionNameWrapper invalid" style="opacity: 1;"><a class="sectionNameTab ">Other income</a></li>
+                <li data-name="Personal allowance" class="sectionNameWrapper valid" style="opacity: 1;"><a class="sectionNameTab ">Personal allowance</a></li>
+                <li data-name="Results" class="sectionNameWrapper active valid"><a data-url="Results.html" class="sectionNameTab conditional " data-display-condition="{txt_SavingsAndInvestmentSectionPass} contains &#39;true&#39;">Results</a></li>
+              </ul>
+            </section>
+            <section class="all-sections col-xs-12 AF-col-xs-fluid col-sm-12">
+              <section class="fields render" data-section-name="Results " aria-label="Results">
+                <div class="section-name-hidden" tabindex="0">Results</div>
+                <div class="field" data-field-name="num_ProtectedIncomeCalc" data-field-type="number" style="padding-top: 0px;">
+                  <div class="fieldContent">
+                    <label for="num_ProtectedIncomeCalc" class="col-xs-11 col-sm-4   fieldName alignLeft    " style="display: none;"><span class="_fieldName" style="display: none;">Protected income calc</span> </label>
+                    <div class="af-block col-xs-1 col-sm-1 hidden-sm hidden-md hidden-lg" style="display: none;"></div>
+                    <div class="prefix-suffix-mode col-xs-11 col-sm-7 clearfix" style="display: none;">
+                      <div class="input-group" style="display: none;"><span class="prefix-wrapper input-group-addon alignLeft readonly" style="display: none;"><span value="£" class="prefix alignLeft" style="display: none;">£</span></span>
+                        <input name="num_ProtectedIncomeCalc" id="num_ProtectedIncomeCalc" data-name="num_ProtectedIncomeCalc" data-type="number" type="number" readonly="true" decimal="2" step="any" class="form-control hasPrefix alignLeft fieldInput number " data-hidden="true" data-default-value="if({rad_TypeOfCare} is &#39;dom&#39;, 
+                        {num_ProtectedIncomeValue}, 
+                        {num_ResidentialPersonalAllowance} + {num_SavingsCreditDisregard}
+                        )" data-mandatory-message="This field is required" data-min-message="Please input _min_value_ or more" data-max-message="Please input _max_value_ or less" tabindex="-1" autocomplete="off" style="display: none;">
+                      </div>
+                    </div>
+                    <div class="screen-reader-error" aria-live="polite" aria-atomic="true" style="display: none;"></div>
+                  </div>
+                </div>
+                <div class="field" data-field-name="num_TotalWeeklyIncomeValue" data-field-type="number" style="padding-top: 0px;">
+                  <div class="fieldContent">
+                    <label for="num_TotalWeeklyIncomeValue" class="col-xs-11 col-sm-4   fieldName alignLeft   " style="display: none;"><span class="_fieldName" style="display: none;">Total weekly income</span> </label>
+                    <div class="af-block col-xs-1 col-sm-1 hidden-sm hidden-md hidden-lg" style="display: none;"></div>
+                    <div class="prefix-suffix-mode col-xs-11 col-sm-7 clearfix" style="display: none;">
+                      <div class="input-group" style="display: none;"><span class="prefix-wrapper input-group-addon alignLeft readonly" style="display: none;"><span value="£" class="prefix alignLeft" style="display: none;">£</span></span>
+                        <input name="num_TotalWeeklyIncomeValue" id="num_TotalWeeklyIncomeValue" data-name="num_TotalWeeklyIncomeValue" data-type="number" type="number" readonly="true" decimal="2" step="any" class="form-control hasPrefix alignLeft fieldInput number " data-hidden="true" data-default-value="{num_SavingResultValue} + {num_PensionResultValue} + {num_RentalIncomeValue} + {num_BenefitsValue} + {num_OtherIncomeValue}" data-mandatory-message="This field is required" data-min-message="Please input _min_value_ or more" data-max-message="Please input _max_value_ or less" tabindex="-1" autocomplete="off" style="display: none;">
+                      </div>
+                    </div>
+                    <div class="screen-reader-error" aria-live="polite" aria-atomic="true" style="display: none;"></div>
+                  </div>
+                </div>
+                <div class="field" data-field-name="num_CareCostEstimateValue" data-field-type="number" style="padding-top: 0px;">
+                  <div class="fieldContent">
+                    <label for="num_CareCostEstimateValue" class="col-xs-11 col-sm-4   fieldName alignLeft    " style="display: none;"><span class="_fieldName" style="display: none;">Care cost estimate value</span> </label>
+                    <div class="af-block col-xs-1 col-sm-1 hidden-sm hidden-md hidden-lg" style="display: none;"></div>
+                    <div class="prefix-suffix-mode col-xs-11 col-sm-7 clearfix" style="display: none;">
+                      <div class="input-group" style="display: none;"><span class="prefix-wrapper input-group-addon alignLeft readonly" style="display: none;"><span value="£" class="prefix alignLeft" style="display: none;">£</span></span>
+                        <input name="num_CareCostEstimateValue" id="num_CareCostEstimateValue" data-name="num_CareCostEstimateValue" data-type="number" type="number" readonly="true" decimal="2" step="any" class="form-control hasPrefix alignLeft fieldInput number " data-hidden="true" data-default-value="if({num_TotalWeeklyIncomeValue} - {num_ProtectedIncomeCalc} &lt; 0, 0, {num_TotalWeeklyIncomeValue} - {num_ProtectedIncomeCalc})" data-mandatory-message="This field is required" data-min-message="Please input _min_value_ or more" data-max-message="Please input _max_value_ or less" tabindex="-1" autocomplete="off" style="display: none;">
+                      </div>
+                    </div>
+                    <div class="screen-reader-error" aria-live="polite" aria-atomic="true" style="display: none;"></div>
+                  </div>
+                </div>
+                <div class="field" data-field-name="statictext3" data-field-type="staticText">
+                  <div class="fieldContent"> <span data-name="statictext3" data-type="staticText" class="col-xs-11 col-sm-11 fieldInput content staticText non-input "><p>Based on what you told us, we have calculated your weekly income as:</p>
+                    <table style="border-collapse: collapse;" border="1">
+                      <tbody>
+                        <tr>
+                          <td style="height: 1.2em; padding: 1em;">Savings and investments (tariff income)</td>
+                          <td style="height: 1.2em; padding: 1em;">£ 0</td>
+                        </tr>
+                        <tr>
+                          <td style="height: 1.2em; padding: 1em;">Pension</td>
+                          <td style="height: 1.2em; padding: 1em;">£ 0</td>
+                        </tr>
+                        <tr>
+                          <td style="height: 1.2em; padding: 1em;">Rental income</td>
+                          <td style="height: 1.2em; padding: 1em;">£ 0</td>
+                        </tr>
+                        <tr>
+                          <td style="height: 1.2em; padding: 1em;">Benefits</td>
+                          <td style="height: 1.2em; padding: 1em;">£ 0</td>
+                        </tr>
+                        <tr>
+                          <td style="height: 1.2em; padding: 1em;">Other income</td>
+                          <td style="height: 1.2em; padding: 1em;">£ 0</td>
+                        </tr>
+                        <tr>
+                          <td style="height: 1.2em; padding: 1em;"><strong>Total weekly income</strong></td>
+                          <td style="height: 1.2em; padding: 1em;"><strong>£ 0.00</strong></td>
+                        </tr>
+                        <tr>
+                          <td style="height: 1.2em; padding: 1em;">Your personal allowance</td>
+                          <td style="height: 1.2em; padding: 1em;">-£ 189.00</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                    <p></p>
+                    <p>We estimate that you will be asked to contribute the following amount towards the cost of your care:</p>
+                    <p><span style="font-size: 18pt;">£ 0 per week</span></p>
+                  </span>
+                  <div class="screen-reader-error" aria-live="polite" aria-atomic="true"></div>
+                </div>
+              </div>
+              <div class="field" data-field-name="statictext11" data-field-type="html">
+                <div class="fieldContent"> <span data-name="statictext11" data-type="html" class="col-xs-11 col-sm-11 fieldInput content html non-input " data-content="&lt;a href=&quot;https://test-beta.essex.gov.uk/care-calculator-complete&quot; target=&quot;_parent&quot; class=&quot;cee btn btn-primary btn-lg btn-block&quot; title=&quot;Self funded care&quot;&gt;Care calculator complete&lt;/a&gt;&lt;/p&gt;"><a href="https://test-beta.essex.gov.uk/care-calculator-complete" target="_parent" class="cee btn btn-primary btn-lg btn-block" title="Self funded care">Care calculator complete</a><p></p></span>
+                  <div class="screen-reader-error" aria-live="polite" aria-atomic="true"></div>
+                </div>
+              </div>
+            </section>
+          </section>
+          <br class="clear">
+          <div class="fillinButtons-wrapper col-xs-11 col-sm-11">
+            <div class="fillinButtons">
+              <button class="btn btn-af previousbutton pull-left" type="button"><i class="fa fa-chevron-left"></i> <span class="previousText">Previous</span></button>
+              <button class="btn btn-af cancelbutton pull-left" type="button"><i class="fa fa-times"></i><span class="cancelText">Cancel</span></button>
+              <button class="btn btn-af submitbutton pull-right disabled" type="button" disabled="disabled" style="display: none;"><i class="fa fa-check"></i><span class="submitText">Submit</span></button>
+            </div>
+          </div>
+        </form>
+      </section>
+
+    </section>
+  </div>
+</div>
+</main>
+
+{% endblock %}

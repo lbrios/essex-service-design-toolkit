@@ -7,12 +7,25 @@
   <div class="container">
     <div class="main only">
       <section class="content" aria-label="Essex County Council Services">
-        <h1 class="content-heading">Essex County Council</h1>
+        <h2 class="content-heading">Essex County Council Services</h1>
         {% block previews %}
           {% include "includes/previews.html" %}
+        {% endblock %}
+        {% block impact %}
+          {% include "includes/impact.html" %}
+        {% endblock %}
+        <h2 class="content-heading">Essex County Council News</h2>
+        {% block previewsNews %}
+          {% include "includes/previews-news.html" %}
+        {% endblock %}
+        {% block more %}
+          {% include "includes/more.html" %}
         {% endblock %}
       </section>
     </div>
   </div>
 </main>
+{% block signupbig %}
+  {% include "includes/signup-big.html" %}
+{% endblock %}
 {% endblock %}
