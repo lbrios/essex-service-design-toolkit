@@ -55,4 +55,4 @@ Checkbox enables users to select more than one choice at a time from a selection
 
 If you want users to select just one input at a time, for examples a yes or no answer, use the <a href="radio">radio element</a>
 
-Checkbox is often used as part of a <a href="form">form</a>
+Checkbox is often used as part of a <a href="form">form</a>.
