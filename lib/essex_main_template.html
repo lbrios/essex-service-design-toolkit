@@ -8,10 +8,6 @@
   <body class="{% block body_classes %}{% endblock %}">
     <script>document.body.className = ((document.body.className) ? document.body.className + ' js-enabled' : 'js-enabled');</script>
 
-    {% block cludo %}
-        {% include "includes/cludo-scripts.html" %}
-    {% endblock %}
-
     {% block body_start %}{% endblock %}
 
     {% block skiplink %}
@@ -32,6 +28,10 @@
       {% include "includes/scripts.html" %} 
     {% endblock %} 
     <script>if (typeof window.GOVUK === 'undefined') document.body.className = document.body.className.replace('js-enabled', '');</script>
+
+    {% block cludo %}
+      {% include "includes/cludo-scripts.html" %}
+    {% endblock %}
 
   </body>
 </html>
