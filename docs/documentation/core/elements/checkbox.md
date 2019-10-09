@@ -56,3 +56,7 @@ Checkbox enables users to select more than one choice at a time from a selection
 If you want users to select just one input at a time, for examples a yes or no answer, use the <a href="radio">radio element</a>
 
 Checkbox is often used as part of a <a href="form">form</a>.
+
+You can avoid having long lists of options by guiding users through with better thought out questions. 
+
+Conditionality allows you to show users additional content or questions to particular users on what they've selected. If you're using this to show lots of content, maybe think about putting it on a separate page. 
