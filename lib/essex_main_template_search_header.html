@@ -29,5 +29,9 @@
     {% endblock %} 
     <script>if (typeof window.GOVUK === 'undefined') document.body.className = document.body.className.replace('js-enabled', '');</script>
 
+    {% block cludo %}
+      {% include "includes/cludo-scripts.html" %}
+    {% endblock %}
+
   </body>
 </html>
