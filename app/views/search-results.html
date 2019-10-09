@@ -4,7 +4,10 @@
   <div class="container">
     <div class="main">
       <section class="content" id="cludo-search-results">
-        <h1>Search results</h1>
+        <h1>Search</h1>
+        {% block search %}
+          {% include "includes/search.html" %}
+        {% endblock %}
         <p class="search-result-count"></p>
         <p class="search-did-you-mean"></p>
         <div class="search-results"></div>
