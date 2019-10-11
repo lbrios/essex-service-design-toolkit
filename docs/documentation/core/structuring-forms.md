@@ -1,6 +1,6 @@
 # Structuring forms 
 
-This is a guide on when and how to use forms and the elements they're made up of. 
+This is a guide for building forms. It includes guidance on how to ask good questions and structure your form to ensure you get the information you need from users. There's also a list of form elements with more specific guidance.  
 
 ## Question protocols
 
