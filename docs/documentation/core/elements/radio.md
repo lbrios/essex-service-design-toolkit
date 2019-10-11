@@ -92,3 +92,17 @@ Radio is often used as part of a <a href="form">form</a>
     <input type="">
     <input name="">
     <input value="">
+    
+## How to use radios
+
+Always position radios to the left of their labels. This makes them easier to find, especially for users of screen magnifiers.
+
+Unlike with checkboxes, users can only select one option from a list of radios. Do not assume that users will know how many options they can select based on the visual difference between radios and checkboxes alone.
+
+If needed, add a hint explaining this, for example, ‘Select one option’.
+
+You should arrange options alphabetically, unless there's a clear need to arrange by use. You shouldn't pre-select an option, as users may miss the question. 
+
+## Stacking
+
+If there are only 2 options, it's fine to have them laid out horizontally. If there are more, they should be stacked vertically. Try to avoid having too many options. More than 5 or 6 and users could get confused or miss options. If necessary, use a series of simpler questions. 
