@@ -1,6 +1,8 @@
 # Structuring forms 
 
-This is a guide for building forms. It includes guidance on how to ask good questions and structure your form to ensure you get the information you need from users. There's also a list of form elements with more specific guidance.  
+This is a guide for building forms. It includes guidance on asking good questions and structuring your form. There's also a list of form elements with more specific guidance.  
+
+A well laid-out form, with simple and intuitive questions will improve the quality of data you receive from users. 
 
 ## Question protocols
 
