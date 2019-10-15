@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <!-- core app -->
+  {% block head %}
+    {%include "includes/head.html" %}
+  {% endblock %}
+
+  <body class="{% block body_classes %}{% endblock %}">
+    <script>document.body.className = ((document.body.className) ? document.body.className + ' js-enabled' : 'js-enabled');</script>
+
+    {% block body_start %}{% endblock %}
+
+    {% block skiplink %}
+      {% include "includes/skip-link.html" %}
+    {% endblock %}
+
+    <header class="header-background">
+      <div class="header">
+        <div class="nav">
+          <div class="logo-wrap">
+            <a href="/prototypes/app/step-by-step/home" class="logo-text seax">
+              <img src="/public/images/seax.png" width="36" height="30" alt="Essex County Council logo">
+              Essex.gov.uk
+            </a>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    {% block content %}{% endblock %}
+
+    {% block footer %}
+      {% include "includes/footer.html" %}
+    {% endblock %}
+
+    {% block scripts %} 
+      {% include "includes/scripts.html" %} 
+    {% endblock %} 
+    <script>if (typeof window.GOVUK === 'undefined') document.body.className = document.body.className.replace('js-enabled', '');</script>
+
+  </body>
+</html>
