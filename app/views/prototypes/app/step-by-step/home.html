@@ -1,0 +1,42 @@
+{% extends "essex_main_template.html" %}
+
+{% block content %}
+
+{% block search %}
+  {% include "includes/search-home.html" %}
+{% endblock %}
+
+<main id="content">
+  <div class="container">
+    <div class="main only">
+      <section class="content">
+        <h2 class="content-heading">Essex County Council Services</h1>
+
+        {% block previews %}
+          {% include "includes/previews.html" %}
+        {% endblock %} 
+
+        {% block impact %}
+          {% include "includes/impact.html" %}
+        {% endblock %}        
+
+        <h2 class="content-heading">Essex County Council News</h2>
+
+        {% block previewsNews %}
+          {% include "includes/previews-news.html" %}
+        {% endblock %}
+
+<!--         {% block moreNews %}
+          {% include "includes/more.html" %}
+        {% endblock %} -->
+      </section>
+      
+    </div>
+  </div>
+</main>
+
+{% block signupbig %}
+  {% include "includes/signup-big.html" %}
+{% endblock %}
+
+{% endblock %}

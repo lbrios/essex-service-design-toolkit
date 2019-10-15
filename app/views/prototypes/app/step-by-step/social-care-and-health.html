@@ -1,0 +1,92 @@
+{% extends "essex_topic_template.html" %}
+{% block content %}
+<nav class="breadcrumbs" aria-label="breadcrumbs">
+  <ol>
+    <li><a href="/">Home</a></li>
+    <li><a href="#">Adult social care and health</a></li>
+  </ol>
+</nav>
+<main id="content">
+  <div class="container">
+    <div class="main only">
+      <section class="content">
+        <h1>Adult social care and health</h1>
+        {% block linkbox %}
+          {% include "includes/link-box.html" %}
+        {% endblock %}
+
+        <div class="preview-list">
+          <ul>
+            <li>
+              <a href="/topic/support-for-carers" class="sub-section-heading">Support for carers</a>
+              <p>Information, support and guidance for people who look after someone</p>
+            </li>
+            <li>
+              <a href="/topic/disabilities-and-health-conditions">Disabilities and health conditions</a>
+              <p>Get help with disabilities, mental health, dementia, autism, accessible transport, advocacy and end of life care</p>
+            </li>
+          </ul>
+          <ul>
+            <li>
+              <a href="/topic/paying-for-care-and-support">Paying for care and support</a>
+              <p>Includes eligibility for financial support, financial assessments, pay your care bill, personal budgets and direct payments</p>
+            </li>
+          </ul>
+          <ul>
+            <li>
+              <a href="/blue-badge">Blue Badge</a>
+              <p>Includes eligibility, how to apply, track your application and update your details</p>
+            </li>
+          </ul>
+          <ul>
+            <li>
+              <a href="/topic/help-to-live-at-home">Help to live at home</a>
+              <p>Includes help with meals and shopping, help at home, home adaptations, equipment to stay independent, technology for independent living and reablement</p>
+            </li>
+          </ul>
+          <ul>
+            <li>
+              <a href="/going-into-and-leaving-hospital">Going into and leaving hospital</a>
+              <p>What to do if you have to go into hospital, what happens when you arrive and getting support when you leave</p>
+            </li>
+          </ul>
+          <ul>
+            <li>
+              <a href="/housing-options-and-care-homes">Housing options and care homes</a>
+              <p>Includes Shared Lives scheme, sheltered living, supported housing, independent living scheme, care homes, continuing healthcare and homelessness advice</p>
+            </li>
+          </ul>
+          <ul>
+            <li>
+              <a href="/health-and-wellbeing-services">Health and wellbeing services</a>
+              <p>Includes community health services, stop smoking, weight management, diabetes prevention and drug and alcohol misuse services</p>
+            </li>
+          </ul>
+          <ul>
+            <li>
+              <a href="/adult-social-care-contacts">Adult social care contacts</a>
+              <p>Contact adult social care to discuss care and support</p>
+            </li>
+          </ul>
+        </div>
+        <div class="signup" role="form" aria-label="Subscribe to email">
+          <h2 class="section-heading">Stay up to date</h2>
+          <p>Get the latest news and information about your council services</p>
+          <form action="/search" method="get" class="form">
+            <div class="group">
+              <div class="signup-input">
+                <label for="email">Enter your email address
+                  <input type="text" id="email" name="email" autocomplete="off" placeholder="Enter your email address">
+                </label>
+              </div>
+              <div class="signup-button" id="submitYourEmailAddress">
+                <button type="submit" class="button subscribe">Subscribe</button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </section>
+    </div>
+  </div>
+</main>
+{% endblock %}
