@@ -15,8 +15,81 @@
 	    color: $active;
 	  }
 	}
-	.step {
+	.steps {
+		list-style: none;
 		float: left;
+		padding: 0;
+		margin: 0;
+		.app-step-nav__step--active {
+			.step-number span.number,
+			span.step-link {
+				border-color: $black;
+			}
+		}
+	}
+	.app-step-nav__title {
+		line-height: $baseline;
+		&:hover {
+			color: $hover;
+		}
+	}
+	.app-step-nav__button--controls {
+  	@include small;
+  	color: $link;
+  	text-decoration: underline;
+  	&:focus {
+  		color: $black;
+  		background: $focus-colour;
+  		outline: none;
+  		box-shadow: 0 -2px $focus-colour, 0 4px $black;
+  		text-decoration: none;
+  		&:hover {
+				color: $black;
+				text-decoration: none;
+  		}
+  	}
+	}
+  .app-step-nav__button--title, .app-step-nav__button {
+  	text-align: left;
+  	display: block;
+  	background: none;
+  	border: none;
+  	padding: 0;
+  	margin: 0;
+  	cursor: pointer;
+  	.app-step-nav__toggle-link {
+  		color: $link;
+  	}
+  	&:hover {
+  		.js-step-title-text {
+  			color: $hover;
+  		}
+  		.app-step-nav__toggle-link {
+  			color: $hover;
+  			text-decoration: underline;
+  		}
+  	}
+  	&:focus {
+  		color: $black;
+  		background: $focus-colour;
+  		outline: none;
+  		box-shadow: 0 -2px $focus-colour, 0 4px $black;
+  		.app-step-nav__toggle-link {
+  			color: $black;
+  		}
+  		&:hover {
+  			.js-step-title-text,
+  			.app-step-nav__toggle-link {
+					color: $black;
+					text-decoration: none;
+  			}
+  		}
+  	}
+  }
+	.step, .js-step {
+		float: left;
+		padding: 0;
+		margin: 0;
 		width: 100%;
 		position: relative;
 		.step-number {
@@ -29,12 +102,13 @@
 				display: block;
 				border: $border-thick solid $grey-light;
 				font-size: ms(1);
+				line-height: $baseline;
 				background: $white;
 				border-radius: 100%;
 				text-align: center;
 				height: $gutter;
 				width: $gutter;
-				margin-top: $baseline*1.4;
+				margin-top: 0;
 			  @include media(mobile) {
 			    margin-top: $baseline;
 			  }
@@ -44,14 +118,14 @@
 		    	margin-left: -10px;
 		    }
 			}
-			span.step-link {
-				border-left: $border-thick solid $grey-light;
-		    height: 100%;
-		    display: block;
-		    position: absolute;
-		    left: 17px;
-		  }
 		}
+		span.step-link {
+			border-left: $border-thick solid $grey-light;
+	    height: 100%;
+	    display: block;
+	    position: absolute;
+	    left: 17px;
+	  }		
 		&:last-child {
 			.step-number:after {
 	    	content: " ";
@@ -62,46 +136,58 @@
 	    	width: 21px;
 	    }
     }
-		.toggle {
-			float: left;
-			width: calc(100% - #{$gutter*2});
-			label {
-				color: $brand;
-			}
-			.section-heading {
-				margin-bottom: 0;
-				@include media(mobile) {
-			    margin-top: $baseline;
-			    margin-bottom: 0;
-			  }
-			}
+    .app-step-nav__toggle-link {
+    	@include small;
+    	display: block;
+    	text-align: left;
+    }
+    .js-step-title {
+    	.js-step-title-text {
+    		@include h3;
+    	}
+    }
+		.preview-list {
+			margin-left: 60px;
 		}
-		&.active {
-			.step-number span.step-link {
-				border-color: $black;
-			}
-		}
-		.preview-list ul {
-			list-style-type: disc;
+		.preview-list ul, .preview-list ol {
 		  @include media(mobile) {
 		    font-size: ms(-1);
 		  }
-		  list-style-position: outside;
-		  padding-left:10px;
-		  margin-left: 20px;
+		  list-style: none;
+		  padding-left:0;
+		  margin-left: 0;
 		  margin-top: $baseline;
 		  margin-bottom: $baseline;
-		  li {
-		    padding-left: 10px;
-		    margin-bottom: 0;
-		    line-height: $baseline;
-		    a {
-		    	font-weight: $regular;
-		    }
-		  }
-		  &.no-bullets li {
-		    list-style: none;
-		  }
+		  .app-step-nav__list-item--active {
+		  	position: relative;
+		  	&:before {
+			    -webkit-box-sizing: border-box;
+			    -moz-box-sizing: border-box;
+			    box-sizing: border-box;
+			    content: "";
+			    position: absolute;
+			    z-index: 5;
+			    top: -2px;
+			    left: -49px;
+			    margin-left: 0;
+			    width: 16px;
+			    height: 16px;
+			    margin-top: $baseline*0.25;
+			    background: $black;
+			    border: solid 2px $white;
+			    border-radius: 100px;
+			  }
+			}
 		}
+	}
+}
+
+.step-by-step-side-title {
+	@include h4;
+	display: block;
+	margin-bottom: 0;
+	+ span {
+		margin-top: 0;
+		margin-bottom: $baseline;
 	}
 }

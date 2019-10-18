@@ -222,10 +222,10 @@ ol {
   @include ie-lte(7) {
     padding-left: 28px;
   }
-  li:nth-child(n+10) {
-    margin-left: 10px;
-    padding-left: 0px;
-  }
+  // li:nth-child(n+10) {
+  //   margin-left: 10px;
+  //   padding-left: 0px;
+  // }
 }
 
 ul {
