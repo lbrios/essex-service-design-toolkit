@@ -105,7 +105,6 @@
 *   [Signup-big](/docs/core/components/signup-big)
 *   [Side-nav](/docs/core/components/side-nav)
 *   [Skip-link](/docs/core/components/skip-link)
-*   [Steps](/docs/core/components/steps)
 *   [Step-by-step](/docs/core/components/step-by-step)
 *   [Table](/docs/core/components/table)
 
