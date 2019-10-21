@@ -14,6 +14,9 @@
     margin-top: $baseline*0.5;
     margin-bottom: $baseline*0.5;
     padding-left: 0;
+    a {
+      font-weight: $bold;
+    }
     p {
       margin-bottom: 0;
     }

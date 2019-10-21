@@ -27,6 +27,11 @@
 			}
 		}
 	}
+	.js-panel {
+		li a {
+			font-weight: $regular;
+		}
+	}
 	.app-step-nav__title {
 		display: block;
 		line-height: $baseline;
