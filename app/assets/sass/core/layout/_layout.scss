@@ -75,6 +75,9 @@ main#content {
     outline: none;
     .main {
       @extend %grid-row;
+      .head {
+        @include grid-column(1);
+      }
       .content, .intro, .function {
         @include grid-column(8 / 12);
         &.only {
@@ -86,16 +89,20 @@ main#content {
           @include grid-column(1);
         }
       }
+      .side {
+        @include grid-column(4 / 12);
+      }
     }
   }
 }
 
 .side {
-  margin-top: $baseline*2.5;
+  margin-top: $baseline*1.5;
   @media screen and (-ms-high-contrast: active), screen and (-ms-high-contrast: none) {
   }
   @include media(mobile) {
     @include grid-column(1);
+    margin-top: $baseline;
   }
   @include media(tablet) {
     @include grid-column(1);

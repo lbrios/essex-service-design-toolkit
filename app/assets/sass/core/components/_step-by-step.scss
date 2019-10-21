@@ -32,13 +32,14 @@
 			font-weight: $regular;
 		}
 	}
-	.app-step-nav__title {
-		display: block;
-		line-height: $baseline;
-		&:hover {
-			color: $hover;
-		}
-	}
+	// .app-step-nav__title {
+	// 	@include h2;
+	// 	display: block;
+	// 	line-height: $baseline;
+	// 	&:hover {
+	// 		color: $hover;
+	// 	}
+	// }
 	.app-step-nav__button--controls {
   	@include small;
   	color: $link;
@@ -118,9 +119,6 @@
 				height: $gutter;
 				width: $gutter;
 				margin-top: 0;
-			  @include media(mobile) {
-			    margin-top: $baseline;
-			  }
 		    &.and {
 		    	border: none;
 		    	width: 100%;
@@ -151,7 +149,14 @@
     	text-align: left;
     }
 		.js-toggle-panel {
+			@include h2;
+			margin-top: 0;
 	  	cursor: pointer;
+			display: block;
+			line-height: $baseline;
+			&:hover {
+				color: $hover;
+			}
 		}
     .js-step-title {
     	.js-step-title-text {
@@ -159,7 +164,7 @@
     	}
     }
 		.preview-list {
-			margin-left: 60px;
+			margin-left: $gutter*2;
 		}
 		.preview-list ul, .preview-list ol {
 		  @include media(mobile) {
@@ -194,12 +199,62 @@
 	}
 }
 
-.step-by-step-side-title {
-	@include h4;
-	display: block;
-	margin-bottom: 0;
-	+ span {
+.part-of {
+	margin-bottom: $baseline;
+	.part-of-head {
+		@include h4;
+		display: block;
+		margin-bottom: 0;
+		+ span {
+			margin-top: 0;
+			margin-bottom: $baseline;
+		}
+	}
+	.part-of-title {
+		@include h3;
+	}
+}
+
+.step-by-step.side {
+	.part-of {
+		.part-of-head {
+			@include p;
+			font-weight: $bold;
+			margin-top: 0;
+			margin-bottom: 0;
+		}
+		.part-of-title {
+			@include h4;
+		}
+	}
+	.steps {
 		margin-top: 0;
-		margin-bottom: $baseline;
+		margin-bottom: 0;
+	}
+	.js-step {
+		.js-toggle-panel {
+			margin-top: $baseline*0.5;
+			margin-bottom: $baseline*0.5;
+			.js-step-title .js-step-title-text {
+				@include h4;
+				margin-top: 0;
+			}
+		}
+	}
+	.js-panel {
+		p, ul li, ol li {
+			font-size: $small;
+		}
+		ol, ul {
+			margin-top: $baseline*0.5;
+			margin-bottom: $baseline*0.5;
+		}
+		ul li, ol li {
+			margin-top: $baseline*0.25;
+			margin-bottom: $baseline*0.25;
+		}
+		p {
+			margin-bottom: $baseline*0.25;
+		}
 	}
 }
