@@ -2,17 +2,14 @@
   @include media(mobile) {
     padding-left: $outer-grid-margin*1.5;
     padding-right: $outer-grid-margin*1.5;
-    // background: blue;
   }
   @include media(tablet) {
     padding-left: $outer-grid-margin*1.5;
     padding-right: $outer-grid-margin*1.5;
-    // background: red;
   }
   @include media(desktop) {
     padding-left: $outer-grid-margin*2;
     padding-right: $outer-grid-margin*2;
-    // background: green;
     margin-left: auto;
     margin-right: auto;
     max-width: $site-width;
@@ -75,6 +72,7 @@ main#content {
     outline: none;
     .main {
       @extend %grid-row;
+      // head is for the full width area showing contents on information pages
       .head {
         @include grid-column(1);
       }
@@ -90,6 +88,7 @@ main#content {
         }
       }
       .side {
+        // used for step-by-step within information pages
         @include grid-column(4 / 12);
       }
     }

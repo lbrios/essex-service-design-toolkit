@@ -12,6 +12,9 @@
 	.part-of-title {
 		@include h3;
 	}
+	+ h1 {
+		display: inline-block;
+	}
 }
 
 .step-by-step {
