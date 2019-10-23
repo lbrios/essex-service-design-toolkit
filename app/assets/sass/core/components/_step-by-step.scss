@@ -102,6 +102,9 @@
 			&:after, .step-number .number {
 				border-color: $black;
 			}
+			&:last-child:before {
+	    	border-color: $black;
+	    }			
 		}
 		.js-toggle-panel {
 			@include h2;
