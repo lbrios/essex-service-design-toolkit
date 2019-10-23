@@ -51,7 +51,7 @@
 		padding-left: $gutter*2;
 		.step-number {
 			position: absolute;
-			top: 26px;
+			top: 22px;
 			left: 0;
 			.section-heading {
 				margin-bottom: 0;
@@ -60,7 +60,7 @@
 				@include box-sizing(border-box);
 				border: $border-thick solid $grey-light;
 				font-size: ms(1);
-				line-height: calc(#{$baseline} - 2px);
+				line-height: 30px;
 				background: $white;
 				border-radius: 100%;
 				text-align: center;
@@ -237,7 +237,7 @@
 			}
 			.step-number {
 				position: absolute;
-				top: 8px;
+				top: 10px;
 				left: 0;
 				span.number {
 					border-width: $border-normal;
