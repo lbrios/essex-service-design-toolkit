@@ -4,6 +4,12 @@ This is a guide for building forms. It includes guidance on asking good question
 
 A well laid-out form, with simple and intuitive questions will improve the quality of data you receive from users. 
 
+## Designing good services
+
+Forms don't exist in isolation, so it's important to [design an end-to-end user journey](https://www.gov.uk/service-manual/design/introduction-designing-government-services). 
+
+This means that there are no dead-ends and things like eligiblity criteria and things the user will need to complete the journey are made clear from the outset. 
+
 ## Question protocols
 
 Before you start building a form, you should understand what you're asking and why. The easiest way to do this is through a question protocol. These are a series of things to think about before adding each question to your form. 
