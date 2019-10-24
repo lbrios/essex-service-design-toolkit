@@ -46,6 +46,8 @@ We also tend not to use progress bars, as some research has shown that it confus
 
 Elements, like sliders or date ranges that rely on Java script can also cause problems for screen readers. We tend to use a few simple elements with as few validation masks as possible. 
 
+Where possible URLs should be descriptive and match our [URL guidance](https://essex-service-design-toolkit.herokuapp.com/docs/core/content/url-guidelines). 
+
 ## Form elements
 
 These are the most common form elements, with guidance on how to use them:
