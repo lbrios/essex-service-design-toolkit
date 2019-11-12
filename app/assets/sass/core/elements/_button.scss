@@ -172,7 +172,7 @@ button {
 .button-get-started {
   font-size: ms(3);
   font-weight: 700;
-  background-image: url("/icon/icon-pointers.png");
+  background-image: url(#{$path}/icon/icon-pointers.png);
   background-repeat: no-repeat;
   background-position: 100% 50%;
   padding: $baseline*0.25 $gutter*1.5 $baseline*0.25 $gutter*0.5;
@@ -180,10 +180,10 @@ button {
   margin-top: $baseline*0.5;
   margin-bottom: $baseline*0.5;
   @include device-pixel-ratio {
-    background-image: url("/icon/icon-pointer-2x.png");
+    background-image: url(#{$path}/icon/icon-pointer-2x.png);
     background-size: 30px 19px;
   }
   @include ie(6) {
-    background-image: url("/icon/icon-pointer-2x.png");
+    background-image: url(#{$path}/icon/icon-pointer-2x.png);
   }
 }
