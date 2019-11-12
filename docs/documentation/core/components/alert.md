@@ -12,9 +12,9 @@
   </div>
   <div class="alert-text">
     <div class="section-heading">We are experiencing some issues</div>
-    <p>You may experience some issues with our website. Please bare with us while we resolve the issue.</a></p>
+    <p>You may experience some issues with our website. Please bare with us while we resolve the issue.</p>
+    <button class="text" type="button" onclick="toggle_visibility('tab-one');">Hide this message</button>
   </div>
-  <button class="text" type="button" onclick="toggle_visibility('tab-one');">Hide this message</button>
 </div>
 
     <div class="alert error" id="tab-one">
@@ -23,9 +23,9 @@
       </div>
       <div class="alert-text">
         <div class="section-heading">We are experiencing some issues</div>
-        <p>You may experience some issues with our website. Please bare with us while we resolve the issue.</a></p>
+        <p>You may experience some issues with our website. Please bare with us while we resolve the issue.</p>
+        <button class="text" type="button" onclick="toggle_visibility('tab-one');">Hide this message</button>
       </div>
-      <button class="text" type="button" onclick="toggle_visibility('tab-one');">Hide this message</button>
     </div>
 
 ## Information
@@ -36,9 +36,9 @@
   </div>
   <div class="alert-text">
     <div class="section-heading">We are updating our system</div>
-    <p>We have been doing lots of research and you have helped us update this service.</a></p>
+    <p>We have been doing lots of research and you have helped us update this service.</p>
+    <button class="text" type="button" onclick="toggle_visibility('tab-two');">Hide this message</button>
   </div>
-  <button class="text" type="button" onclick="toggle_visibility('tab-two');">Hide this message</button>
 </div>
 
     <div class="alert info" id="tab-two">
@@ -47,9 +47,9 @@
       </div>
       <div class="alert-text">
         <div class="section-heading">We are updating our system</div>
-        <p>We have been doing lots of research and you have helped us update this service.</a></p>
+        <p>We have been doing lots of research and you have helped us update this service.</p>
+        <button class="text" type="button" onclick="toggle_visibility('tab-two');">Hide this message</button>
       </div>
-      <button class="text" type="button" onclick="toggle_visibility('tab-two');">Hide this message</button>
     </div>
 
 ## Warning
@@ -61,8 +61,8 @@
   <div class="alert-text">
     <div class="section-heading">School closures</div>
     <p>Some schools in Essex are closed due to severe weather. <a href="#">Check if your child's school is closed</a></p>
+    <button class="text" type="button" onclick="toggle_visibility('tab-three');">Hide this message</button>
   </div>
-  <button class="text" type="button" onclick="toggle_visibility('tab-three');">Hide this message</button>
 </div>
 
     <div class="alert warning" id="tab-three">
@@ -72,8 +72,8 @@
       <div class="alert-text">
         <div class="section-heading">School closures</div>
         <p>Some schools in Essex are closed due to severe weather. <a href="#">Check if your child's school is closed</a></p>
+        <button class="text" type="button" onclick="toggle_visibility('tab-three');">Hide this message</button>
       </div>
-      <button class="text" type="button" onclick="toggle_visibility('tab-three');">Hide this message</button>
     </div>
 
 
