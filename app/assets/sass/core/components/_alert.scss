@@ -28,7 +28,7 @@
   padding: $baseline*0.5;
   margin-top: $baseline;
   margin-bottom: $baseline;
-  display: block;
+  float: left;
   width: 100%;
   &.warning {
     border: $border-thick solid $warning;
@@ -50,12 +50,15 @@
   }
   .alert-icon {
     @include media(mobile) {
+      text-align: left;
       padding: 0;
       display: block;
       width: 100%;
     }
     float: left;
-    padding: $baseline*0.5 $baseline $baseline*0.5 $baseline*0.5;
+    @include grid-column(1 / 12);
+    padding: $baseline*0.5 0;
+    text-align: center;
     .fa-exclamation-triangle,
     .fa-exclamation-circle,
     .fa-info-circle {
@@ -69,7 +72,9 @@
       display: block;
       width: 100%;
     }
-    padding: 0 $gutter*0.25;
+    @include grid-column(11 / 12);
+    padding-left: $outer-grid-margin*0.5;
+    padding-right: $outer-grid-margin*0.5;
     .section-heading {
       margin-top: 0;
       margin-bottom: $baseline*0.25;
@@ -80,6 +85,9 @@
     p:last-child {
       margin-bottom: 0;
     }
+  }
+  .text {
+    text-align: left;
   }
   .close {
     position: absolute;
@@ -105,14 +113,3 @@
     display: block;
   }
 }
-
-
-// // yuk!
-// .alert.js-hidden {
-//   display: table;
-//   visibility: visible;
-// }
-
-// .alert[aria-hidden="false"] {
-//   display: none;
-// }
