@@ -30,7 +30,7 @@ Do all audio files have a transcript? Is essential audio information available a
 
 Can users stop audio that auto plays?
 
-## Video
+## Video 
 
 Do all videos have captions that are synchronised with the audio?
 
