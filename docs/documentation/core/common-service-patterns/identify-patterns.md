@@ -22,7 +22,7 @@ The scenarios are:
 * apply for a role or job
 * apply for a grant or funding
 * apply for consent or permission to do something myself
-* apply for something the council does or administers
+* apply for something we do or administer
 * apply to appeal a decision
 
 ## Tell something
