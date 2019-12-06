@@ -29,6 +29,7 @@ Things to consider include:
 * if this is the kind of service that users may complete on behalf of someone else - if so, how does that change the journey
 * accessible offline versions of documents and applications
 * whether this application impacts upon any other future decisions
+* whether there are legal or other requirements to access the service – see the content strategy for communicating these in an accessible way
 
 ## Data considerations 
 Things to consider include:
