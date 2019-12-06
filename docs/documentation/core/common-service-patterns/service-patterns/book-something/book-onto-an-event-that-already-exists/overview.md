@@ -13,7 +13,7 @@ This scenario may contain ‘register for something’, ‘pay for something’ 
 There are 5 steps within the ‘book onto an event’ scenario: 
 
 * browse information before booking [hyperlink]
-* make a decision about whether to book a place [hyperlink]
+* make a decision [hyperlink]
 * make the booking [hyperlink]
 * submit the booking [hyperlink]
 * next steps[hyperlink]
