@@ -15,7 +15,7 @@ This includes those with:
 
 Accessibility means more than putting things online. It means making your content and design clear and simple enough so that most people can use it without needing to adapt it, while supporting those who do.
 
-People may not have a choice when using a public sector website or app, so it’s important they work for everyone. The people who need them the most are often the people who find them hardest to use.
+People may not have a choice when using a public sector website or app, so it’s important they work for everyone. The people who need them the most are often the people who find them hardest to use
 
 Accessible websites are better for everyone. For example, they are faster and easier to use, and appear higher in search engines.
 
