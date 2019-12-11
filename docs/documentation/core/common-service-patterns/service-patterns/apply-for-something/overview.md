@@ -1,6 +1,6 @@
 1.  [Home](/docs/core/contents)
-2.	[Common service patterns] ()
-3.  [Apply for something] (#)
+2.	[Common service patterns](/docs/documentation/core/common-service-patterns/overview)
+3.  Apply for something
 
 # Apply for something
 The 'apply for something pattern' (INSERT LINK TO APPLY FOR SOMETHING PATTERN) allows a user to receive or access a service. Where we are responsible for authorising an outcome for the user.  
