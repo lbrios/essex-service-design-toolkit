@@ -1,9 +1,8 @@
 1.  [Home](/docs/core/contents)
-2.	[Common service patterns] ()
-3.  [Identify insights and design opportunities] (#)
+2.	[Common service patterns](docs/documentation/core/common-service-patterns/overview)
+3.  Identify insights and design opportunities
 
 # Identify insights and design opportunities
-
 Once you have a map of the ‘as is’ journey for your service, the next step is to draw insights.
 
 Insights are short statements that give us enough shared understanding to take an action. Insights are simple and should be used to challenge how we think about problems we are trying to solve.  
@@ -30,11 +29,6 @@ For example:
 * too narrow: how might we create a cone to eat ice cream without dripping? 
 * too broad: how might we redesign dessert? 
 * properly scoped: how might we redesign ice cream to be more portable? 
-
-Find out more about insights You can read more about insights here 
-https://dwpdigital.blog.gov.uk/2015/03/26/digital-academy-the-importance-of-insights/
-https://spin.atomicobject.com/2018/12/12/how-might-we-design-thinking/
-
 
 Find out more about insights by reading:
 
