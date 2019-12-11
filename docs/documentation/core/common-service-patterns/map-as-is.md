@@ -1,8 +1,8 @@
-1.  [Home](/docs/core/contents)
-2.	[Map as is guidance](#)
+1. [Home](/docs/core/contents)
+2. [Common service patterns](docs/documentation/core/common-service-patterns/overview)
+3. Map as is guidance
 
 # Map 'as is' guidance
-
 Map ‘as is’ for the service area. This includes end to end, front stage and back stage. Journey mapping can be both for online and offline services. When journey mapping, consider as if you were a service user and with services users through user research.
 
 ## Front stage
