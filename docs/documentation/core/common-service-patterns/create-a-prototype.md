@@ -1,6 +1,6 @@
 1.  [Home](/docs/core/contents)
-2.	[Common service patterns] ()
-3.  [Create a prototype] (#)
+2.	[Common service patterns](docs/documentation/core/common-service-patterns/overview)
+3.  Create a prototype
 
 # Create a prototype
 You now have a good framing of the current journey for your service and opportunities to improve.
