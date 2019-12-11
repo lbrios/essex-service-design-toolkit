@@ -7,47 +7,47 @@
 We have identified 7 service patterns across ECC:
 
 ## Check something
-Check something helps users look up information and check whether it applies to them. When eligibility can be done separately from an application, it should be considered part of this pattern.
+[Check something](docs/documentation/core/common-service-patterns/service-patterns/check-something/overview) helps users look up information and check whether it applies to them. When eligibility can be done separately from an application, it should be considered part of this pattern.
 
 The scenarios are:
 
-* check before you apply
-* check to understand something
-* check my nearest or most relevant
+* [check before you apply](docs/documentation/core/common-service-patterns/service-patterns/check-something/check-before-you-apply/overview)
+* [check to understand something](docs/documentation/core/common-service-patterns/service-patterns/check-something/check-to-understand-something/overview)
+* [check my nearest or most relevant](docs/documentation/core/common-service-patterns/service-patterns/check-something/check-my-nearest/overview)
 
 ## Apply for something
-Apply for something helps users to complete an application process.
+[Apply for something](docs/documentation/core/common-service-patterns/service-patterns/apply-for-something/overview) helps users to complete an application process.
 
 The scenarios are:
 
-* apply for a role or job
-* apply for a grant or funding
-* apply for consent or permission to do something myself
-* apply for something we do or administer
-* apply to appeal a decision
+* [apply for a role or job](docs/documentation/core/common-service-patterns/service-patterns/apply-for-something/apply-for-a-role/overview)
+* [apply for a grant](docs/documentation/core/common-service-patterns/service-patterns/apply-for-something/apply-for-a-grant/overview)
+* [apply for permission to do something myself](docs/documentation/core/common-service-patterns/service-patterns/apply-for-something/apply-for-permission-to-do-something-myself/overview)
+* [apply for something ECC does](docs/documentation/core/common-service-patterns/service-patterns/apply-for-something/apply-for-something-ecc-does/overview)
+* [apply to appeal a decision](docs/documentation/core/common-service-patterns/service-patterns/apply-for-something/apply-to-appeal-a-decision/overview)
 
 ## Tell something
-Tell something helps users to tell us something. Typically to update us about changes in circumstance. 
+[Tell something](docs/documentation/core/common-service-patterns/service-patterns/tell-something/overview) helps users to tell us something. Typically to update us about changes in circumstance. 
 
 The scenarios are:
 
-* report something
-* report a safeguarding or legal concern
-* feedback about something
-* refer someone
-* respond to something
-* create to share
-* update something
+* [report something](docs/documentation/core/common-service-patterns/service-patterns/tell-something/report-something/overview)
+* [report a safeguarding or legal concern](docs/documentation/core/common-service-patterns/service-patterns/tell-something/report-a-safeguarding-or-legal-concern/overview)
+* [feedback about something](docs/documentation/core/common-service-patterns/service-patterns/tell-something/feedback-about-something/overview)
+* [refer someone](docs/documentation/core/common-service-patterns/service-patterns/tell-something/refer-someone/overview)
+* [respond to something](docs/documentation/core/common-service-patterns/service-patterns/tell-something/respond-to-something/overview)
+* [create to share](docs/documentation/core/common-service-patterns/service-patterns/tell-something/create-to-share/overview)
+* [update something](docs/documentation/core/common-service-patterns/service-patterns/tell-something/update-something/overview)
 
 ## Request something
-Request something helps users to get something they want. Usually, there is no eligibility check as the user is entitled to what they want by default.
+[Request something](docs/documentation/core/common-service-patterns/service-patterns/request-something/overview) helps users to get something they want. Usually, there is no eligibility check as the user is entitled to what they want by default.
 
 The scenarios are:
 
-* request information or a document
-* request financial compensation
-* request for support or a service from us
-* request to be added to something
+* [request information](docs/documentation/core/common-service-patterns/service-patterns/request-something/request-information/overview)
+* [request financial compensation](docs/documentation/core/common-service-patterns/service-patterns/request-something/request-financial-compensation/overview)
+* [request for support or a service from us](docs/documentation/core/common-service-patterns/service-patterns/request-something/request-for-support-from-the-council/overview)
+* [request to be added to something](docs/documentation/core/common-service-patterns/service-patterns/request-something/request-to-be-added-to-something/overview)
 
 ## Register something
 Register something helps users to complete a process. Users will create an account with personal and sensitive data that they can return to.
