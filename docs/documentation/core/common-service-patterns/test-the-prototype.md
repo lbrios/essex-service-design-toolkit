@@ -1,6 +1,6 @@
-1.  [Home](/docs/core/contents)
-2.	[Common service patterns] ()
-3.  [Test the prototype] (#)
+1. [Home](/docs/core/contents)
+2. [Common service patterns](docs/documentation/core/common-service-patterns/overview)
+3. Test the prototype
 
 # Test the prototype
 User research is a valuable stage in any design approach. It helps you to understand if the idea works to solve the problems you found in the journey. 
