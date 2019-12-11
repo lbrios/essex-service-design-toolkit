@@ -1,5 +1,6 @@
-1.  [Home](/docs/core/contents)
-2.	[Identify patterns](#)
+1. [Home](/docs/core/contents)
+2. [Common service patterns](docs/documentation/core/common-service-patterns/overview)
+3. Identify patterns
 
 # Identify patterns
 
