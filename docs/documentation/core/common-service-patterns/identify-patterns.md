@@ -50,30 +50,30 @@ The scenarios are:
 * [request to be added to something](docs/documentation/core/common-service-patterns/service-patterns/request-something/request-to-be-added-to-something/overview)
 
 ## Register something
-Register something helps users to complete a process. Users will create an account with personal and sensitive data that they can return to.
+[Register something](docs/documentation/core/common-service-patterns/service-patterns/register-something/overview) helps users to complete a process. Users will create an account with personal and sensitive data that they can return to.
 
 The scenarios are:
 
-* register to create or share a thing
-* register to apply for a role
-* register to access an existing service, scheme or entitlement
+* [register to create a thing](docs/documentation/core/common-service-patterns/service-patterns/register-something/register-to-create-a-thing/overview)
+* [register to apply for a role](docs/documentation/core/common-service-patterns/service-patterns/register-something/register-to-apply-for-a-role/overview)
+* [register to access an existing service, scheme or entitlement](docs/documentation/core/common-service-patterns/service-patterns/register-something/register-to-access-an-existing-service-scheme-or-entitlement/overview)
 
 ## Pay for something
-Pay for something helps users to transfer money to us.
+[Pay for something](docs/documentation/core/common-service-patterns/service-patterns/pay-for-something/overview) helps users to transfer money to us.
 
 The scenarios are:
 
-* pay for an official status, record or event (something I have to do)
-* pay to manage my account
-* pay for an activity or service (something I want to do)
-* pay to donate or support a service
+* [pay for an official status, record or event](docs/documentation/core/common-service-patterns/service-patterns/pay-for-something/pay-for-an-official-status-record-event/overview)
+* [pay to manage my account](docs/documentation/core/common-service-patterns/service-patterns/pay-for-something/pay-to-manage-my-account/overview)
+* [pay for an activity or service](docs/documentation/core/common-service-patterns/service-patterns/pay-for-something/pay-for-an-activity-or-service/overview)
+* [pay to donate or support a service](docs/documentation/core/common-service-patterns/service-patterns/pay-for-something/pay-to-donate-or-support-a-service/overview)
 
 ## Book something
-Book something helps users to book something, for example a room, an item or someone’s time. Most of these ask the user to select a date and time.
+[Book something](docs/documentation/core/common-service-patterns/service-patterns/book-something/overview) helps users to book something, for example a room, an item or someone’s time. Most of these ask the user to select a date and time.
 
 The scenarios are:
 
-* book an appointment (time, person)
-* book an asset or resource
-* book onto an event that already exists
-* book a place or space
+* [book an appointment](docs/documentation/core/common-service-patterns/service-patterns/book-something/book-an-appointment/overview)
+* [book an asset](docs/documentation/core/common-service-patterns/service-patterns/book-something/book-an-asset/overview)
+* [book onto an event that already exists](docs/documentation/core/common-service-patterns/service-patterns/book-something/book-onto-an-event-that-already-exists/overview)
+* [book a place](docs/documentation/core/common-service-patterns/service-patterns/book-something/book-a-place/overview)
