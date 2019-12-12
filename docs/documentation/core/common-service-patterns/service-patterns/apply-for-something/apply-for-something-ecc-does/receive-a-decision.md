@@ -1,8 +1,8 @@
 1.  [Home](/docs/core/contents)
-2.	[Common service patterns] ()
-3.  [Apply for something] ()
-4.  [Apply for something we do] ()
-5.  [Receive a decision] (#)
+2.	[Common service patterns](docs/documentation/core/common-service-patterns/overview)
+3.  [Apply for something](docs/documentation/core/common-service-patterns/service-patterns/apply-for-something/overview)
+4.  [Apply for something we do](docs/documentation/core/common-service-patterns/service-patterns/apply-for-something/apply-for-something-ecc-does/overview)
+5.  Receive a decision
 
 # Receive a decision
 After the user submits their application, they will receive an outcome. 
