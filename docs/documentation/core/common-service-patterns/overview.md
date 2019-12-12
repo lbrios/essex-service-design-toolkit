@@ -1,5 +1,5 @@
-1.  [Home](/docs/core/contents)
-2.	[Common service patterns](#)
+1. [Home](/docs/core/contents)
+2. Common service patterns
 
 # Common service patterns
 
