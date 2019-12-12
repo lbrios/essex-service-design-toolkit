@@ -16,8 +16,8 @@ Common service patterns can be used to design and implement improved experiences
 
 The steps below are a common approach to help apply a pattern to a service. To get the most from the library:
 
-* [identify the most applicable service pattern](/docs/documentation/core/common-service-patterns/identify-patterns)
-* [map the ‘as is’ service](/docs/documentation/core/common-service-patterns/map-as-is)
-* [identify insights and design opportunities](/docs/documentation/core/common-service-patterns/identify-insights-and-design-opportunities)
-* [create a prototype](/docs/documentation/core/common-service-patterns/create-a-prototype)
-* [test the prototype](/docs/documentation/core/common-service-patterns/test-the-prototype)
+* [identify the most applicable service pattern](/docs/core/common-service-patterns/identify-patterns)
+* [map the ‘as is’ service](/docs/core/common-service-patterns/map-as-is)
+* [identify insights and design opportunities](/docs/core/common-service-patterns/identify-insights-and-design-opportunities)
+* [create a prototype](/docs/core/common-service-patterns/create-a-prototype)
+* [test the prototype](/docs/core/common-service-patterns/test-the-prototype)

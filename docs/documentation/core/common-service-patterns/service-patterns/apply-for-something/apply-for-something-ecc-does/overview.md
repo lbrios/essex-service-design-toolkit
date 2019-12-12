@@ -1,6 +1,6 @@
 1.  [Home](/docs/core/contents)
-2.	[Common service patterns](/docs/documentation/core/common-service-patterns/overview)
-3.  [Apply for something](/docs/documentation/core/common-service-patterns/service-patterns/apply-for-something/overview)
+2.	[Common service patterns](/docs/core/common-service-patterns/overview)
+3.  [Apply for something](/docs/core/common-service-patterns/service-patterns/apply-for-something/overview)
 4.  Apply for something we do
 
 # Apply for something we do
@@ -8,9 +8,9 @@ The user is applying for a service that we are responsible for providing. The us
 
 There are 6 steps in the ‘apply for something we do’ scenario: 
 
-* [before applying](/docs/documentation/core/common-service-patterns/service-patterns/apply-for-something/apply-for-something-ecc-does/before-applying)
-* [apply](/docs/documentation/core/common-service-patterns/service-patterns/apply-for-something/apply-for-something-ecc-does/apply)
-* [submit an application](/docs/documentation/core/common-service-patterns/service-patterns/apply-for-something/apply-for-something-ecc-does/submit-an-application)
-* [wait for a decision](/docs/documentation/core/common-service-patterns/service-patterns/apply-for-something/apply-for-something-ecc-does/wait-for-a-decision)
-* [receive a decision](/docs/documentation/core/common-service-patterns/service-patterns/apply-for-something/apply-for-something-ecc-does/receive-a-decision)
-* [next steps](/docs/documentation/core/common-service-patterns/service-patterns/apply-for-something/apply-for-something-ecc-does/next-steps)
+* [before applying](/docs/core/common-service-patterns/service-patterns/apply-for-something/apply-for-something-ecc-does/before-applying)
+* [apply](/docs/core/common-service-patterns/service-patterns/apply-for-something/apply-for-something-ecc-does/apply)
+* [submit an application](/docs/core/common-service-patterns/service-patterns/apply-for-something/apply-for-something-ecc-does/submit-an-application)
+* [wait for a decision](/docs/core/common-service-patterns/service-patterns/apply-for-something/apply-for-something-ecc-does/wait-for-a-decision)
+* [receive a decision](/docs/core/common-service-patterns/service-patterns/apply-for-something/apply-for-something-ecc-does/receive-a-decision)
+* [next steps](/docs/core/common-service-patterns/service-patterns/apply-for-something/apply-for-something-ecc-does/next-steps)

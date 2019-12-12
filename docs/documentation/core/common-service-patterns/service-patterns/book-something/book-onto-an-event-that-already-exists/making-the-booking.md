@@ -1,7 +1,7 @@
 1.  [Home](/docs/core/contents)
-2.	[Common service patterns](/docs/documentation/core/common-service-patterns/overview)
-3.  [Book something](/docs/documentation/core/common-service-patterns/service-patterns/book-something/overview.md)
-4.  [Book onto an event that already exists](/docs/documentation/core/common-service-patterns/service-patterns/book-something/book-onto-an-event-that-already-exists/overview)
+2.	[Common service patterns](/docs/core/common-service-patterns/overview)
+3.  [Book something](/docs/core/common-service-patterns/service-patterns/book-something/overview.md)
+4.  [Book onto an event that already exists](/docs/core/common-service-patterns/service-patterns/book-something/book-onto-an-event-that-already-exists/overview)
 4.  Making a booking
 
 # Making a booking
@@ -20,7 +20,7 @@ The user needs are:
 
 The user opens the booking platform. 
 
-Users who book regularly can [sign into their account](/docs/documentation/core/common-service-patterns/service-patterns/register-something/overview). Their personal data is stored and retrieved in this booking process. The user will only need to enter any extra details about their booking and then confirm the information before going onto the next stage. 
+Users who book regularly can [sign into their account](/docs/core/common-service-patterns/service-patterns/register-something/overview). Their personal data is stored and retrieved in this booking process. The user will only need to enter any extra details about their booking and then confirm the information before going onto the next stage. 
 
 If users don’t have an account, then they can sign in as a guest. They can input their personal details, additional booking details and confirm the information before going onto the next stage.
 
