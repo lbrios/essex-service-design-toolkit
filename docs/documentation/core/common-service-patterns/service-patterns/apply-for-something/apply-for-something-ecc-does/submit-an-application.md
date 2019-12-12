@@ -1,8 +1,8 @@
 1.  [Home](/docs/core/contents)
-2.	[Common service patterns] ()
-3.  [Apply for something] ()
-4.  [Apply for something we do] ()
-5.  [Submits application] (#)
+2.	[Common service patterns](docs/documentation/core/common-service-patterns/overview)
+3.  [Apply for something](docs/documentation/core/common-service-patterns/service-patterns/apply-for-something/overview)
+4.  [Apply for something we do](docs/documentation/core/common-service-patterns/service-patterns/apply-for-something/apply-for-something-ecc-does/overview)
+5.  Submits application
 
 # Submits application
 Whether the submission takes place online or offline, the user will want to know whether the submission has been successful. There should be an acknowledgment of an application through whatever channel the user has specified.
