@@ -1,8 +1,8 @@
 1.  [Home](/docs/core/contents)
-2.	[Common service patterns] ()
-3.  [Apply for something] ()
-4.  [Apply for something we do] ()
-5.  [Wait for a decision] (#)
+2.	[Common service patterns](docs/documentation/core/common-service-patterns/overview)
+3.  [Apply for something](docs/documentation/core/common-service-patterns/service-patterns/apply-for-something/overview)
+4.  [Apply for something we do](docs/documentation/core/common-service-patterns/service-patterns/apply-for-something/apply-for-something-ecc-does/overview)
+5.  Wait for a decision
 
 # Wait for a decision
 After submitting the application, the user will wait for a decision and will be told how long it will take. The decision making process should be transparent. Users should know who and where they can get help from if they need it. 
