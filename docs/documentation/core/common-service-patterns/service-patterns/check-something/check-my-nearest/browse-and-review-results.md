@@ -1,8 +1,8 @@
 1.  [Home](/docs/core/contents)
-2.	[Common service patterns] ()
-3.  [Check something] ()
-4.  [Check my nearest or most relevant] ()
-5.  [Browse and review results) (#)
+2.	 [Common service patterns](/docs/documentation/core/common-service-patterns/overview)
+3.  [Check something](docs/documentation/core/common-service-patterns/service-patterns/check-something/overview)
+4.  [Check my nearest or most relevant] (/docs/documentation/core/common-service-patterns/service-patterns/check-something/check-my-nearest/overview)
+5.  Browse and review results
 
 # Browse and review results
 Search results will be presented in a way that helps the user to make a decision.
