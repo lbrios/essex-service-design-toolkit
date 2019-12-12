@@ -1,16 +1,16 @@
 1.  [Home](/docs/core/contents)
-2.	[Common service patterns] ()
-3.  [Apply for something] ()
-4.  [Apply for something we do] (#)
+2.	[Common service patterns](docs/documentation/core/common-service-patterns/overview)
+3.  [Apply for something](docs/documentation/core/common-service-patterns/service-patterns/apply-for-something/overview)
+4.  Apply for something we do
 
 # Apply for something we do
 The user is applying for a service that we are responsible for providing. The user will have checked they’re eligible and has decided to apply for the service. 
 
 There are 6 steps in the ‘apply for something we do’ scenario: 
 
-* before applying 
-* apply
-* submit an application  
-* wait for a decision 
-* receive a decision 
-* next steps 
+* [before applying](docs/documentation/core/common-service-patterns/service-patterns/apply-for-something/apply-for-something-ecc-does/before-applying)
+* [apply](docs/documentation/core/common-service-patterns/service-patterns/apply-for-something/apply-for-something-ecc-does/apply)
+* [submit an application](docs/documentation/core/common-service-patterns/service-patterns/apply-for-something/apply-for-something-ecc-does/submit-an-application)
+* [wait for a decision](docs/documentation/core/common-service-patterns/service-patterns/apply-for-something/apply-for-something-ecc-does/wait-for-a-decision)
+* [receive a decision](docs/documentation/core/common-service-patterns/service-patterns/apply-for-something/apply-for-something-ecc-does/receive-a-decision)
+* [next steps](docs/documentation/core/common-service-patterns/service-patterns/apply-for-something/apply-for-something-ecc-does/next-steps)
