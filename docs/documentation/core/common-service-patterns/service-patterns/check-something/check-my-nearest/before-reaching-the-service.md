@@ -1,7 +1,7 @@
 1.  [Home](/docs/core/contents)
 2.	[Common service patterns](/docs/documentation/core/common-service-patterns/overview)
 3.  [Check something](docs/documentation/core/common-service-patterns/service-patterns/check-something/overview)
-4.  [Check my nearest or most relevant] (/docs/documentation/core/common-service-patterns/service-patterns/check-something/check-my-nearest/overview)
+4.  [Check my nearest or most relevant](/docs/documentation/core/common-service-patterns/service-patterns/check-something/check-my-nearest/overview)
 5.  Before reaching the service
 
 # Before reaching the service
