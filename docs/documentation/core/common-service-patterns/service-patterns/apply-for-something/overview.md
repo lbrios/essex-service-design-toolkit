@@ -3,7 +3,7 @@
 3.  Apply for something
 
 # Apply for something
-The 'apply for something pattern' (INSERT LINK TO APPLY FOR SOMETHING PATTERN) allows a user to receive or access a service. Where we are responsible for authorising an outcome for the user.  
+The 'apply for something' pattern allows a user to receive or access a service. Where we are responsible for authorising an outcome for the user.  
 
 The user will follow the check something pattern before using the ‘apply for something’ pattern.
 
@@ -15,8 +15,8 @@ If there’s no eligibility criteria, then consider moving users to a ‘book’
 
 There are 5 scenarios under the ‘apply for something’ pattern:
 
-* apply for a role
-* apply for funding  
-* apply for permission to do something myself 
-* apply for something we do 
-* apply to appeal a decision
+* [apply for a role](docs/documentation/core/common-service-patterns/service-patterns/apply-for-something/apply-for-a-role/overview)
+* [apply for funding](docs/documentation/core/common-service-patterns/service-patterns/apply-for-something/apply-for-a-grant/overview)
+* [apply for permission to do something myself](docs/documentation/core/common-service-patterns/service-patterns/apply-for-something/apply-for-permission-to-do-something-myself/overview)
+* [apply for something we do](docs/documentation/core/common-service-patterns/service-patterns/apply-for-something/apply-for-something-ecc-does/overview)
+* [apply to appeal a decision](docs/documentation/core/common-service-patterns/service-patterns/apply-for-something/apply-to-appeal-a-decision/overview)
