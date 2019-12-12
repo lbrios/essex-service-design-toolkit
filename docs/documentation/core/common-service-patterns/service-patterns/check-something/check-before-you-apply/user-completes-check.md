@@ -1,7 +1,8 @@
 1.  [Home](/docs/core/contents)
-2.	[Common service patterns] ()
-3.  [Check something] ()
-4.  [User completes check] (#)
+2.	[Common service patterns](/docs/documentation/core/common-service-patterns/overview)
+3.  [Check something](docs/documentation/core/common-service-patterns/service-patterns/check-something/overview)
+4.  [Check before you apply](/docs/documentation/core/common-service-patterns/service-patterns/check-something/check-before-you-apply/overview)
+5.  User completes check
 
 # User completes check
 
