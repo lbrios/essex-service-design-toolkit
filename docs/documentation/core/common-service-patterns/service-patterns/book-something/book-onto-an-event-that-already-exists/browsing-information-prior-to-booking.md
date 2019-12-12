@@ -1,8 +1,8 @@
 1.  [Home](/docs/core/contents)
-2.	[Common service patterns] ()
-3.  [Book something] ()
-4.  [Book onto an event that already exists]()
-5.  [Browsing information prior to booking](#)
+2.	[Common service patterns](/docs/documentation/core/common-service-patterns/overview)
+3.  [Book something](/docs/documentation/core/common-service-patterns/service-patterns/book-something/overview.md)
+4.  [Book onto an event that already exists](/docs/documentation/core/common-service-patterns/service-patterns/book-something/book-onto-an-event-that-already-exists/overview)
+5.  Browsing information prior to booking
 
 # Browsing information prior to booking
 This section happens just before the booking, when the user is browsing events. 
