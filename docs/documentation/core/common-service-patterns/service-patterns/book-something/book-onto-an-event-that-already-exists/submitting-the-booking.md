@@ -1,7 +1,8 @@
 1.  [Home](/docs/core/contents)
-2.	[Common service patterns] ()
-3.  [Book something] ()
-4.  [Submitting the booking] (#)
+2.	[Common service patterns](/docs/documentation/core/common-service-patterns/overview)
+3.  [Book something](/docs/documentation/core/common-service-patterns/service-patterns/book-something/overview.md)
+4.  [Book onto an event that already exists](/docs/documentation/core/common-service-patterns/service-patterns/book-something/book-onto-an-event-that-already-exists/overview)
+5.  Submitting the booking
 
 # Submitting the booking
 This phase describes the submission of the booking after details have been checked or reviewed. If payment is required, the user is then prompted to pay for the event. 
