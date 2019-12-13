@@ -46,7 +46,7 @@ The scenarios are:
 
 * [request information](/docs/core/common-service-patterns/service-patterns/request-something/request-information/overview)
 * [request financial compensation](/docs/core/common-service-patterns/service-patterns/request-something/request-financial-compensation/overview)
-* [request for support or a service from us](/docs/core/common-service-patterns/service-patterns/request-something/request-for-support-from-us/overview)
+* [request support from us](/docs/core/common-service-patterns/service-patterns/request-something/request-for-support-from-us/overview)
 * [request to be added to something](/docs/core/common-service-patterns/service-patterns/request-something/request-to-be-added-to-something/overview)
 
 ## Register something
