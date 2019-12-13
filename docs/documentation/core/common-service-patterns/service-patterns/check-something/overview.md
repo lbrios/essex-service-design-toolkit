@@ -3,7 +3,7 @@
 3.  Check something
 
 # Check something
-The check something pattern (LINK TO CHECK SOMETHING PATTERN IMAGE) allows a user to look up information and understand if it applies to them. The information might be about their eligibility, status or location.
+The check something pattern allows a user to look up information and understand if it applies to them. The information might be about their eligibility, status or location.
 
 This is usually the first pattern in a user’s journey. It helps people make decisions early on before they engage with a service. For example, an eligibility check.
 
