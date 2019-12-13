@@ -6,7 +6,7 @@
 ## Overview
 Common service patterns are a shared set of guidelines and best practice to enable new ways of delivering the same types of experiences.
 
-Services across ECC share similar types of transactions, interactions and usage of tech platforms. But many are designed and implemented differently and offer residents inconsistent experiences.
+Our services share similar types of transactions, interactions and usage of tech platforms. But many are designed and implemented differently and offer users inconsistent experiences.
 
 Common service patterns can be used to design and implement improved experiences at scale.
 
