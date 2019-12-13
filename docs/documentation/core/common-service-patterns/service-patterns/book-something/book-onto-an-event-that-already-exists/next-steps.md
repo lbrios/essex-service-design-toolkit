@@ -1,7 +1,7 @@
 1.  [Home](/docs/core/contents)
-2.	[Common service patterns](/docs/documentation/core/common-service-patterns/overview)
-3.  [Book something](/docs/documentation/core/common-service-patterns/service-patterns/book-something/overview.md)
-4.  [Book onto an event that already exists](/docs/documentation/core/common-service-patterns/service-patterns/book-something/book-onto-an-event-that-already-exists/overview)
+2.	[Common service patterns](/docs/core/common-service-patterns/overview)
+3.  [Book something](/docs/core/common-service-patterns/service-patterns/book-something/overview.md)
+4.  [Book onto an event that already exists](/docs/core/common-service-patterns/service-patterns/book-something/book-onto-an-event-that-already-exists/overview)
 5.  Next steps
 
 # Next steps

@@ -1,6 +1,6 @@
 1.  [Home](/docs/core/contents)
-2.	[Common service patterns](/docs/documentation/core/common-service-patterns/overview)
-3.  [Book something](/docs/documentation/core/common-service-patterns/service-patterns/book-something/overview.md)
+2.	[Common service patterns](/docs/core/common-service-patterns/overview)
+3.  [Book something](/docs/core/common-service-patterns/service-patterns/book-something/overview.md)
 4.  Book onto an event that already exists
 
 # Book onto an event that already exists
@@ -12,8 +12,8 @@ This scenario may contain ‘register for something’, ‘pay for something’ 
 
 There are 5 steps within the ‘book onto an event’ scenario: 
 
-* [browse information before booking](/docs/documentation/core/common-service-patterns/service-patterns/book-something/book-onto-an-event-that-already-exists/overview)
-* [make a decision](/docs/documentation/core/common-service-patterns/service-patterns/book-something/book-onto-an-event-that-already-exists/making-a-decision-about-whether-to-book-a-place)
-* [make the booking](/docs/documentation/core/common-service-patterns/service-patterns/book-something/book-onto-an-event-that-already-exists/making-the-booking)
-* [submit the booking](/docs/documentation/core/common-service-patterns/service-patterns/book-something/book-onto-an-event-that-already-exists/submitting-the-booking)
-* [next steps](/docs/documentation/core/common-service-patterns/service-patterns/book-something/book-onto-an-event-that-already-exists/next-steps)
+* [browse information before booking](/docs/core/common-service-patterns/service-patterns/book-something/book-onto-an-event-that-already-exists/overview)
+* [make a decision](/docs/core/common-service-patterns/service-patterns/book-something/book-onto-an-event-that-already-exists/making-a-decision-about-whether-to-book-a-place)
+* [make the booking](/docs/core/common-service-patterns/service-patterns/book-something/book-onto-an-event-that-already-exists/making-the-booking)
+* [submit the booking](/docs/core/common-service-patterns/service-patterns/book-something/book-onto-an-event-that-already-exists/submitting-the-booking)
+* [next steps](/docs/core/common-service-patterns/service-patterns/book-something/book-onto-an-event-that-already-exists/next-steps)

@@ -1,5 +1,5 @@
 1.  [Home](/docs/core/contents)
-2.	[Common service patterns](/docs/documentation/core/common-service-patterns/overview)
+2.	[Common service patterns](/docs/core/common-service-patterns/overview)
 3.  Apply for something
 
 # Apply for something
@@ -15,8 +15,8 @@ If there’s no eligibility criteria, then consider moving users to a ‘book’
 
 There are 5 scenarios under the ‘apply for something’ pattern:
 
-* [apply for a role](/docs/documentation/core/common-service-patterns/service-patterns/apply-for-something/apply-for-a-role/overview)
-* [apply for funding](/docs/documentation/core/common-service-patterns/service-patterns/apply-for-something/apply-for-a-grant/overview)
-* [apply for permission to do something myself](/docs/documentation/core/common-service-patterns/service-patterns/apply-for-something/apply-for-permission-to-do-something-myself/overview)
-* [apply for something we do](/docs/documentation/core/common-service-patterns/service-patterns/apply-for-something/apply-for-something-ecc-does/overview)
-* [apply to appeal a decision](/docs/documentation/core/common-service-patterns/service-patterns/apply-for-something/apply-to-appeal-a-decision/overview)
+* [apply for a role](/docs/core/common-service-patterns/service-patterns/apply-for-something/apply-for-a-role/overview)
+* [apply for funding](/docs/core/common-service-patterns/service-patterns/apply-for-something/apply-for-a-grant/overview)
+* [apply for permission to do something myself](/docs/core/common-service-patterns/service-patterns/apply-for-something/apply-for-permission-to-do-something-myself/overview)
+* [apply for something we do](/docs/core/common-service-patterns/service-patterns/apply-for-something/apply-for-something-ecc-does/overview)
+* [apply to appeal a decision](/docs/core/common-service-patterns/service-patterns/apply-for-something/apply-to-appeal-a-decision/overview)

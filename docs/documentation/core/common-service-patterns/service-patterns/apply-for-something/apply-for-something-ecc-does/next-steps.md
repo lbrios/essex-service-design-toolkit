@@ -1,7 +1,7 @@
 1.  [Home](/docs/core/contents)
-2.	[Common service patterns](/docs/documentation/core/common-service-patterns/overview)
-3.  [Apply for something](/docs/documentation/core/common-service-patterns/service-patterns/apply-for-something/overview)
-4.  [Apply for something we do](/docs/documentation/core/common-service-patterns/service-patterns/apply-for-something/apply-for-something-ecc-does/overview)
+2.	[Common service patterns](/docs/core/common-service-patterns/overview)
+3.  [Apply for something](/docs/core/common-service-patterns/service-patterns/apply-for-something/overview)
+4.  [Apply for something we do](/docs/core/common-service-patterns/service-patterns/apply-for-something/apply-for-something-ecc-does/overview)
 5.  Next steps
 
 # Next steps
@@ -25,7 +25,7 @@ There are several paths for the user after an outcome has been received.
 
 If their application is successful, tell the user what happens next and if they’re eligible for other services. 
 
-If their application is unsuccessful, give the user the option to appeal or challenge the decision (see [apply for something: appeal a decision](/docs/documentation/core/common-service-patterns/service-patterns/apply-for-something/apply-to-appeal-a-decision/overview) for further guidance). You could also point them to alternative guidance or services before their application journey ends. 
+If their application is unsuccessful, give the user the option to appeal or challenge the decision (see [apply for something: appeal a decision](/docs/core/common-service-patterns/service-patterns/apply-for-something/apply-to-appeal-a-decision/overview) for further guidance). You could also point them to alternative guidance or services before their application journey ends. 
 
 ## Service consideration
 

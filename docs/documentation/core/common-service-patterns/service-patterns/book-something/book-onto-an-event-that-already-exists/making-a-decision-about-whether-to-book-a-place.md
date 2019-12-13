@@ -1,11 +1,11 @@
 1.  [Home](/docs/core/contents)
-2.	[Common service patterns](/docs/documentation/core/common-service-patterns/overview)
-3.  [Book something](/docs/documentation/core/common-service-patterns/service-patterns/book-something/overview.md)
-4.  [Book onto an event that already exists](/docs/documentation/core/common-service-patterns/service-patterns/book-something/book-onto-an-event-that-already-exists/overview)
+2.	[Common service patterns](/docs/core/common-service-patterns/overview)
+3.  [Book something](/docs/core/common-service-patterns/service-patterns/book-something/overview.md)
+4.  [Book onto an event that already exists](/docs/core/common-service-patterns/service-patterns/book-something/book-onto-an-event-that-already-exists/overview)
 5.  Making a decision
 
 # Making a decision
-The user has found their nearest or most relevant event through a [‘check my nearest’](/docs/documentation/core/common-service-patterns/service-patterns/check-something/check-my-nearest/overview) scenario pattern. They now need to decide whether they want to attend the event based on location, cost and other factors. 
+The user has found their nearest or most relevant event through a [‘check my nearest’](/docs/core/common-service-patterns/service-patterns/check-something/check-my-nearest/overview) scenario pattern. They now need to decide whether they want to attend the event based on location, cost and other factors. 
 
 ## User needs
 
@@ -24,7 +24,7 @@ Users who can’t find a suitable event because of the event’s date or locatio
 
 ### Filtering
 
-Within [‘check my nearest’](/docs/documentation/core/common-service-patterns/service-patterns/check-something/check-my-nearest/overview), make sure that filtering meets users' motivations and triggers for coming to that page.
+Within [‘check my nearest’](/docs/core/common-service-patterns/service-patterns/check-something/check-my-nearest/overview), make sure that filtering meets users' motivations and triggers for coming to that page.
 
 Think about what they want to book. For example, an event that will happen at a specific time. Think about whether to display all events or encourage them to filter first.
 
@@ -34,7 +34,7 @@ Make sure that the conditions for accessing the service and booking are clear at
 
 ### Information to help the decision
 
-Users will have their result from the [‘check my nearest’](/docs/documentation/core/common-service-patterns/service-patterns/check-something/check-my-nearest/overview) pattern.
+Users will have their result from the [‘check my nearest’](/docs/core/common-service-patterns/service-patterns/check-something/check-my-nearest/overview) pattern.
 
 Think about whether users know enough about the event to support their decision making including:
 

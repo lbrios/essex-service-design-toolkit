@@ -1,7 +1,7 @@
 1.  [Home](/docs/core/contents)
-2.	[Common service patterns](/docs/documentation/core/common-service-patterns/overview)
-3.  [Apply for something](/docs/documentation/core/common-service-patterns/service-patterns/apply-for-something/overview)
-4.  [Apply for something we do](/docs/documentation/core/common-service-patterns/service-patterns/apply-for-something/apply-for-something-ecc-does/overview)
+2.	[Common service patterns](/docs/core/common-service-patterns/overview)
+3.  [Apply for something](/docs/core/common-service-patterns/service-patterns/apply-for-something/overview)
+4.  [Apply for something we do](/docs/core/common-service-patterns/service-patterns/apply-for-something/apply-for-something-ecc-does/overview)
 5.  Apply
 
 # Apply
@@ -50,7 +50,7 @@ Things to consider about the application experience include:
 * whether the user might resubmit the same information for multiple applications, for example applying for a job - if so, follow the register pattern to set up a user account
 * breaking the application down into separate stages if it’s a multi-stage application
 * if users can tell what stage they’re at and what’s next 
-* if users don’t need to submit personal information, the application could be replaced by a different pattern such as [‘book something’](/docs/documentation/core/common-service-patterns/service-patterns/book-something/overview)
+* if users don’t need to submit personal information, the application could be replaced by a different pattern such as [‘book something’](/docs/core/common-service-patterns/service-patterns/book-something/overview)
 
 ## Research considerations 
 

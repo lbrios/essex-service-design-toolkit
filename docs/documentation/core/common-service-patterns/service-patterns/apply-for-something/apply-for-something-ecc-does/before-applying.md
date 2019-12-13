@@ -1,11 +1,11 @@
 1.  [Home](/docs/core/contents)
-2.	[Common service patterns](/docs/documentation/core/common-service-patterns/overview)
-3.  [Apply for something](/docs/documentation/core/common-service-patterns/service-patterns/apply-for-something/overview)
-4.  [Apply for something we do](/docs/documentation/core/common-service-patterns/service-patterns/apply-for-something/apply-for-something-ecc-does/overview)
+2.	[Common service patterns](/docs/core/common-service-patterns/overview)
+3.  [Apply for something](/docs/core/common-service-patterns/service-patterns/apply-for-something/overview)
+4.  [Apply for something we do](/docs/core/common-service-patterns/service-patterns/apply-for-something/apply-for-something-ecc-does/overview)
 5.  Before applying
 
 # Before applying
-The user has either searched for or landed on our website. The user is likely to be searching for information about the service. They are looking to see if they are eligible for a service before moving onto an application. See the [‘check before you apply’](/docs/documentation/core/common-service-patterns/service-patterns/check-something/check-before-you-apply/overview) flow.
+The user has either searched for or landed on our website. The user is likely to be searching for information about the service. They are looking to see if they are eligible for a service before moving onto an application. See the [‘check before you apply’](/docs/core/common-service-patterns/service-patterns/check-something/check-before-you-apply/overview) flow.
 
 ## User needs
 The user need are:

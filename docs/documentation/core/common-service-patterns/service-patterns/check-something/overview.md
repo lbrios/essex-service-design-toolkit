@@ -1,5 +1,5 @@
 1.  [Home](/docs/core/contents)
-2.	[Common service patterns](/docs/documentation/core/common-service-patterns/overview)
+2.	[Common service patterns](/docs/core/common-service-patterns/overview)
 3.  Check something
 
 # Check something
@@ -11,6 +11,6 @@ The pattern also keeps users up to date after they’ve used a service.
 
 There are 3 scenarios under the ‘check something’ pattern:
 
-* [check before you apply](/docs/documentation/core/common-service-patterns/service-patterns/check-something/check-before-you-apply/check-before-you-apply)
-* [check to understand something](/docs/documentation/core/common-service-patterns/service-patterns/check-something/check-to-understand-something/overview)
-* [check my nearest](/docs/documentation/core/common-service-patterns/service-patterns/check-something/check-my-nearest/overview)
+* [check before you apply](/docs/core/common-service-patterns/service-patterns/check-something/check-before-you-apply/check-before-you-apply)
+* [check to understand something](/docs/core/common-service-patterns/service-patterns/check-something/check-to-understand-something/overview)
+* [check my nearest](/docs/core/common-service-patterns/service-patterns/check-something/check-my-nearest/overview)
