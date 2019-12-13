@@ -4,7 +4,7 @@
 
 # Identify patterns
 
-We have identified 7 service patterns across ECC:
+We have identified 7 service patterns across our services.
 
 ## Check something
 [Check something](/docs/core/common-service-patterns/service-patterns/check-something/overview) helps users look up information and check whether it applies to them. When eligibility can be done separately from an application, it should be considered part of this pattern.
@@ -23,7 +23,7 @@ The scenarios are:
 * [apply for a role or job](/docs/core/common-service-patterns/service-patterns/apply-for-something/apply-for-a-role/overview)
 * [apply for a grant](/docs/core/common-service-patterns/service-patterns/apply-for-something/apply-for-a-grant/overview)
 * [apply for permission to do something myself](/docs/core/common-service-patterns/service-patterns/apply-for-something/apply-for-permission-to-do-something-myself/overview)
-* [apply for something ECC does](/docs/core/common-service-patterns/service-patterns/apply-for-something/apply-for-something-ecc-does/overview)
+* [apply for something we do](/docs/core/common-service-patterns/service-patterns/apply-for-something/apply-for-something-ecc-does/overview)
 * [apply to appeal a decision](/docs/core/common-service-patterns/service-patterns/apply-for-something/apply-to-appeal-a-decision/overview)
 
 ## Tell something
@@ -69,7 +69,7 @@ The scenarios are:
 * [pay to donate or support a service](/docs/core/common-service-patterns/service-patterns/pay-for-something/pay-to-donate-or-support-a-service/overview)
 
 ## Book something
-[Book something](/docs/core/common-service-patterns/service-patterns/book-something/overview) helps users to book something, for example a room, an item or someone’s time. Most of these ask the user to select a date and time.
+[Book something](/docs/core/common-service-patterns/service-patterns/book-something/overview) helps users to book something. For example a room, an item or someone’s time. Most of these ask the user to select a date and time.
 
 The scenarios are:
 
