@@ -34,6 +34,14 @@ You can check the accessibility of the colour contrast, using this free tool fro
 
 Use the [WebAim colour contrast checker](https://webaim.org/resources/contrastchecker/ "WebAim colour contrast checker").
 
+You can check colour contrast that includes transparency, using this free tool by Joe Dolson. You will need to have either of the following colour codes handy:
+- Hexadecimal
+- Red, Blue, Green (RGB)
+- Hue, Saturation and Luminance (HSL)
+
+Use the [Joe Dolson colour contrast tester](https://www.joedolson.com/tools/color-contrast.php#hex "Joe Dolson colour contrast tester").
+
+
 ## Free assistive technology tools
 
 The Government Digital Service has a handy blog post with some [recommendations for free assistive technology checkers](https://accessibility.blog.gov.uk/2018/09/27/assistive-technology-tools-you-can-use-at-no-cost/).
