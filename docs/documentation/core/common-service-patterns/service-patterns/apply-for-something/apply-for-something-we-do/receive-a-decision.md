@@ -1,7 +1,7 @@
 1.  [Home](/docs/core/contents)
 2.	[Common service patterns](/docs/core/common-service-patterns/overview)
 3.  [Apply for something](/docs/core/common-service-patterns/service-patterns/apply-for-something/overview)
-4.  [Apply for something we do](/docs/core/common-service-patterns/service-patterns/apply-for-something/apply-for-something-ecc-does/overview)
+4.  [Apply for something we do](/docs/core/common-service-patterns/service-patterns/apply-for-something/apply-for-something-we-do/overview)
 5.  Receive a decision
 
 # Receive a decision

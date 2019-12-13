@@ -13,7 +13,7 @@ The scenarios are:
 
 * [check before you apply](/docs/core/common-service-patterns/service-patterns/check-something/check-before-you-apply/overview)
 * [check to understand something](/docs/core/common-service-patterns/service-patterns/check-something/check-to-understand-something/overview)
-* [check my nearest or most relevant](/docs/core/common-service-patterns/service-patterns/check-something/check-my-nearest/overview)
+* [check my nearest or most relevant](/docs/core/common-service-patterns/service-patterns/check-something/check-my-nearest-or-most-relevant/overview)
 
 ## Apply for something
 [Apply for something](/docs/core/common-service-patterns/service-patterns/apply-for-something/overview) helps users to complete an application process.
@@ -23,7 +23,7 @@ The scenarios are:
 * [apply for a role or job](/docs/core/common-service-patterns/service-patterns/apply-for-something/apply-for-a-role/overview)
 * [apply for a grant](/docs/core/common-service-patterns/service-patterns/apply-for-something/apply-for-a-grant/overview)
 * [apply for permission to do something myself](/docs/core/common-service-patterns/service-patterns/apply-for-something/apply-for-permission-to-do-something-myself/overview)
-* [apply for something we do](/docs/core/common-service-patterns/service-patterns/apply-for-something/apply-for-something-ecc-does/overview)
+* [apply for something we do](/docs/core/common-service-patterns/service-patterns/apply-for-something/apply-for-something-we-do/overview)
 * [apply to appeal a decision](/docs/core/common-service-patterns/service-patterns/apply-for-something/apply-to-appeal-a-decision/overview)
 
 ## Tell something
@@ -46,7 +46,7 @@ The scenarios are:
 
 * [request information](/docs/core/common-service-patterns/service-patterns/request-something/request-information/overview)
 * [request financial compensation](/docs/core/common-service-patterns/service-patterns/request-something/request-financial-compensation/overview)
-* [request support from us](/docs/core/common-service-patterns/service-patterns/request-something/request-for-support-from-us/overview)
+* [request support from us](/docs/core/common-service-patterns/service-patterns/request-something/request-support-from-us/overview)
 * [request to be added to something](/docs/core/common-service-patterns/service-patterns/request-something/request-to-be-added-to-something/overview)
 
 ## Register something
