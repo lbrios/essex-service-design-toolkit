@@ -1,8 +1,9 @@
 1.  [Home](/docs/core/contents)
 2.	[Common service patterns](/docs/core/common-service-patterns/overview)
-3.  [Check something](/docs/core/common-service-patterns/service-patterns/check-something/overview)
-4.  [Check my nearest or most relevant](/docs/core/common-service-patterns/service-patterns/check-something/check-my-nearest-or-most-relevant/overview)
-5.  Next steps
+3.  [Identify patterns](/docs/documentation/core/common-service-patterns/identify-patterns)
+4.  [Check something](/docs/core/common-service-patterns/service-patterns/check-something/overview)
+5.  [Check my nearest or most relevant](/docs/core/common-service-patterns/service-patterns/check-something/check-my-nearest-or-most-relevant/overview)
+6.  Next steps
 
 # Next steps
 The user has made a decision to either leave the site or complete their journey through a booking or application as quickly as possible.
