@@ -1,8 +1,9 @@
 1.  [Home](/docs/core/contents)
 2.	[Common service patterns](/docs/core/common-service-patterns/overview)
-3.  [Check something](/docs/core/common-service-patterns/service-patterns/check-something/overview)
-4.  [Check my nearest or most relevant](/docs/core/common-service-patterns/service-patterns/check-something/check-my-nearest-or-most-relevant/overview)
-5.  Browses for information
+3.  [Identify patterns](/docs/documentation/core/common-service-patterns/identify-patterns)
+4.  [Check something](/docs/core/common-service-patterns/service-patterns/check-something/overview)
+5.  [Check my nearest or most relevant](/docs/core/common-service-patterns/service-patterns/check-something/check-my-nearest-or-most-relevant/overview)
+6.  Browses for information
 
 # Browses for information
 At this stage, the user need is based on identifying something that meets their needs and is close to where they live or work.
