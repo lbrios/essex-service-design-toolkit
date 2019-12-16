@@ -1,6 +1,7 @@
 1.  [Home](/docs/core/contents)
 2.	[Common service patterns](/docs/core/common-service-patterns/overview)
-3.  Register something
+3.  [Identify patterns](/docs/documentation/core/common-service-patterns/identify-patterns)
+4.  Register something
 
 # Register something
 
