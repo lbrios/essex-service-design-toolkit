@@ -1,8 +1,9 @@
 1.  [Home](/docs/core/contents)
 2.	[Common service patterns](/docs/core/common-service-patterns/overview)
-3.  [Check something](/docs/core/common-service-patterns/service-patterns/check-something/overview)
-4.  [Check my nearest or most relevant](/docs/core/common-service-patterns/service-patterns/check-something/check-my-nearest-or-most-relevant/overview)
-5.  Inputs information and filters
+3.  [Identify patterns](/docs/documentation/core/common-service-patterns/identify-patterns)
+4.  [Check something](/docs/core/common-service-patterns/service-patterns/check-something/overview)
+5.  [Check my nearest or most relevant](/docs/core/common-service-patterns/service-patterns/check-something/check-my-nearest-or-most-relevant/overview)
+6.  Inputs information and filters
 
 # Inputs information and filters
 Search results will be generated and presented to the user at this stage.
