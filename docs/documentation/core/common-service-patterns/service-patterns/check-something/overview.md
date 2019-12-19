@@ -1,5 +1,5 @@
 1.  [Home](/docs/core/contents)
-2.	[Common service patterns](/docs/documentation/core/common-service-patterns/identify-patterns)
+2.	[Common service patterns](/docs/documentation/core/common-service-patterns/overview)
 3.  [Identify patterns](/docs/documentation/core/common-service-patterns/identify-patterns)
 4.  Check something
 
