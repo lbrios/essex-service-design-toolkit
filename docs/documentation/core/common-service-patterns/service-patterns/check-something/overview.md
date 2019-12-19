@@ -12,6 +12,6 @@ The pattern also keeps users up to date after they’ve used a service.
 
 There are 3 scenarios under the ‘check something’ pattern:
 
-* [check before you apply](/docs/core/common-service-patterns/service-patterns/check-something/check-before-you-apply/check-before-you-apply)
+* [check before you apply](/docs/core/common-service-patterns/service-patterns/check-something/check-before-you-apply/overview)
 * [check to understand something](/docs/core/common-service-patterns/service-patterns/check-something/check-to-understand-something/overview)
 * [check my nearest or most relevant](/docs/core/common-service-patterns/service-patterns/check-something/check-my-nearest-or-most-relevant/overview)
