@@ -7,7 +7,7 @@
 # Check before you apply
 This pattern allows the user to check their eligibility before applying for a service. 
 
-There are 5 steps within the ‘check before you use a service’ scenario:
+There are 5 steps within the ‘check before you apply’ scenario:
 
 * [check before you apply](/docs/core/common-service-patterns/service-patterns/check-something/check-before-you-apply/check-before-you-apply)
 * [decision making about whether to apply](/docs/core/common-service-patterns/service-patterns/check-something/check-before-you-apply/decision-making-about-whether-to-apply)
