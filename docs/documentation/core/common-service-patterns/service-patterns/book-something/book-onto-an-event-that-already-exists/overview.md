@@ -4,7 +4,7 @@
 4.  Book onto an event that already exists
 
 # Book onto an event that already exists
-This scenario describes a type of booking. This lets the user book and pay for a place to attend an already existing event. For example, a sports course or a music session.
+This scenario describes a type of booking. This lets the user book for a place to attend an already existing event. For example, a sports course or a music session.
 
 Events could also be things like short breaks for carers. These are open at particular times during the year and need to be reserved ahead of time after the user’s identity has been confirmed. 
 
