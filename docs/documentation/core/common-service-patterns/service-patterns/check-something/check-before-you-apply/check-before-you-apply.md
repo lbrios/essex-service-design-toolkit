@@ -7,10 +7,6 @@
 
 # Check before you apply
 
-## User need
-
-I need to find out whether I can receive x service.
-
 ## Overview
 
 This allows the user to check their eligibility before applying for a service.
@@ -19,7 +15,11 @@ Before entering a ‘check before you apply’ pattern, the user may be browsing
 
 This means not every user comes to an application, or a check eligibility pattern knowing they’re going to check whether they are eligible for something.
 
-They may browse information and find out what services exist in the first place, before deciding to look for more information about a service relevant to them.
+They may browse information and find out what services exist in the first place, before deciding to look for more information about a service relevant to them
+
+## User need
+
+I need to find out whether I can receive x service.
 
 ## User flow
 
