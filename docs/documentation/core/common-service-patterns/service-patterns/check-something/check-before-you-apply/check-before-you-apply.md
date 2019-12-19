@@ -50,7 +50,7 @@ To keep the user informed, consider:
 
 ## Research considerations
 
-Research that needs to be considered includes:
+Things to consider include:
 
 * whether check eligibility should give a definitive answer, for example yes or no
 * the best way to frame the eligibility check to users
