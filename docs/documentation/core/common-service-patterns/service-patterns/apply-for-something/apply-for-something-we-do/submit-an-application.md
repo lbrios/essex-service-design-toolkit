@@ -5,6 +5,9 @@
 5.  Submits application
 
 # Submits application
+
+## Overview
+
 Whether the submission takes place online or offline, the user will want to know whether the submission has been successful. There should be an acknowledgment of an application through whatever channel the user has specified.
 
 ## User needs
@@ -23,10 +26,10 @@ After filling in the application form, the user will submit the application for 
 The user will want to:
 
 * know if the submission has been successful
-* receive a acknowledgement of the application
+* receive an acknowledgement of the application
 * receive a summary of their application
 
-## Considerations for the service 
+## Service considerations
 
 Things to consider include:
 
@@ -36,7 +39,7 @@ Things to consider include:
 * how offline versions will work
 * how the user will know their application has been received
 
-## Research considerations 
+## Research consideration
 
 Consider the method of notification that gives users most confidence.
 
