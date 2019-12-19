@@ -21,11 +21,11 @@ For complex eligibility criteria (4 or more criteria), users should enter a smar
 
 For complex criteria, an accessible explanation of what it means should be provided. This should include how the user can find out whether they fulfil it or not. 
 
-## Considerations for the service
+## Service considerations
 
-When there are 4 and more criteria, translate the eligibility policy into a smart question and answer format (decision tree).
+When there are 4 or more criteria, translate the eligibility policy into a smart question and answer format (decision tree).
 
-Consider:
+Thing to consider include:
 
 * what unique criteria are deal breakers to establish first - this will help establish a hierarchy in the decision tree
 * providing guidance throughout the journey
@@ -37,7 +37,7 @@ Consider:
 
 Consider the best channel for additional support.
 
-## Tech enabled interactions
+## Tech enabled considerations
 
 Things to consider include:
 
