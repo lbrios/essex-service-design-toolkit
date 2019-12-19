@@ -24,7 +24,7 @@ The user needs to quickly find out whether they are likely to be eligible.
 
 This will prepare them for their application and saves time for those users who are not eligible. 
 
-## Considerations for the service
+## Service considerations
 
 Where the result of the eligibility check can be automated, there are 2 scenarios: 
 
@@ -33,6 +33,6 @@ Where the result of the eligibility check can be automated, there are 2 scenario
 
 When the check cannot be automated (because the service area needs to validate or verify whether the user is eligible manually), the user should be told when they will hear back. 
 
-## Tech enabled interactions
+## Tech enabled considerations
 
 Consider if the results will be automated or if it needs an assessment.
