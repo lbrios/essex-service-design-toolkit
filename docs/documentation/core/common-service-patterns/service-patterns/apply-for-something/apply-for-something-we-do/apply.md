@@ -5,27 +5,30 @@
 5.  Apply
 
 # Apply
+
+## Overview
+
 The user is ready to start their application. They need to understand why we are asking for certain information. Where the user needs to send evidence, this should be easy to do. 
 
 ## User needs
 
 The user needs are:
 
-* I need to understand why I am being asked for certain information
+* I need to understand why I'm being asked for certain information
 * I need to upload evidence quickly and easily 
 
 ## User flow 
 
-Allow users to sign into their account to pull through their information (see the register pattern link). Users can only do this if they’ve previously completed an application and created an account with us. The user can then declare that their information remains unchanged, before the application is submitted for review. 
+Allow users to sign into their account to pull through their information (see the ['register pattern'](/docs/documentation/core/common-service-patterns/service-patterns/register-something/overview)). Users can only do this if they’ve previously completed an application and created an account with us. The user can then declare that their information remains unchanged, before the application is submitted for review. 
 
-For new applications, users need to be told in plain English why they need to provide mandatory information. Where users need to provide evidence, make sure users can choose to send this either online and offline. For example:
+For new applications, users need to be told in plain English why they need to provide mandatory information. Where users need to provide evidence, make sure they can choose to send this either online and offline. For example:
 
 * upload a digital document
 * post the document
 
 When the user is ready to submit the application, they should be asked to review and edit it. Once they’ve done this, the user should be asked to declare that information provided is complete and accurate and that they understand the implications of the application being submitted.
 
-The user may be asked to make a payment at this stage. Refer to the ‘pay for something’ pattern.
+The user may be asked to make a payment at this stage. Refer to the [‘pay for something’](/docs/documentation/core/common-service-patterns/service-patterns/pay-for-something/overview) pattern.
 
 ## Considerations for the service 
 
