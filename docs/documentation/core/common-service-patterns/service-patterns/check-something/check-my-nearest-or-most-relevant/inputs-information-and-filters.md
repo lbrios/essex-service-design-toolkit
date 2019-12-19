@@ -6,25 +6,28 @@
 6.  Inputs information and filters
 
 # Inputs information and filters
+
+## Overview
+
 Search results will be generated and presented to the user at this stage.
 
 ## User needs
 
-The user needs to generate results and work through them quickly to make a choice.
+The user needs to work through the results quickly to make a choice.
 
 ## User flow
 
-If a small number of search results have been produced (less than five), the user can view them and make a choice. 
+If a small number of search results have been produced (less than 4), the user can view them and make a choice. 
 
-If multiple search results have been produced (more than five), the user needs to work through them. Using filters will reduce the cognitive burden on the user. 
+If multiple search results have been produced (4 or more), the user needs to work through them. Using filters will reduce the cognitive burden on the user. 
 
-In some situations, the user may be directed to a partner website to access results and will complete their journey there.
+In some situations, the user may be directed to a partner site to access results and will complete their journey there.
 
-## Considerations for the service
+## Service considerations
 
 Consider how many locations or types of services the user must navigate.
 
-### More than 5 results generated
+### More than 4 results generated
 
 Consider a filter and sort function when there is:
 
@@ -33,13 +36,13 @@ Consider a filter and sort function when there is:
 * pre-determined parameters that should be defined for the user, for example catchment areas 
 * a benefit in the filtering or searching being split into steps
 
-### Less than 5 results generated
+### 4 or less results generated
 
 Consider whether users are having difficulty to quickly see or understand where they can access services and what services are available to them. 
 
 ### Multiple results generated and directed to a partner site
 
-Consider:
+Things to consider include:
 
 * if users know they will be directed to another site and if they can navigate back to us
 * if users are informed of next steps once they have reviewed information with partners
@@ -49,7 +52,7 @@ Consider:
 
 Things to consider include:
 
-* any data that exists about things users are checking to find
+* any data that exists about things users are searching for
 * where users drop out of their search
 
 ## Research considerations 
