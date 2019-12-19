@@ -4,7 +4,7 @@
 4.  [Book onto an event that already exists](/docs/core/common-service-patterns/service-patterns/book-something/book-onto-an-event-that-already-exists/overview)
 5.  Making a decision
 
-# Making a decision
+# Make a decision
 The user has found their nearest or most relevant event through a [‘check my nearest’](/docs/core/common-service-patterns/service-patterns/check-something/check-my-nearest-or-most-relevant/overview) scenario pattern. They now need to decide whether they want to attend the event based on location, cost and other factors. 
 
 ## User needs
