@@ -5,6 +5,9 @@
 5.  Receive a decision
 
 # Receive a decision
+
+## Overview
+
 After the user submits their application, they will receive an outcome. 
 
 ## User needs
@@ -19,15 +22,15 @@ The outcome notification can be automated if the user prefers a digital communic
 
 The user should not face any dead ends, even when an application is unsuccessful. 
 
-## Considerations for the service 
+## Service considerations
 
 Things to consider include:
 
-* making sure the notification is sent by the user’s preferred channel
+* making sure the notification is sent to the user’s preferred channel
 * automating the notification of decisions and application status
 * removing any dead ends for the user at the end of the apply process, for example signposting to other relevant services
 * making sure users know where to go, what to do and who to speak to next
 
 ## Research considerations 
 
-Consider the ideal time in an application to tell users when they will receive a decision.
+Consider the best time to tell users when they will receive a decision - should this be before, during or after submission.
