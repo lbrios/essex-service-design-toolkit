@@ -9,7 +9,7 @@
 
 ## Overview
 
-At this stage, the user identifies something that meets their needs and is close to where they live or work.
+At this stage, the user is trying to identify something that meets their needs and is close to where they live or work.
 
 The key action at this stage is for the user to be able to find out what the options are so they can decide what to do. 
 
