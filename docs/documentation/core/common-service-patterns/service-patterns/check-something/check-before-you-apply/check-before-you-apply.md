@@ -13,17 +13,19 @@ This allows the user to check their eligibility before applying for a service.
 
 Before entering a ‘check before you apply’ pattern, the user may be browsing information on a more general topic. For example, Trading Standards.
 
-This means not every user comes to an application, or a check eligibility pattern knowing they’re going to check whether they are eligible for something.
-
 They may browse information and find out what services exist in the first place, before deciding to look for more information about a service relevant to them.
+
+This means not every user comes to an application knowing that they need to check whether they're eligible.
 
 ## User need
 
-I need to find out whether I can receive a service.
+I need to find out whether I can receive this service.
 
 ## User flow
 
-Once the user has found a service relevant to them, they will see brief information on what the application involves and eligibility. Eligibility can be high level information. For example ‘users of this service must live or work in Essex and be under 21’. This information should help the user decide quickly whether to start the application process.
+Once the user has found a service relevant to them, they will see brief information on what the application involves and eligibility.
+
+Eligibility can be high level information. For example, users of this service must live or work in Essex and be under 21. This information should help the user decide quickly whether to start the application process.
 
 The user could also be sent to a partner site at this stage. If the service is delivered in a partnership or under a mixed model, the user may have to read quick eligibility criteria on the partner site.
 
@@ -33,7 +35,7 @@ To support the design of the service, consider:
 
 * if a policy or legal framework determines a user’s access to the service
 * the life event that triggered the need for the service
-* other services the user is using or has been signposted from - we can link services together so that the user does not need to
+* other services the user is using or has been signposted from - we can link services together so the user doesn't need to
 * if the user is left with a clear understanding of the end to end application requirements and timeframes in the flat content page
 * if the user knows application requirements, such as documents needing to be uploaded when moving onto the apply pattern
 * an appropriate timeframe to commit to if the service falls outside of a statutory timeline to respond to the user
