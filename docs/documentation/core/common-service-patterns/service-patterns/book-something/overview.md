@@ -5,7 +5,7 @@
 # Book something
 The ‘book something’ pattern helps users to book something. For example a room, an item or someone’s time. Most of these ask the user to choose a date and time.
 
-There are four scenarios under ‘book something’:
+There are 4 scenarios under ‘book something’:
 
 * [book onto an event (that already exists)](/docs/core/common-service-patterns/service-patterns/book-something/book-onto-an-event-that-already-exists/overview)
 * [book an appointment](/docs/core/common-service-patterns/service-patterns/book-something/book-an-appointment/overview)
