@@ -4,7 +4,7 @@
 4.  [Book onto an event that already exists](/docs/core/common-service-patterns/service-patterns/book-something/book-onto-an-event-that-already-exists/overview)
 4.  Making a booking
 
-# Making a booking
+# Make a booking
 The user has decided to book. They can sign into an existing account or sign in as a guest to book.
 
 If there’s no account to pull personal information from, the user will need to input and then confirm personal information and booking details. 

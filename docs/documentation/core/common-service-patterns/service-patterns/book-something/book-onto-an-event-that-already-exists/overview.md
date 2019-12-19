@@ -14,6 +14,6 @@ There are 5 steps within the ‘book onto an event’ scenario:
 
 * [browse information before booking](/docs/core/common-service-patterns/service-patterns/book-something/book-onto-an-event-that-already-exists/overview)
 * [make a decision](/docs/core/common-service-patterns/service-patterns/book-something/book-onto-an-event-that-already-exists/make-a-decision)
-* [make the booking](/docs/core/common-service-patterns/service-patterns/book-something/book-onto-an-event-that-already-exists/make-a-booking)
-* [submit the booking](/docs/core/common-service-patterns/service-patterns/book-something/book-onto-an-event-that-already-exists/submit-a-booking)
+* [make a booking](/docs/core/common-service-patterns/service-patterns/book-something/book-onto-an-event-that-already-exists/make-a-booking)
+* [submit a booking](/docs/core/common-service-patterns/service-patterns/book-something/book-onto-an-event-that-already-exists/submit-a-booking)
 * [next steps](/docs/core/common-service-patterns/service-patterns/book-something/book-onto-an-event-that-already-exists/next-steps)
