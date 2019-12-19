@@ -31,19 +31,22 @@ The user could also be sent to a partner site at this stage. If the service is d
 
 ## Considerations for the service
 
-To support the design of the service, consider:
+To understand our users, consider:
 
-* if a policy or legal framework determines a user’s access to the service
 * the life event that triggered the need for the service
 * other services the user is using or has been signposted from - we can link services together so the user doesn't need to
-* if the user is left with a clear understanding of the end to end application requirements and timeframes in the flat content page
-* if the user knows application requirements, such as documents needing to be uploaded when moving onto the apply pattern
-* an appropriate timeframe to commit to if the service falls outside of a statutory timeline to respond to the user
-* telling users they’re being diverted if you’re linking to a partner site
-* whether users are informed of next steps once they’ve reviewed information with partners
 * whether users are able to navigate back to Essex.gov.uk
 * whether the service is high risk or the situation is exceptional. If yes consider whether users need to go through to check eligibility
 * the best channel to offer a quick response
+
+To keep the user informed, consider:
+
+* if a policy or legal framework determines a user’s access to the service
+* if the user is left with a clear understanding of the end to end application requirements and timeframes in the flat content page
+* if the user knows application requirements, such as documents needing to be uploaded when moving onto the apply pattern
+* an appropriate timeframe to commit to if the service falls outside of a statutory timeline to respond to the user
+* whether users are informed of next steps once they’ve reviewed information with partners
+* telling users they’re being diverted if you’re linking to a partner site
 
 ## Research considerations
 
