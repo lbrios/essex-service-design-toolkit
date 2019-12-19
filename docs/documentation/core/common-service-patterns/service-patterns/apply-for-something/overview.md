@@ -3,9 +3,9 @@
 3.  Apply for something
 
 # Apply for something
-The 'apply for something' pattern allows a user to receive or access a service. Where we are responsible for authorising an outcome for the user.  
+The 'apply for something' pattern allows a user to receive or access a service. When applying for a service, the service is responsible for authorising an outcome for the user.  
 
-The user will follow the check something pattern before using the ‘apply for something’ pattern.
+The user will follow the 'check something' pattern before using the ‘apply for something’ pattern.
 
 Applications ask for personal and sensitive information, so we must keep the information safe and secure.
 
