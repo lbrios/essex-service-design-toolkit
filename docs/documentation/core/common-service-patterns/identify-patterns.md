@@ -9,27 +9,33 @@ We have identified 7 service patterns across our services.
 ## Check something
 [Check something](/docs/core/common-service-patterns/service-patterns/check-something/overview) helps users look up information and check whether it applies to them. When eligibility can be done separately from an application, it should be considered part of this pattern.
 
-The scenarios are:
+The scenarios we've developed are:
 
 * [check before you apply](/docs/core/common-service-patterns/service-patterns/check-something/check-before-you-apply/overview)
-* [check to understand something](/docs/core/common-service-patterns/service-patterns/check-something/check-to-understand-something/overview)
 * [check my nearest or most relevant](/docs/core/common-service-patterns/service-patterns/check-something/check-my-nearest-or-most-relevant/overview)
+
+The scenario still to be developed is:
+
+* [check to understand something](/docs/core/common-service-patterns/service-patterns/check-something/check-to-understand-something/overview)
 
 ## Apply for something
 [Apply for something](/docs/core/common-service-patterns/service-patterns/apply-for-something/overview) helps users to complete an application process.
 
-The scenarios are:
+The scenario we've developed is:
+
+* [apply for something we do](/docs/core/common-service-patterns/service-patterns/apply-for-something/apply-for-something-we-do/overview)
+
+The scenarios still under development are:
 
 * [apply for a role or job](/docs/core/common-service-patterns/service-patterns/apply-for-something/apply-for-a-role/overview)
 * [apply for a grant](/docs/core/common-service-patterns/service-patterns/apply-for-something/apply-for-a-grant/overview)
 * [apply for permission to do something myself](/docs/core/common-service-patterns/service-patterns/apply-for-something/apply-for-permission-to-do-something-myself/overview)
-* [apply for something we do](/docs/core/common-service-patterns/service-patterns/apply-for-something/apply-for-something-we-do/overview)
 * [apply to appeal a decision](/docs/core/common-service-patterns/service-patterns/apply-for-something/apply-to-appeal-a-decision/overview)
 
 ## Tell something
 [Tell something](/docs/core/common-service-patterns/service-patterns/tell-something/overview) helps users to update us, such as a change in circumstance. 
 
-The scenarios are:
+The scenarios still under development are:
 
 * [report something](/docs/core/common-service-patterns/service-patterns/tell-something/report-something/overview)
 * [report a safeguarding or legal concern](/docs/core/common-service-patterns/service-patterns/tell-something/report-a-safeguarding-or-legal-concern/overview)
@@ -42,7 +48,7 @@ The scenarios are:
 ## Request something
 [Request something](/docs/core/common-service-patterns/service-patterns/request-something/overview) helps users to get something they want. Usually, there is no eligibility check as the user is entitled to what they want by default.
 
-The scenarios are:
+The scenarios still under development are:
 
 * [request information](/docs/core/common-service-patterns/service-patterns/request-something/request-information/overview)
 * [request financial compensation](/docs/core/common-service-patterns/service-patterns/request-something/request-financial-compensation/overview)
@@ -52,7 +58,7 @@ The scenarios are:
 ## Register something
 [Register something](/docs/core/common-service-patterns/service-patterns/register-something/overview) helps users to complete a process. Users will create an account with personal and sensitive data that they can return to.
 
-The scenarios are:
+The scenarios still under development are:
 
 * [register to create a thing](/docs/core/common-service-patterns/service-patterns/register-something/register-to-create-a-thing/overview)
 * [register to apply for a role](/docs/core/common-service-patterns/service-patterns/register-something/register-to-apply-for-a-role/overview)
@@ -61,7 +67,7 @@ The scenarios are:
 ## Pay for something
 [Pay for something](/docs/core/common-service-patterns/service-patterns/pay-for-something/overview) helps users to transfer money to us.
 
-The scenarios are:
+The scenarios still under development are:
 
 * [pay for an official status, record or event](/docs/core/common-service-patterns/service-patterns/pay-for-something/pay-for-an-official-status-record-event/overview)
 * [pay to manage my account](/docs/core/common-service-patterns/service-patterns/pay-for-something/pay-to-manage-my-account/overview)
@@ -71,9 +77,12 @@ The scenarios are:
 ## Book something
 [Book something](/docs/core/common-service-patterns/service-patterns/book-something/overview) helps users to book onto an existing event, a room, an item or someone’s time. Most of these ask the user to select a date and time.
 
-The scenarios are:
+The scenario we've developed is:
+
+* [book onto an event that already exists](/docs/core/common-service-patterns/service-patterns/book-something/book-onto-an-event-that-already-exists/overview)
+
+The scenarios still under development are:
 
 * [book an appointment](/docs/core/common-service-patterns/service-patterns/book-something/book-an-appointment/overview)
 * [book an asset](/docs/core/common-service-patterns/service-patterns/book-something/book-an-asset/overview)
-* [book onto an event that already exists](/docs/core/common-service-patterns/service-patterns/book-something/book-onto-an-event-that-already-exists/overview)
 * [book a place](/docs/core/common-service-patterns/service-patterns/book-something/book-a-place/overview)
