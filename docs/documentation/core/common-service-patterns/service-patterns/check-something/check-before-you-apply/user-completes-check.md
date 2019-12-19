@@ -1,8 +1,9 @@
 1.  [Home](/docs/core/contents)
 2.	[Common service patterns](/docs/core/common-service-patterns/overview)
-3.  [Check something](docs/documentation/core/common-service-patterns/service-patterns/check-something/overview)
-4.  [Check before you apply](/docs/core/common-service-patterns/service-patterns/check-something/check-before-you-apply/overview)
-5.  User completes check
+3.  [Identify patterns](/docs/documentation/core/common-service-patterns/identify-patterns)
+4.  [Check something](docs/documentation/core/common-service-patterns/service-patterns/check-something/overview)
+5.  [Check before you apply](/docs/core/common-service-patterns/service-patterns/check-something/check-before-you-apply/overview)
+6.  User completes check
 
 # User completes check
 
@@ -20,11 +21,11 @@ For complex eligibility criteria (4 or more criteria), users should enter a smar
 
 For complex criteria, an accessible explanation of what it means should be provided. This should include how the user can find out whether they fulfil it or not. 
 
-## Considerations for the service
+## Service considerations
 
-When there are 4 and more criteria, translate the eligibility policy into a smart question and answer format (decision tree).
+When there are 4 or more criteria, translate the eligibility policy into a smart question and answer format (decision tree).
 
-Consider:
+Thing to consider include:
 
 * what unique criteria are deal breakers to establish first - this will help establish a hierarchy in the decision tree
 * providing guidance throughout the journey
@@ -36,7 +37,7 @@ Consider:
 
 Consider the best channel for additional support.
 
-## Tech enabled interactions
+## Tech enabled considerations
 
 Things to consider include:
 

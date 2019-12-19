@@ -4,7 +4,7 @@
 4.  Book onto an event that already exists
 
 # Book onto an event that already exists
-This scenario describes a type of booking. This lets the user book and pay for a place to attend an already existing event. For example, a sports course or a music session.
+This scenario describes a type of booking. This lets the user book for a place to attend an already existing event. For example, a sports course or a music session.
 
 Events could also be things like short breaks for carers. These are open at particular times during the year and need to be reserved ahead of time after the user’s identity has been confirmed. 
 
@@ -13,7 +13,7 @@ This scenario may contain ‘register for something’, ‘pay for something’ 
 There are 5 steps within the ‘book onto an event’ scenario: 
 
 * [browse information before booking](/docs/core/common-service-patterns/service-patterns/book-something/book-onto-an-event-that-already-exists/overview)
-* [make a decision](/docs/core/common-service-patterns/service-patterns/book-something/book-onto-an-event-that-already-exists/)
-* [make the booking](/docs/core/common-service-patterns/service-patterns/book-something/book-onto-an-event-that-already-exists/making-a-booking)
-* [submit the booking](/docs/core/common-service-patterns/service-patterns/book-something/book-onto-an-event-that-already-exists/submitting-a-booking)
+* [make a decision](/docs/core/common-service-patterns/service-patterns/book-something/book-onto-an-event-that-already-exists/make-a-decision)
+* [make the booking](/docs/core/common-service-patterns/service-patterns/book-something/book-onto-an-event-that-already-exists/make-a-booking)
+* [submit the booking](/docs/core/common-service-patterns/service-patterns/book-something/book-onto-an-event-that-already-exists/submit-a-booking)
 * [next steps](/docs/core/common-service-patterns/service-patterns/book-something/book-onto-an-event-that-already-exists/next-steps)
