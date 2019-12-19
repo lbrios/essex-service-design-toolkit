@@ -8,11 +8,11 @@
 # Decision making about whether to apply
 
 ## Overview
-Once a user has decided a service may be relevant to them, they will need to find out whether they are eligible for the service they are applying for. The ways in which this can happen will vary by how complex the eligibility criteria are.
+Once a user has decided a service may be relevant to them, they will need to find out whether they are eligible for the service they're applying for. The ways in which this can happen will vary by how complex the eligibility criteria are.
 
 ## User needs
 
-I need to decide whether this service is the right thing for me
+I need to decide whether this service is the right thing for me.
 
 ## User flow
 
@@ -32,10 +32,10 @@ Consider how many eligibility criteria there are:
 
 ## Research considerations
 
-Research that needs to be considered includes:
+Things to consider include:
 
 * how the user decides what is worth their time
 * what users need to make an informed decision to proceed with the check
 * how many criteria is acceptable for the user to not go through a smart questions format
 * what is the best way to make complex policy and legal frameworks accessible
-* what criteria is hard to understand for users to make a decision, for example, pain points in the journey
+* what criteria is hard for users to understand to make a decision
