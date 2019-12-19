@@ -30,7 +30,7 @@ When the user is ready to submit the application, they should be asked to review
 
 The user may be asked to make a payment at this stage. Refer to the [‘pay for something’](/docs/documentation/core/common-service-patterns/service-patterns/pay-for-something/overview) pattern.
 
-## Considerations for the service 
+## Service considerations 
 
 Things to consider include:
 
@@ -67,7 +67,7 @@ Things to consider include:
 * how to move users from offline to online
 * how the user’s flow affects how applications are processed
 
-## Tech enabled interactions 
+## Tech enabled considerations 
 
 Things to consider include:
 
