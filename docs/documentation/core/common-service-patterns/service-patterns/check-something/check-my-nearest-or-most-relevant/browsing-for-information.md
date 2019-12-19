@@ -19,13 +19,13 @@ I need to find something that is most relevant for me.
 
 ## User flow
 
-In browsing for a relevant service, the user will be given two options. Either a single search result that fits their criteria, or a service delivered across multiple geographical sites or multiple dates.
+In browsing for a relevant service, the user will either be presented with a single result based on their criteria, or be presented with a service that is offered across multiple locations or dates.
 
 ## Service considerations
 
 Things to consider include:
 
-* if the user would benefit from search criteria, for example by location and types of service
+* if the user would benefit from search criteria, for example by location and type of service
 * if there are multiple locations and types of services for the user to navigate
 
 ## Research considerations 
