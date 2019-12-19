@@ -27,7 +27,7 @@ The scenarios are:
 * [apply to appeal a decision](/docs/core/common-service-patterns/service-patterns/apply-for-something/apply-to-appeal-a-decision/overview)
 
 ## Tell something
-[Tell something](/docs/core/common-service-patterns/service-patterns/tell-something/overview) helps users to tell us something. Typically to update us about changes in circumstance. 
+[Tell something](/docs/core/common-service-patterns/service-patterns/tell-something/overview) helps users to update us, such as a change in circumstance. 
 
 The scenarios are:
 
@@ -69,7 +69,7 @@ The scenarios are:
 * [pay to donate or support a service](/docs/core/common-service-patterns/service-patterns/pay-for-something/pay-to-donate-or-support-a-service/overview)
 
 ## Book something
-[Book something](/docs/core/common-service-patterns/service-patterns/book-something/overview) helps users to book something. For example a room, an item or someone’s time. Most of these ask the user to select a date and time.
+[Book something](/docs/core/common-service-patterns/service-patterns/book-something/overview) helps users to book onto an existing event, a room, an item or someone’s time. Most of these ask the user to select a date and time.
 
 The scenarios are:
 
