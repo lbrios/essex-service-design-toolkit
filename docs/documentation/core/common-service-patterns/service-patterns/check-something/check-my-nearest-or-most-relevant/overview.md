@@ -7,7 +7,7 @@
 # Check my nearest or most relevant
 Use this scenario when users need to find people, services or assets based on multiple locations, multiple criteria and preferences. Services should support users with ways to find what is needed easily and quickly. 
 
-There are five steps in the check my nearest or most relevant scenario: 
+There are 5 steps in the check my nearest or most relevant scenario: 
 
 * [before reaching the service](/docs/core/common-service-patterns/service-patterns/check-something/check-my-nearest-or-most-relevant/before-reaching-the-service)
 * [browsing for information](/docs/core/common-service-patterns/service-patterns/check-something/check-my-nearest-or-most-relevant/browsing-for-information)
