@@ -1,6 +1,6 @@
 1.  [Home](/docs/core/contents)
 2.	[Common service patterns](/docs/core/common-service-patterns/overview)
-3.  [Book something](/docs/core/common-service-patterns/service-patterns/book-something/overview.md)
+3.  [Book something](/docs/core/common-service-patterns/service-patterns/book-something/overview)
 4.  Book onto an event that already exists
 
 # Book onto an event that already exists
@@ -12,7 +12,7 @@ This scenario may contain ‘register for something’, ‘pay for something’ 
 
 There are 5 steps within the ‘book onto an event’ scenario: 
 
-* [browse information before booking](/docs/core/common-service-patterns/service-patterns/book-something/book-onto-an-event-that-already-exists/overview)
+* browse information before booking
 * [make a decision](/docs/core/common-service-patterns/service-patterns/book-something/book-onto-an-event-that-already-exists/make-a-decision)
 * [make a booking](/docs/core/common-service-patterns/service-patterns/book-something/book-onto-an-event-that-already-exists/make-a-booking)
 * [submit a booking](/docs/core/common-service-patterns/service-patterns/book-something/book-onto-an-event-that-already-exists/submit-a-booking)

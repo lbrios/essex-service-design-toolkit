@@ -4,7 +4,7 @@ The Service Design Toolkit is a collection of best practice tools and guidance t
 
 This toolkit is in constant development. If you have any questions please email [service.design@essex.gov.uk](mailto:service.design@essex.gov.uk)
 
-## [Common service patterns](https://github.com/essexcountycouncil/essex-service-pattern-library/wiki)
+## [Common service patterns](/docs/core/common-service-patterns/overview)
 
 Guidance on how we understand, design, optimise and build services
 
