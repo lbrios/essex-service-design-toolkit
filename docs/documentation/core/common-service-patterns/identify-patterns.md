@@ -2,12 +2,12 @@
 2. [Common service patterns](/docs/core/common-service-patterns/overview)
 3. Identify patterns
 
-# Identify patterns
+# i. Identify patterns
 
-We have identified 7 service patterns across our services.
+Identify one of the 7 service patterns across our services.
 
 ## Check something
-[Check something](/docs/core/common-service-patterns/service-patterns/check-something/overview) helps users look up information and check whether it applies to them. When eligibility can be done separately from an application, it should be considered part of this pattern.
+[Check something](/docs/core/common-service-patterns/service-patterns/check-something/overview) helps users look up information and check whether it applies to them. When there’s an application which depends on eligibility this should happen in this pattern rather than in the apply for something pattern.
 
 The scenarios we've developed are:
 
@@ -19,7 +19,7 @@ The scenario still to be developed is:
 * [check to understand something](/docs/core/common-service-patterns/service-patterns/check-something/check-to-understand-something/overview)
 
 ## Apply for something
-[Apply for something](/docs/core/common-service-patterns/service-patterns/apply-for-something/overview) helps users to complete an application process.
+[Apply for something](/docs/core/common-service-patterns/service-patterns/apply-for-something/overview) helps users to complete an application process. Where there is eligibility criteria before an application is made this will be found in the 'check something' service pattern.
 
 The scenario we've developed is:
 
