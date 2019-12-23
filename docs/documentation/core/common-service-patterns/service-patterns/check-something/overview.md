@@ -10,7 +10,7 @@ This is usually the first pattern in a user’s journey. It helps people make de
 
 The pattern also keeps users up to date after they’ve used a service.
 
-There are 3 scenarios under the ‘check something’ pattern:
+Follow one of the 3 scenarios under the ‘check something’ pattern:
 
 * [check before you apply](/docs/core/common-service-patterns/service-patterns/check-something/check-before-you-apply/overview)
 * [check to understand something](/docs/core/common-service-patterns/service-patterns/check-something/check-to-understand-something/overview)
